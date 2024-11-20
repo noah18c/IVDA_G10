@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: #242424;
+  background-color:  rgba(255, 255, 255, 0.87);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -29,6 +29,16 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+/* src/index.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f5f5f5; /* Light grey background */
+  color: #213547; /* Dark text color */
+}
+
+
 
 h1 {
   font-size: 3.2em;
