@@ -6,6 +6,9 @@ function App() {
     const [cards, setCards] = useState([]);
 
     useEffect(() => {
+        // Prevent scrolling on the body
+        document.body.style.overflow = 'hidden';
+
         // Fetch card data from the Flask backend
         fetch('/api/cards')
             .then((response) => response.json())
@@ -20,7 +23,7 @@ function App() {
                 minHeight: '100vh', // Full viewport height
                 display: 'flex',
                 alignItems: 'flex-start', // Align slider to the top-left
-                padding: '10px', // Minimal padding
+                padding: '10px', // Minimal padding around the entire container
             }}
         >
             <Box
@@ -31,15 +34,26 @@ function App() {
                     backgroundColor: 'white',
                     borderRadius: '10px',
                     boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
-                    padding: '10px',
-                    overflow: 'hidden', // Prevent content overflow
+                    padding: '10px', // Padding inside the box
+                    overflow: 'hidden', // Prevent overall content overflow
+                    display: 'flex',
+                    flexDirection: 'column', // Stack content vertically
                 }}
             >
-                {cards.length > 0 ? (
-                    <Slider cards={cards} />
-                ) : (
-                    <p>Loading cards...</p>
-                )}
+                <Box
+                    sx={{
+                        flex: 1, // Allow the inner content to take available space
+                        overflowY: 'auto', // Enable scrolling inside the box
+                        paddingTop: '10px', // Padding at the top for content
+                        paddingBottom: '10px', // Padding at the bottom for content
+                    }}
+                >
+                    {cards.length > 0 ? (
+                        <Slider cards={cards} />
+                    ) : (
+                        <p>Loading cards...</p>
+                    )}
+                </Box>
             </Box>
         </Box>
     );
