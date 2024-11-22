@@ -124,7 +124,18 @@ def get_recommendations():
     except Exception as e:
         return {"error": str(e)}, 500
 
-    
+@app.route('/recommended_item_info', methods=['POST'])
+def recommended_item_info():
+    try:
+        # Parse the JSON data from the request
+        item_data = request.get_json()
+        print("Received item data from item:", item_data["item_id"])
+
+        # Perform necessary operations with item_data
+        # Return a success response
+        return jsonify({"message": "Item received successfully", "item": item_data}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500 
 
 @app.route('/api/reset', methods=['POST'])
 def reset_session_and_temp():
