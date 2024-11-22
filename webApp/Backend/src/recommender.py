@@ -60,13 +60,16 @@ class RecommendationModel:
 
     # TODO what type is liked_items and disliked_items?
     def recommend_items(self, liked_items):
+        """
+        Generate recommendations based on liked FurnitureItem objects.
+        """
+        # Extract item IDs from the liked_items
+        liked_item_ids = [item.item_id for item in liked_items]
+
+        # Filter the basket using the item IDs
+        basket = self.df_model[self.df_model['item_id'].isin(liked_item_ids)]
 
         # TODO So here I need to basically create a basket having the structure of df_model, and filter it using the item_id's gained from the liked items.
-        basket = self.df_model[self.df_model['item_id'] == liked_items['item_id']]
-        """
-        Generate recommendations for indices which are the csv indices for the liked items.
-        """
-
         self.df_model['recommended'] = list(self.similar_indices)
         self.df_model['cosine_sim'] = list(self.cosine_similarities)
 
