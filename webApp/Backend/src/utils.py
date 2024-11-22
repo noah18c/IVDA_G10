@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 from src.models import FurnitureItem
+from webApp.Backend.src.recommender import RecommendationModel
 
 def process_furniture_data(csv_path, pictures_path):
     """
@@ -64,6 +65,40 @@ def process_furniture_data(csv_path, pictures_path):
     return furniture_items
 
 
-def knn_recommendations(liked_items):
-    
-    return []
+def knn_recommendations(liked_items, disliked_items=None, rec_num=10):
+    """
+    Generate k-NN recommendations based on liked items.
+
+    Args:
+        csv_path (str): Path to the CSV file.
+        liked_items (list): List of item IDs representing liked items.
+        disliked_items (list, optional): List of item IDs representing disliked items. Defaults to None.
+        rec_num (int, optional): Number of top recommendations to return. Defaults to 10.
+
+    Returns:
+        list: A list of recommended FurnitureItem objects.
+    """
+
+    csv_path = 'webApp\Backend\data\IKEA_data_processed.csv'
+    # Initialize the RecommendationModel
+    model = RecommendationModel(csv_path)
+    model.load_and_preprocess()
+
+    # Remove disliked items from training data (if any)
+    model.train_model(disliked_items=disliked_items or [])
+
+    # Get indices of liked items
+    liked_indices = model.df_model[model.df_model['item_id'].isin(liked_items)].index.tolist()
+
+    # Generate recommendations
+    model.recommend_items(basket_indices=liked_indices)
+
+    # Fetch top recommendations
+    recommendations = model.get_topn_recommendations(rec_num=rec_num)
+    price_comparison = model.get_price_comparison_data()
+    size_comparison = model.get_size_comparison_data()
+    explainable_texts = model.get_explainable_text(rec_num=rec_num)
+
+    return recommendations, price_comparison, size_comparison, explainable_texts
+
+
