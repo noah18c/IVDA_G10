@@ -1,9 +1,9 @@
-import os
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import NearestNeighbors
 from src.models import FurnitureItem
+import math
 
 class RecommendationModel:
     def __init__(self, csv_path):
@@ -17,6 +17,8 @@ class RecommendationModel:
         self.df_recommended_sorted = None
         self.recommended_items = None
         self.idx_basket_sim = {}
+        self.idx_similarities = {}
+        self.idx_counts = {}
     
     def load_and_preprocess(self):
         # Load data
@@ -25,7 +27,7 @@ class RecommendationModel:
         self.df_model[['price_std', 'space_std']] = scaler.fit_transform(self.df_model[['price', 'space']])
         self.X_train = self.df_model.copy()
         
-        self.X_train = self.X_train.drop(column = ['item_id',
+        self.X_train = self.X_train.drop(columns = ['item_id',
                                                    'name',
                                                    'category',
                                                    'price',
@@ -43,10 +45,9 @@ class RecommendationModel:
                                                     'size_category',
                                                     'rooms'])
         self.X_train = pd.get_dummies(self.X_train, columns=['cluster'])
-        self.X_train = self.X_train[['']]
     
     # TODO what type is disliked_items?
-    def train_model(self, disliked_items):
+    def train_model(self):
         # TODO remove disliked items from the X_train
 
         self.model.fit(self.X_train)
@@ -58,7 +59,10 @@ class RecommendationModel:
         self.similar_indices = self.similar_indices[:,1:]
 
     # TODO what type is liked_items and disliked_items?
-    def recommend_items(self, basket_indices):
+    def recommend_items(self, liked_items):
+
+        # TODO So here I need to basically create a basket having the structure of df_model, and filter it using the item_id's gained from the liked items.
+        basket = self.df_model[self.df_model['item_id'] == liked_items['item_id']]
         """
         Generate recommendations for indices which are the csv indices for the liked items.
         """
@@ -66,19 +70,19 @@ class RecommendationModel:
         self.df_model['recommended'] = list(self.similar_indices)
         self.df_model['cosine_sim'] = list(self.cosine_similarities)
 
-        idx_counts = {}
-        idx_similarities = {}
+        
+        
 
-        for idx in basket_indices:
+        for idx,row in basket.iterrows():
             for key, item in enumerate(self.similar_indices[idx]):
-                if item not in basket_indices:
-                    if item not in idx_counts:
-                        idx_counts[item] = 1
-                        idx_similarities[item] = [self.cosine_similarities[idx][key]]
+                if item not in list(basket.index):
+                    if item not in self.idx_counts:
+                        self.idx_counts[item] = 1
+                        self.idx_similarities[item] = [self.cosine_similarities[idx][key]]
                         self.idx_basket_sim[item] = [idx]
                     else:
-                        idx_counts[item] += 1
-                        idx_similarities[item].append(self.cosine_similarities[idx][key])
+                        self.idx_counts[item] += 1
+                        self.idx_similarities[item].append(self.cosine_similarities[idx][key])
                         self.idx_basket_sim[item].append(idx)
 
         recommended_idx = sorted(idx_counts, key=idx_counts.get, reverse=True)[:100]
@@ -131,7 +135,7 @@ class RecommendationModel:
         return furniture_items
     
     def get_explainable_text(self, rec_num:int=10):
-        topn_recommended_items = self.recommended_items.loc[:rec_num,:]
+        topn_recommended_items = self.recommended_items.iloc[:rec_num]
 
         explainable_texts = []
         for idx, row in topn_recommended_items.iterrows():
@@ -140,25 +144,19 @@ class RecommendationModel:
                 "name": row["name"],
                 "category": row["category"],
                 "price": row["price"],
-                "cluster": row["cluster"],
                 "designer": row["designer"],
                 "rooms": row["rooms"]
             }
 
             # Calculate similarity and other metrics
-            avg_similarity = self.df_recommended_sorted.loc[
-                self.df_recommended_sorted["recommended_idx"] == idx, "avg_sim"
-            ].values[0]
-            similar_items_indices = self.df_recommended_sorted.loc[
-                self.df_recommended_sorted["recommended_idx"] == idx, "basket_sim"
-            ].values[0]
-            similar_items = self.df_model.loc[similar_items_indices, ["name", "category", "price"]]
+            avg_similarity = math.floor(np.mean(self.idx_similarities[idx])*10000)/100
+            similar_items = self.df_model.loc[self.idx_basket_sim[idx], ["name", "category", "price"]]
 
             # Generate explanation text
             explanation = {
                 "recommended_item": recommended_item,
                 "explanation": {
-                    "reason": f"This item is recommended because it is {avg_similarity:.2%} similar to {len(similar_items)} items in your basket.",
+                    "reason": f"This recommended item is {avg_similarity:.2%} similar to {len(similar_items)} items in your basket.",
                     "similar_items": [
                         {
                             "name": item["name"],
