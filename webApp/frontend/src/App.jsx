@@ -13,7 +13,7 @@ function App() {
 
 			<Routes>
 				<Route path="/" element={<CardsChoise />} />
-				<Route path="/recomendations" element={<SelectedRecomendations />} />
+				<Route path="/recommendations" element={<SelectedRecomendations />} />
 				<Route path="/summary" element={<SummaryRecomendatinos />} />
 			</Routes>
 		</Router>

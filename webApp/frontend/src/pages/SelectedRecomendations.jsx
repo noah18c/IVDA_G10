@@ -10,9 +10,9 @@ const SelectedRecomendations = () => {
 		document.body.style.overflow = 'hidden'
 
 		// Fetch card data from the Flask backend
-		fetch('/api/cards')
+		fetch('/api/test_items')
 			.then((response) => response.json())
-			.then((data) => setCards(data.cards))
+			.then((data) => setCards(data.items))
 			.catch((error) => console.error('Error fetching cards:', error))
 	}, [])
 

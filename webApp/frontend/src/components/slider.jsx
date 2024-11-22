@@ -66,7 +66,7 @@ const Slider = ({ cards }) => {
                         {/* Image */}
                         <CardMedia
                             component="img"
-                            image={card.image}
+                            image={card.image_path}
                             alt={card.name}
                             sx={{
                                 height: 200, // Fixed height for the image
