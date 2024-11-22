@@ -2,6 +2,9 @@ import pandas as pd
 from src import app
 import os
 from flask import send_from_directory
+from flask import jsonify
+from src.models import FurnitureItem
+from src.utils import process_furniture_data
 
 
 @app.route('/')
@@ -18,10 +21,17 @@ def serve_picture(filename):
     return send_from_directory('../data/pictures', filename)
 
 
+@app.route('/api/recommendations', methods=['GET'])
+def get_recommendations():
+    """
+    Reads the recommended tiems and returns them.
 
-@app.route('/api/cards', methods=['GET'])
-def get_cards():
-    # Path to the CSV file and pictures folder
+    Args:
+        recommendations_path (str): Path to the Recommendation json file.
+
+    Returns:
+        list: A list of FurnitureItem Recommendations.
+    """
     csv_path = os.path.join(os.path.dirname(__file__), '../data/IKEA_SA_Furniture_Web_Scrapings_sss.csv')
     pictures_path = os.path.join(os.path.dirname(__file__), '../data/pictures')
 
@@ -47,3 +57,18 @@ def get_cards():
         return {"cards": cards}, 200
     except Exception as e:
         return {"error": str(e)}, 500
+    
+
+@app.route('/api/test_items', methods=['GET'])
+def get_test_items():
+    # Define paths for the CSV file and pictures folder
+    csv_path = os.path.join(os.path.dirname(__file__), '../data/IKEA_data_processed.csv')
+    pictures_path = os.path.join(os.path.dirname(__file__), '../data/pictures')
+
+    try:
+        furniture_items = process_furniture_data(csv_path, pictures_path)
+        response_data = [item.__dict__ for item in furniture_items]
+
+        return jsonify({"items": response_data}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500

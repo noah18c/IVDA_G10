@@ -10,7 +10,7 @@ function App() {
         document.body.style.overflow = 'hidden';
 
         // Fetch card data from the Flask backend
-        fetch('/api/cards')
+        fetch('/api/recommendations')
             .then((response) => response.json())
             .then((data) => setCards(data.cards))
             .catch((error) => console.error('Error fetching cards:', error));

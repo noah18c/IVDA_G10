@@ -3,7 +3,7 @@ class FurnitureItem:
     def __init__(
         self, item_id, name, category, price, old_price, sellable_online, link, other_colors, short_description, 
         designer, depth, height, width, living_room, bedroom, office, kitchen, dining_room, entrance, 
-        playroom, nursery, outdoor, space, size_cluster, size_category, cluster, rooms):        
+        playroom, nursery, outdoor, space, size_cluster, size_category, cluster, rooms, image_path=""):        
         self.item_id = item_id
         self.name = name
         self.category = category
@@ -21,7 +21,7 @@ class FurnitureItem:
         self.bedroom = bedroom
         self.office = office
         self.kitchen = kitchen
-        self.dining_room = dining_room
+        self.dining = dining_room
         self.entrance = entrance
         self.playroom = playroom
         self.nursery = nursery
@@ -31,6 +31,7 @@ class FurnitureItem:
         self.size_category = size_category
         self.cluster = cluster
         self.rooms = rooms
+        self.image_path = image_path
 
     def __repr__(self):
         return f"<FurnitureItem {self.name} ({self.item_id})>"
