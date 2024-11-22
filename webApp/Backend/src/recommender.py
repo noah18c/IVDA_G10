@@ -43,7 +43,7 @@ class RecommendationModel:
                                                     'space',
                                                     'size_cluster',
                                                     'size_category',
-                                                    'rooms'])
+                                                    'rooms'],errors='ignore')
         self.X_train = pd.get_dummies(self.X_train, columns=['cluster'])
     
     # TODO what type is disliked_items?
@@ -70,9 +70,6 @@ class RecommendationModel:
         self.df_model['recommended'] = list(self.similar_indices)
         self.df_model['cosine_sim'] = list(self.cosine_similarities)
 
-        
-        
-
         for idx,row in basket.iterrows():
             for key, item in enumerate(self.similar_indices[idx]):
                 if item not in list(basket.index):
@@ -85,19 +82,19 @@ class RecommendationModel:
                         self.idx_similarities[item].append(self.cosine_similarities[idx][key])
                         self.idx_basket_sim[item].append(idx)
 
-        recommended_idx = sorted(idx_counts, key=idx_counts.get, reverse=True)[:100]
+        recommended_idx = sorted(self.idx_counts, key=self.idx_counts.get, reverse=True)[:100]
 
         df_recommended = pd.DataFrame()
         df_recommended['recommended_idx'] = recommended_idx
-        df_recommended['sim'] = df_recommended['recommended_idx'].apply(lambda x: idx_similarities[x])
-        df_recommended['avg_sim'] = df_recommended['recommended_idx'].apply(lambda x: np.mean(idx_similarities[x]))
-        df_recommended['count'] = df_recommended['recommended_idx'].apply(lambda x: idx_counts[x])
+        df_recommended['sim'] = df_recommended['recommended_idx'].apply(lambda x: self.idx_similarities[x])
+        df_recommended['avg_sim'] = df_recommended['recommended_idx'].apply(lambda x: np.mean(self.idx_similarities[x]))
+        df_recommended['count'] = df_recommended['recommended_idx'].apply(lambda x: self.idx_counts[x])
         df_recommended['basket_sim'] = df_recommended['recommended_idx'].apply(lambda x: self.idx_basket_sim[x])
         self.df_recommended_sorted = df_recommended.sort_values(by=['count', 'avg_sim'], ascending=[False, False])
         self.recommended_items =  self.df_model.loc[self.df_recommended_sorted['recommended_idx'][:],:]
 
     def get_topn_recommendations(self, rec_num:int=10):
-        topn_recommended_items = self.recommended_items.loc[:rec_num,:]
+        topn_recommended_items = self.recommended_items.loc[:rec_num]
         
         furniture_items = []
         for _, row in topn_recommended_items.iterrows():
