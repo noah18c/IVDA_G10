@@ -3,7 +3,7 @@ class FurnitureItem:
     def __init__(
         self, item_id, name, category, price, old_price, sellable_online, link, other_colors, short_description, 
         designer, depth, height, width, living_room, bedroom, office, kitchen, dining_room, entrance, 
-        playroom, nursery, outdoor, space, size_cluster, size_category, cluster, rooms, image_path=""):        
+        playroom, nursery, outdoor, space, size_cluster, size_category, cluster, rooms, image_path="http://127.0.0.1:5000/data/pictures/furniture_1.jpg"):        
         self.item_id = item_id
         self.name = name
         self.category = category

@@ -86,6 +86,7 @@ class RecommendationModel:
 
         recommended_idx = sorted(self.idx_counts, key=self.idx_counts.get, reverse=True)[:100]
 
+
         df_recommended = pd.DataFrame()
         df_recommended['recommended_idx'] = recommended_idx
         df_recommended['sim'] = df_recommended['recommended_idx'].apply(lambda x: self.idx_similarities[x])
@@ -95,9 +96,9 @@ class RecommendationModel:
         self.df_recommended_sorted = df_recommended.sort_values(by=['count', 'avg_sim'], ascending=[False, False])
         self.recommended_items =  self.df_model.loc[self.df_recommended_sorted['recommended_idx'][:],:]
 
+
     def get_topn_recommendations(self, rec_num:int=10):
-        topn_recommended_items = self.recommended_items.loc[:rec_num]
-        
+        topn_recommended_items = self.recommended_items.iloc[:rec_num]
         furniture_items = []
         for _, row in topn_recommended_items.iterrows():
             item = FurnitureItem(

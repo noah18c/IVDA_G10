@@ -11,9 +11,9 @@ const SelectedRecommendations = () => {
     useEffect(() => {
         document.body.style.overflow = 'hidden';
 
-        fetch('/api/test_items')
+        fetch('/api/recommendations')
             .then((response) => response.json())
-            .then((data) => setCards(data.items))
+            .then((data) => setCards(data.recommendations))
             .catch((error) => console.error('Error fetching cards:', error));
     }, []);
 
