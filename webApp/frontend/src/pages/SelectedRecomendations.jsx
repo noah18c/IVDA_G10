@@ -1,62 +1,107 @@
-import { useEffect, useState } from 'react'
-import { Box } from '@mui/material'
-import Slider from '../components/slider'
+import { useEffect, useState } from 'react';
+import { Box } from '@mui/material';
+import Slider from '../components/Slider';
+import Graph1 from '../components/Graph1';
+import Graph2 from '../components/Graph2';
+import RecommendationInfo from '../components/RecommendationInfo';
 
-const SelectedRecomendations = () => {
-	const [cards, setCards] = useState([])
+const SelectedRecommendations = () => {
+    const [cards, setCards] = useState([]);
 
-	useEffect(() => {
-		// Prevent scrolling on the body
-		document.body.style.overflow = 'hidden'
+    useEffect(() => {
+        document.body.style.overflow = 'hidden';
 
-		// Fetch card data from the Flask backend
-		fetch('/api/test_items')
-			.then((response) => response.json())
-			.then((data) => setCards(data.items))
-			.catch((error) => console.error('Error fetching cards:', error))
-	}, [])
+        fetch('/api/test_items')
+            .then((response) => response.json())
+            .then((data) => setCards(data.items))
+            .catch((error) => console.error('Error fetching cards:', error));
+    }, []);
 
-	return (
-		<Box
-			sx={{
-				backgroundColor: '#f5f5f5', // Light grey background
-				minHeight: '100vh', // Full viewport height
-				display: 'flex',
-				alignItems: 'flex-start', // Align slider to the top-left
-				padding: '10px', // Minimal padding around the entire container
-			}}
-		>
-			<Box
-				sx={{
-					//width: '25%', // Adjust width of the box
-					minWidth: '350px', // Ensure minimum box width
-					marginLeft: '10px', // Minimal left margin
-					backgroundColor: 'white',
-					borderRadius: '10px',
-					boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
-					padding: '10px', // Padding inside the box
-					overflow: 'hidden', // Prevent overall content overflow
-					display: 'flex',
-					flexDirection: 'column', // Stack content vertically
-				}}
-			>
-				<Box
-					sx={{
-						flex: 1, // Allow the inner content to take available space
-						overflowY: 'auto', // Enable scrolling inside the box
-						paddingTop: '10px', // Padding at the top for content
-						paddingBottom: '10px', // Padding at the bottom for content
-					}}
-				>
-					{cards.length > 0 ? (
-						<Slider cards={cards} />
-					) : (
-						<p>Loading cards...</p>
-					)}
-				</Box>
-			</Box>
-		</Box>
-	)
-}
+    return (
+        <Box
+            sx={{
+                backgroundColor: '#f5f5f5',
+                minHeight: '100vh',
+                display: 'flex',
+                padding: '20px',
+                gap: 2, // Add space between slider and graphs container
+            }}
+        >
+            {/* Slider Section */}
+            <Box
+                sx={{
+                    minWidth: '350px',
+                    backgroundColor: 'white',
+                    borderRadius: '10px',
+                    boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+                    padding: '10px',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    overflow: 'hidden',
+                }}
+            >
+                <Box
+                    sx={{
+                        flex: 1,
+                        overflowY: 'auto', // Enable scrolling inside the box
+                    }}
+                >
+                    {cards.length > 0 ? (
+                        <Slider cards={cards} />
+                    ) : (
+                        <p>Loading cards...</p>
+                    )}
+                </Box>
+            </Box>
 
-export default SelectedRecomendations
+            {/* Right Column: Graphs and Info */}
+            <Box
+                sx={{
+                    flexGrow: 1,
+                    display: 'flex',
+                    flexDirection: 'column',
+                    gap: 2, // Space between sections
+                }}
+            >
+                {/* Graphs Section */}
+                <Box
+                    sx={{
+                        display: 'flex',
+                        gap: 2, // Space between the two graphs
+                        height: '50%', // Occupies the top half of the column
+                    }}
+                >
+                    <Box
+                        sx={{
+                            flex: 1,
+                            backgroundColor: '#e0e0e0',
+                            borderRadius: '8px',
+                        }}
+                    >
+                        <Graph1 />
+                    </Box>
+                    <Box
+                        sx={{
+                            flex: 1,
+                            backgroundColor: '#e0e0e0',
+                            borderRadius: '8px',
+                        }}
+                    >
+                        <Graph2 />
+                    </Box>
+                </Box>
+
+                {/* Recommendation Info Section */}
+                <Box
+                    sx={{
+                        flex: 1, // Occupies the remaining space
+                    }}
+                >
+                    <RecommendationInfo />
+                </Box>
+            </Box>
+        </Box>
+    );
+};
+
+export default SelectedRecommendations;
