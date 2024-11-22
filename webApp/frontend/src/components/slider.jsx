@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box, Card, CardContent, CardMedia, Typography } from '@mui/material';
+import { Box, Card, CardContent, CardMedia, Typography, Button } from '@mui/material';
 
 const Slider = ({ cards }) => {
     const [selectedCard, setSelectedCard] = useState(null); // State to track the selected card
@@ -41,7 +41,7 @@ const Slider = ({ cards }) => {
                         onClick={() => handleCardClick(card.item_id)} // Handle click to select the card
                         sx={{
                             width: '300px', // Fixed width for the card
-                            height: '300px', // Fixed height for the card
+                            height: 'auto', // Flexible height to fit additional content
                             backgroundColor:
                                 selectedCard === card.item_id
                                     ? '#d1e7dd' // Highlight selected card with a different background color
@@ -84,9 +84,9 @@ const Slider = ({ cards }) => {
                                 justifyContent: 'flex-start',
                                 padding: 2,
                                 width: '100%',
-                                height: '100%', // Take the remaining height of the card
                             }}
                         >
+                            {/* Name */}
                             <Typography
                                 variant="h6"
                                 sx={{
@@ -97,24 +97,68 @@ const Slider = ({ cards }) => {
                             >
                                 {card.name}
                             </Typography>
+
+                            {/* Category */}
                             <Typography
                                 variant="body2"
                                 color="text.secondary"
                                 sx={{
-                                    textAlign: 'left', // Align category to the left
+                                    textAlign: 'left', // Align text to the left
                                 }}
                             >
                                 Category: {card.category}
                             </Typography>
+
+                            {/* Price */}
                             <Typography
                                 variant="body2"
                                 color="text.secondary"
                                 sx={{
-                                    textAlign: 'left', // Align price to the left
+                                    textAlign: 'left', // Align text to the left
                                 }}
                             >
                                 Price: ${card.price}
                             </Typography>
+
+                            {/* Optional Fields */}
+                            {card.designer && (
+                                <Typography
+                                    variant="body2"
+                                    color="text.secondary"
+                                    sx={{
+                                        textAlign: 'left',
+                                    }}
+                                >
+                                    Designer: {card.designer}
+                                </Typography>
+                            )}
+                            {card.short_description && (
+                                <Typography
+                                    variant="body2"
+                                    color="text.secondary"
+                                    sx={{
+                                        textAlign: 'left',
+                                        marginTop: '8px',
+                                    }}
+                                >
+                                    {card.short_description}
+                                </Typography>
+                            )}
+
+                            {/* Link to Product */}
+                            {card.link && (
+                                <Button
+                                    variant="contained"
+                                    color="primary"
+                                    href={card.link}
+                                    target="_blank"
+                                    sx={{
+                                        marginTop: '8px',
+                                    }}
+                                >
+                                    View Product
+                                </Button>
+                            )}
                         </CardContent>
                     </Card>
                 ))}

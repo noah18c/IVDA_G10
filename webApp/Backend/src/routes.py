@@ -70,10 +70,13 @@ def calculate_recommendations():
     """
     temp_folder_path = os.path.join(os.path.dirname(__file__), '../data/temp')
     liked_items_path = os.path.join(temp_folder_path, 'liked_items.json')
+    recommended_items_path = os.path.join(temp_folder_path, 'recommended_items.json')
+    print("test1")
 
     try:
         # Check if liked_items.json exists
         if not os.path.exists(liked_items_path):
+            print("test2")
             return jsonify({"error": "No liked items found. Please add liked items first."}), 400
 
         # Read liked items from the file
@@ -83,11 +86,17 @@ def calculate_recommendations():
         # Call the KNN function to calculate recommendations
         recommendations,_,_,_ = knn_recommendations(liked_items)
 
+        print(recommendations)
+
         # Convert FurnitureItem instances to dictionaries for JSON response
         response_data = [item.__dict__ for item in recommendations]
 
+        with open(recommended_items_path, 'w') as f:
+            json.dump(response_data, f, indent=4)
+
         return jsonify({"recommendations": response_data}), 200
     except Exception as e:
+        print(e)
         return jsonify({"error": str(e)}), 500
 
 
