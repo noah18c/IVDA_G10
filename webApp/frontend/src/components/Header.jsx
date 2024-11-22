@@ -28,7 +28,7 @@ const Header = () => {
           <Button component={Link} to="/" sx={{ color: "white" }}>
             Choices
           </Button>
-          <Button component={Link} to="/recomendations" sx={{ color: "white" }}>
+          <Button component={Link} to="/recommendations" sx={{ color: "white" }}>
             Recommendations
           </Button>
           <Button component={Link} to="/summary" sx={{ color: "white" }}>
