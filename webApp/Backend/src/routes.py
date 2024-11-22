@@ -1,10 +1,11 @@
 import pandas as pd
 from src import app
 import os
-from flask import send_from_directory
-from flask import jsonify
+import json
+from flask import send_from_directory, session, jsonify, request
 from src.models import FurnitureItem
 from src.utils import process_furniture_data
+import shutil
 
 
 @app.route('/')
@@ -19,6 +20,58 @@ def get_data():
 @app.route('/data/pictures/<filename>')
 def serve_picture(filename):
     return send_from_directory('../data/pictures', filename)
+
+@app.route('/api/test_items', methods=['GET'])
+def get_test_items():
+    # Define paths for the CSV file and pictures folder
+    csv_path = os.path.join(os.path.dirname(__file__), '../data/IKEA_data_processed.csv')
+    pictures_path = os.path.join(os.path.dirname(__file__), '../data/pictures')
+
+    try:
+        furniture_items = process_furniture_data(csv_path, pictures_path)
+        response_data = [item.__dict__ for item in furniture_items]
+
+        return jsonify({"items": response_data}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route('/api/liked_items', methods=['POST'])
+def save_liked_items():
+    try:
+        temp_folder_path = os.path.join(os.path.dirname(__file__), '../data/temp')
+        liked_items_path = os.path.join(temp_folder_path, 'liked_items.json')
+
+        if not os.path.exists(temp_folder_path):
+            os.makedirs(temp_folder_path)
+
+        # Parse JSON data from the request
+        liked_items = request.json.get('items', [])
+
+        # Save liked items to a JSON file
+        with open(liked_items_path, 'w') as f:
+            json.dump(liked_items, f, indent=4)
+
+        # Call the calculate_recommendations function
+        calculate_recommendations(liked_items)
+
+        return jsonify({"message": "Liked items saved and recommendations calculated."}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+def calculate_recommendations(liked_items):
+    """
+    Placeholder function to calculate recommendations based on liked items.
+
+    Args:
+        liked_items (list): List of liked FurnitureItem objects.
+
+    Returns:
+        None
+    """
+    print("Calculating recommendations based on liked items...")
+    print(liked_items)
 
 
 @app.route('/api/recommendations', methods=['GET'])
@@ -59,16 +112,20 @@ def get_recommendations():
         return {"error": str(e)}, 500
     
 
-@app.route('/api/test_items', methods=['GET'])
-def get_test_items():
-    # Define paths for the CSV file and pictures folder
-    csv_path = os.path.join(os.path.dirname(__file__), '../data/IKEA_data_processed.csv')
-    pictures_path = os.path.join(os.path.dirname(__file__), '../data/pictures')
-
+@app.route('/api/reset', methods=['POST'])
+def reset_session_and_temp():
     try:
-        furniture_items = process_furniture_data(csv_path, pictures_path)
-        response_data = [item.__dict__ for item in furniture_items]
+        # Path to the temp folder
+        temp_folder_path = os.path.join(os.path.dirname(__file__), '../data/temp')
 
-        return jsonify({"items": response_data}), 200
+        # Delete all files in the temp folder
+        if os.path.exists(temp_folder_path):
+            shutil.rmtree(temp_folder_path)  # Remove the folder and its contents
+            os.makedirs(temp_folder_path)   # Recreate the empty folder
+
+        # Clear the session
+        session.clear()
+
+        return jsonify({"message": "Session and temp folder reset successfully."}), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
