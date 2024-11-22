@@ -46,7 +46,7 @@ def save_liked_items():
             os.makedirs(temp_folder_path)
 
         # Parse JSON data from the request
-        liked_items = request.json.get('items', [])
+        liked_items = request.json.get('likes', [])
 
         # Save liked items to a JSON file
         with open(liked_items_path, 'w') as f:
