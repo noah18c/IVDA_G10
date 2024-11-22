@@ -81,7 +81,7 @@ def calculate_recommendations():
             liked_items = json.load(f)
 
         # Call the KNN function to calculate recommendations
-        recommendations = knn_recommendations(liked_items)
+        recommendations,_,_,_ = knn_recommendations(liked_items)
 
         # Convert FurnitureItem instances to dictionaries for JSON response
         response_data = [item.__dict__ for item in recommendations]
