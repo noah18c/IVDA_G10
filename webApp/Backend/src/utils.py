@@ -87,13 +87,13 @@ def knn_recommendations(liked_items, disliked_items=None, rec_num=10):
     model.load_and_preprocess()
 
     # Remove disliked items from training data (if any)
-    model.train_model(disliked_items=disliked_items or [])
+    model.train_model()
 
     # Get indices of liked items
     liked_indices = model.df_model[model.df_model['item_id'].isin(liked_items)].index.tolist()
 
     # Generate recommendations
-    model.recommend_items(basket_indices=liked_indices)
+    model.recommend_items(liked_indices)
 
     # Fetch top recommendations
     recommendations = model.get_topn_recommendations(rec_num=rec_num)

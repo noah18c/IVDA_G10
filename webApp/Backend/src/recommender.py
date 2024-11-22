@@ -59,12 +59,11 @@ class RecommendationModel:
         self.similar_indices = self.similar_indices[:,1:]
 
     # TODO what type is liked_items and disliked_items?
-    def recommend_items(self, liked_items):
+    def recommend_items(self, liked_item_ids):
         """
         Generate recommendations based on liked FurnitureItem objects.
         """
         # Extract item IDs from the liked_items
-        liked_item_ids = [item.item_id for item in liked_items]
 
         # Filter the basket using the item IDs
         basket = self.df_model[self.df_model['item_id'].isin(liked_item_ids)]
