@@ -86,7 +86,17 @@ def knn_recommendations(liked_items, disliked_items=None, rec_num=10):
     model = RecommendationModel(csv_path)
     model.load_and_preprocess()
     model.train_model()
-    model.recommend_items(liked_items=liked_items)
+
+    liked_item_ids = [item['item_id'] for item in liked_items]
+
+    # Step 2: Filter model.df_model to find matching item_ids
+    matching_ids = model.df_model[model.df_model['item_id'].isin(liked_item_ids)]['item_id'].tolist()
+
+    # Step 3: Return the matching IDs
+    print("Matching item IDs:", matching_ids)
+
+    model.recommend_items(matching_ids)
+
 
     # Fetch top recommendations
     recommendations = model.get_topn_recommendations(rec_num=rec_num)

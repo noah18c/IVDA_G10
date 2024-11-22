@@ -108,7 +108,7 @@ def get_recommendations():
     Returns:
         JSON: A list of FurnitureItem recommendations or an error message.
     """
-    recommendations_path = os.path.join(os.path.dirname(__file__), '../data/temp/liked_items.json')
+    recommendations_path = os.path.join(os.path.dirname(__file__), '../data/temp/recommended_items.json')
 
     try:
         # Check if the recommendations file exists
