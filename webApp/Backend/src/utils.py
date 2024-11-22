@@ -77,9 +77,11 @@ def knn_recommendations(liked_items, disliked_items=None, rec_num=10):
 
     Returns:
         list: A list of recommended FurnitureItem objects.
+
     """
 
-    csv_path = 'webApp\Backend\data\IKEA_data_processed.csv'
+    csv_path = os.path.join(os.path.dirname(__file__), '../data/IKEA_data_processed.csv')
+
     # Initialize the RecommendationModel
     model = RecommendationModel(csv_path)
     model.load_and_preprocess()
