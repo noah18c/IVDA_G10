@@ -62,3 +62,8 @@ def process_furniture_data(csv_path, pictures_path):
         furniture_items.append(item)
 
     return furniture_items
+
+
+def knn_recommendations(liked_items):
+    
+    return []

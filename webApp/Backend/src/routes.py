@@ -4,7 +4,7 @@ import os
 import json
 from flask import send_from_directory, session, jsonify, request
 from src.models import FurnitureItem
-from src.utils import process_furniture_data
+from src.utils import process_furniture_data, knn_recommendations
 import shutil
 
 
@@ -53,25 +53,42 @@ def save_liked_items():
             json.dump(liked_items, f, indent=4)
 
         # Call the calculate_recommendations function
-        calculate_recommendations(liked_items)
+        calculate_recommendations()
 
         return jsonify({"message": "Liked items saved and recommendations calculated."}), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
 
-def calculate_recommendations(liked_items):
+@app.route('/api/recommendations', methods=['POST'])
+def calculate_recommendations():
     """
-    Placeholder function to calculate recommendations based on liked items.
-
-    Args:
-        liked_items (list): List of liked FurnitureItem objects.
+    Reads liked items from the temp folder and calculates recommendations using the KNN function.
 
     Returns:
-        None
+        JSON: List of recommended FurnitureItem objects.
     """
-    print("Calculating recommendations based on liked items...")
-    print(liked_items)
+    temp_folder_path = os.path.join(os.path.dirname(__file__), '../data/temp')
+    liked_items_path = os.path.join(temp_folder_path, 'liked_items.json')
+
+    try:
+        # Check if liked_items.json exists
+        if not os.path.exists(liked_items_path):
+            return jsonify({"error": "No liked items found. Please add liked items first."}), 400
+
+        # Read liked items from the file
+        with open(liked_items_path, 'r') as f:
+            liked_items = json.load(f)
+
+        # Call the KNN function to calculate recommendations
+        recommendations = knn_recommendations(liked_items)
+
+        # Convert FurnitureItem instances to dictionaries for JSON response
+        response_data = [item.__dict__ for item in recommendations]
+
+        return jsonify({"recommendations": response_data}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 
 @app.route('/api/recommendations', methods=['GET'])
