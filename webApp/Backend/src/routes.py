@@ -4,6 +4,8 @@ import os
 from flask import send_from_directory
 
 
+
+
 @app.route('/')
 def home():
     return "Hello from Flask!"
@@ -47,3 +49,4 @@ def get_cards():
         return {"cards": cards}, 200
     except Exception as e:
         return {"error": str(e)}, 500
+    
