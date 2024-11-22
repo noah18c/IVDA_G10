@@ -103,39 +103,27 @@ def calculate_recommendations():
 @app.route('/api/recommendations', methods=['GET'])
 def get_recommendations():
     """
-    Reads the recommended tiems and returns them.
-
-    Args:
-        recommendations_path (str): Path to the Recommendation json file.
+    Reads the recommended items from the liked_items.json file and returns them as a list.
 
     Returns:
-        list: A list of FurnitureItem Recommendations.
+        JSON: A list of FurnitureItem recommendations or an error message.
     """
-    csv_path = os.path.join(os.path.dirname(__file__), '../data/IKEA_SA_Furniture_Web_Scrapings_sss.csv')
-    pictures_path = os.path.join(os.path.dirname(__file__), '../data/pictures')
+    recommendations_path = os.path.join(os.path.dirname(__file__), '../data/temp/liked_items.json')
 
     try:
-        # Read the CSV file
-        data = pd.read_csv(csv_path)
+        # Check if the recommendations file exists
+        if not os.path.exists(recommendations_path):
+            return {"error": "No recommendations found. Please generate recommendations first."}, 404
 
-        # Select 20 random rows
-        sample_data = data.sample(n=20)
+        # Read the recommendations from the file
+        with open(recommendations_path, 'r') as f:
+            recommendations = json.load(f)
 
-        # Get all picture file names
-        pictures = os.listdir(pictures_path)
-
-        # Assign pictures to cards cyclically
-        sample_data['image'] = [
-            f"http://127.0.0.1:5000/data/pictures/{pictures[i % len(pictures)]}" for i in range(len(sample_data))
-        ]
-
-        # Convert to a list of dictionaries (only the required columns)
-        cards = sample_data[['item_id', 'name', 'category', 'price', 'image']].to_dict(orient='records')
-
-        # Return the data as JSON
-        return {"cards": cards}, 200
+        # Return the recommendations as JSON
+        return {"recommendations": recommendations}, 200
     except Exception as e:
         return {"error": str(e)}, 500
+
     
 
 @app.route('/api/reset', methods=['POST'])

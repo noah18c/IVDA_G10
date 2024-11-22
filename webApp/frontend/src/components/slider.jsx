@@ -144,21 +144,6 @@ const Slider = ({ cards }) => {
                                     {card.short_description}
                                 </Typography>
                             )}
-
-                            {/* Link to Product */}
-                            {card.link && (
-                                <Button
-                                    variant="contained"
-                                    color="primary"
-                                    href={card.link}
-                                    target="_blank"
-                                    sx={{
-                                        marginTop: '8px',
-                                    }}
-                                >
-                                    View Product
-                                </Button>
-                            )}
                         </CardContent>
                     </Card>
                 ))}
