@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 from src.models import FurnitureItem
-from webApp.Backend.src.recommender import RecommendationModel
+from src.recommender import RecommendationModel
 
 def process_furniture_data(csv_path, pictures_path):
     """
