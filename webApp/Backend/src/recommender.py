@@ -141,6 +141,7 @@ class RecommendationModel:
         for idx, row in topn_recommended_items.iterrows():
             # Gather details about the recommended item
             recommended_item = {
+                "item_id":int(row["item_id"]),
                 "name": row["name"],
                 "category": row["category"],
                 "price": row["price"],
@@ -151,7 +152,6 @@ class RecommendationModel:
             # Calculate similarity and other metrics
             avg_similarity = math.floor(np.mean(self.idx_similarities[idx])*10000)/100
             similar_items = self.df_model.loc[self.idx_basket_sim[idx], ["name", "category", "price"]]
-
             # Generate explanation text
             explanation = {
                 "recommended_item": recommended_item,
@@ -184,9 +184,11 @@ class RecommendationModel:
             sim_names = self.df_model.loc[self.idx_basket_sim[key],'name'].values
             prod_price = self.df_model.loc[key,'price']
             prod_name = self.df_model.loc[key,'name']
+            prod_id = int(self.df_model.loc[key,'item_id'])
             # Prepare the comparison data for this recommendation
             comparison_entry = {
                 "recommended_item": {
+                    "item_id": prod_id,
                     "name": prod_name,
                     "price": prod_price
                 },
@@ -207,11 +209,14 @@ class RecommendationModel:
             sim_names = self.df_model.loc[self.idx_basket_sim[key],'name'].values
             prod_size = self.df_model.loc[key,'space']
             prod_name = self.df_model.loc[key,'name']
+            prod_id = int(self.df_model.loc[key,'item_id'])
             # Prepare the comparison data for this recommendation
             comparison_entry = {
                 "recommended_item": {
+                    "item_id": prod_id,
                     "name": prod_name,
                     "size": prod_size
+
                 },
                 "basket_items": [
                     {"name": name, "size": size}
