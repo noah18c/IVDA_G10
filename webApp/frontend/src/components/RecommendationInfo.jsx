@@ -65,11 +65,11 @@ const RecommendationInfo = ({ details }) => {
                 }}
             >
                 {/* Placeholder for future content */}
-                <div>Category: {details.category}</div>
+                {details ? <><div>Category: {details.category}</div>
                 <div>Designer: {details.designer}</div>
                 <div>Price: {details.price}</div>
                 <div>Space: {details.space}</div>
-                <div>Width: {details.width}</div>
+                <div>Width: {details.width}</div></> : <div>Select the item</div>}
             </Typography>
             
             
