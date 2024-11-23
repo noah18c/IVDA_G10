@@ -101,7 +101,9 @@ def knn_recommendations(liked_items, disliked_items=None, rec_num=10):
     price_comparison = model.get_price_comparison_data()
     size_comparison = model.get_size_comparison_data()
     explainable_texts = model.get_explainable_text(rec_num=rec_num)
+    scatter_plot_data = model.get_scatter_plot_data()
+    designer_count_data = model.get_designer_counts_data()
 
-    return recommendations, price_comparison, size_comparison, explainable_texts
+    return recommendations, price_comparison, size_comparison, explainable_texts,scatter_plot_data,designer_count_data
 
 
