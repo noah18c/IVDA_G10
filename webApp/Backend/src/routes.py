@@ -87,7 +87,7 @@ def calculate_recommendations():
 
 
         # Call the KNN function to calculate recommendations
-        recommendations, price_comparison, size_comparison, explainable_texts = knn_recommendations(liked_items)
+        recommendations, price_comparison, size_comparison, explainable_texts, scatter_plot_data, designer_count_data = knn_recommendations(liked_items)
 
 
         # Convert FurnitureItem instances to dictionaries for JSON response
@@ -107,7 +107,6 @@ def calculate_recommendations():
         with open(recommended_stats_path, 'w') as f:
             json.dump(stats_data, f, indent=4)
 
-        print("stored")
 
         return jsonify({"recommendations": response_data}), 200
     except Exception as e:
