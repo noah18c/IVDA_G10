@@ -222,3 +222,50 @@ class RecommendationModel:
             size_comparison_data.append(comparison_entry)
 
         return size_comparison_data
+    
+    def get_scatter_plot_data(self):
+        """
+        Prepare data for a scatter plot of recommended and liked items.
+
+        Returns:
+            dict: Data formatted for frontend scatter plot.
+        """
+        scatter_data = {
+            "liked_items": [],
+            "recommended_items": []
+        }
+
+        # Add data for liked items (basket)
+        for key, row in self.basket.iterrows():
+            scatter_data["liked_items"].append({
+                "price": row['price'],
+                "space": row['space'],
+                "label": row['name']  # Add name for clarity in the plot
+            })
+
+        # Add data for recommended items
+        for key, row in self.recommended_items.iterrows():
+            scatter_data["recommended_items"].append({
+                "price": row['price'],
+                "space": row['space'],
+                "label": row['name']  # Add name for clarity in the plot
+            })
+
+        return scatter_data
+
+    def get_designer_counts_data(self):
+        """
+        Prepare data for a bar chart showing the count of recommended items by designer.
+
+        Returns:
+            dict: Data formatted for frontend bar chart.
+        """
+        # Get value counts for designers
+        designer_counts = self.recommended_items['designer'].value_counts()
+
+        # Prepare the data in dictionary format
+        data = {
+            "designers": designer_counts.index.tolist(),  # Designer names
+            "counts": designer_counts.values.tolist()     # Count of items per designer
+        }
+        return data
