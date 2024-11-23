@@ -71,12 +71,14 @@ def calculate_recommendations():
     temp_folder_path = os.path.join(os.path.dirname(__file__), '../data/temp')
     liked_items_path = os.path.join(temp_folder_path, 'liked_items.json')
     recommended_items_path = os.path.join(temp_folder_path, 'recommended_items.json')
+    recommended_stats_path = os.path.join(temp_folder_path, 'recommended_stats.json')
+
 
     try:
 
         # Check if liked_items.json exists
         if not os.path.exists(liked_items_path):
-            print("test2")
+            print("Recommendations error: No liked items found")
             return jsonify({"error": "No liked items found. Please add liked items first."}), 400
 
         # Read liked items from the file
@@ -85,7 +87,8 @@ def calculate_recommendations():
 
 
         # Call the KNN function to calculate recommendations
-        recommendations,_,_,_ = knn_recommendations(liked_items)
+        recommendations, price_comparison, size_comparison, explainable_texts = knn_recommendations(liked_items)
+
 
         # Convert FurnitureItem instances to dictionaries for JSON response
         response_data = [item.__dict__ for item in recommendations]
@@ -93,10 +96,23 @@ def calculate_recommendations():
         with open(recommended_items_path, 'w') as f:
             json.dump(response_data, f, indent=4)
 
+        # Convert price_comparison, size_comparison, and explainable_texts to JSON-compatible structures
+        stats_data = {
+            "price_comparison": price_comparison,
+            "size_comparison": size_comparison,
+            "explainable_texts": explainable_texts
+        }
+
+        # Save recommended stats to recommended_stats.json
+        with open(recommended_stats_path, 'w') as f:
+            json.dump(stats_data, f, indent=4)
+
+        print("stored")
+
         return jsonify({"recommendations": response_data}), 200
     except Exception as e:
-        print("exception")
-        #print(e)
+        print("Recommendation Calculation Exception")
+        print(e)
         return jsonify({"error": str(e)}), 500
 
 
@@ -113,31 +129,52 @@ def get_recommendations():
     try:
         # Check if the recommendations file exists
         if not os.path.exists(recommendations_path):
+            print("No recommendations found. Maybe requested too fast?")
             return {"error": "No recommendations found. Please generate recommendations first."}, 404
 
         # Read the recommendations from the file
         with open(recommendations_path, 'r') as f:
             recommendations = json.load(f)
 
-        print(recommendations)
-
         # Return the recommendations as JSON
         return {"recommendations": recommendations}, 200
     except Exception as e:
         return {"error": str(e)}, 500
+    
 
-@app.route('/recommended_item_info', methods=['POST'])
-def recommended_item_info():
+@app.route('/api/recommendations_info', methods=['GET'])
+def get_recommendations_info():
+    """
+    Reads the recommended stats from the recommended_stats.json file and returns them.
+    """
+    recommendation_stats_path = os.path.join(os.path.dirname(__file__), '../data/temp/recommended_stats.json')
+
     try:
-        # Parse the JSON data from the request
-        item_data = request.get_json()
-        print("Received item data from item:", item_data["item_id"])
+        # Check if the recommendations file exists
+        if not os.path.exists(recommendation_stats_path):
+            return {"error": "No recommendation stats found. Please generate recommendations first."}, 404
 
-        # Perform necessary operations with item_data
-        # Return a success response
-        return jsonify({"message": "Item received successfully", "item": item_data}), 200
+        # Read the recommendations from the file
+        with open(recommendation_stats_path, 'r') as f:
+            stats = json.load(f)
+
+        # Return the recommendations as JSON
+        return {"recommendations_info": stats}, 200
     except Exception as e:
-        return jsonify({"error": str(e)}), 500 
+        return {"error": str(e)}, 500
+
+# @app.route('/recommended_item_info', methods=['POST'])
+# def recommended_item_info():
+#     try:
+#         # Parse the JSON data from the request
+#         item_data = request.get_json()
+#         print("Received item data from item:", item_data["item_id"])
+
+#         # Perform necessary operations with item_data
+#         # Return a success response
+#         return jsonify({"message": "Item received successfully", "item": item_data}), 200
+#     except Exception as e:
+#         return jsonify({"error": str(e)}), 500 
 
 @app.route('/api/reset', methods=['POST'])
 def reset_session_and_temp():

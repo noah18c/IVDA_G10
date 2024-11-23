@@ -1,0 +1,3618 @@
+{
+    "price_comparison": [
+        {
+            "recommended_item": {
+                "name": "IKEA PS 2012",
+                "price": 895.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                },
+                {
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "price": 1975.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "HEMNES",
+                "price": 795.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                },
+                {
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "price": 1975.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "SVENARNE",
+                "price": 795.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                },
+                {
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "price": 1975.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "EKEDALEN",
+                "price": 795.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                },
+                {
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "price": 1975.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "VEDBO",
+                "price": 695.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                },
+                {
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "price": 1975.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "HILVER / GERTON",
+                "price": 665.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                },
+                {
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "price": 1975.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "SYVDE",
+                "price": 595.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                },
+                {
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "price": 1975.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "VEJMON",
+                "price": 475.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LINNMON / ALVARET",
+                "price": 439.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "NORR\u00c5KER",
+                "price": 395.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LERHAMN",
+                "price": 589.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "KARLHUGO",
+                "price": 595.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "NORR\u00c5KER",
+                "price": 595.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LINNMON / ALEX",
+                "price": 565.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "VEDBO",
+                "price": 595.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "NORDKISA",
+                "price": 476.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "HEMNES",
+                "price": 495.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "EKET",
+                "price": 235.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKET",
+                    "price": 65.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 365.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "EKET",
+                "price": 236.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKET",
+                    "price": 65.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 365.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "EKET",
+                "price": 250.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKET",
+                    "price": 65.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 365.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "HILVER / LERBERG",
+                "price": 435.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "EKET",
+                "price": 255.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKET",
+                    "price": 65.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 365.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "SINDVIK",
+                "price": 150.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKET",
+                    "price": 65.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 365.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "IVAR",
+                "price": 145.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKET",
+                    "price": 65.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 365.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "EKET",
+                "price": 220.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKET",
+                    "price": 65.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 365.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "NILSOVE / NORNA",
+                "price": 424.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "BILLY / OXBERG",
+                "price": 290.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKET",
+                    "price": 65.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 365.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LERHAMN",
+                "price": 399.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "NILSOVE",
+                "price": 395.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "BILLY",
+                "price": 285.0
+            },
+            "basket_items": [
+                {
+                    "name": "HYLLIS",
+                    "price": 137.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 365.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "IVAR",
+                "price": 310.0
+            },
+            "basket_items": [
+                {
+                    "name": "HYLLIS",
+                    "price": 137.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 365.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "JONAXEL",
+                "price": 175.0
+            },
+            "basket_items": [
+                {
+                    "name": "HYLLIS",
+                    "price": 137.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 365.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "BILLY",
+                "price": 185.0
+            },
+            "basket_items": [
+                {
+                    "name": "HYLLIS",
+                    "price": 137.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 365.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "BRUSALI",
+                "price": 237.0
+            },
+            "basket_items": [
+                {
+                    "name": "HYLLIS",
+                    "price": 137.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 365.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "BROR",
+                "price": 375.0
+            },
+            "basket_items": [
+                {
+                    "name": "HYLLIS",
+                    "price": 137.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 365.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "MALM",
+                "price": 375.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "IVAR",
+                "price": 395.0
+            },
+            "basket_items": [
+                {
+                    "name": "HYLLIS",
+                    "price": 137.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 365.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "VEJMON",
+                "price": 345.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "EKEDALEN",
+                "price": 345.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "TOBIAS",
+                "price": 345.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "EKEDALEN",
+                "price": 345.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "BROR",
+                "price": 95.0
+            },
+            "basket_items": [
+                {
+                    "name": "HYLLIS",
+                    "price": 137.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 365.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "FLINTAN / NOMINELL",
+                "price": 370.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LINNMON / ODDVALD",
+                "price": 325.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "EKET",
+                "price": 414.0
+            },
+            "basket_items": [
+                {
+                    "name": "HYLLIS",
+                    "price": 137.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 365.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "NORDKISA",
+                "price": 345.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "BROR",
+                "price": 375.0
+            },
+            "basket_items": [
+                {
+                    "name": "HYLLIS",
+                    "price": 137.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 365.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "NORDLI",
+                "price": 425.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "BROR",
+                "price": 445.0
+            },
+            "basket_items": [
+                {
+                    "name": "HYLLIS",
+                    "price": 137.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 365.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "VEBER\u00d6D",
+                "price": 327.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "NORRN\u00c4S",
+                "price": 325.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "HYLLIS",
+                "price": 141.0
+            },
+            "basket_items": [
+                {
+                    "name": "HYLLIS",
+                    "price": 137.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 365.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "NORBERG / NISSE",
+                "price": 324.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LERHAMN",
+                "price": 299.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "HEMNES",
+                "price": 395.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "SVENBERTIL",
+                "price": 310.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LEIFARNE",
+                "price": 310.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "IVAR",
+                "price": 235.0
+            },
+            "basket_items": [
+                {
+                    "name": "HYLLIS",
+                    "price": 137.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 365.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LINNMON / OLOV",
+                "price": 285.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "EKEDALEN",
+                "price": 395.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "BROR",
+                "price": 85.0
+            },
+            "basket_items": [
+                {
+                    "name": "HYLLIS",
+                    "price": 137.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 365.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LEIFARNE",
+                "price": 275.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "HEMNES",
+                "price": 295.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LINNMON / LERBERG",
+                "price": 265.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "price": 575.0
+                },
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LANEBERG / KARLJAN",
+                "price": 1195.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                },
+                {
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "price": 1975.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "NORR\u00c5KER / R\u00d6NNINGE",
+                "price": 1085.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                },
+                {
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "price": 1975.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "EKEDALEN",
+                "price": 995.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                },
+                {
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "price": 1975.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "FJ\u00c4LLBERGET",
+                "price": 995.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                },
+                {
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "price": 1975.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "VEDBO",
+                "price": 975.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                },
+                {
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "price": 1975.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "NORR\u00c5KER / NORRARYD",
+                "price": 915.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKEDALEN",
+                    "price": 795.0
+                },
+                {
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "price": 1975.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "MELLTORP / JANINGE",
+                "price": 919.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "price": 1215.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LERHAMN",
+                "price": 979.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "price": 1215.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LIATORP",
+                "price": 645.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "price": 1215.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "MELLTORP / JANINGE",
+                "price": 1099.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "price": 1215.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "VANGSTA",
+                "price": 495.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "price": 1215.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LINNMON / TORSKLINT",
+                "price": 459.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "price": 1215.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LINNMON / OLOV",
+                "price": 415.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "price": 1215.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "TYSSEDAL",
+                "price": 395.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "price": 1215.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "MELLTORP / ADDE",
+                "price": 359.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "price": 1215.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "KULLABERG",
+                "price": 695.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "price": 1215.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LINNMON / OLOV",
+                "price": 351.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "price": 1215.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LINNMON / LERBERG",
+                "price": 330.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "price": 1215.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LINNMON / OLOV",
+                "price": 375.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "price": 1215.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "VITTSJ\u00d6",
+                "price": 249.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "price": 1215.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LINNMON / ODDVALD",
+                "price": 255.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "price": 1215.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LIATORP",
+                "price": 245.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "price": 1215.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "MELLTORP",
+                "price": 199.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "price": 1215.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "MELLTORP / ADDE",
+                "price": 179.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "price": 1215.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "MELLTORP",
+                "price": 99.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "price": 1215.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "SK\u00c4RHAMN",
+                "price": 29.0
+            },
+            "basket_items": [
+                {
+                    "name": "ALGOT",
+                    "price": 271.2
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 840.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "OLOV",
+                "price": 50.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "price": 1215.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "GR\u00c4LVIKEN",
+                "price": 1995.0
+            },
+            "basket_items": [
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 840.0
+                },
+                {
+                    "name": "S\u00d6DERHAMN",
+                    "price": 4190.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "VITTSJ\u00d6",
+                "price": 554.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "price": 1215.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "EKET",
+                "price": 640.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "price": 1215.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 365.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "EKEDALEN / LEIFARNE",
+                "price": 1575.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "price": 1215.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "IVAR",
+                "price": 625.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "price": 1215.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 365.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "BEST\u00c5",
+                "price": 1620.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "price": 1215.0
+                },
+                {
+                    "name": "LIDHULT",
+                    "price": 2320.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "S\u00d6DERHAMN",
+                "price": 1100.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "price": 1215.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LIATORP",
+                "price": 445.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "price": 1215.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LIATORP",
+                "price": 1140.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "price": 1215.0
+                },
+                {
+                    "name": "LIDHULT",
+                    "price": 2320.0
+                }
+            ]
+        }
+    ],
+    "size_comparison": [
+        {
+            "recommended_item": {
+                "name": "IKEA PS 2012",
+                "size": 341385.30577221524
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                },
+                {
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "size": 1054422.041664604
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "HEMNES",
+                "size": 423000.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                },
+                {
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "size": 1054422.041664604
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "SVENARNE",
+                "size": 403029.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                },
+                {
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "size": 1054422.041664604
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "EKEDALEN",
+                "size": 294778.4745251598
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                },
+                {
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "size": 1054422.041664604
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "VEDBO",
+                "size": 333060.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                },
+                {
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "size": 1054422.041664604
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "HILVER / GERTON",
+                "size": 322455.0313912505
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                },
+                {
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "size": 1054422.041664604
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "SYVDE",
+                "size": 374400.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                },
+                {
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "size": 1054422.041664604
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "VEJMON",
+                "size": 234419.9110393903
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                },
+                {
+                    "name": "MALMSTA",
+                    "size": 330546.7341047919
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LINNMON / ALVARET",
+                "size": 225395.41019686987
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                },
+                {
+                    "name": "MALMSTA",
+                    "size": 330546.7341047919
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "NORR\u00c5KER",
+                "size": 201600.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                },
+                {
+                    "name": "MALMSTA",
+                    "size": 330546.7341047919
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LERHAMN",
+                "size": 292603.52745781216
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "KARLHUGO",
+                "size": 252938.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "NORR\u00c5KER",
+                "size": 370605.0350349502
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LINNMON / ALEX",
+                "size": 291081.7948791307
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "VEDBO",
+                "size": 231819.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "NORDKISA",
+                "size": 282188.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "HEMNES",
+                "size": 409664.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "EKET",
+                "size": 171500.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKET",
+                    "size": 30625.0
+                },
+                {
+                    "name": "IVAR",
+                    "size": 331080.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "EKET",
+                "size": 171500.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKET",
+                    "size": 30625.0
+                },
+                {
+                    "name": "IVAR",
+                    "size": 331080.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "EKET",
+                "size": 176400.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKET",
+                    "size": 30625.0
+                },
+                {
+                    "name": "IVAR",
+                    "size": 331080.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "HILVER / LERBERG",
+                "size": 311771.36229627667
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "EKET",
+                "size": 171500.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKET",
+                    "size": 30625.0
+                },
+                {
+                    "name": "IVAR",
+                    "size": 331080.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "SINDVIK",
+                "size": 182274.72990924204
+            },
+            "basket_items": [
+                {
+                    "name": "EKET",
+                    "size": 30625.0
+                },
+                {
+                    "name": "IVAR",
+                    "size": 331080.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "IVAR",
+                "size": 173231.4480411833
+            },
+            "basket_items": [
+                {
+                    "name": "EKET",
+                    "size": 30625.0
+                },
+                {
+                    "name": "IVAR",
+                    "size": 331080.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "EKET",
+                "size": 122500.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKET",
+                    "size": 30625.0
+                },
+                {
+                    "name": "IVAR",
+                    "size": 331080.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "NILSOVE / NORNA",
+                "size": 266418.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "BILLY / OXBERG",
+                "size": 127200.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKET",
+                    "size": 30625.0
+                },
+                {
+                    "name": "IVAR",
+                    "size": 331080.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LERHAMN",
+                "size": 275546.7929836864
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "NILSOVE",
+                "size": 266418.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "BILLY",
+                "size": 530880.0
+            },
+            "basket_items": [
+                {
+                    "name": "HYLLIS",
+                    "size": 656780.232169826
+                },
+                {
+                    "name": "IVAR",
+                    "size": 331080.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "IVAR",
+                "size": 477930.0
+            },
+            "basket_items": [
+                {
+                    "name": "HYLLIS",
+                    "size": 656780.232169826
+                },
+                {
+                    "name": "IVAR",
+                    "size": 331080.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "JONAXEL",
+                "size": 486400.0
+            },
+            "basket_items": [
+                {
+                    "name": "HYLLIS",
+                    "size": 656780.232169826
+                },
+                {
+                    "name": "IVAR",
+                    "size": 331080.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "BILLY",
+                "size": 452480.0
+            },
+            "basket_items": [
+                {
+                    "name": "HYLLIS",
+                    "size": 656780.232169826
+                },
+                {
+                    "name": "IVAR",
+                    "size": 331080.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "BRUSALI",
+                "size": 420090.0
+            },
+            "basket_items": [
+                {
+                    "name": "HYLLIS",
+                    "size": 656780.232169826
+                },
+                {
+                    "name": "IVAR",
+                    "size": 331080.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "BROR",
+                "size": 514250.0
+            },
+            "basket_items": [
+                {
+                    "name": "HYLLIS",
+                    "size": 656780.232169826
+                },
+                {
+                    "name": "IVAR",
+                    "size": 331080.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "MALM",
+                "size": 383760.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "IVAR",
+                "size": 477930.0
+            },
+            "basket_items": [
+                {
+                    "name": "HYLLIS",
+                    "size": 656780.232169826
+                },
+                {
+                    "name": "IVAR",
+                    "size": 331080.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "VEJMON",
+                "size": 277012.92018632806
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "EKEDALEN",
+                "size": 254904.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "TOBIAS",
+                "size": 252560.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "EKEDALEN",
+                "size": 250002.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "BROR",
+                "size": 427780.5290868905
+            },
+            "basket_items": [
+                {
+                    "name": "HYLLIS",
+                    "size": 656780.232169826
+                },
+                {
+                    "name": "IVAR",
+                    "size": 331080.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "FLINTAN / NOMINELL",
+                "size": 429025.70808138634
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LINNMON / ODDVALD",
+                "size": 266648.1194727166
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "EKET",
+                "size": 441000.0
+            },
+            "basket_items": [
+                {
+                    "name": "HYLLIS",
+                    "size": 656780.232169826
+                },
+                {
+                    "name": "IVAR",
+                    "size": 331080.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "NORDKISA",
+                "size": 192379.85060369392
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "BROR",
+                "size": 393250.0
+            },
+            "basket_items": [
+                {
+                    "name": "HYLLIS",
+                    "size": 656780.232169826
+                },
+                {
+                    "name": "IVAR",
+                    "size": 331080.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "NORDLI",
+                "size": 100500.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "BROR",
+                "size": 494000.0
+            },
+            "basket_items": [
+                {
+                    "name": "HYLLIS",
+                    "size": 656780.232169826
+                },
+                {
+                    "name": "IVAR",
+                    "size": 331080.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "VEBER\u00d6D",
+                "size": 209880.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "NORRN\u00c4S",
+                "size": 211470.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "HYLLIS",
+                "size": 359640.0
+            },
+            "basket_items": [
+                {
+                    "name": "HYLLIS",
+                    "size": 656780.232169826
+                },
+                {
+                    "name": "IVAR",
+                    "size": 331080.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "NORBERG / NISSE",
+                "size": 403636.77727028605
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LERHAMN",
+                "size": 266569.5643130937
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "HEMNES",
+                "size": 104895.08193045689
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "SVENBERTIL",
+                "size": 391378.03450803674
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LEIFARNE",
+                "size": 391378.03450803674
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "IVAR",
+                "size": 331080.0
+            },
+            "basket_items": [
+                {
+                    "name": "HYLLIS",
+                    "size": 656780.232169826
+                },
+                {
+                    "name": "IVAR",
+                    "size": 331080.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LINNMON / OLOV",
+                "size": 275805.265109392
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "EKEDALEN",
+                "size": 88478.14107930238
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "BROR",
+                "size": 349859.78794175864
+            },
+            "basket_items": [
+                {
+                    "name": "HYLLIS",
+                    "size": 656780.232169826
+                },
+                {
+                    "name": "IVAR",
+                    "size": 331080.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LEIFARNE",
+                "size": 230550.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "HEMNES",
+                "size": 176800.0
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LINNMON / LERBERG",
+                "size": 264150.10886735306
+            },
+            "basket_items": [
+                {
+                    "name": "DALSHULT",
+                    "size": 293242.51292399294
+                },
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LANEBERG / KARLJAN",
+                "size": 452303.44602744473
+            },
+            "basket_items": [
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                },
+                {
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "size": 1054422.041664604
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "NORR\u00c5KER / R\u00d6NNINGE",
+                "size": 403050.68418866966
+            },
+            "basket_items": [
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                },
+                {
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "size": 1054422.041664604
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "EKEDALEN",
+                "size": 462120.9969479328
+            },
+            "basket_items": [
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                },
+                {
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "size": 1054422.041664604
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "FJ\u00c4LLBERGET",
+                "size": 460116.9161263109
+            },
+            "basket_items": [
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                },
+                {
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "size": 1054422.041664604
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "VEDBO",
+                "size": 355875.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                },
+                {
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "size": 1054422.041664604
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "NORR\u00c5KER / NORRARYD",
+                "size": 393774.27182765
+            },
+            "basket_items": [
+                {
+                    "name": "EKEDALEN",
+                    "size": 335467.14391618554
+                },
+                {
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "size": 1054422.041664604
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "MELLTORP / JANINGE",
+                "size": 315622.66291764687
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "size": 362880.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "size": 330546.7341047919
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LERHAMN",
+                "size": 327614.71927312313
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "size": 362880.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "size": 330546.7341047919
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LIATORP",
+                "size": 267894.85761692584
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "size": 362880.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "size": 330546.7341047919
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "MELLTORP / JANINGE",
+                "size": 331344.94448127924
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "size": 362880.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "size": 330546.7341047919
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "VANGSTA",
+                "size": 281703.1745811022
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "size": 362880.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "size": 330546.7341047919
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LINNMON / TORSKLINT",
+                "size": 226831.76678416465
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "size": 362880.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "size": 330546.7341047919
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LINNMON / OLOV",
+                "size": 281280.69644517027
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "size": 362880.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "size": 330546.7341047919
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "TYSSEDAL",
+                "size": 132300.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "size": 362880.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "size": 330546.7341047919
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "MELLTORP / ADDE",
+                "size": 266708.89805301285
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "size": 362880.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "size": 330546.7341047919
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "KULLABERG",
+                "size": 577500.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "size": 362880.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "size": 330546.7341047919
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LINNMON / OLOV",
+                "size": 278585.09947986406
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "size": 362880.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "size": 330546.7341047919
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LINNMON / LERBERG",
+                "size": 217567.2667961131
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "size": 362880.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "size": 330546.7341047919
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LINNMON / OLOV",
+                "size": 370648.56144507806
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "size": 362880.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "size": 330546.7341047919
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "VITTSJ\u00d6",
+                "size": 128084.98908762792
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "size": 362880.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "size": 330546.7341047919
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LINNMON / ODDVALD",
+                "size": 260448.9791339696
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "size": 362880.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "size": 330546.7341047919
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LIATORP",
+                "size": 120069.86534274704
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "size": 362880.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "size": 330546.7341047919
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "MELLTORP",
+                "size": 258225.13794476195
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "size": 362880.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "size": 330546.7341047919
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "MELLTORP / ADDE",
+                "size": 250986.6164893804
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "size": 362880.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "size": 330546.7341047919
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "MELLTORP",
+                "size": 249247.90927416945
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "size": 362880.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "size": 330546.7341047919
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "SK\u00c4RHAMN",
+                "size": 241067.5054258329
+            },
+            "basket_items": [
+                {
+                    "name": "ALGOT",
+                    "size": 371542.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 661082.1984871776
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "OLOV",
+                "size": 445870.5249027389
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "size": 362880.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "size": 330546.7341047919
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "GR\u00c4LVIKEN",
+                "size": 1431900.0
+            },
+            "basket_items": [
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 661082.1984871776
+                },
+                {
+                    "name": "S\u00d6DERHAMN",
+                    "size": 1577664.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "VITTSJ\u00d6",
+                "size": 990124.1427906743
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "size": 362880.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "size": 330546.7341047919
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "EKET",
+                "size": 306250.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "size": 362880.0
+                },
+                {
+                    "name": "IVAR",
+                    "size": 331080.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "EKEDALEN / LEIFARNE",
+                "size": 903897.4432570213
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "size": 362880.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "size": 330546.7341047919
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "IVAR",
+                "size": 331080.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "size": 362880.0
+                },
+                {
+                    "name": "IVAR",
+                    "size": 331080.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "BEST\u00c5",
+                "size": 967680.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "size": 362880.0
+                },
+                {
+                    "name": "LIDHULT",
+                    "size": 1402200.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "S\u00d6DERHAMN",
+                "size": 1165569.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "size": 362880.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "size": 330546.7341047919
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LIATORP",
+                "size": 142272.4828094267
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "size": 362880.0
+                },
+                {
+                    "name": "MALMSTA",
+                    "size": 330546.7341047919
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "name": "LIATORP",
+                "size": 319725.0
+            },
+            "basket_items": [
+                {
+                    "name": "BEST\u00c5",
+                    "size": 362880.0
+                },
+                {
+                    "name": "LIDHULT",
+                    "size": 1402200.0
+                }
+            ]
+        }
+    ],
+    "explainable_texts": [
+        {
+            "recommended_item": {
+                "name": "IKEA PS 2012",
+                "category": "Tables & desks",
+                "price": 895.0,
+                "designer": "Jon Karlsson",
+                "rooms": "Living room, Office, Kitchen, Dining room"
+            },
+            "explanation": {
+                "reason": "This recommended item is 9652.00% similar to 3 items in your basket.",
+                "similar_items": [
+                    {
+                        "name": "DALSHULT",
+                        "category": "Tables & desks",
+                        "price": 575.0
+                    },
+                    {
+                        "name": "EKEDALEN",
+                        "category": "Tables & desks",
+                        "price": 795.0
+                    },
+                    {
+                        "name": "EKEDALEN / HENRIKSDAL",
+                        "category": "Tables & desks",
+                        "price": 1975.0
+                    }
+                ]
+            },
+            "additional_info": {
+                "average_price_in_cluster": 1026.946682464455,
+                "designer_average_price": 654.2836538461538
+            }
+        },
+        {
+            "recommended_item": {
+                "name": "HEMNES",
+                "category": "Tables & desks",
+                "price": 795.0,
+                "designer": "IKEA of Sweden",
+                "rooms": "Living room, Office, Kitchen, Dining room"
+            },
+            "explanation": {
+                "reason": "This recommended item is 9651.00% similar to 3 items in your basket.",
+                "similar_items": [
+                    {
+                        "name": "DALSHULT",
+                        "category": "Tables & desks",
+                        "price": 575.0
+                    },
+                    {
+                        "name": "EKEDALEN",
+                        "category": "Tables & desks",
+                        "price": 795.0
+                    },
+                    {
+                        "name": "EKEDALEN / HENRIKSDAL",
+                        "category": "Tables & desks",
+                        "price": 1975.0
+                    }
+                ]
+            },
+            "additional_info": {
+                "average_price_in_cluster": 1026.946682464455,
+                "designer_average_price": 583.5189597315436
+            }
+        },
+        {
+            "recommended_item": {
+                "name": "SVENARNE",
+                "category": "Chairs",
+                "price": 795.0,
+                "designer": "K Hagberg/M Hagberg",
+                "rooms": "Living room, Office, Kitchen, Dining room"
+            },
+            "explanation": {
+                "reason": "This recommended item is 9646.00% similar to 3 items in your basket.",
+                "similar_items": [
+                    {
+                        "name": "DALSHULT",
+                        "category": "Tables & desks",
+                        "price": 575.0
+                    },
+                    {
+                        "name": "EKEDALEN",
+                        "category": "Tables & desks",
+                        "price": 795.0
+                    },
+                    {
+                        "name": "EKEDALEN / HENRIKSDAL",
+                        "category": "Tables & desks",
+                        "price": 1975.0
+                    }
+                ]
+            },
+            "additional_info": {
+                "average_price_in_cluster": 1026.946682464455,
+                "designer_average_price": 578.4408602150538
+            }
+        },
+        {
+            "recommended_item": {
+                "name": "EKEDALEN",
+                "category": "Tables & desks",
+                "price": 795.0,
+                "designer": "Ehl\u00e9n Johansson",
+                "rooms": "Living room, Office, Kitchen, Dining room"
+            },
+            "explanation": {
+                "reason": "This recommended item is 9609.00% similar to 3 items in your basket.",
+                "similar_items": [
+                    {
+                        "name": "DALSHULT",
+                        "category": "Tables & desks",
+                        "price": 575.0
+                    },
+                    {
+                        "name": "EKEDALEN",
+                        "category": "Tables & desks",
+                        "price": 795.0
+                    },
+                    {
+                        "name": "EKEDALEN / HENRIKSDAL",
+                        "category": "Tables & desks",
+                        "price": 1975.0
+                    }
+                ]
+            },
+            "additional_info": {
+                "average_price_in_cluster": 1026.946682464455,
+                "designer_average_price": 1722.6611570247933
+            }
+        },
+        {
+            "recommended_item": {
+                "name": "VEDBO",
+                "category": "Chairs",
+                "price": 695.0,
+                "designer": "Francis Cayouette",
+                "rooms": "Living room, Office, Kitchen, Dining room"
+            },
+            "explanation": {
+                "reason": "This recommended item is 9591.00% similar to 3 items in your basket.",
+                "similar_items": [
+                    {
+                        "name": "DALSHULT",
+                        "category": "Tables & desks",
+                        "price": 575.0
+                    },
+                    {
+                        "name": "EKEDALEN",
+                        "category": "Tables & desks",
+                        "price": 795.0
+                    },
+                    {
+                        "name": "EKEDALEN / HENRIKSDAL",
+                        "category": "Tables & desks",
+                        "price": 1975.0
+                    }
+                ]
+            },
+            "additional_info": {
+                "average_price_in_cluster": 1026.946682464455,
+                "designer_average_price": 1124.6924369747899
+            }
+        },
+        {
+            "recommended_item": {
+                "name": "HILVER / GERTON",
+                "category": "Tables & desks",
+                "price": 665.0,
+                "designer": "IKEA of Sweden/Chenyi Ke",
+                "rooms": "Living room, Office, Kitchen, Dining room"
+            },
+            "explanation": {
+                "reason": "This recommended item is 9575.00% similar to 3 items in your basket.",
+                "similar_items": [
+                    {
+                        "name": "DALSHULT",
+                        "category": "Tables & desks",
+                        "price": 575.0
+                    },
+                    {
+                        "name": "EKEDALEN",
+                        "category": "Tables & desks",
+                        "price": 795.0
+                    },
+                    {
+                        "name": "EKEDALEN / HENRIKSDAL",
+                        "category": "Tables & desks",
+                        "price": 1975.0
+                    }
+                ]
+            },
+            "additional_info": {
+                "average_price_in_cluster": 1026.946682464455,
+                "designer_average_price": 555.0
+            }
+        },
+        {
+            "recommended_item": {
+                "name": "SYVDE",
+                "category": "Tables & desks",
+                "price": 595.0,
+                "designer": "IKEA of Sweden",
+                "rooms": "Living room, Office, Kitchen, Dining room"
+            },
+            "explanation": {
+                "reason": "This recommended item is 9562.00% similar to 3 items in your basket.",
+                "similar_items": [
+                    {
+                        "name": "DALSHULT",
+                        "category": "Tables & desks",
+                        "price": 575.0
+                    },
+                    {
+                        "name": "EKEDALEN",
+                        "category": "Tables & desks",
+                        "price": 795.0
+                    },
+                    {
+                        "name": "EKEDALEN / HENRIKSDAL",
+                        "category": "Tables & desks",
+                        "price": 1975.0
+                    }
+                ]
+            },
+            "additional_info": {
+                "average_price_in_cluster": 1026.946682464455,
+                "designer_average_price": 583.5189597315436
+            }
+        },
+        {
+            "recommended_item": {
+                "name": "VEJMON",
+                "category": "Tables & desks",
+                "price": 475.0,
+                "designer": "Ehl\u00e9n Johansson",
+                "rooms": "Living room, Office, Kitchen, Dining room"
+            },
+            "explanation": {
+                "reason": "This recommended item is 9365.00% similar to 3 items in your basket.",
+                "similar_items": [
+                    {
+                        "name": "DALSHULT",
+                        "category": "Tables & desks",
+                        "price": 575.0
+                    },
+                    {
+                        "name": "EKEDALEN",
+                        "category": "Tables & desks",
+                        "price": 795.0
+                    },
+                    {
+                        "name": "MALMSTA",
+                        "category": "Tables & desks",
+                        "price": 595.0
+                    }
+                ]
+            },
+            "additional_info": {
+                "average_price_in_cluster": 1026.946682464455,
+                "designer_average_price": 1722.6611570247933
+            }
+        },
+        {
+            "recommended_item": {
+                "name": "LINNMON / ALVARET",
+                "category": "Tables & desks",
+                "price": 439.0,
+                "designer": "Jomi Evers/IKEA of Sweden",
+                "rooms": "Living room, Office, Kitchen, Dining room"
+            },
+            "explanation": {
+                "reason": "This recommended item is 9359.00% similar to 3 items in your basket.",
+                "similar_items": [
+                    {
+                        "name": "DALSHULT",
+                        "category": "Tables & desks",
+                        "price": 575.0
+                    },
+                    {
+                        "name": "EKEDALEN",
+                        "category": "Tables & desks",
+                        "price": 795.0
+                    },
+                    {
+                        "name": "MALMSTA",
+                        "category": "Tables & desks",
+                        "price": 595.0
+                    }
+                ]
+            },
+            "additional_info": {
+                "average_price_in_cluster": 1026.946682464455,
+                "designer_average_price": 493.5
+            }
+        },
+        {
+            "recommended_item": {
+                "name": "NORR\u00c5KER",
+                "category": "Chairs",
+                "price": 395.0,
+                "designer": "J Karlsson/N Karlsson",
+                "rooms": "Living room, Office, Kitchen, Dining room"
+            },
+            "explanation": {
+                "reason": "This recommended item is 9350.00% similar to 3 items in your basket.",
+                "similar_items": [
+                    {
+                        "name": "DALSHULT",
+                        "category": "Tables & desks",
+                        "price": 575.0
+                    },
+                    {
+                        "name": "EKEDALEN",
+                        "category": "Tables & desks",
+                        "price": 795.0
+                    },
+                    {
+                        "name": "MALMSTA",
+                        "category": "Tables & desks",
+                        "price": 595.0
+                    }
+                ]
+            },
+            "additional_info": {
+                "average_price_in_cluster": 1026.946682464455,
+                "designer_average_price": 616.4444444444445
+            }
+        }
+    ]
+}
