@@ -1,0 +1,684 @@
+{
+    "scatter_plot_data": {
+        "liked_items": [
+            {
+                "price": 429.0,
+                "space": 1076988.0,
+                "label": "ALGOT"
+            },
+            {
+                "price": 476.0,
+                "space": 365952.3903260766,
+                "label": "ANV\u00c4NDBAR"
+            },
+            {
+                "price": 1150.0,
+                "space": 969600.0,
+                "label": "BILLY / OXBERG"
+            },
+            {
+                "price": 49.0,
+                "space": 365353.0786240732,
+                "label": "BJ\u00c4RRED"
+            },
+            {
+                "price": 1295.0,
+                "space": 466808.0,
+                "label": "BRYGGJA"
+            },
+            {
+                "price": 1800.0,
+                "space": 447029.51095125807,
+                "label": "DELAKTIG"
+            },
+            {
+                "price": 1245.0,
+                "space": 789593.7677819963,
+                "label": "EKEDALEN / EKEDALEN"
+            },
+            {
+                "price": 114.0,
+                "space": 42875.0,
+                "label": "EKET"
+            },
+            {
+                "price": 2074.0,
+                "space": 1960200.0,
+                "label": "ELVARLI"
+            },
+            {
+                "price": 139.0,
+                "space": 94050.0,
+                "label": "FLISAT"
+            },
+            {
+                "price": 1220.0,
+                "space": 829080.0,
+                "label": "HAVSTEN"
+            },
+            {
+                "price": 440.0,
+                "space": 719580.0,
+                "label": "IVAR"
+            },
+            {
+                "price": 349.0,
+                "space": 764720.0,
+                "label": "KLEPPSTAD"
+            },
+            {
+                "price": 3495.0,
+                "space": 1416168.0,
+                "label": "LANDSKRONA"
+            },
+            {
+                "price": 400.0,
+                "space": 297192.0,
+                "label": "LANGUR"
+            },
+            {
+                "price": 1116.0,
+                "space": 838586.0,
+                "label": "LOMMARP"
+            },
+            {
+                "price": 399.0,
+                "space": 907371.557804426,
+                "label": "NEIDEN"
+            },
+            {
+                "price": 179.0,
+                "space": 178976.0,
+                "label": "PO\u00c4NG"
+            },
+            {
+                "price": 3555.0,
+                "space": 741615.0739689016,
+                "label": "SKOGSTA / NORRARYD"
+            },
+            {
+                "price": 7988.0,
+                "space": 4787223.358136083,
+                "label": "VALLENTUNA"
+            }
+        ],
+        "recommended_items": [
+            {
+                "price": 179.0,
+                "space": 191760.0,
+                "label": "PO\u00c4NG"
+            },
+            {
+                "price": 134.0,
+                "space": 178976.0,
+                "label": "PO\u00c4NG"
+            },
+            {
+                "price": 235.0,
+                "space": 280112.0,
+                "label": "LANGUR"
+            },
+            {
+                "price": 255.0,
+                "space": 293376.15807726403,
+                "label": "JULES"
+            },
+            {
+                "price": 395.0,
+                "space": 225000.0,
+                "label": "STUVA / FRITIDS"
+            },
+            {
+                "price": 345.0,
+                "space": 297192.0,
+                "label": "LANGUR"
+            },
+            {
+                "price": 299.0,
+                "space": 326263.70784459746,
+                "label": "VIMUND"
+            },
+            {
+                "price": 125.0,
+                "space": 65280.0,
+                "label": "P\u00c5HL"
+            },
+            {
+                "price": 89.0,
+                "space": 50160.0,
+                "label": "TROGEN"
+            },
+            {
+                "price": 149.0,
+                "space": 195370.51229993103,
+                "label": "MAMMUT"
+            },
+            {
+                "price": 525.0,
+                "space": 328241.241113354,
+                "label": "BUSSAN"
+            },
+            {
+                "price": 195.0,
+                "space": 255714.6978777972,
+                "label": "\u00d6RFJ\u00c4LL"
+            },
+            {
+                "price": 140.0,
+                "space": 123677.25068630096,
+                "label": "SUNDVIK"
+            },
+            {
+                "price": 89.0,
+                "space": 62548.27018888932,
+                "label": "FLISAT"
+            },
+            {
+                "price": 175.0,
+                "space": 125092.57953076372,
+                "label": "SUNDVIK"
+            },
+            {
+                "price": 100.0,
+                "space": 42432.0,
+                "label": "P\u00c5HL"
+            },
+            {
+                "price": 35.0,
+                "space": 120960.0,
+                "label": "LANGUR"
+            },
+            {
+                "price": 195.0,
+                "space": 97784.02003333744,
+                "label": "YPPERLIG"
+            },
+            {
+                "price": 195.0,
+                "space": 139277.0,
+                "label": "AGAM"
+            },
+            {
+                "price": 22.0,
+                "space": 156988.3187549777,
+                "label": "BOLMEN"
+            },
+            {
+                "price": 220.0,
+                "space": 142065.0,
+                "label": "INGOLF"
+            },
+            {
+                "price": 225.0,
+                "space": 170640.0,
+                "label": "URBAN"
+            },
+            {
+                "price": 15.0,
+                "space": 11544.0,
+                "label": "F\u00d6RSIKTIG"
+            },
+            {
+                "price": 275.0,
+                "space": 142065.0,
+                "label": "INGOLF"
+            },
+            {
+                "price": 175.0,
+                "space": 225000.0,
+                "label": "STUVA"
+            },
+            {
+                "price": 275.0,
+                "space": 161996.5793559971,
+                "label": "YPPERLIG"
+            },
+            {
+                "price": 295.0,
+                "space": 115010.0,
+                "label": "SL\u00c4KT"
+            },
+            {
+                "price": 175.0,
+                "space": 273750.0,
+                "label": "MICKE"
+            },
+            {
+                "price": 349.0,
+                "space": 147377.43499993457,
+                "label": "FLISAT"
+            },
+            {
+                "price": 345.0,
+                "space": 274350.0,
+                "label": "IKEA PS L\u00d6MSK"
+            },
+            {
+                "price": 276.0,
+                "space": 393750.0,
+                "label": "MICKE"
+            },
+            {
+                "price": 495.0,
+                "space": 246512.0,
+                "label": "STRANDMON"
+            },
+            {
+                "price": 135.0,
+                "space": 466861.0777563785,
+                "label": "L\u00c4TT"
+            },
+            {
+                "price": 665.0,
+                "space": 197390.14527641388,
+                "label": "YPPERLIG"
+            },
+            {
+                "price": 295.0,
+                "space": 535376.0143966773,
+                "label": "P\u00c5HL"
+            },
+            {
+                "price": 110.0,
+                "space": 51800.0,
+                "label": "LANGUR"
+            },
+            {
+                "price": 420.0,
+                "space": 545934.5151101467,
+                "label": "P\u00c5HL"
+            },
+            {
+                "price": 449.0,
+                "space": 555859.966334632,
+                "label": "FLISAT"
+            },
+            {
+                "price": 20.0,
+                "space": 438583.0846711738,
+                "label": "ANTILOP"
+            },
+            {
+                "price": 16.0,
+                "space": 437616.1744993383,
+                "label": "ANTILOP"
+            },
+            {
+                "price": 451.0,
+                "space": 735000.0,
+                "label": "MICKE"
+            },
+            {
+                "price": 425.0,
+                "space": 771647.3532519876,
+                "label": "P\u00c5HL"
+            },
+            {
+                "price": 450.0,
+                "space": 774462.9534422461,
+                "label": "P\u00c5HL"
+            },
+            {
+                "price": 29.0,
+                "space": 139150.2988665111,
+                "label": "MAMMUT"
+            },
+            {
+                "price": 129.0,
+                "space": 130547.69117991792,
+                "label": "MAMMUT"
+            },
+            {
+                "price": 205.0,
+                "space": 216895.91827787532,
+                "label": "RES\u00d6"
+            },
+            {
+                "price": 25.0,
+                "space": 439793.29213354544,
+                "label": "UTTER"
+            },
+            {
+                "price": 295.0,
+                "space": 157780.0,
+                "label": "NIKKEBY"
+            },
+            {
+                "price": 49.0,
+                "space": 562326.0,
+                "label": "VUKU"
+            },
+            {
+                "price": 695.0,
+                "space": 842751.0,
+                "label": "KALLAX"
+            },
+            {
+                "price": 674.0,
+                "space": 796550.0,
+                "label": "IVAR"
+            },
+            {
+                "price": 660.0,
+                "space": 873477.0,
+                "label": "JONAXEL"
+            },
+            {
+                "price": 730.0,
+                "space": 964047.6299756994,
+                "label": "JONAXEL"
+            },
+            {
+                "price": 615.0,
+                "space": 842751.0,
+                "label": "KALLAX"
+            },
+            {
+                "price": 630.0,
+                "space": 927825.9509614112,
+                "label": "JONAXEL"
+            },
+            {
+                "price": 910.0,
+                "space": 719580.0,
+                "label": "IVAR"
+            },
+            {
+                "price": 588.0,
+                "space": 796550.0,
+                "label": "IVAR"
+            },
+            {
+                "price": 580.0,
+                "space": 888250.0,
+                "label": "BROR"
+            },
+            {
+                "price": 620.0,
+                "space": 951300.0,
+                "label": "VITTSJ\u00d6"
+            },
+            {
+                "price": 565.0,
+                "space": 888250.0,
+                "label": "BROR"
+            },
+            {
+                "price": 555.0,
+                "space": 842751.0,
+                "label": "KALLAX"
+            },
+            {
+                "price": 560.0,
+                "space": 784992.0,
+                "label": "JONAXEL"
+            },
+            {
+                "price": 775.0,
+                "space": 653977.9137065108,
+                "label": "IVAR"
+            },
+            {
+                "price": 855.0,
+                "space": 646000.0,
+                "label": "BROR"
+            },
+            {
+                "price": 563.0,
+                "space": 1053856.417786104,
+                "label": "IVAR"
+            },
+            {
+                "price": 650.0,
+                "space": 300330.0,
+                "label": "H\u00c4LLAN"
+            },
+            {
+                "price": 580.0,
+                "space": 294000.0,
+                "label": "LIXHULT"
+            },
+            {
+                "price": 445.0,
+                "space": 303810.0,
+                "label": "BRIMNES"
+            },
+            {
+                "price": 600.0,
+                "space": 247455.0,
+                "label": "H\u00c4LLAN"
+            },
+            {
+                "price": 395.0,
+                "space": 303810.0,
+                "label": "BRIMNES"
+            },
+            {
+                "price": 595.0,
+                "space": 213200.0,
+                "label": "ERIK"
+            },
+            {
+                "price": 595.0,
+                "space": 209076.0,
+                "label": "HEMNES"
+            },
+            {
+                "price": 1995.0,
+                "space": 1138488.0,
+                "label": "LANDSKRONA"
+            },
+            {
+                "price": 1991.0,
+                "space": 1140984.0,
+                "label": "BR\u00c5THULT"
+            },
+            {
+                "price": 555.0,
+                "space": 599040.0,
+                "label": "MALM"
+            },
+            {
+                "price": 495.0,
+                "space": 472320.0,
+                "label": "MALM"
+            },
+            {
+                "price": 450.0,
+                "space": 549138.4796521909,
+                "label": "S\u00d6DERHAMN"
+            },
+            {
+                "price": 895.0,
+                "space": 973438.0,
+                "label": "TRYSIL"
+            },
+            {
+                "price": 100.0,
+                "space": 458156.35593620106,
+                "label": "VASSVIKEN"
+            },
+            {
+                "price": 1090.0,
+                "space": 855000.0,
+                "label": "FJ\u00c4LLBO"
+            },
+            {
+                "price": 695.0,
+                "space": 1049139.0,
+                "label": "LAPPLAND"
+            },
+            {
+                "price": 1092.0,
+                "space": 446102.2556139892,
+                "label": "MARKERAD"
+            },
+            {
+                "price": 595.0,
+                "space": 291600.0,
+                "label": "FJ\u00c4LLBO"
+            },
+            {
+                "price": 172.0,
+                "space": 476157.3340711093,
+                "label": "PO\u00c4NG"
+            },
+            {
+                "price": 145.0,
+                "space": 469364.02436706336,
+                "label": "TULLSTA"
+            },
+            {
+                "price": 90.0,
+                "space": 455685.14376530616,
+                "label": "KUNGSHAMN"
+            },
+            {
+                "price": 1295.0,
+                "space": 813483.0,
+                "label": "S\u00d6DERHAMN"
+            },
+            {
+                "price": 60.0,
+                "space": 448313.6606735648,
+                "label": "KUNGSHAMN"
+            },
+            {
+                "price": 45.0,
+                "space": 444651.58238618553,
+                "label": "KUNGSHAMN"
+            },
+            {
+                "price": 795.0,
+                "space": 1183320.0,
+                "label": "BRYGGJA"
+            },
+            {
+                "price": 35.0,
+                "space": 314187.73046794685,
+                "label": "KLACKBERG"
+            },
+            {
+                "price": 1176.0,
+                "space": 1140984.0,
+                "label": "BR\u00c5THULT"
+            },
+            {
+                "price": 1280.0,
+                "space": 1067600.0,
+                "label": "NORSBORG"
+            },
+            {
+                "price": 245.0,
+                "space": 143208.0,
+                "label": "PO\u00c4NG"
+            },
+            {
+                "price": 195.0,
+                "space": 143208.0,
+                "label": "PO\u00c4NG"
+            },
+            {
+                "price": 1300.0,
+                "space": 1165569.0,
+                "label": "S\u00d6DERHAMN"
+            },
+            {
+                "price": 250.0,
+                "space": 23912.851672264675,
+                "label": "PO\u00c4NG"
+            },
+            {
+                "price": 1245.0,
+                "space": 1235400.0,
+                "label": "LYCKSELE L\u00d6V\u00c5S"
+            },
+            {
+                "price": 150.0,
+                "space": 23233.49382692254,
+                "label": "PO\u00c4NG"
+            },
+            {
+                "price": 530.0,
+                "space": 603000.0,
+                "label": "PAX"
+            }
+        ]
+    },
+    "designer_count_data": {
+        "designers": [
+            "IKEA of Sweden",
+            "S Fager/J Jelinek",
+            "K Hagberg/M Hagberg",
+            "Noboru Nakamura",
+            "Ola Wihlborg",
+            "S Fager/J Karlsson",
+            "Jon Karlsson",
+            "J Fritzdorf/J Feldman/J Hedberg",
+            "Henrik Preutz",
+            "Mikael Axelsson",
+            "HAY",
+            "M Kjelstrup/A \u00d6stgaard",
+            "Ebba Strandmark",
+            "Johan Kroon",
+            "Carina Bengs",
+            "S Edholm/L Ullenius",
+            "IKEA of Sweden/Tord Bj\u00f6rklund",
+            "Charlie Styrbj\u00f6rn",
+            "Tord Bj\u00f6rklund/IKEA of Sweden",
+            "IKEA of Sweden/David Wahl/Lisa Hilland",
+            "IKEA of Sweden/Virgil Abloh",
+            "Ehl\u00e9n Johansson",
+            "Lisa Hilland/David Wahl/IKEA of Sweden",
+            "IKEA of Sweden/Noboru Nakamura",
+            "Monika Mulder",
+            "Tord Bj\u00f6rklund",
+            "J Karlsson/W Chong",
+            "L Hilland/J Karlsson",
+            "Carl \u00d6jerstam",
+            "Chenyi Ke",
+            "S Holmb\u00e4ck/U Nordentoft",
+            "Anna Efverlund",
+            "J Asshoff/H Brog\u00e5rd",
+            "Nicholai Wiig Hansen",
+            "Ehl\u00e9n Johansson/IKEA of Sweden"
+        ],
+        "counts": [
+            28,
+            6,
+            6,
+            5,
+            4,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ]
+    }
+}

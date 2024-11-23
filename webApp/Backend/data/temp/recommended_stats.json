@@ -2,384 +2,6 @@
     "price_comparison": [
         {
             "recommended_item": {
-                "item_id": 49248858,
-                "name": "LIXHULT",
-                "price": 841.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "price": 50.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 9329390,
-                "name": "EKET",
-                "price": 777.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "price": 50.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 59275101,
-                "name": "HAVSTA",
-                "price": 925.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "price": 50.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 49249396,
-                "name": "H\u00c4LLAN",
-                "price": 875.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "price": 50.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 9276650,
-                "name": "BEST\u00c5",
-                "price": 980.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "price": 50.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 60389192,
-                "name": "HAVSTA",
-                "price": 845.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "price": 50.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 30388636,
-                "name": "HAVSTA",
-                "price": 895.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "price": 50.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 89249403,
-                "name": "H\u00c4LLAN",
-                "price": 700.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "price": 50.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 29279186,
-                "name": "LIXHULT",
-                "price": 700.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "price": 50.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 59249409,
-                "name": "H\u00c4LLAN",
-                "price": 650.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "price": 50.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 29297958,
-                "name": "BEST\u00c5",
-                "price": 820.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "price": 50.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 10409871,
-                "name": "BRIMNES",
-                "price": 476.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "price": 50.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 59248867,
-                "name": "LIXHULT",
-                "price": 580.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "price": 50.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 79249328,
-                "name": "H\u00c4LLAN",
-                "price": 600.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "price": 50.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 9282528,
-                "name": "BEKANT",
-                "price": 944.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "price": 50.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 70341005,
-                "name": "ERIK",
-                "price": 595.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "price": 50.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 80371520,
-                "name": "TROGEN",
-                "price": 89.0
-            },
-            "basket_items": [
-                {
-                    "name": "FLISAT",
-                    "price": 139.0
-                },
-                {
-                    "name": "LANGUR",
-                    "price": 345.0
-                },
-                {
-                    "name": "TROFAST",
-                    "price": 5.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 60306494,
-                "name": "P\u00c5HL",
-                "price": 125.0
-            },
-            "basket_items": [
-                {
-                    "name": "FLISAT",
-                    "price": 139.0
-                },
-                {
-                    "name": "LANGUR",
-                    "price": 345.0
-                },
-                {
-                    "name": "TROFAST",
-                    "price": 5.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
                 "item_id": 90116553,
                 "name": "PO\u00c4NG",
                 "price": 179.0
@@ -391,24 +13,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 39337911,
-                "name": "PO\u00c4NG",
-                "price": 179.0
-            },
-            "basket_items": [
-                {
-                    "name": "FLISAT",
-                    "price": 139.0
+                    "price": 400.0
                 },
                 {
-                    "name": "LANGUR",
-                    "price": 345.0
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -425,7 +34,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -442,7 +55,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -459,7 +76,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -476,7 +97,32 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 9252593,
+                "name": "LANGUR",
+                "price": 345.0
+            },
+            "basket_items": [
+                {
+                    "name": "FLISAT",
+                    "price": 139.0
+                },
+                {
+                    "name": "LANGUR",
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -493,15 +139,19 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 49252553,
-                "name": "LANGUR",
-                "price": 400.0
+                "item_id": 60306494,
+                "name": "P\u00c5HL",
+                "price": 125.0
             },
             "basket_items": [
                 {
@@ -510,568 +160,32 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 49265999,
-                "name": "HAVSTA",
-                "price": 1240.0
+                "item_id": 80371520,
+                "name": "TROGEN",
+                "price": 89.0
             },
             "basket_items": [
                 {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
+                    "name": "FLISAT",
+                    "price": 139.0
                 },
                 {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 40383737,
-                "name": "LOMMARP",
-                "price": 1116.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
+                    "name": "LANGUR",
+                    "price": 400.0
                 },
                 {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 59191026,
-                "name": "EKET",
-                "price": 1391.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 19249406,
-                "name": "H\u00c4LLAN",
-                "price": 1400.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 39297514,
-                "name": "BEST\u00c5",
-                "price": 1470.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 69279189,
-                "name": "LIXHULT",
-                "price": 1160.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 69265984,
-                "name": "HAVSTA",
-                "price": 1540.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 29286573,
-                "name": "EKET",
-                "price": 1248.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 415194,
-                "name": "HAVSTA",
-                "price": 1295.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 79291355,
-                "name": "PLATSA",
-                "price": 1268.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 99249520,
-                "name": "H\u00c4LLAN",
-                "price": 1575.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 19286521,
-                "name": "EKET",
-                "price": 1123.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 49265975,
-                "name": "HAVSTA",
-                "price": 1590.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 69208031,
-                "name": "BEST\u00c5",
-                "price": 1600.5
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 50413507,
-                "name": "HEMNES",
-                "price": 1595.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 396416,
-                "name": "MILSBO",
-                "price": 995.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 29301762,
-                "name": "BEST\u00c5",
-                "price": 1045.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 89248922,
-                "name": "LIXHULT",
-                "price": 1020.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 30303487,
-                "name": "MALSJ\u00d6",
-                "price": 1276.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 19278234,
-                "name": "BRIMNES",
-                "price": 952.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 89217727,
-                "name": "BILLY / OXBERG",
-                "price": 1735.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 89249399,
-                "name": "H\u00c4LLAN",
-                "price": 1750.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 49280754,
-                "name": "BILLY / OXBERG",
-                "price": 1370.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 50300666,
-                "name": "BRIMNES",
-                "price": 445.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "price": 50.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 40300662,
-                "name": "BRIMNES",
-                "price": 395.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "price": 50.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 69275110,
-                "name": "HAVSTA",
-                "price": 975.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 29336380,
-                "name": "EKET",
-                "price": 384.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "price": 50.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 29287214,
-                "name": "ID\u00c5SEN",
-                "price": 1090.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 20396646,
-                "name": "HEMNES",
-                "price": 595.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "price": 50.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 19057906,
-                "name": "BEST\u00c5",
-                "price": 480.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "price": 50.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 79282544,
-                "name": "BEKANT",
-                "price": 1355.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 80295300,
-                "name": "BEST\u00c5",
-                "price": 100.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "price": 50.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 79286896,
-                "name": "BEKANT",
-                "price": 1200.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "price": 930.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "price": 1550.0
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1088,7 +202,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1105,7 +223,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1122,41 +244,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 60347507,
-                "name": "ENERYDA",
-                "price": 35.0
-            },
-            "basket_items": [
-                {
-                    "name": "KALLR\u00d6R",
-                    "price": 35.0
+                    "price": 400.0
                 },
                 {
-                    "name": "NORDLI",
-                    "price": 960.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 410083,
-                "name": "STR\u00c5FLY",
-                "price": 15.0
-            },
-            "basket_items": [
-                {
-                    "name": "ALGOT",
-                    "price": 296.0
-                },
-                {
-                    "name": "BR\u00c4DA",
-                    "price": 15.0
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1173,7 +265,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1190,7 +286,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1207,41 +307,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 50346985,
-                "name": "LANGUR",
-                "price": 35.0
-            },
-            "basket_items": [
-                {
-                    "name": "FLISAT",
-                    "price": 139.0
+                    "price": 400.0
                 },
                 {
-                    "name": "LANGUR",
-                    "price": 345.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 50348668,
-                "name": "YPPERLIG",
-                "price": 195.0
-            },
-            "basket_items": [
-                {
-                    "name": "FLISAT",
-                    "price": 139.0
-                },
-                {
-                    "name": "LANGUR",
-                    "price": 345.0
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1258,7 +328,53 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 50346985,
+                "name": "LANGUR",
+                "price": 35.0
+            },
+            "basket_items": [
+                {
+                    "name": "FLISAT",
+                    "price": 139.0
+                },
+                {
+                    "name": "LANGUR",
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 50348668,
+                "name": "YPPERLIG",
+                "price": 195.0
+            },
+            "basket_items": [
+                {
+                    "name": "FLISAT",
+                    "price": 139.0
+                },
+                {
+                    "name": "LANGUR",
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1275,24 +391,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 60353838,
-                "name": "INGOLF",
-                "price": 220.0
-            },
-            "basket_items": [
-                {
-                    "name": "FLISAT",
-                    "price": 139.0
+                    "price": 400.0
                 },
                 {
-                    "name": "LANGUR",
-                    "price": 345.0
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1309,7 +412,32 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 60353838,
+                "name": "INGOLF",
+                "price": 220.0
+            },
+            "basket_items": [
+                {
+                    "name": "FLISAT",
+                    "price": 139.0
+                },
+                {
+                    "name": "LANGUR",
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1326,7 +454,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1343,7 +475,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1360,7 +496,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1377,7 +517,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1394,7 +538,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1411,7 +559,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1428,7 +580,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1445,7 +601,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1462,7 +622,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1479,7 +643,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1496,7 +664,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1513,7 +685,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1530,7 +706,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1547,7 +727,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1564,7 +748,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1581,7 +769,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1598,7 +790,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1615,7 +811,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1632,7 +832,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1649,7 +853,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1666,7 +874,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1683,7 +895,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1700,7 +916,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1717,7 +937,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1734,7 +958,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1751,7 +979,11 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
+                    "price": 400.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
@@ -1768,198 +1000,304 @@
                 },
                 {
                     "name": "LANGUR",
-                    "price": 345.0
-                }
-            ]
-        }
-    ],
-    "size_comparison": [
-        {
-            "recommended_item": {
-                "item_id": 49248858,
-                "name": "LIXHULT",
-                "size": 432250.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
+                    "price": 400.0
                 },
                 {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "size": 2610.0
+                    "name": "PO\u00c4NG",
+                    "price": 179.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 9329390,
-                "name": "EKET",
-                "size": 428750.0
+                "item_id": 80331973,
+                "name": "VUKU",
+                "price": 49.0
             },
             "basket_items": [
                 {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
+                    "name": "BRYGGJA",
+                    "price": 1295.0
                 },
                 {
-                    "name": "HAVSTA",
-                    "size": 803196.0
+                    "name": "KLEPPSTAD",
+                    "price": 349.0
                 },
                 {
-                    "name": "H\u00c4LLAN",
-                    "size": 2610.0
+                    "name": "NEIDEN",
+                    "price": 399.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 59275101,
-                "name": "HAVSTA",
-                "size": 401598.0
+                "item_id": 39017486,
+                "name": "KALLAX",
+                "price": 695.0
             },
             "basket_items": [
                 {
                     "name": "BILLY / OXBERG",
-                    "size": 727200.0
+                    "price": 1150.0
                 },
                 {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "size": 2610.0
+                    "name": "IVAR",
+                    "price": 440.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 49249396,
-                "name": "H\u00c4LLAN",
-                "size": 353205.0
+                "item_id": 29287997,
+                "name": "IVAR",
+                "price": 674.0
             },
             "basket_items": [
                 {
                     "name": "BILLY / OXBERG",
-                    "size": 727200.0
+                    "price": 1150.0
                 },
                 {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "size": 2610.0
+                    "name": "IVAR",
+                    "price": 440.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 9276650,
-                "name": "BEST\u00c5",
-                "size": 372960.0
+                "item_id": 39323990,
+                "name": "JONAXEL",
+                "price": 660.0
             },
             "basket_items": [
                 {
                     "name": "BILLY / OXBERG",
-                    "size": 727200.0
+                    "price": 1150.0
                 },
                 {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "size": 2610.0
+                    "name": "IVAR",
+                    "price": 440.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 60389192,
-                "name": "HAVSTA",
-                "size": 348705.0
+                "item_id": 99297634,
+                "name": "JONAXEL",
+                "price": 730.0
             },
             "basket_items": [
                 {
                     "name": "BILLY / OXBERG",
-                    "size": 727200.0
+                    "price": 1150.0
                 },
                 {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "size": 2610.0
+                    "name": "IVAR",
+                    "price": 440.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 30388636,
-                "name": "HAVSTA",
-                "size": 348705.0
+                "item_id": 19030592,
+                "name": "KALLAX",
+                "price": 615.0
             },
             "basket_items": [
                 {
                     "name": "BILLY / OXBERG",
-                    "size": 727200.0
+                    "price": 1150.0
                 },
                 {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "size": 2610.0
+                    "name": "IVAR",
+                    "price": 440.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 89249403,
-                "name": "H\u00c4LLAN",
-                "size": 353205.0
+                "item_id": 79305102,
+                "name": "JONAXEL",
+                "price": 630.0
             },
             "basket_items": [
                 {
                     "name": "BILLY / OXBERG",
-                    "size": 727200.0
+                    "price": 1150.0
                 },
                 {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "size": 2610.0
+                    "name": "IVAR",
+                    "price": 440.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 29279186,
-                "name": "LIXHULT",
-                "size": 294000.0
+                "item_id": 79303495,
+                "name": "IVAR",
+                "price": 910.0
             },
             "basket_items": [
                 {
                     "name": "BILLY / OXBERG",
-                    "size": 727200.0
+                    "price": 1150.0
                 },
                 {
-                    "name": "HAVSTA",
-                    "size": 803196.0
+                    "name": "IVAR",
+                    "price": 440.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 9302908,
+                "name": "IVAR",
+                "price": 588.0
+            },
+            "basket_items": [
+                {
+                    "name": "BILLY / OXBERG",
+                    "price": 1150.0
                 },
                 {
-                    "name": "H\u00c4LLAN",
-                    "size": 2610.0
+                    "name": "IVAR",
+                    "price": 440.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 59282998,
+                "name": "BROR",
+                "price": 580.0
+            },
+            "basket_items": [
+                {
+                    "name": "BILLY / OXBERG",
+                    "price": 1150.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 440.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 59902658,
+                "name": "VITTSJ\u00d6",
+                "price": 620.0
+            },
+            "basket_items": [
+                {
+                    "name": "BILLY / OXBERG",
+                    "price": 1150.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 440.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 39303968,
+                "name": "BROR",
+                "price": 565.0
+            },
+            "basket_items": [
+                {
+                    "name": "BILLY / OXBERG",
+                    "price": 1150.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 440.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 89030584,
+                "name": "KALLAX",
+                "price": 555.0
+            },
+            "basket_items": [
+                {
+                    "name": "BILLY / OXBERG",
+                    "price": 1150.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 440.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 89297677,
+                "name": "JONAXEL",
+                "price": 560.0
+            },
+            "basket_items": [
+                {
+                    "name": "BILLY / OXBERG",
+                    "price": 1150.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 440.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 59248551,
+                "name": "IVAR",
+                "price": 775.0
+            },
+            "basket_items": [
+                {
+                    "name": "BILLY / OXBERG",
+                    "price": 1150.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 440.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 39283003,
+                "name": "BROR",
+                "price": 855.0
+            },
+            "basket_items": [
+                {
+                    "name": "BILLY / OXBERG",
+                    "price": 1150.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 440.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 9288021,
+                "name": "IVAR",
+                "price": 563.0
+            },
+            "basket_items": [
+                {
+                    "name": "BILLY / OXBERG",
+                    "price": 1150.0
+                },
+                {
+                    "name": "IVAR",
+                    "price": 440.0
                 }
             ]
         },
@@ -1967,62 +1305,16 @@
             "recommended_item": {
                 "item_id": 59249409,
                 "name": "H\u00c4LLAN",
-                "size": 300330.0
+                "price": 650.0
             },
             "basket_items": [
                 {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
+                    "name": "EKET",
+                    "price": 114.0
                 },
                 {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "size": 2610.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 29297958,
-                "name": "BEST\u00c5",
-                "size": 241920.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "size": 2610.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 10409871,
-                "name": "BRIMNES",
-                "size": 532000.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "size": 2610.0
+                    "name": "LOMMARP",
+                    "price": 1116.0
                 }
             ]
         },
@@ -2030,20 +1322,33 @@
             "recommended_item": {
                 "item_id": 59248867,
                 "name": "LIXHULT",
-                "size": 294000.0
+                "price": 580.0
             },
             "basket_items": [
                 {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
+                    "name": "EKET",
+                    "price": 114.0
                 },
                 {
-                    "name": "HAVSTA",
-                    "size": 803196.0
+                    "name": "LOMMARP",
+                    "price": 1116.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 50300666,
+                "name": "BRIMNES",
+                "price": 445.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKET",
+                    "price": 114.0
                 },
                 {
-                    "name": "H\u00c4LLAN",
-                    "size": 2610.0
+                    "name": "LOMMARP",
+                    "price": 1116.0
                 }
             ]
         },
@@ -2051,41 +1356,33 @@
             "recommended_item": {
                 "item_id": 79249328,
                 "name": "H\u00c4LLAN",
-                "size": 247455.0
+                "price": 600.0
             },
             "basket_items": [
                 {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
+                    "name": "EKET",
+                    "price": 114.0
                 },
                 {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "size": 2610.0
+                    "name": "LOMMARP",
+                    "price": 1116.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 9282528,
-                "name": "BEKANT",
-                "size": 186345.0
+                "item_id": 40300662,
+                "name": "BRIMNES",
+                "price": 395.0
             },
             "basket_items": [
                 {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
+                    "name": "EKET",
+                    "price": 114.0
                 },
                 {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "size": 2610.0
+                    "name": "LOMMARP",
+                    "price": 1116.0
                 }
             ]
         },
@@ -2093,28 +1390,519 @@
             "recommended_item": {
                 "item_id": 70341005,
                 "name": "ERIK",
-                "size": 213200.0
+                "price": 595.0
             },
             "basket_items": [
                 {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
+                    "name": "EKET",
+                    "price": 114.0
                 },
                 {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "size": 2610.0
+                    "name": "LOMMARP",
+                    "price": 1116.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 80371520,
-                "name": "TROGEN",
-                "size": 50160.0
+                "item_id": 20396646,
+                "name": "HEMNES",
+                "price": 595.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKET",
+                    "price": 114.0
+                },
+                {
+                    "name": "LOMMARP",
+                    "price": 1116.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 59270274,
+                "name": "LANDSKRONA",
+                "price": 1995.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "price": 1295.0
+                },
+                {
+                    "name": "LANDSKRONA",
+                    "price": 3495.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 9217849,
+                "name": "BR\u00c5THULT",
+                "price": 1991.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "price": 1295.0
+                },
+                {
+                    "name": "LANDSKRONA",
+                    "price": 3495.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 60403584,
+                "name": "MALM",
+                "price": 555.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "price": 1295.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "price": 399.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 60403602,
+                "name": "MALM",
+                "price": 495.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "price": 1295.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "price": 399.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 80454493,
+                "name": "S\u00d6DERHAMN",
+                "price": 450.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "price": 1295.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "price": 399.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 10308787,
+                "name": "TRYSIL",
+                "price": 895.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "price": 1295.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "price": 399.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 80414256,
+                "name": "VASSVIKEN",
+                "price": 100.0
+            },
+            "basket_items": [
+                {
+                    "name": "BJ\u00c4RRED",
+                    "price": 49.0
+                },
+                {
+                    "name": "BRYGGJA",
+                    "price": 1295.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 79191266,
+                "name": "FJ\u00c4LLBO",
+                "price": 1090.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "price": 1295.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "price": 399.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 30285153,
+                "name": "LAPPLAND",
+                "price": 695.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "price": 1295.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "price": 399.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 69304829,
+                "name": "MARKERAD",
+                "price": 1092.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "price": 1295.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "price": 399.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 90339290,
+                "name": "FJ\u00c4LLBO",
+                "price": 595.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "price": 1295.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "price": 399.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 20394317,
+                "name": "PO\u00c4NG",
+                "price": 172.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "price": 1295.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "price": 399.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 40410335,
+                "name": "TULLSTA",
+                "price": 145.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "price": 1295.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "price": 399.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 20382786,
+                "name": "KUNGSHAMN",
+                "price": 90.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "price": 1295.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "price": 399.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 79135751,
+                "name": "S\u00d6DERHAMN",
+                "price": 1295.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "price": 1295.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "price": 399.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 10382876,
+                "name": "KUNGSHAMN",
+                "price": 60.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "price": 1295.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "price": 399.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 50382493,
+                "name": "KUNGSHAMN",
+                "price": 45.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "price": 1295.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "price": 399.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 90421906,
+                "name": "BRYGGJA",
+                "price": 795.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "price": 1295.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "price": 399.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 30373164,
+                "name": "KLACKBERG",
+                "price": 35.0
+            },
+            "basket_items": [
+                {
+                    "name": "BJ\u00c4RRED",
+                    "price": 49.0
+                },
+                {
+                    "name": "KLEPPSTAD",
+                    "price": 349.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 59217804,
+                "name": "BR\u00c5THULT",
+                "price": 1176.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "price": 1295.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "price": 399.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 59241597,
+                "name": "NORSBORG",
+                "price": 1280.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "price": 1295.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "price": 399.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 39181245,
+                "name": "PO\u00c4NG",
+                "price": 245.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "price": 1295.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "price": 399.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 79244665,
+                "name": "PO\u00c4NG",
+                "price": 195.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "price": 1295.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "price": 399.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 79135746,
+                "name": "S\u00d6DERHAMN",
+                "price": 1300.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "price": 1295.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "price": 399.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 30094592,
+                "name": "PO\u00c4NG",
+                "price": 250.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "price": 1295.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "price": 399.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 39149892,
+                "name": "LYCKSELE L\u00d6V\u00c5S",
+                "price": 1245.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "price": 1295.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "price": 399.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 10052362,
+                "name": "PO\u00c4NG",
+                "price": 150.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "price": 1295.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "price": 399.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 69127493,
+                "name": "PAX",
+                "price": 530.0
+            },
+            "basket_items": [
+                {
+                    "name": "DELAKTIG",
+                    "price": 1800.0
+                },
+                {
+                    "name": "KLEPPSTAD",
+                    "price": 349.0
+                }
+            ]
+        }
+    ],
+    "size_comparison": [
+        {
+            "recommended_item": {
+                "item_id": 90116553,
+                "name": "PO\u00c4NG",
+                "size": 191760.0
             },
             "basket_items": [
                 {
@@ -2126,8 +1914,134 @@
                     "size": 297192.0
                 },
                 {
-                    "name": "TROFAST",
-                    "size": 107486.03133136424
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 80418056,
+                "name": "PO\u00c4NG",
+                "size": 178976.0
+            },
+            "basket_items": [
+                {
+                    "name": "FLISAT",
+                    "size": 94050.0
+                },
+                {
+                    "name": "LANGUR",
+                    "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 19252615,
+                "name": "LANGUR",
+                "size": 280112.0
+            },
+            "basket_items": [
+                {
+                    "name": "FLISAT",
+                    "size": 94050.0
+                },
+                {
+                    "name": "LANGUR",
+                    "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 39207716,
+                "name": "JULES",
+                "size": 293376.15807726403
+            },
+            "basket_items": [
+                {
+                    "name": "FLISAT",
+                    "size": 94050.0
+                },
+                {
+                    "name": "LANGUR",
+                    "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 59252637,
+                "name": "STUVA / FRITIDS",
+                "size": 225000.0
+            },
+            "basket_items": [
+                {
+                    "name": "FLISAT",
+                    "size": 94050.0
+                },
+                {
+                    "name": "LANGUR",
+                    "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 9252593,
+                "name": "LANGUR",
+                "size": 297192.0
+            },
+            "basket_items": [
+                {
+                    "name": "FLISAT",
+                    "size": 94050.0
+                },
+                {
+                    "name": "LANGUR",
+                    "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 10424353,
+                "name": "VIMUND",
+                "size": 326263.70784459746
+            },
+            "basket_items": [
+                {
+                    "name": "FLISAT",
+                    "size": 94050.0
+                },
+                {
+                    "name": "LANGUR",
+                    "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -2147,16 +2061,16 @@
                     "size": 297192.0
                 },
                 {
-                    "name": "TROFAST",
-                    "size": 107486.03133136424
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 90116553,
-                "name": "PO\u00c4NG",
-                "size": 191760.0
+                "item_id": 80371520,
+                "name": "TROGEN",
+                "size": 50160.0
             },
             "basket_items": [
                 {
@@ -2166,686 +2080,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 39337911,
-                "name": "PO\u00c4NG",
-                "size": 178976.0
-            },
-            "basket_items": [
-                {
-                    "name": "FLISAT",
-                    "size": 94050.0
                 },
                 {
-                    "name": "LANGUR",
-                    "size": 297192.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 80418056,
-                "name": "PO\u00c4NG",
-                "size": 178976.0
-            },
-            "basket_items": [
-                {
-                    "name": "FLISAT",
-                    "size": 94050.0
-                },
-                {
-                    "name": "LANGUR",
-                    "size": 297192.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 19252615,
-                "name": "LANGUR",
-                "size": 280112.0
-            },
-            "basket_items": [
-                {
-                    "name": "FLISAT",
-                    "size": 94050.0
-                },
-                {
-                    "name": "LANGUR",
-                    "size": 297192.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 39207716,
-                "name": "JULES",
-                "size": 293376.15807726403
-            },
-            "basket_items": [
-                {
-                    "name": "FLISAT",
-                    "size": 94050.0
-                },
-                {
-                    "name": "LANGUR",
-                    "size": 297192.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 59252637,
-                "name": "STUVA / FRITIDS",
-                "size": 225000.0
-            },
-            "basket_items": [
-                {
-                    "name": "FLISAT",
-                    "size": 94050.0
-                },
-                {
-                    "name": "LANGUR",
-                    "size": 297192.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 10424353,
-                "name": "VIMUND",
-                "size": 326263.70784459746
-            },
-            "basket_items": [
-                {
-                    "name": "FLISAT",
-                    "size": 94050.0
-                },
-                {
-                    "name": "LANGUR",
-                    "size": 297192.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 49252553,
-                "name": "LANGUR",
-                "size": 297192.0
-            },
-            "basket_items": [
-                {
-                    "name": "FLISAT",
-                    "size": 94050.0
-                },
-                {
-                    "name": "LANGUR",
-                    "size": 297192.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 49265999,
-                "name": "HAVSTA",
-                "size": 807084.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 40383737,
-                "name": "LOMMARP",
-                "size": 838586.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 59191026,
-                "name": "EKET",
-                "size": 705600.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 19249406,
-                "name": "H\u00c4LLAN",
-                "size": 706410.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 39297514,
-                "name": "BEST\u00c5",
-                "size": 745920.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 69279189,
-                "name": "LIXHULT",
-                "size": 588000.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 69265984,
-                "name": "HAVSTA",
-                "size": 807084.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 29286573,
-                "name": "EKET",
-                "size": 519400.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 415194,
-                "name": "HAVSTA",
-                "size": 520905.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 79291355,
-                "name": "PLATSA",
-                "size": 1011360.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 99249520,
-                "name": "H\u00c4LLAN",
-                "size": 706410.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 19286521,
-                "name": "EKET",
-                "size": 519400.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 49265975,
-                "name": "HAVSTA",
-                "size": 807084.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 69208031,
-                "name": "BEST\u00c5",
-                "size": 846720.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 50413507,
-                "name": "HEMNES",
-                "size": 656010.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 396416,
-                "name": "MILSBO",
-                "size": 536550.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 29301762,
-                "name": "BEST\u00c5",
-                "size": 1018080.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 89248922,
-                "name": "LIXHULT",
-                "size": 1026900.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 30303487,
-                "name": "MALSJ\u00d6",
-                "size": 446400.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 19278234,
-                "name": "BRIMNES",
-                "size": 1064000.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 89217727,
-                "name": "BILLY / OXBERG",
-                "size": 853200.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 89249399,
-                "name": "H\u00c4LLAN",
-                "size": 706410.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 49280754,
-                "name": "BILLY / OXBERG",
-                "size": 1137600.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 50300666,
-                "name": "BRIMNES",
-                "size": 303810.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "size": 2610.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 40300662,
-                "name": "BRIMNES",
-                "size": 303810.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "size": 2610.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 69275110,
-                "name": "HAVSTA",
-                "size": 401598.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 29336380,
-                "name": "EKET",
-                "size": 257250.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "size": 2610.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 29287214,
-                "name": "ID\u00c5SEN",
-                "size": 363780.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 20396646,
-                "name": "HEMNES",
-                "size": 209076.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "size": 2610.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 19057906,
-                "name": "BEST\u00c5",
-                "size": 168960.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "size": 2610.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 79282544,
-                "name": "BEKANT",
-                "size": 277245.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "size": 803196.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 80295300,
-                "name": "BEST\u00c5",
-                "size": 541064.6875597277
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "H\u00c4LLAN",
-                    "size": 2610.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 79286896,
-                "name": "BEKANT",
-                "size": 186345.0
-            },
-            "basket_items": [
-                {
-                    "name": "BILLY / OXBERG",
-                    "size": 727200.0
-                },
-                {
-                    "name": "HAVSTA",
-                    "size": 803196.0
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -2863,6 +2101,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -2880,6 +2122,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -2897,40 +2143,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 60347507,
-                "name": "ENERYDA",
-                "size": 442218.9432381927
-            },
-            "basket_items": [
-                {
-                    "name": "KALLR\u00d6R",
-                    "size": 416307.5951914095
                 },
                 {
-                    "name": "NORDLI",
-                    "size": 428640.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 410083,
-                "name": "STR\u00c5FLY",
-                "size": 437374.6213080756
-            },
-            "basket_items": [
-                {
-                    "name": "ALGOT",
-                    "size": 694622.0
-                },
-                {
-                    "name": "BR\u00c4DA",
-                    "size": 11718.0
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -2948,6 +2164,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -2965,6 +2185,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -2982,40 +2206,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 50346985,
-                "name": "LANGUR",
-                "size": 120960.0
-            },
-            "basket_items": [
-                {
-                    "name": "FLISAT",
-                    "size": 94050.0
                 },
                 {
-                    "name": "LANGUR",
-                    "size": 297192.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 50348668,
-                "name": "YPPERLIG",
-                "size": 97784.02003333744
-            },
-            "basket_items": [
-                {
-                    "name": "FLISAT",
-                    "size": 94050.0
-                },
-                {
-                    "name": "LANGUR",
-                    "size": 297192.0
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -3033,6 +2227,52 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 50346985,
+                "name": "LANGUR",
+                "size": 120960.0
+            },
+            "basket_items": [
+                {
+                    "name": "FLISAT",
+                    "size": 94050.0
+                },
+                {
+                    "name": "LANGUR",
+                    "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 50348668,
+                "name": "YPPERLIG",
+                "size": 97784.02003333744
+            },
+            "basket_items": [
+                {
+                    "name": "FLISAT",
+                    "size": 94050.0
+                },
+                {
+                    "name": "LANGUR",
+                    "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -3050,23 +2290,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 60353838,
-                "name": "INGOLF",
-                "size": 142065.0
-            },
-            "basket_items": [
-                {
-                    "name": "FLISAT",
-                    "size": 94050.0
                 },
                 {
-                    "name": "LANGUR",
-                    "size": 297192.0
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -3084,6 +2311,31 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 60353838,
+                "name": "INGOLF",
+                "size": 142065.0
+            },
+            "basket_items": [
+                {
+                    "name": "FLISAT",
+                    "size": 94050.0
+                },
+                {
+                    "name": "LANGUR",
+                    "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -3101,6 +2353,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -3118,6 +2374,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -3135,6 +2395,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -3152,6 +2416,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -3169,6 +2437,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -3186,6 +2458,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -3203,6 +2479,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -3220,6 +2500,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -3237,6 +2521,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -3254,6 +2542,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -3271,6 +2563,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -3288,6 +2584,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -3305,6 +2605,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -3322,6 +2626,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -3339,6 +2647,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -3356,6 +2668,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -3373,6 +2689,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -3390,6 +2710,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -3407,6 +2731,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -3424,6 +2752,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -3441,6 +2773,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -3458,6 +2794,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -3475,6 +2815,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -3492,6 +2836,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -3499,7 +2847,7 @@
             "recommended_item": {
                 "item_id": 70228325,
                 "name": "RES\u00d6",
-                "size": 216895.9182778753
+                "size": 216895.91827787532
             },
             "basket_items": [
                 {
@@ -3509,6 +2857,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -3526,6 +2878,10 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
                 }
             ]
         },
@@ -3543,6 +2899,898 @@
                 {
                     "name": "LANGUR",
                     "size": 297192.0
+                },
+                {
+                    "name": "PO\u00c4NG",
+                    "size": 178976.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 80331973,
+                "name": "VUKU",
+                "size": 562326.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "size": 466808.0
+                },
+                {
+                    "name": "KLEPPSTAD",
+                    "size": 764720.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "size": 907371.557804426
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 39017486,
+                "name": "KALLAX",
+                "size": 842751.0
+            },
+            "basket_items": [
+                {
+                    "name": "BILLY / OXBERG",
+                    "size": 969600.0
+                },
+                {
+                    "name": "IVAR",
+                    "size": 719580.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 29287997,
+                "name": "IVAR",
+                "size": 796550.0
+            },
+            "basket_items": [
+                {
+                    "name": "BILLY / OXBERG",
+                    "size": 969600.0
+                },
+                {
+                    "name": "IVAR",
+                    "size": 719580.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 39323990,
+                "name": "JONAXEL",
+                "size": 873477.0
+            },
+            "basket_items": [
+                {
+                    "name": "BILLY / OXBERG",
+                    "size": 969600.0
+                },
+                {
+                    "name": "IVAR",
+                    "size": 719580.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 99297634,
+                "name": "JONAXEL",
+                "size": 964047.6299756994
+            },
+            "basket_items": [
+                {
+                    "name": "BILLY / OXBERG",
+                    "size": 969600.0
+                },
+                {
+                    "name": "IVAR",
+                    "size": 719580.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 19030592,
+                "name": "KALLAX",
+                "size": 842751.0
+            },
+            "basket_items": [
+                {
+                    "name": "BILLY / OXBERG",
+                    "size": 969600.0
+                },
+                {
+                    "name": "IVAR",
+                    "size": 719580.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 79305102,
+                "name": "JONAXEL",
+                "size": 927825.9509614112
+            },
+            "basket_items": [
+                {
+                    "name": "BILLY / OXBERG",
+                    "size": 969600.0
+                },
+                {
+                    "name": "IVAR",
+                    "size": 719580.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 79303495,
+                "name": "IVAR",
+                "size": 719580.0
+            },
+            "basket_items": [
+                {
+                    "name": "BILLY / OXBERG",
+                    "size": 969600.0
+                },
+                {
+                    "name": "IVAR",
+                    "size": 719580.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 9302908,
+                "name": "IVAR",
+                "size": 796550.0
+            },
+            "basket_items": [
+                {
+                    "name": "BILLY / OXBERG",
+                    "size": 969600.0
+                },
+                {
+                    "name": "IVAR",
+                    "size": 719580.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 59282998,
+                "name": "BROR",
+                "size": 888250.0
+            },
+            "basket_items": [
+                {
+                    "name": "BILLY / OXBERG",
+                    "size": 969600.0
+                },
+                {
+                    "name": "IVAR",
+                    "size": 719580.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 59902658,
+                "name": "VITTSJ\u00d6",
+                "size": 951300.0
+            },
+            "basket_items": [
+                {
+                    "name": "BILLY / OXBERG",
+                    "size": 969600.0
+                },
+                {
+                    "name": "IVAR",
+                    "size": 719580.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 39303968,
+                "name": "BROR",
+                "size": 888250.0
+            },
+            "basket_items": [
+                {
+                    "name": "BILLY / OXBERG",
+                    "size": 969600.0
+                },
+                {
+                    "name": "IVAR",
+                    "size": 719580.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 89030584,
+                "name": "KALLAX",
+                "size": 842751.0
+            },
+            "basket_items": [
+                {
+                    "name": "BILLY / OXBERG",
+                    "size": 969600.0
+                },
+                {
+                    "name": "IVAR",
+                    "size": 719580.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 89297677,
+                "name": "JONAXEL",
+                "size": 784992.0
+            },
+            "basket_items": [
+                {
+                    "name": "BILLY / OXBERG",
+                    "size": 969600.0
+                },
+                {
+                    "name": "IVAR",
+                    "size": 719580.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 59248551,
+                "name": "IVAR",
+                "size": 653977.9137065108
+            },
+            "basket_items": [
+                {
+                    "name": "BILLY / OXBERG",
+                    "size": 969600.0
+                },
+                {
+                    "name": "IVAR",
+                    "size": 719580.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 39283003,
+                "name": "BROR",
+                "size": 646000.0
+            },
+            "basket_items": [
+                {
+                    "name": "BILLY / OXBERG",
+                    "size": 969600.0
+                },
+                {
+                    "name": "IVAR",
+                    "size": 719580.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 9288021,
+                "name": "IVAR",
+                "size": 1053856.417786104
+            },
+            "basket_items": [
+                {
+                    "name": "BILLY / OXBERG",
+                    "size": 969600.0
+                },
+                {
+                    "name": "IVAR",
+                    "size": 719580.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 59249409,
+                "name": "H\u00c4LLAN",
+                "size": 300330.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKET",
+                    "size": 42875.0
+                },
+                {
+                    "name": "LOMMARP",
+                    "size": 838586.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 59248867,
+                "name": "LIXHULT",
+                "size": 294000.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKET",
+                    "size": 42875.0
+                },
+                {
+                    "name": "LOMMARP",
+                    "size": 838586.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 50300666,
+                "name": "BRIMNES",
+                "size": 303810.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKET",
+                    "size": 42875.0
+                },
+                {
+                    "name": "LOMMARP",
+                    "size": 838586.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 79249328,
+                "name": "H\u00c4LLAN",
+                "size": 247455.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKET",
+                    "size": 42875.0
+                },
+                {
+                    "name": "LOMMARP",
+                    "size": 838586.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 40300662,
+                "name": "BRIMNES",
+                "size": 303810.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKET",
+                    "size": 42875.0
+                },
+                {
+                    "name": "LOMMARP",
+                    "size": 838586.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 70341005,
+                "name": "ERIK",
+                "size": 213200.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKET",
+                    "size": 42875.0
+                },
+                {
+                    "name": "LOMMARP",
+                    "size": 838586.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 20396646,
+                "name": "HEMNES",
+                "size": 209076.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKET",
+                    "size": 42875.0
+                },
+                {
+                    "name": "LOMMARP",
+                    "size": 838586.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 59270274,
+                "name": "LANDSKRONA",
+                "size": 1138488.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "size": 466808.0
+                },
+                {
+                    "name": "LANDSKRONA",
+                    "size": 1416168.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 9217849,
+                "name": "BR\u00c5THULT",
+                "size": 1140984.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "size": 466808.0
+                },
+                {
+                    "name": "LANDSKRONA",
+                    "size": 1416168.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 60403584,
+                "name": "MALM",
+                "size": 599040.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "size": 466808.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "size": 907371.557804426
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 60403602,
+                "name": "MALM",
+                "size": 472320.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "size": 466808.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "size": 907371.557804426
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 80454493,
+                "name": "S\u00d6DERHAMN",
+                "size": 549138.4796521909
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "size": 466808.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "size": 907371.557804426
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 10308787,
+                "name": "TRYSIL",
+                "size": 973438.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "size": 466808.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "size": 907371.557804426
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 80414256,
+                "name": "VASSVIKEN",
+                "size": 458156.35593620106
+            },
+            "basket_items": [
+                {
+                    "name": "BJ\u00c4RRED",
+                    "size": 365353.0786240732
+                },
+                {
+                    "name": "BRYGGJA",
+                    "size": 466808.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 79191266,
+                "name": "FJ\u00c4LLBO",
+                "size": 855000.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "size": 466808.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "size": 907371.557804426
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 30285153,
+                "name": "LAPPLAND",
+                "size": 1049139.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "size": 466808.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "size": 907371.557804426
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 69304829,
+                "name": "MARKERAD",
+                "size": 446102.2556139892
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "size": 466808.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "size": 907371.557804426
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 90339290,
+                "name": "FJ\u00c4LLBO",
+                "size": 291600.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "size": 466808.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "size": 907371.557804426
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 20394317,
+                "name": "PO\u00c4NG",
+                "size": 476157.3340711093
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "size": 466808.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "size": 907371.557804426
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 40410335,
+                "name": "TULLSTA",
+                "size": 469364.02436706336
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "size": 466808.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "size": 907371.557804426
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 20382786,
+                "name": "KUNGSHAMN",
+                "size": 455685.14376530616
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "size": 466808.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "size": 907371.557804426
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 79135751,
+                "name": "S\u00d6DERHAMN",
+                "size": 813483.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "size": 466808.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "size": 907371.557804426
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 10382876,
+                "name": "KUNGSHAMN",
+                "size": 448313.6606735648
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "size": 466808.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "size": 907371.557804426
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 50382493,
+                "name": "KUNGSHAMN",
+                "size": 444651.58238618553
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "size": 466808.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "size": 907371.557804426
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 90421906,
+                "name": "BRYGGJA",
+                "size": 1183320.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "size": 466808.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "size": 907371.557804426
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 30373164,
+                "name": "KLACKBERG",
+                "size": 314187.73046794685
+            },
+            "basket_items": [
+                {
+                    "name": "BJ\u00c4RRED",
+                    "size": 365353.0786240732
+                },
+                {
+                    "name": "KLEPPSTAD",
+                    "size": 764720.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 59217804,
+                "name": "BR\u00c5THULT",
+                "size": 1140984.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "size": 466808.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "size": 907371.557804426
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 59241597,
+                "name": "NORSBORG",
+                "size": 1067600.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "size": 466808.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "size": 907371.557804426
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 39181245,
+                "name": "PO\u00c4NG",
+                "size": 143208.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "size": 466808.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "size": 907371.557804426
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 79244665,
+                "name": "PO\u00c4NG",
+                "size": 143208.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "size": 466808.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "size": 907371.557804426
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 79135746,
+                "name": "S\u00d6DERHAMN",
+                "size": 1165569.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "size": 466808.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "size": 907371.557804426
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 30094592,
+                "name": "PO\u00c4NG",
+                "size": 23912.851672264675
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "size": 466808.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "size": 907371.557804426
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 39149892,
+                "name": "LYCKSELE L\u00d6V\u00c5S",
+                "size": 1235400.0
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "size": 466808.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "size": 907371.557804426
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 10052362,
+                "name": "PO\u00c4NG",
+                "size": 23233.49382692254
+            },
+            "basket_items": [
+                {
+                    "name": "BRYGGJA",
+                    "size": 466808.0
+                },
+                {
+                    "name": "NEIDEN",
+                    "size": 907371.557804426
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 69127493,
+                "name": "PAX",
+                "size": 603000.0
+            },
+            "basket_items": [
+                {
+                    "name": "DELAKTIG",
+                    "size": 447029.51095125807
+                },
+                {
+                    "name": "KLEPPSTAD",
+                    "size": 764720.0
                 }
             ]
         }
@@ -3550,342 +3798,342 @@
     "explainable_texts": [
         {
             "recommended_item": {
-                "item_id": 49248858,
-                "name": "LIXHULT",
-                "category": "Cabinets & cupboards",
-                "price": 841.0,
-                "designer": "Jon Karlsson",
-                "rooms": "Living room, Bedroom, Kitchen, Entrance"
+                "item_id": 90116553,
+                "name": "PO\u00c4NG",
+                "category": "Children's furniture",
+                "price": 179.0,
+                "designer": "Noboru Nakamura",
+                "rooms": "Living room, Bedroom, Office, Kitchen, Dining room, Playroom, Nursery"
             },
             "explanation": {
-                "reason": "This recommended item is 9722.00% similar to 3 items in your basket.",
+                "reason": "This recommended item is 9992.00% similar to 3 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "BILLY / OXBERG",
-                        "category": "Cabinets & cupboards",
-                        "price": 930.0
+                        "name": "FLISAT",
+                        "category": "Children's furniture",
+                        "price": 139.0
                     },
                     {
-                        "name": "HAVSTA",
-                        "category": "Cabinets & cupboards, Sideboards, buffets & console tables",
-                        "price": 1550.0
+                        "name": "LANGUR",
+                        "category": "Nursery furniture",
+                        "price": 400.0
                     },
                     {
-                        "name": "H\u00c4LLAN",
-                        "category": "Cabinets & cupboards",
-                        "price": 50.0
+                        "name": "PO\u00c4NG",
+                        "category": "Children's furniture",
+                        "price": 179.0
                     }
                 ]
             },
             "additional_info": {
-                "average_price_in_cluster": 925.525484764543,
-                "designer_average_price": 654.2836538461538
+                "average_price_in_cluster": 1262.614814814815,
+                "designer_average_price": 463.9166666666667
             }
         },
         {
             "recommended_item": {
-                "item_id": 9329390,
-                "name": "EKET",
-                "category": "Cabinets & cupboards",
-                "price": 777.0,
-                "designer": "Jon Karlsson/IKEA of Sweden",
-                "rooms": "Living room, Bedroom, Kitchen, Entrance"
+                "item_id": 80418056,
+                "name": "PO\u00c4NG",
+                "category": "Children's furniture",
+                "price": 134.0,
+                "designer": "Noboru Nakamura",
+                "rooms": "Living room, Bedroom, Office, Kitchen, Dining room, Playroom, Nursery"
             },
             "explanation": {
-                "reason": "This recommended item is 9718.00% similar to 3 items in your basket.",
+                "reason": "This recommended item is 9990.00% similar to 3 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "BILLY / OXBERG",
-                        "category": "Cabinets & cupboards",
-                        "price": 930.0
+                        "name": "FLISAT",
+                        "category": "Children's furniture",
+                        "price": 139.0
                     },
                     {
-                        "name": "HAVSTA",
-                        "category": "Cabinets & cupboards, Sideboards, buffets & console tables",
-                        "price": 1550.0
+                        "name": "LANGUR",
+                        "category": "Nursery furniture",
+                        "price": 400.0
                     },
                     {
-                        "name": "H\u00c4LLAN",
-                        "category": "Cabinets & cupboards",
-                        "price": 50.0
+                        "name": "PO\u00c4NG",
+                        "category": "Children's furniture",
+                        "price": 179.0
                     }
                 ]
             },
             "additional_info": {
-                "average_price_in_cluster": 925.525484764543,
-                "designer_average_price": 735.05
+                "average_price_in_cluster": 1262.614814814815,
+                "designer_average_price": 463.9166666666667
             }
         },
         {
             "recommended_item": {
-                "item_id": 59275101,
-                "name": "HAVSTA",
-                "category": "Cabinets & cupboards",
-                "price": 925.0,
+                "item_id": 19252615,
+                "name": "LANGUR",
+                "category": "Children's furniture",
+                "price": 235.0,
+                "designer": "J Fritzdorf/J Feldman/J Hedberg",
+                "rooms": "Living room, Bedroom, Office, Kitchen, Dining room, Playroom, Nursery"
+            },
+            "explanation": {
+                "reason": "This recommended item is 9989.00% similar to 3 items in your basket.",
+                "similar_items": [
+                    {
+                        "name": "FLISAT",
+                        "category": "Children's furniture",
+                        "price": 139.0
+                    },
+                    {
+                        "name": "LANGUR",
+                        "category": "Nursery furniture",
+                        "price": 400.0
+                    },
+                    {
+                        "name": "PO\u00c4NG",
+                        "category": "Children's furniture",
+                        "price": 179.0
+                    }
+                ]
+            },
+            "additional_info": {
+                "average_price_in_cluster": 1262.614814814815,
+                "designer_average_price": 229.0
+            }
+        },
+        {
+            "recommended_item": {
+                "item_id": 39207716,
+                "name": "JULES",
+                "category": "Children's furniture",
+                "price": 255.0,
+                "designer": "Nicholai Wiig Hansen",
+                "rooms": "Living room, Bedroom, Office, Kitchen, Dining room, Playroom, Nursery"
+            },
+            "explanation": {
+                "reason": "This recommended item is 9987.00% similar to 3 items in your basket.",
+                "similar_items": [
+                    {
+                        "name": "FLISAT",
+                        "category": "Children's furniture",
+                        "price": 139.0
+                    },
+                    {
+                        "name": "LANGUR",
+                        "category": "Nursery furniture",
+                        "price": 400.0
+                    },
+                    {
+                        "name": "PO\u00c4NG",
+                        "category": "Children's furniture",
+                        "price": 179.0
+                    }
+                ]
+            },
+            "additional_info": {
+                "average_price_in_cluster": 1262.614814814815,
+                "designer_average_price": 379.6666666666667
+            }
+        },
+        {
+            "recommended_item": {
+                "item_id": 59252637,
+                "name": "STUVA / FRITIDS",
+                "category": "Nursery furniture",
+                "price": 395.0,
+                "designer": "Ebba Strandmark",
+                "rooms": "Living room, Bedroom, Office, Kitchen, Dining room, Playroom, Nursery"
+            },
+            "explanation": {
+                "reason": "This recommended item is 9986.00% similar to 3 items in your basket.",
+                "similar_items": [
+                    {
+                        "name": "FLISAT",
+                        "category": "Children's furniture",
+                        "price": 139.0
+                    },
+                    {
+                        "name": "LANGUR",
+                        "category": "Nursery furniture",
+                        "price": 400.0
+                    },
+                    {
+                        "name": "PO\u00c4NG",
+                        "category": "Children's furniture",
+                        "price": 179.0
+                    }
+                ]
+            },
+            "additional_info": {
+                "average_price_in_cluster": 1262.614814814815,
+                "designer_average_price": 719.5135135135135
+            }
+        },
+        {
+            "recommended_item": {
+                "item_id": 9252593,
+                "name": "LANGUR",
+                "category": "Nursery furniture",
+                "price": 345.0,
+                "designer": "J Fritzdorf/J Feldman/J Hedberg",
+                "rooms": "Living room, Bedroom, Office, Kitchen, Dining room, Playroom, Nursery"
+            },
+            "explanation": {
+                "reason": "This recommended item is 9984.00% similar to 3 items in your basket.",
+                "similar_items": [
+                    {
+                        "name": "FLISAT",
+                        "category": "Children's furniture",
+                        "price": 139.0
+                    },
+                    {
+                        "name": "LANGUR",
+                        "category": "Nursery furniture",
+                        "price": 400.0
+                    },
+                    {
+                        "name": "PO\u00c4NG",
+                        "category": "Children's furniture",
+                        "price": 179.0
+                    }
+                ]
+            },
+            "additional_info": {
+                "average_price_in_cluster": 1262.614814814815,
+                "designer_average_price": 229.0
+            }
+        },
+        {
+            "recommended_item": {
+                "item_id": 10424353,
+                "name": "VIMUND",
+                "category": "Children's furniture",
+                "price": 299.0,
                 "designer": "IKEA of Sweden",
-                "rooms": "Living room, Bedroom, Kitchen, Entrance"
+                "rooms": "Living room, Bedroom, Office, Kitchen, Dining room, Playroom, Nursery"
             },
             "explanation": {
-                "reason": "This recommended item is 9715.00% similar to 3 items in your basket.",
+                "reason": "This recommended item is 9983.00% similar to 3 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "BILLY / OXBERG",
-                        "category": "Cabinets & cupboards",
-                        "price": 930.0
+                        "name": "FLISAT",
+                        "category": "Children's furniture",
+                        "price": 139.0
                     },
                     {
-                        "name": "HAVSTA",
-                        "category": "Cabinets & cupboards, Sideboards, buffets & console tables",
-                        "price": 1550.0
+                        "name": "LANGUR",
+                        "category": "Nursery furniture",
+                        "price": 400.0
                     },
                     {
-                        "name": "H\u00c4LLAN",
-                        "category": "Cabinets & cupboards",
-                        "price": 50.0
+                        "name": "PO\u00c4NG",
+                        "category": "Children's furniture",
+                        "price": 179.0
                     }
                 ]
             },
             "additional_info": {
-                "average_price_in_cluster": 925.525484764543,
+                "average_price_in_cluster": 1262.614814814815,
                 "designer_average_price": 583.5189597315436
             }
         },
         {
             "recommended_item": {
-                "item_id": 49249396,
-                "name": "H\u00c4LLAN",
-                "category": "Cabinets & cupboards",
-                "price": 875.0,
-                "designer": "Jon Karlsson",
-                "rooms": "Living room, Bedroom, Kitchen, Entrance"
+                "item_id": 60306494,
+                "name": "P\u00c5HL",
+                "category": "Tables & desks",
+                "price": 125.0,
+                "designer": "S Fager/J Jelinek",
+                "rooms": "Living room, Bedroom, Office, Kitchen, Dining room, Playroom, Nursery"
             },
             "explanation": {
-                "reason": "This recommended item is 9704.00% similar to 3 items in your basket.",
+                "reason": "This recommended item is 9982.00% similar to 3 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "BILLY / OXBERG",
-                        "category": "Cabinets & cupboards",
-                        "price": 930.0
+                        "name": "FLISAT",
+                        "category": "Children's furniture",
+                        "price": 139.0
                     },
                     {
-                        "name": "HAVSTA",
-                        "category": "Cabinets & cupboards, Sideboards, buffets & console tables",
-                        "price": 1550.0
+                        "name": "LANGUR",
+                        "category": "Nursery furniture",
+                        "price": 400.0
                     },
                     {
-                        "name": "H\u00c4LLAN",
-                        "category": "Cabinets & cupboards",
-                        "price": 50.0
+                        "name": "PO\u00c4NG",
+                        "category": "Children's furniture",
+                        "price": 179.0
                     }
                 ]
             },
             "additional_info": {
-                "average_price_in_cluster": 925.525484764543,
-                "designer_average_price": 654.2836538461538
+                "average_price_in_cluster": 1262.614814814815,
+                "designer_average_price": 316.875
             }
         },
         {
             "recommended_item": {
-                "item_id": 9276650,
-                "name": "BEST\u00c5",
-                "category": "Cabinets & cupboards",
-                "price": 980.0,
-                "designer": "IKEA of Sweden",
-                "rooms": "Living room, Bedroom, Kitchen, Entrance"
+                "item_id": 80371520,
+                "name": "TROGEN",
+                "category": "Children's furniture",
+                "price": 89.0,
+                "designer": "J Asshoff/H Brog\u00e5rd",
+                "rooms": "Living room, Bedroom, Office, Kitchen, Dining room, Playroom, Nursery"
             },
             "explanation": {
-                "reason": "This recommended item is 9704.00% similar to 3 items in your basket.",
+                "reason": "This recommended item is 9978.00% similar to 3 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "BILLY / OXBERG",
-                        "category": "Cabinets & cupboards",
-                        "price": 930.0
+                        "name": "FLISAT",
+                        "category": "Children's furniture",
+                        "price": 139.0
                     },
                     {
-                        "name": "HAVSTA",
-                        "category": "Cabinets & cupboards, Sideboards, buffets & console tables",
-                        "price": 1550.0
+                        "name": "LANGUR",
+                        "category": "Nursery furniture",
+                        "price": 400.0
                     },
                     {
-                        "name": "H\u00c4LLAN",
-                        "category": "Cabinets & cupboards",
-                        "price": 50.0
+                        "name": "PO\u00c4NG",
+                        "category": "Children's furniture",
+                        "price": 179.0
                     }
                 ]
             },
             "additional_info": {
-                "average_price_in_cluster": 925.525484764543,
-                "designer_average_price": 583.5189597315436
+                "average_price_in_cluster": 1262.614814814815,
+                "designer_average_price": 592.0
             }
         },
         {
             "recommended_item": {
-                "item_id": 60389192,
-                "name": "HAVSTA",
-                "category": "Cabinets & cupboards",
-                "price": 845.0,
-                "designer": "IKEA of Sweden",
-                "rooms": "Living room, Bedroom, Kitchen, Entrance"
+                "item_id": 90365180,
+                "name": "MAMMUT",
+                "category": "Tables & desks",
+                "price": 149.0,
+                "designer": "M Kjelstrup/A \u00d6stgaard",
+                "rooms": "Living room, Bedroom, Office, Kitchen, Dining room, Playroom, Nursery, Outdoor"
             },
             "explanation": {
-                "reason": "This recommended item is 9703.00% similar to 3 items in your basket.",
+                "reason": "This recommended item is 9471.00% similar to 3 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "BILLY / OXBERG",
-                        "category": "Cabinets & cupboards",
-                        "price": 930.0
+                        "name": "FLISAT",
+                        "category": "Children's furniture",
+                        "price": 139.0
                     },
                     {
-                        "name": "HAVSTA",
-                        "category": "Cabinets & cupboards, Sideboards, buffets & console tables",
-                        "price": 1550.0
+                        "name": "LANGUR",
+                        "category": "Nursery furniture",
+                        "price": 400.0
                     },
                     {
-                        "name": "H\u00c4LLAN",
-                        "category": "Cabinets & cupboards",
-                        "price": 50.0
+                        "name": "PO\u00c4NG",
+                        "category": "Children's furniture",
+                        "price": 179.0
                     }
                 ]
             },
             "additional_info": {
-                "average_price_in_cluster": 925.525484764543,
-                "designer_average_price": 583.5189597315436
-            }
-        },
-        {
-            "recommended_item": {
-                "item_id": 30388636,
-                "name": "HAVSTA",
-                "category": "Cabinets & cupboards",
-                "price": 895.0,
-                "designer": "IKEA of Sweden",
-                "rooms": "Living room, Bedroom, Kitchen, Entrance"
-            },
-            "explanation": {
-                "reason": "This recommended item is 9703.00% similar to 3 items in your basket.",
-                "similar_items": [
-                    {
-                        "name": "BILLY / OXBERG",
-                        "category": "Cabinets & cupboards",
-                        "price": 930.0
-                    },
-                    {
-                        "name": "HAVSTA",
-                        "category": "Cabinets & cupboards, Sideboards, buffets & console tables",
-                        "price": 1550.0
-                    },
-                    {
-                        "name": "H\u00c4LLAN",
-                        "category": "Cabinets & cupboards",
-                        "price": 50.0
-                    }
-                ]
-            },
-            "additional_info": {
-                "average_price_in_cluster": 925.525484764543,
-                "designer_average_price": 583.5189597315436
-            }
-        },
-        {
-            "recommended_item": {
-                "item_id": 89249403,
-                "name": "H\u00c4LLAN",
-                "category": "Cabinets & cupboards",
-                "price": 700.0,
-                "designer": "Jon Karlsson",
-                "rooms": "Living room, Bedroom, Kitchen, Entrance"
-            },
-            "explanation": {
-                "reason": "This recommended item is 9692.00% similar to 3 items in your basket.",
-                "similar_items": [
-                    {
-                        "name": "BILLY / OXBERG",
-                        "category": "Cabinets & cupboards",
-                        "price": 930.0
-                    },
-                    {
-                        "name": "HAVSTA",
-                        "category": "Cabinets & cupboards, Sideboards, buffets & console tables",
-                        "price": 1550.0
-                    },
-                    {
-                        "name": "H\u00c4LLAN",
-                        "category": "Cabinets & cupboards",
-                        "price": 50.0
-                    }
-                ]
-            },
-            "additional_info": {
-                "average_price_in_cluster": 925.525484764543,
-                "designer_average_price": 654.2836538461538
-            }
-        },
-        {
-            "recommended_item": {
-                "item_id": 29279186,
-                "name": "LIXHULT",
-                "category": "Cabinets & cupboards",
-                "price": 700.0,
-                "designer": "Jon Karlsson",
-                "rooms": "Living room, Bedroom, Kitchen, Entrance"
-            },
-            "explanation": {
-                "reason": "This recommended item is 9672.00% similar to 3 items in your basket.",
-                "similar_items": [
-                    {
-                        "name": "BILLY / OXBERG",
-                        "category": "Cabinets & cupboards",
-                        "price": 930.0
-                    },
-                    {
-                        "name": "HAVSTA",
-                        "category": "Cabinets & cupboards, Sideboards, buffets & console tables",
-                        "price": 1550.0
-                    },
-                    {
-                        "name": "H\u00c4LLAN",
-                        "category": "Cabinets & cupboards",
-                        "price": 50.0
-                    }
-                ]
-            },
-            "additional_info": {
-                "average_price_in_cluster": 925.525484764543,
-                "designer_average_price": 654.2836538461538
-            }
-        },
-        {
-            "recommended_item": {
-                "item_id": 59249409,
-                "name": "H\u00c4LLAN",
-                "category": "Cabinets & cupboards",
-                "price": 650.0,
-                "designer": "Jon Karlsson",
-                "rooms": "Living room, Bedroom, Kitchen, Entrance"
-            },
-            "explanation": {
-                "reason": "This recommended item is 9666.00% similar to 3 items in your basket.",
-                "similar_items": [
-                    {
-                        "name": "BILLY / OXBERG",
-                        "category": "Cabinets & cupboards",
-                        "price": 930.0
-                    },
-                    {
-                        "name": "HAVSTA",
-                        "category": "Cabinets & cupboards, Sideboards, buffets & console tables",
-                        "price": 1550.0
-                    },
-                    {
-                        "name": "H\u00c4LLAN",
-                        "category": "Cabinets & cupboards",
-                        "price": 50.0
-                    }
-                ]
-            },
-            "additional_info": {
-                "average_price_in_cluster": 925.525484764543,
-                "designer_average_price": 654.2836538461538
+                "average_price_in_cluster": 1262.614814814815,
+                "designer_average_price": 91.5
             }
         }
     ]

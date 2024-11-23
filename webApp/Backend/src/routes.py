@@ -110,8 +110,8 @@ def calculate_recommendations():
 
         # Combine both into summary_statistics.json
         summary_data = {
-            "recommendations": response_data,
-            "statistics": stats_data
+            "scatter_plot_data": scatter_plot_data,
+            "designer_count_data": designer_count_data
         }
 
         # Save combined data to summary_statistics.json
