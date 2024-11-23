@@ -19,6 +19,7 @@ class RecommendationModel:
         self.idx_basket_sim = {}
         self.idx_similarities = {}
         self.idx_counts = {}
+        self.basket = None
     
     def load_and_preprocess(self):
         # Load data
@@ -66,15 +67,15 @@ class RecommendationModel:
         # Extract item IDs from the liked_items
 
         # Filter the basket using the item IDs
-        basket = self.df_model[self.df_model['item_id'].isin(liked_item_ids)]
+        self.basket = self.df_model[self.df_model['item_id'].isin(liked_item_ids)]
 
         # TODO So here I need to basically create a basket having the structure of df_model, and filter it using the item_id's gained from the liked items.
         self.df_model['recommended'] = list(self.similar_indices)
         self.df_model['cosine_sim'] = list(self.cosine_similarities)
 
-        for idx,row in basket.iterrows():
+        for idx,row in self.basket.iterrows():
             for key, item in enumerate(self.similar_indices[idx]):
-                if item not in list(basket.index):
+                if item not in list(self.basket.index):
                     if item not in self.idx_counts:
                         self.idx_counts[item] = 1
                         self.idx_similarities[item] = [self.cosine_similarities[idx][key]]
