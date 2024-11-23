@@ -72,7 +72,7 @@ def calculate_recommendations():
     liked_items_path = os.path.join(temp_folder_path, 'liked_items.json')
     recommended_items_path = os.path.join(temp_folder_path, 'recommended_items.json')
     recommended_stats_path = os.path.join(temp_folder_path, 'recommended_stats.json')
-
+    summary_statistics_path = os.path.join(temp_folder_path, 'summary_statistics.json')
 
     try:
 
@@ -106,6 +106,17 @@ def calculate_recommendations():
         # Save recommended stats to recommended_stats.json
         with open(recommended_stats_path, 'w') as f:
             json.dump(stats_data, f, indent=4)
+
+
+        # Combine both into summary_statistics.json
+        summary_data = {
+            "recommendations": response_data,
+            "statistics": stats_data
+        }
+
+        # Save combined data to summary_statistics.json
+        with open(summary_statistics_path, 'w') as f:
+            json.dump(summary_data, f, indent=4)
 
 
         return jsonify({"recommendations": response_data}), 200
@@ -149,16 +160,28 @@ def get_recommendations_info():
     recommendation_stats_path = os.path.join(os.path.dirname(__file__), '../data/temp/recommended_stats.json')
 
     try:
-        # Check if the recommendations file exists
         if not os.path.exists(recommendation_stats_path):
             return {"error": "No recommendation stats found. Please generate recommendations first."}, 404
 
-        # Read the recommendations from the file
         with open(recommendation_stats_path, 'r') as f:
             stats = json.load(f)
 
-        # Return the recommendations as JSON
         return {"recommendations_info": stats}, 200
+    except Exception as e:
+        return {"error": str(e)}, 500
+    
+@app.route('/api/summary_info', methods=['GET'])
+def get_summary_info():
+    summary_stats_path = os.path.join(os.path.dirname(__file__), '../data/temp/summary_statistics.json')
+
+    try:
+        if not os.path.exists(summary_stats_path):
+            return {"error": "No recommendation stats found. Please generate recommendations first."}, 404
+
+        with open(summary_stats_path, 'r') as f:
+            summary = json.load(f)
+
+        return {"summary_info": summary}, 200
     except Exception as e:
         return {"error": str(e)}, 500
 
