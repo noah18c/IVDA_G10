@@ -1,37 +1,38 @@
 import React, { useState } from 'react';
 import { Box, Card, CardContent, CardMedia, Typography } from '@mui/material';
 
-const Slider = ({ cards }) => {
-    const [selectedCard, setSelectedCard] = useState(null); // State to track the selected card
+const Slider = ({ cards, onCardSelect }) => {
+    const [selectedCard, setSelectedCard] = useState(0); // State to track the selected card
 
-    const handleCardClick = (cardId) => {
+    const handleCardClick = (cardId, cardinfo) => {
         setSelectedCard(cardId); // Highlight the selected card
-    
-        // Find the card object by cardId
-        const selectedCard = cards.find((card) => card.item_id === cardId);
-        console.log('Selected Card:', selectedCard);
+
+
+        if (onCardSelect) {
+            onCardSelect(cardinfo);
+        }
 
     
         // Send a POST request with the selected card data
-        fetch('http://127.0.0.1:5000/recommended_item_info', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(selectedCard),
-        })
-            .then((response) => {
-                if (!response.ok) {
-                    throw new Error('Failed to send data to the server');
-                }
-                return response.json();
-            })
-            .then((data) => {
-                console.log('Response from server:', data); // Ensure this is logged correctly
-            })
-            .catch((error) => {
-                console.error('Error:', error);
-            });
+        // fetch('http://127.0.0.1:5000/recommended_item_info', {
+        //     method: 'POST',
+        //     headers: {
+        //         'Content-Type': 'application/json',
+        //     },
+        //     body: JSON.stringify(selectedCard),
+        // })
+        //     .then((response) => {
+        //         if (!response.ok) {
+        //             throw new Error('Failed to send data to the server');
+        //         }
+        //         return response.json();
+        //     })
+        //     .then((data) => {
+        //         console.log('Response from server:', data); // Ensure this is logged correctly
+        //     })
+        //     .catch((error) => {
+        //         console.error('Error:', error);
+        //     });
         
     };
 
@@ -65,7 +66,7 @@ const Slider = ({ cards }) => {
                 {cards.map((card) => (
                     <Card
                         key={card.item_id}
-                        onClick={() => handleCardClick(card.item_id)} // Handle click to send POST request
+                        onClick={() => handleCardClick(card.item_id, card)} // Handle click to send POST request
                         sx={{
                             width: '300px', // Fixed width for the card
                             height: 'auto', // Flexible height to fit additional content

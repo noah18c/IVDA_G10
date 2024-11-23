@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react';
 import { Box } from '@mui/material';
-import Slider from '../components/Slider';
-import Graph1 from '../components/Graph1';
-import Graph2 from '../components/Graph2';
+import Slider from '../components/slider';
+
 import RecommendationInfo from '../components/RecommendationInfo';
 
 const SelectedRecommendations = () => {
     const [cards, setCards] = useState([]);
+	const [selectedItem, setSelectedItem] = useState(null);
 
     useEffect(() => {
         document.body.style.overflow = 'hidden';
@@ -16,6 +16,10 @@ const SelectedRecommendations = () => {
             .then((data) => setCards(data.recommendations))
             .catch((error) => console.error('Error fetching cards:', error));
     }, []);
+
+	const handleCardSelect = (item) => {
+        setSelectedItem(item); // Update selected item
+    };
 
     return (
         <Box
@@ -47,7 +51,7 @@ const SelectedRecommendations = () => {
                     }}
                 >
                     {cards.length > 0 ? (
-                        <Slider cards={cards} />
+                        <Slider cards={cards} onCardSelect={handleCardSelect}/>
                     ) : (
                         <p>Loading cards...</p>
                     )}
@@ -63,41 +67,12 @@ const SelectedRecommendations = () => {
                     gap: 2, // Space between sections
                 }}
             >
-                {/* Graphs Section */}
-                <Box
-                    sx={{
-                        display: 'flex',
-                        gap: 2, // Space between the two graphs
-                        height: '50%', // Occupies the top half of the column
-                    }}
-                >
-                    <Box
-                        sx={{
-                            flex: 1,
-                            backgroundColor: '#e0e0e0',
-                            borderRadius: '8px',
-                        }}
-                    >
-                        <Graph1 />
-                    </Box>
-                    <Box
-                        sx={{
-                            flex: 1,
-                            backgroundColor: '#e0e0e0',
-                            borderRadius: '8px',
-                        }}
-                    >
-                        <Graph2 />
-                    </Box>
-                </Box>
-
-                {/* Recommendation Info Section */}
                 <Box
                     sx={{
                         flex: 1, // Occupies the remaining space
                     }}
                 >
-                    <RecommendationInfo />
+                    <RecommendationInfo details={selectedItem}/>
                 </Box>
             </Box>
         </Box>
