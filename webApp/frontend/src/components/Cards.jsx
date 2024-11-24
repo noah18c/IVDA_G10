@@ -12,15 +12,15 @@ const Cards = ({ item, onChoice }) => {
 	return (
 		<Card
 			sx={{
-				width: '100%', // Takes full width of its container
-				maxWidth: 500, // Limits maximum width
-				height: '100%', // Takes full height when constrained
-				maxHeight: 600, // Sets a fixed height for consistency
+				width: '100%',
+				maxWidth: 500,
+				height: '100%', 
+				maxHeight: 600, 
 				margin: 'auto',
 				boxShadow: 3,
 				display: 'flex',
 				flexDirection: 'column',
-				justifyContent: 'space-between', // Ensures actions stay at the bottom
+				justifyContent: 'space-between', 
 			}}
 		>
 			<CardMedia
@@ -28,7 +28,7 @@ const Cards = ({ item, onChoice }) => {
 				height='300'
 				image={item.image_path}
 				alt={item.name}
-				sx={{ objectFit: 'cover' }} // Ensures image fits within the container
+				sx={{ objectFit: 'cover' }} 
 			/>
 			<CardContent>
 				<Typography variant='h6' component='div'>

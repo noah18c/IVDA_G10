@@ -25,27 +25,27 @@ const BarChart = ({ title, xData, yData, colors, legendLabels }) => {
       </Typography>
       <Plot
         data={[
-          // Recommended Item series
+
           {
             type: 'bar',
-            x: [xData[0]], // Only the first item (recommended item)
-            y: [yData[0]], // Only the first item value (recommended item)
+            x: [xData[0]],
+            y: [yData[0]],
             marker: {
-              color: 'rgb(255, 99, 71)', // Red for recommended item
+              color: 'rgb(255, 99, 71)', // Red for 
             },
-            name: legendLabels?.[0] || '', // Only show legend if legendLabels[0] exists
-            hoverinfo: 'x+y+name', // Show hover information with name
+            name: legendLabels?.[0] || '',
+            hoverinfo: 'x+y+name', // 
           },
-          // Basket Items series
+
           {
             type: 'bar',
-            x: xData.slice(1), // All other items (basket items)
-            y: yData.slice(1), // All other values (basket items)
+            x: xData.slice(1), 
+            y: yData.slice(1),
             marker: {
-              color: 'rgb(135, 206, 250)', // Blue for basket items
+              color: 'rgb(135, 206, 250)', // Blue 
             },
-            name: legendLabels?.[1] || '', // Only show legend if legendLabels[1] exists
-            hoverinfo: 'x+y+name', // Show hover information with name
+            name: legendLabels?.[1] || '', 
+            hoverinfo: 'x+y+name', 
           },
         ]}
         layout={{
@@ -57,13 +57,13 @@ const BarChart = ({ title, xData, yData, colors, legendLabels }) => {
           yaxis: {
             title: title === 'Price Comparison' ? 'Price (CHF)' : 'Size (cm3)',
           },
-          showlegend: legendLabels?.length > 0, // Only show legend if legendLabels is provided
+          showlegend: legendLabels?.length > 0, 
           legend: {
-            x: 1, // Position legend to the right
-            y: 1, // Position legend at the top
-            orientation: 'v', // Vertical alignment of legend
+            x: 1,  
+            y: 1, 
+            orientation: 'v', 
           },
-          margin: { t: 40 }, // Adjust for legend space
+          margin: { t: 40 },
         }}
         style={{ width: '100%', height: '300px' }}
       />

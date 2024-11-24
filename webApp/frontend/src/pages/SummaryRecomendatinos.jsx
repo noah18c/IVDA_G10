@@ -5,29 +5,28 @@ import BarChart from '../components/BarChart';
 import { Box, Typography, CircularProgress, Paper } from '@mui/material';
 
 const SummaryRecommendations = () => {
-  // State to hold the summary information
+
   const [summaryInfo, setSummaryInfo] = useState(null);
-  const [loading, setLoading] = useState(true); // State to manage loading state
-  const [error, setError] = useState(null); // State to manage error state
+  const [loading, setLoading] = useState(true); 
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    // Function to fetch the summary information
     const fetchSummaryInfo = async () => {
       try {
         const response = await axios.get('/api/summary_info');
-        setSummaryInfo(response.data.summary_info); // Save the data to state
+        setSummaryInfo(response.data.summary_info); 
         console.log('Summary Info:', response.data.summary_info);
       } catch (error) {
-        setError('Error fetching summary info'); // Set error state
+        setError('Error fetching summary info'); 
         console.error('Error fetching summary info:', error);
       } finally {
-        setLoading(false); // Set loading to false after the API call
+        setLoading(false); 
       }
     };
 
-    // Call the fetchSummaryInfo function when the component mounts
+
     fetchSummaryInfo();
-  }, []); // Empty dependency array ensures the API is called once on mount
+  }, []); 
 
   if (loading) {
     return (
@@ -41,7 +40,7 @@ const SummaryRecommendations = () => {
       >
         <CircularProgress />
       </Box>
-    ); // Display a loading spinner
+    ); // loading spinner
   }
 
   if (error) {
@@ -82,9 +81,9 @@ const SummaryRecommendations = () => {
       <Box
         sx={{
           display: 'flex',
-          flexDirection: 'column',  // Stack the charts vertically
-          alignItems: 'center', // Center the charts horizontally
-          gap: '20px', // Add space between the charts
+          flexDirection: 'column',  
+          alignItems: 'center', 
+          gap: '20px', 
         }}
       >
         <Paper elevation={3} sx={{ padding: '16px', width: '100%', maxWidth: '800px' }}>
