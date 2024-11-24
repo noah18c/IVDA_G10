@@ -1,81 +1,104 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
-import Graph1 from '../components/Graph1';
-import Graph2 from '../components/Graph2';
+import BarChart from '../components/BarChart';
+import RecommendedItemDetails from './RecommendedItemDetails';  // Import the new component
 
+const RecommendationInfo = ({ selectedItemInfoPrice, selectedItemInfoSize, selectedItemInfoExplanation }) => {
+  // Price data
+  const recommendedItemNamePrice = selectedItemInfoPrice?.recommended_item?.name;
+  const recommendedItemPrice = selectedItemInfoPrice?.recommended_item?.price;
 
-const RecommendationInfo = ({ details }) => {
+  const basketItemsPrice = selectedItemInfoPrice?.basket_items?.map((item, index) => ({
+    name: `${item.name} (${index + 1})`,
+    price: item.price,
+  }));
 
-    // implement GET method that fetches all data for visualizations for 10 recomended items 
-    // function that will display visualization data only for selected item (by id)
+  const itemNamesPrice = [
+    recommendedItemNamePrice,
+    ...basketItemsPrice.map(item => item.name),
+  ];
+  const itemPrices = [
+    recommendedItemPrice,
+    ...basketItemsPrice.map(item => item.price),
+  ];
+  const itemColorsPrice = ['rgb(255, 99, 71)', ...Array(basketItemsPrice.length).fill('rgb(135, 206, 250)')];
 
-    return (
+  // Size data
+  const recommendedItemNameSize = selectedItemInfoSize?.recommended_item?.name;
+  const recommendedItemSize = selectedItemInfoSize?.recommended_item?.size;
 
-        <Box
-            sx={{
-                backgroundColor: 'white',
-                borderRadius: '10px',
-                boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
-                padding: '20px',
-                marginTop: '10px',
-            }}
-        >
-            {/* Graphs Section */}
-            <Box
-                    sx={{
-                        display: 'flex',
-                        gap: 2, // Space between the two graphs
-                        height: '50%', // Occupies the top half of the column
-                    }}
-                >
-                    <Box
-                        sx={{
-                            flex: 1,
-                            backgroundColor: '#e0e0e0',
-                            borderRadius: '8px',
-                        }}
-                    >
-                        <Graph1 />
-                    </Box>
-                    <Box
-                        sx={{
-                            flex: 1,
-                            backgroundColor: '#e0e0e0',
-                            borderRadius: '8px',
-                        }}
-                    >
-                        <Graph2 />
-                    </Box>
-                </Box>
-            <Typography
-                variant="h5"
-                sx={{
-                    textAlign: 'center',
-                    marginBottom: '16px',
-                    fontWeight: 'bold',
-                }}
-            >
-                Recommendation Info
-            </Typography>
-            <Typography
-                variant="body1"
-                sx={{
-                    textAlign: 'left',
-                    color: 'gray',
-                }}
-            >
-                {/* Placeholder for future content */}
-                {details ? <><div>Category: {details.category}</div>
-                <div>Designer: {details.designer}</div>
-                <div>Price: {details.price}</div>
-                <div>Space: {details.space}</div>
-                <div>Width: {details.width}</div></> : <div>Select the item</div>}
-            </Typography>
-            
-            
-            {console.log('selected item details: ', details)}
+  const basketItemsSize = selectedItemInfoSize?.basket_items?.map((item, index) => ({
+    name: `${item.name} (${index + 1})`,
+    size: item.size,
+  }));
+
+  const itemNamesSize = [
+    recommendedItemNameSize,
+    ...basketItemsSize.map(item => item.name),
+  ];
+  const itemSizes = [
+    recommendedItemSize,
+    ...basketItemsSize.map(item => item.size),
+  ];
+  const itemColorsSize = ['rgb(255, 99, 71)', ...Array(basketItemsSize.length).fill('rgb(135, 206, 250)')];
+
+  // Explanation data
+  const recommendedItem = selectedItemInfoExplanation?.recommended_item;
+  const explanation = selectedItemInfoExplanation?.explanation;
+  const additionalInfo = selectedItemInfoExplanation?.additional_info;
+
+  return (
+    <Box
+      sx={{
+        backgroundColor: '#f9f9f9',
+        borderRadius: '12px',
+        boxShadow: '0 6px 12px rgba(0, 0, 0, 0.1)',
+        padding: '24px',
+        width: '100%',
+      }}
+    >
+      <Typography
+        variant="h5"
+        sx={{
+          textAlign: 'center',
+          marginBottom: '24px',
+          fontWeight: 'bold',
+          color: '#333',
+        }}
+      >
+        Recommendation Information
+      </Typography>
+
+      {/* Plots Section */}
+      <Box sx={{ display: 'flex', justifyContent: 'space-between', marginBottom: '24px' }}>
+
+        <Box sx={{ flex: 1, marginRight: '16px' }}>
+          <BarChart
+            title="Price Comparison"
+            xData={itemNamesPrice}
+            yData={itemPrices}
+            colors={itemColorsPrice}
+          />
         </Box>
-    );
+
+        <Box sx={{ flex: 1 }}>
+          <BarChart
+            title="Size Comparison"
+            xData={itemNamesSize}
+            yData={itemSizes}
+            colors={itemColorsSize}
+          />
+        </Box>
+      </Box>
+
+      {/* Recommended Item Details Section */}
+      <RecommendedItemDetails 
+        recommendedItem={recommendedItem} 
+        explanation={explanation} 
+        additionalInfo={additionalInfo}
+      />
+    </Box>
+  );
 };
 
 export default RecommendationInfo;

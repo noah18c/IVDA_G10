@@ -2,37 +2,15 @@ import React, { useState } from 'react';
 import { Box, Card, CardContent, CardMedia, Typography } from '@mui/material';
 
 const Slider = ({ cards, onCardSelect }) => {
-    const [selectedCard, setSelectedCard] = useState(0); // State to track the selected card
+    const [selectedCard, setSelectedCard] = useState(0); 
 
-    const handleCardClick = (cardId, cardinfo) => {
-        setSelectedCard(cardId); // Highlight the selected card
-
-
+    const handleCardClick = (cardId) => {
+        setSelectedCard(cardId);
+         // Highlight the selected card
         if (onCardSelect) {
-            onCardSelect(cardinfo);
+            onCardSelect(cardId);
         }
-
-    
-        // Send a POST request with the selected card data
-        // fetch('http://127.0.0.1:5000/recommended_item_info', {
-        //     method: 'POST',
-        //     headers: {
-        //         'Content-Type': 'application/json',
-        //     },
-        //     body: JSON.stringify(selectedCard),
-        // })
-        //     .then((response) => {
-        //         if (!response.ok) {
-        //             throw new Error('Failed to send data to the server');
-        //         }
-        //         return response.json();
-        //     })
-        //     .then((data) => {
-        //         console.log('Response from server:', data); // Ensure this is logged correctly
-        //     })
-        //     .catch((error) => {
-        //         console.error('Error:', error);
-        //     });
+        
         
     };
 
@@ -58,7 +36,7 @@ const Slider = ({ cards, onCardSelect }) => {
                     overflowY: 'auto', // Enable vertical scrolling
                     gap: 3, // Space between cards
                     padding: 2,
-                    maxHeight: '90vh', // Limit the height of the slider
+                    maxHeight: '100vh', // Limit the height of the slider
                     scrollbarWidth: 'none', // Hide the scrollbar
                     '&::-webkit-scrollbar': { display: 'none' }, // Hide scrollbar for Webkit-based browsers
                 }}
@@ -66,7 +44,7 @@ const Slider = ({ cards, onCardSelect }) => {
                 {cards.map((card) => (
                     <Card
                         key={card.item_id}
-                        onClick={() => handleCardClick(card.item_id, card)} // Handle click to send POST request
+                        onClick={() => handleCardClick(card.item_id)} // Handle click to send POST request
                         sx={{
                             width: '300px', // Fixed width for the card
                             height: 'auto', // Flexible height to fit additional content
