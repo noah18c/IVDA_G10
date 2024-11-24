@@ -25,28 +25,33 @@ const BarChart = ({ title, xData, yData, colors, legendLabels }) => {
       </Typography>
       <Plot
         data={[
-
           {
             type: 'bar',
-            x: [xData[0]],
-            y: [yData[0]],
+            x: title === 'Designer Counts' ? xData : [xData[0]], // Single dataset if 'Designer Counts'
+            y: title === 'Designer Counts' ? yData : [yData[0]], // Single dataset if 'Designer Counts'
             marker: {
-              color: 'rgb(255, 99, 71)', // Red for 
+              color:
+                title === 'Designer Counts'
+                  ? 'rgb(100, 149, 237)' // Uniform color for Designer Counts
+                  : 'rgb(255, 99, 71)', // Red for first dataset
             },
             name: legendLabels?.[0] || '',
-            hoverinfo: 'x+y+name', // 
+            hoverinfo: 'x+y+name',
           },
-
-          {
-            type: 'bar',
-            x: xData.slice(1), 
-            y: yData.slice(1),
-            marker: {
-              color: 'rgb(135, 206, 250)', // Blue 
-            },
-            name: legendLabels?.[1] || '', 
-            hoverinfo: 'x+y+name', 
-          },
+          ...(title === 'Designer Counts'
+            ? []
+            : [
+                {
+                  type: 'bar',
+                  x: xData.slice(1),
+                  y: yData.slice(1),
+                  marker: {
+                    color: 'rgb(135, 206, 250)', // Blue for second dataset
+                  },
+                  name: legendLabels?.[1] || '',
+                  hoverinfo: 'x+y+name',
+                },
+              ]),
         ]}
         layout={{
           xaxis: {
@@ -55,13 +60,19 @@ const BarChart = ({ title, xData, yData, colors, legendLabels }) => {
             automargin: true,
           },
           yaxis: {
-            title: title === 'Price Comparison' ? 'Price (CHF)' : 'Size (cm3)',
+            title: title === 'Price Comparison'
+              ? 'Price (CHF)'
+              : title === 'Size Comparison'
+              ? 'Size (cm3)'
+              : title === 'Designer Counts'
+              ? ''
+              : 'Default label',
           },
-          showlegend: legendLabels?.length > 0, 
+          showlegend: legendLabels?.length > 0 && title !== 'Designer Counts', // Hide legend for 'Designer Counts'
           legend: {
-            x: 1,  
-            y: 1, 
-            orientation: 'v', 
+            x: 1,
+            y: 1,
+            orientation: 'v',
           },
           margin: { t: 40 },
         }}
