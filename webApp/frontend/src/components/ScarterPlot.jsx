@@ -35,8 +35,8 @@ const ScatterPlot = ({ scatterData }) => {
                 ]}
                 layout={{
                     title: 'Price vs Space',
-                    xaxis: { title: 'Price' },
-                    yaxis: { title: 'Space' },
+                    xaxis: { title: 'Price (CHF)' },
+                    yaxis: { title: 'Space (cm³)' },
                 }}
             />
         </div>

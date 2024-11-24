@@ -20,6 +20,7 @@ class RecommendationModel:
         self.idx_similarities = {}
         self.idx_counts = {}
         self.basket = None
+        self.topn_recommended_items = None
     
     def load_and_preprocess(self):
         # Load data
@@ -99,9 +100,10 @@ class RecommendationModel:
 
 
     def get_topn_recommendations(self, rec_num:int=10):
-        topn_recommended_items = self.recommended_items.iloc[:rec_num]
+        self.rec_num = rec_num
+        self.topn_recommended_items = self.recommended_items.iloc[:rec_num]
         furniture_items = []
-        for _, row in topn_recommended_items.iterrows():
+        for _, row in self.topn_recommended_items.iterrows():
             item = FurnitureItem(
                 item_id=row['item_id'],
                 name=row['name'],
@@ -136,10 +138,8 @@ class RecommendationModel:
         return furniture_items
     
     def get_explainable_text(self, rec_num:int=10):
-        topn_recommended_items = self.recommended_items.iloc[:rec_num]
-
         explainable_texts = []
-        for idx, row in topn_recommended_items.iterrows():
+        for idx, row in self.topn_recommended_items.iterrows():
             # Gather details about the recommended item
             recommended_item = {
                 "item_id":int(row["item_id"]),
@@ -157,7 +157,7 @@ class RecommendationModel:
             explanation = {
                 "recommended_item": recommended_item,
                 "explanation": {
-                    "reason": f"This recommended item is {avg_similarity:.2%} similar to {len(similar_items)} items in your basket.",
+                    "reason": f"This recommended item is {avg_similarity}% similar to {len(similar_items)} items in your basket.",
                     "similar_items": [
                         {
                             "name": item["name"],
@@ -168,8 +168,8 @@ class RecommendationModel:
                     ],
                 },
                 "additional_info": {
-                    "average_price_in_cluster": self.df_model[self.df_model["cluster"] == row["cluster"]]["price"].mean(),
-                    "designer_average_price": self.df_model[self.df_model["designer"] == row["designer"]]["price"].mean(),
+                    "average_price_in_cluster": round(self.df_model[self.df_model["cluster"] == row["cluster"]]["price"].mean(),ndigits=2),
+                    "designer_average_price": round(self.df_model[self.df_model["designer"] == row["designer"]]["price"].mean(),ndigits=2),
                 }
             }
 
@@ -180,7 +180,7 @@ class RecommendationModel:
 
     def get_price_comparison_data(self):
         price_comparison_data = []
-        for key,row in self.recommended_items.iterrows():    
+        for key,row in self.topn_recommended_items.iterrows():    
             sim_prices = self.df_model.loc[self.idx_basket_sim[key],'price'].values
             sim_names = self.df_model.loc[self.idx_basket_sim[key],'name'].values
             prod_price = self.df_model.loc[key,'price']
@@ -205,7 +205,9 @@ class RecommendationModel:
 
     def get_size_comparison_data(self):
         size_comparison_data = []
-        for key,row in self.recommended_items.iterrows():    
+        topn_recommended_items = self.recommended_items.iloc[:self.rec_num]
+
+        for key,row in topn_recommended_items.iterrows():    
             sim_sizes = self.df_model.loc[self.idx_basket_sim[key],'space'].values
             sim_names = self.df_model.loc[self.idx_basket_sim[key],'name'].values
             prod_size = self.df_model.loc[key,'space']
@@ -235,7 +237,7 @@ class RecommendationModel:
 
         Returns:
             dict: Data formatted for frontend scatter plot.
-        """
+        """        
         scatter_data = {
             "liked_items": [],
             "recommended_items": []
@@ -250,7 +252,7 @@ class RecommendationModel:
             })
 
         # Add data for recommended items
-        for key, row in self.recommended_items.iterrows():
+        for key, row in self.topn_recommended_items.iterrows():
             scatter_data["recommended_items"].append({
                 "price": row['price'],
                 "space": row['space'],
@@ -265,9 +267,11 @@ class RecommendationModel:
 
         Returns:
             dict: Data formatted for frontend bar chart.
+
         """
+
         # Get value counts for designers
-        designer_counts = self.recommended_items['designer'].value_counts()
+        designer_counts = self.topn_recommended_items['designer'].value_counts()
 
         # Prepare the data in dictionary format
         data = {

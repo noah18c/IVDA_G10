@@ -38,9 +38,10 @@ const BarChart = ({ title, xData, yData, colors }) => {
           xaxis: {
             title: 'Item name',
             tickangle: -45,
+            automargin: true, 
           },
           yaxis: {
-            title: title === 'Price Comparison' ? 'Price' : 'Size',
+            title: title === 'Price Comparison' ? 'Price (CHF)' : 'Count',
           },
           showlegend: false,
           margin: { t: 20 },
