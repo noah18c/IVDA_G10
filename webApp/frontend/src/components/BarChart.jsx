@@ -2,7 +2,7 @@ import React from 'react';
 import Plot from 'react-plotly.js';
 import { Box, Typography } from '@mui/material';
 
-const BarChart = ({ title, xData, yData, colors }) => {
+const BarChart = ({ title, xData, yData, colors, legendLabels }) => {
   return (
     <Box
       sx={{
@@ -25,26 +25,45 @@ const BarChart = ({ title, xData, yData, colors }) => {
       </Typography>
       <Plot
         data={[
+          // Recommended Item series
           {
             type: 'bar',
-            x: xData,
-            y: yData,
+            x: [xData[0]], // Only the first item (recommended item)
+            y: [yData[0]], // Only the first item value (recommended item)
             marker: {
-              color: colors,
+              color: 'rgb(255, 99, 71)', // Red for recommended item
             },
+            name: legendLabels?.[0] || '', // Only show legend if legendLabels[0] exists
+            hoverinfo: 'x+y+name', // Show hover information with name
+          },
+          // Basket Items series
+          {
+            type: 'bar',
+            x: xData.slice(1), // All other items (basket items)
+            y: yData.slice(1), // All other values (basket items)
+            marker: {
+              color: 'rgb(135, 206, 250)', // Blue for basket items
+            },
+            name: legendLabels?.[1] || '', // Only show legend if legendLabels[1] exists
+            hoverinfo: 'x+y+name', // Show hover information with name
           },
         ]}
         layout={{
           xaxis: {
-            title: 'Item name',
+            title: 'Item Name',
             tickangle: -45,
-            automargin: true, 
+            automargin: true,
           },
           yaxis: {
-            title: title === 'Price Comparison' ? 'Price (CHF)' : 'Count',
+            title: title === 'Price Comparison' ? 'Price (CHF)' : 'Size (cm3)',
           },
-          showlegend: false,
-          margin: { t: 20 },
+          showlegend: legendLabels?.length > 0, // Only show legend if legendLabels is provided
+          legend: {
+            x: 1, // Position legend to the right
+            y: 1, // Position legend at the top
+            orientation: 'v', // Vertical alignment of legend
+          },
+          margin: { t: 40 }, // Adjust for legend space
         }}
         style={{ width: '100%', height: '300px' }}
       />

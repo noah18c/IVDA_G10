@@ -57,10 +57,9 @@ const SummaryRecommendations = () => {
       >
         <Typography variant="h6">{error}</Typography>
       </Box>
-    ); // Display an error message if there's an issue
+    ); 
   }
 
-  // Accessing the scatter plot data from the summaryInfo object
   const scatterData = summaryInfo?.scatter_plot_data;
   const designerCountData = summaryInfo?.designer_count_data;
   console.log('designer: ', designerCountData);

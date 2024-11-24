@@ -39,7 +39,7 @@ const SelectedRecommendations = () => {
 	}
 
 
-	// get info for selected item in different categories 
+	// get info for selected item in different categories by id 
 	const getItemInfo = (key) => 
 		recommendationInfo?.[key]?.find(e => e.recommended_item?.item_id === selectedItem);
 	
