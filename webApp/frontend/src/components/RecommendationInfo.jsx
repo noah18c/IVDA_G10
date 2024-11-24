@@ -98,7 +98,7 @@ const RecommendationInfo = ({
 						xData={itemNamesPrice}
 						yData={itemPrices}
 						colors={itemColorsPrice}
-						legendLabels={['Recommended Item', 'Basket Items']}
+						legendLabels={['Recommended Item', 'Liked Items']}
 					/>
 				</Box>
 
@@ -108,7 +108,7 @@ const RecommendationInfo = ({
 						xData={itemNamesSize}
 						yData={itemSizes}
 						colors={itemColorsSize}
-						legendLabels={['Recommended Item', 'Basket Items']}
+						legendLabels={['Recommended Item', 'Liked Items']}
 					/>
 				</Box>
 			</Box>
