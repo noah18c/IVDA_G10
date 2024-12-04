@@ -17,16 +17,22 @@ def process_furniture_data(csv_path, pictures_path):
     # Read the CSV file
     data = pd.read_csv(csv_path)
 
+    # Extract the first word from the 'name' column
+    data['name'] = data['name'].str.split(' ').str[0]
+
     # Select 20 random rows
     sample_data = data.sample(n=20)
 
     # Get all picture file names
     pictures = os.listdir(pictures_path)
 
-    # Assign pictures to cards cyclically
-    sample_data['image_path'] = [
-        f"http://127.0.0.1:5000/data/pictures/{pictures[i % len(pictures)]}" for i in range(len(sample_data))
-    ]
+    def find_image(name):
+        for picture in pictures:
+            if picture.startswith(name):
+                return f"http://127.0.0.1:5000/data/pictures/{picture}"
+        return "http://127.0.0.1:5000/data/Image-not-found.png"
+
+    sample_data['image_path'] = sample_data['name'].apply(find_image)
 
     furniture_items = []
     for _, row in sample_data.iterrows():

@@ -8,6 +8,8 @@ from src.utils import process_furniture_data, knn_recommendations
 import shutil
 
 
+PICTURES_PATH = '../data/ikea_images'
+
 @app.route('/')
 def home():
     return "Hello from Flask!"
@@ -19,13 +21,22 @@ def get_data():
 
 @app.route('/data/pictures/<filename>')
 def serve_picture(filename):
-    return send_from_directory('../data/pictures', filename)
+    return send_from_directory(PICTURES_PATH, filename)
+
+    # first_word = filename.split(" ")[0] 
+    # pictures = os.listdir(PICTURES_PATH)
+
+    # for picture in pictures:
+    #     if picture.startswith(first_word):
+    #         return send_from_directory(PICTURES_PATH, picture)
+
+    # return send_from_directory(PICTURES_PATH, "Image-not-found.png")
 
 @app.route('/api/test_items', methods=['GET'])
 def get_test_items():
     # Define paths for the CSV file and pictures folder
     csv_path = os.path.join(os.path.dirname(__file__), '../data/IKEA_data_processed.csv')
-    pictures_path = os.path.join(os.path.dirname(__file__), '../data/pictures')
+    pictures_path = os.path.join(os.path.dirname(__file__), PICTURES_PATH)
 
     try:
         furniture_items = process_furniture_data(csv_path, pictures_path)

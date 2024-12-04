@@ -2,211 +2,227 @@
     "price_comparison": [
         {
             "recommended_item": {
-                "item_id": 89284689,
-                "name": "BEKANT",
-                "price": 1850.0
+                "item_id": 49269153,
+                "name": "LANDSKRONA",
+                "price": 8495.0
             },
             "basket_items": [
                 {
-                    "name": "BEKANT",
-                    "price": 620.0
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "price": 4565.0
                 },
                 {
-                    "name": "EKEDALEN / EKEDALEN",
-                    "price": 2345.0
+                    "name": "HAVSTA",
+                    "price": 4580.0
                 },
                 {
-                    "name": "VADHOLMA",
-                    "price": 2295.0
+                    "name": "LIDHULT",
+                    "price": 5428.0
+                },
+                {
+                    "name": "LIDHULT",
+                    "price": 7748.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 10373495,
-                "name": "BEKANT",
-                "price": 1495.0
+                "item_id": 59256579,
+                "name": "GR\u00d6NLID",
+                "price": 7400.0
             },
             "basket_items": [
                 {
-                    "name": "BEKANT",
-                    "price": 620.0
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "price": 4565.0
                 },
                 {
-                    "name": "EKEDALEN / EKEDALEN",
-                    "price": 2345.0
+                    "name": "HAVSTA",
+                    "price": 4580.0
                 },
                 {
-                    "name": "VADHOLMA",
-                    "price": 2295.0
+                    "name": "LIDHULT",
+                    "price": 5428.0
+                },
+                {
+                    "name": "LIDHULT",
+                    "price": 7748.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 30255250,
-                "name": "BEKANT",
-                "price": 2100.0
+                "item_id": 89278612,
+                "name": "GR\u00d6NLID",
+                "price": 7610.0
             },
             "basket_items": [
                 {
-                    "name": "BEKANT",
-                    "price": 620.0
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "price": 4565.0
                 },
                 {
-                    "name": "EKEDALEN / EKEDALEN",
-                    "price": 2345.0
+                    "name": "HAVSTA",
+                    "price": 4580.0
                 },
                 {
-                    "name": "VADHOLMA",
-                    "price": 2295.0
+                    "name": "LIDHULT",
+                    "price": 5428.0
+                },
+                {
+                    "name": "LIDHULT",
+                    "price": 7748.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 29287964,
-                "name": "BEKANT",
-                "price": 1769.0
-            },
-            "basket_items": [
-                {
-                    "name": "BEKANT",
-                    "price": 620.0
-                },
-                {
-                    "name": "EKEDALEN / EKEDALEN",
-                    "price": 2345.0
-                },
-                {
-                    "name": "VADHOLMA",
-                    "price": 2295.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 79046991,
-                "name": "BEKANT",
-                "price": 1834.0
-            },
-            "basket_items": [
-                {
-                    "name": "BEKANT",
-                    "price": 620.0
-                },
-                {
-                    "name": "EKEDALEN / EKEDALEN",
-                    "price": 2345.0
-                },
-                {
-                    "name": "VADHOLMA",
-                    "price": 2295.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 99304795,
-                "name": "LANEBERG / SVENBERTIL",
-                "price": 1475.0
-            },
-            "basket_items": [
-                {
-                    "name": "BEKANT",
-                    "price": 620.0
-                },
-                {
-                    "name": "EKEDALEN / EKEDALEN",
-                    "price": 2345.0
-                },
-                {
-                    "name": "VADHOLMA",
-                    "price": 2295.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 60278306,
-                "name": "BEKANT",
-                "price": 2275.0
-            },
-            "basket_items": [
-                {
-                    "name": "BEKANT",
-                    "price": 620.0
-                },
-                {
-                    "name": "EKEDALEN / EKEDALEN",
-                    "price": 2345.0
-                },
-                {
-                    "name": "VADHOLMA",
-                    "price": 2295.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 89221475,
-                "name": "IKEA PS 2012 / TEODORES",
-                "price": 1085.0
-            },
-            "basket_items": [
-                {
-                    "name": "BEKANT",
-                    "price": 620.0
-                },
-                {
-                    "name": "EKEDALEN / EKEDALEN",
-                    "price": 2345.0
-                },
-                {
-                    "name": "VADHOLMA",
-                    "price": 2295.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 49284610,
-                "name": "BEKANT",
-                "price": 1240.0
-            },
-            "basket_items": [
-                {
-                    "name": "BEKANT",
-                    "price": 620.0
-                },
-                {
-                    "name": "EKEDALEN / EKEDALEN",
-                    "price": 2345.0
-                },
-                {
-                    "name": "VADHOLMA",
-                    "price": 2295.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 89241614,
+                "item_id": 89239748,
                 "name": "NORSBORG",
-                "price": 340.0
+                "price": 6780.0
             },
             "basket_items": [
                 {
-                    "name": "HEMNES",
-                    "price": 995.0
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "price": 4565.0
                 },
                 {
-                    "name": "VALLENTUNA",
-                    "price": 300.0
+                    "name": "HAVSTA",
+                    "price": 4580.0
                 },
                 {
-                    "name": "VIMLE",
-                    "price": 495.0
+                    "name": "LIDHULT",
+                    "price": 5428.0
+                },
+                {
+                    "name": "LIDHULT",
+                    "price": 7748.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 80403154,
+                "name": "VEDBO",
+                "price": 695.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKEDALEN / EKEDALEN",
+                    "price": 1245.0
+                },
+                {
+                    "name": "NORDKISA",
+                    "price": 476.0
+                },
+                {
+                    "name": "SYVDE",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 40339004,
+                "name": "NORR\u00c5KER",
+                "price": 595.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKEDALEN / EKEDALEN",
+                    "price": 1245.0
+                },
+                {
+                    "name": "NORDKISA",
+                    "price": 476.0
+                },
+                {
+                    "name": "SYVDE",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 59047147,
+                "name": "HILVER / GERTON",
+                "price": 665.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKEDALEN / EKEDALEN",
+                    "price": 1245.0
+                },
+                {
+                    "name": "NORDKISA",
+                    "price": 476.0
+                },
+                {
+                    "name": "SYVDE",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 30396655,
+                "name": "HEMNES",
+                "price": 495.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKEDALEN / EKEDALEN",
+                    "price": 1245.0
+                },
+                {
+                    "name": "NORDKISA",
+                    "price": 476.0
+                },
+                {
+                    "name": "SYVDE",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 59306268,
+                "name": "LERHAMN",
+                "price": 589.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKEDALEN / EKEDALEN",
+                    "price": 1245.0
+                },
+                {
+                    "name": "NORDKISA",
+                    "price": 476.0
+                },
+                {
+                    "name": "SYVDE",
+                    "price": 595.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 40247207,
+                "name": "DALSHULT",
+                "price": 575.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKEDALEN / EKEDALEN",
+                    "price": 1245.0
+                },
+                {
+                    "name": "NORDKISA",
+                    "price": 476.0
+                },
+                {
+                    "name": "SYVDE",
+                    "price": 595.0
                 }
             ]
         }
@@ -214,211 +230,227 @@
     "size_comparison": [
         {
             "recommended_item": {
-                "item_id": 89284689,
-                "name": "BEKANT",
-                "size": 734091.6275251282
+                "item_id": 49269153,
+                "name": "LANDSKRONA",
+                "size": 4869308.454533055
             },
             "basket_items": [
                 {
-                    "name": "BEKANT",
-                    "size": 417685.1500299985
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "size": 2379918.2170087043
                 },
                 {
-                    "name": "EKEDALEN / EKEDALEN",
-                    "size": 1205746.35398847
+                    "name": "HAVSTA",
+                    "size": 2411288.0
                 },
                 {
-                    "name": "VADHOLMA",
-                    "size": 895860.0
+                    "name": "LIDHULT",
+                    "size": 4667112.0
+                },
+                {
+                    "name": "LIDHULT",
+                    "size": 6172632.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 10373495,
-                "name": "BEKANT",
-                "size": 729630.0
+                "item_id": 59256579,
+                "name": "GR\u00d6NLID",
+                "size": 4298112.0
             },
             "basket_items": [
                 {
-                    "name": "BEKANT",
-                    "size": 417685.1500299985
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "size": 2379918.2170087043
                 },
                 {
-                    "name": "EKEDALEN / EKEDALEN",
-                    "size": 1205746.35398847
+                    "name": "HAVSTA",
+                    "size": 2411288.0
                 },
                 {
-                    "name": "VADHOLMA",
-                    "size": 895860.0
+                    "name": "LIDHULT",
+                    "size": 4667112.0
+                },
+                {
+                    "name": "LIDHULT",
+                    "size": 6172632.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 30255250,
-                "name": "BEKANT",
-                "size": 506789.6336408168
+                "item_id": 89278612,
+                "name": "GR\u00d6NLID",
+                "size": 4298112.0
             },
             "basket_items": [
                 {
-                    "name": "BEKANT",
-                    "size": 417685.1500299985
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "size": 2379918.2170087043
                 },
                 {
-                    "name": "EKEDALEN / EKEDALEN",
-                    "size": 1205746.35398847
+                    "name": "HAVSTA",
+                    "size": 2411288.0
                 },
                 {
-                    "name": "VADHOLMA",
-                    "size": 895860.0
+                    "name": "LIDHULT",
+                    "size": 4667112.0
+                },
+                {
+                    "name": "LIDHULT",
+                    "size": 6172632.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 29287964,
-                "name": "BEKANT",
-                "size": 1267423.122450648
-            },
-            "basket_items": [
-                {
-                    "name": "BEKANT",
-                    "size": 417685.1500299985
-                },
-                {
-                    "name": "EKEDALEN / EKEDALEN",
-                    "size": 1205746.35398847
-                },
-                {
-                    "name": "VADHOLMA",
-                    "size": 895860.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 79046991,
-                "name": "BEKANT",
-                "size": 1278893.587883002
-            },
-            "basket_items": [
-                {
-                    "name": "BEKANT",
-                    "size": 417685.1500299985
-                },
-                {
-                    "name": "EKEDALEN / EKEDALEN",
-                    "size": 1205746.35398847
-                },
-                {
-                    "name": "VADHOLMA",
-                    "size": 895860.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 99304795,
-                "name": "LANEBERG / SVENBERTIL",
-                "size": 469161.05103489687
-            },
-            "basket_items": [
-                {
-                    "name": "BEKANT",
-                    "size": 417685.1500299985
-                },
-                {
-                    "name": "EKEDALEN / EKEDALEN",
-                    "size": 1205746.35398847
-                },
-                {
-                    "name": "VADHOLMA",
-                    "size": 895860.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 60278306,
-                "name": "BEKANT",
-                "size": 517325.6367704743
-            },
-            "basket_items": [
-                {
-                    "name": "BEKANT",
-                    "size": 417685.1500299985
-                },
-                {
-                    "name": "EKEDALEN / EKEDALEN",
-                    "size": 1205746.35398847
-                },
-                {
-                    "name": "VADHOLMA",
-                    "size": 895860.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 89221475,
-                "name": "IKEA PS 2012 / TEODORES",
-                "size": 737298.6337265541
-            },
-            "basket_items": [
-                {
-                    "name": "BEKANT",
-                    "size": 417685.1500299985
-                },
-                {
-                    "name": "EKEDALEN / EKEDALEN",
-                    "size": 1205746.35398847
-                },
-                {
-                    "name": "VADHOLMA",
-                    "size": 895860.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 49284610,
-                "name": "BEKANT",
-                "size": 325106.85579185124
-            },
-            "basket_items": [
-                {
-                    "name": "BEKANT",
-                    "size": 417685.1500299985
-                },
-                {
-                    "name": "EKEDALEN / EKEDALEN",
-                    "size": 1205746.35398847
-                },
-                {
-                    "name": "VADHOLMA",
-                    "size": 895860.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 89241614,
+                "item_id": 89239748,
                 "name": "NORSBORG",
-                "size": 73216.0
+                "size": 3690757.188522804
             },
             "basket_items": [
                 {
-                    "name": "HEMNES",
-                    "size": 396492.0
+                    "name": "EKEDALEN / HENRIKSDAL",
+                    "size": 2379918.2170087043
                 },
                 {
-                    "name": "VALLENTUNA",
-                    "size": 87360.0
+                    "name": "HAVSTA",
+                    "size": 2411288.0
                 },
                 {
-                    "name": "VIMLE",
-                    "size": 561478.8648918733
+                    "name": "LIDHULT",
+                    "size": 4667112.0
+                },
+                {
+                    "name": "LIDHULT",
+                    "size": 6172632.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 80403154,
+                "name": "VEDBO",
+                "size": 333060.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKEDALEN / EKEDALEN",
+                    "size": 789593.7677819963
+                },
+                {
+                    "name": "NORDKISA",
+                    "size": 282188.0
+                },
+                {
+                    "name": "SYVDE",
+                    "size": 374400.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 40339004,
+                "name": "NORR\u00c5KER",
+                "size": 370605.0350349502
+            },
+            "basket_items": [
+                {
+                    "name": "EKEDALEN / EKEDALEN",
+                    "size": 789593.7677819963
+                },
+                {
+                    "name": "NORDKISA",
+                    "size": 282188.0
+                },
+                {
+                    "name": "SYVDE",
+                    "size": 374400.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 59047147,
+                "name": "HILVER / GERTON",
+                "size": 322455.0313912505
+            },
+            "basket_items": [
+                {
+                    "name": "EKEDALEN / EKEDALEN",
+                    "size": 789593.7677819963
+                },
+                {
+                    "name": "NORDKISA",
+                    "size": 282188.0
+                },
+                {
+                    "name": "SYVDE",
+                    "size": 374400.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 30396655,
+                "name": "HEMNES",
+                "size": 409664.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKEDALEN / EKEDALEN",
+                    "size": 789593.7677819963
+                },
+                {
+                    "name": "NORDKISA",
+                    "size": 282188.0
+                },
+                {
+                    "name": "SYVDE",
+                    "size": 374400.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 59306268,
+                "name": "LERHAMN",
+                "size": 292603.52745781216
+            },
+            "basket_items": [
+                {
+                    "name": "EKEDALEN / EKEDALEN",
+                    "size": 789593.7677819963
+                },
+                {
+                    "name": "NORDKISA",
+                    "size": 282188.0
+                },
+                {
+                    "name": "SYVDE",
+                    "size": 374400.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 40247207,
+                "name": "DALSHULT",
+                "size": 293242.51292399294
+            },
+            "basket_items": [
+                {
+                    "name": "EKEDALEN / EKEDALEN",
+                    "size": 789593.7677819963
+                },
+                {
+                    "name": "NORDKISA",
+                    "size": 282188.0
+                },
+                {
+                    "name": "SYVDE",
+                    "size": 374400.0
                 }
             ]
         }
@@ -426,342 +458,362 @@
     "explainable_texts": [
         {
             "recommended_item": {
-                "item_id": 89284689,
-                "name": "BEKANT",
-                "category": "Tables & desks",
-                "price": 1850.0,
-                "designer": "K Malmvall/E Lilja L\u00f6wenhielm",
-                "rooms": "Living room, Office, Kitchen, Dining room"
+                "item_id": 49269153,
+                "name": "LANDSKRONA",
+                "category": "Sofas & armchairs",
+                "price": 8495.0,
+                "designer": "IKEA of Sweden/Tord Bj\u00f6rklund",
+                "rooms": "Living room, Bedroom"
             },
             "explanation": {
-                "reason": "This recommended item is 92.64% similar to 3 items in your basket.",
+                "reason": "This recommended item is 89.06% similar to 4 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "BEKANT",
+                        "name": "EKEDALEN / HENRIKSDAL",
                         "category": "Tables & desks",
-                        "price": 620.0
+                        "price": 4565.0
                     },
                     {
-                        "name": "EKEDALEN / EKEDALEN",
-                        "category": "Tables & desks",
-                        "price": 2345.0
+                        "name": "HAVSTA",
+                        "category": "Cabinets & cupboards",
+                        "price": 4580.0
                     },
                     {
-                        "name": "VADHOLMA",
-                        "category": "Trolleys",
-                        "price": 2295.0
+                        "name": "LIDHULT",
+                        "category": "Sofas & armchairs",
+                        "price": 5428.0
+                    },
+                    {
+                        "name": "LIDHULT",
+                        "category": "Sofas & armchairs",
+                        "price": 7748.0
                     }
                 ]
             },
             "additional_info": {
-                "average_price_in_cluster": 1692.35,
-                "designer_average_price": 2402.09
+                "average_price_in_cluster": 925.53,
+                "designer_average_price": 2562.5
             }
         },
         {
             "recommended_item": {
-                "item_id": 10373495,
-                "name": "BEKANT",
-                "category": "Tables & desks",
-                "price": 1495.0,
-                "designer": "Eva Lilja L\u00f6wenhielm",
-                "rooms": "Living room, Office, Kitchen, Dining room"
+                "item_id": 59256579,
+                "name": "GR\u00d6NLID",
+                "category": "Sofas & armchairs",
+                "price": 7400.0,
+                "designer": "Francis Cayouette",
+                "rooms": "Living room, Bedroom"
             },
             "explanation": {
-                "reason": "This recommended item is 92.22% similar to 3 items in your basket.",
+                "reason": "This recommended item is 88.43% similar to 4 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "BEKANT",
+                        "name": "EKEDALEN / HENRIKSDAL",
                         "category": "Tables & desks",
-                        "price": 620.0
+                        "price": 4565.0
                     },
                     {
-                        "name": "EKEDALEN / EKEDALEN",
-                        "category": "Tables & desks",
-                        "price": 2345.0
+                        "name": "HAVSTA",
+                        "category": "Cabinets & cupboards",
+                        "price": 4580.0
                     },
                     {
-                        "name": "VADHOLMA",
-                        "category": "Trolleys",
-                        "price": 2295.0
+                        "name": "LIDHULT",
+                        "category": "Sofas & armchairs",
+                        "price": 5428.0
+                    },
+                    {
+                        "name": "LIDHULT",
+                        "category": "Sofas & armchairs",
+                        "price": 7748.0
                     }
                 ]
             },
             "additional_info": {
-                "average_price_in_cluster": 1692.35,
-                "designer_average_price": 593.61
+                "average_price_in_cluster": 1262.61,
+                "designer_average_price": 1124.69
             }
         },
         {
             "recommended_item": {
-                "item_id": 30255250,
-                "name": "BEKANT",
-                "category": "Tables & desks",
-                "price": 2100.0,
-                "designer": "K Malmvall/E Lilja L\u00f6wenhielm",
-                "rooms": "Living room, Office, Kitchen, Dining room"
+                "item_id": 89278612,
+                "name": "GR\u00d6NLID",
+                "category": "Sofas & armchairs, Beds",
+                "price": 7610.0,
+                "designer": "IKEA of Sweden/Ehl\u00e9n Johansson/Francis Cayouette",
+                "rooms": "Living room, Bedroom"
             },
             "explanation": {
-                "reason": "This recommended item is 91.54% similar to 3 items in your basket.",
+                "reason": "This recommended item is 88.35% similar to 4 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "BEKANT",
+                        "name": "EKEDALEN / HENRIKSDAL",
                         "category": "Tables & desks",
-                        "price": 620.0
+                        "price": 4565.0
                     },
                     {
-                        "name": "EKEDALEN / EKEDALEN",
-                        "category": "Tables & desks",
-                        "price": 2345.0
+                        "name": "HAVSTA",
+                        "category": "Cabinets & cupboards",
+                        "price": 4580.0
                     },
                     {
-                        "name": "VADHOLMA",
-                        "category": "Trolleys",
-                        "price": 2295.0
+                        "name": "LIDHULT",
+                        "category": "Sofas & armchairs",
+                        "price": 5428.0
+                    },
+                    {
+                        "name": "LIDHULT",
+                        "category": "Sofas & armchairs",
+                        "price": 7748.0
                     }
                 ]
             },
             "additional_info": {
-                "average_price_in_cluster": 1692.35,
-                "designer_average_price": 2402.09
+                "average_price_in_cluster": 1262.61,
+                "designer_average_price": 5331.67
             }
         },
         {
             "recommended_item": {
-                "item_id": 29287964,
-                "name": "BEKANT",
-                "category": "Tables & desks",
-                "price": 1769.0,
-                "designer": "K Malmvall/E Lilja L\u00f6wenhielm",
-                "rooms": "Living room, Office, Kitchen, Dining room"
-            },
-            "explanation": {
-                "reason": "This recommended item is 91.25% similar to 3 items in your basket.",
-                "similar_items": [
-                    {
-                        "name": "BEKANT",
-                        "category": "Tables & desks",
-                        "price": 620.0
-                    },
-                    {
-                        "name": "EKEDALEN / EKEDALEN",
-                        "category": "Tables & desks",
-                        "price": 2345.0
-                    },
-                    {
-                        "name": "VADHOLMA",
-                        "category": "Trolleys",
-                        "price": 2295.0
-                    }
-                ]
-            },
-            "additional_info": {
-                "average_price_in_cluster": 1692.35,
-                "designer_average_price": 2402.09
-            }
-        },
-        {
-            "recommended_item": {
-                "item_id": 79046991,
-                "name": "BEKANT",
-                "category": "Tables & desks",
-                "price": 1834.0,
-                "designer": "K Malmvall/E Lilja L\u00f6wenhielm",
-                "rooms": "Living room, Office, Kitchen, Dining room"
-            },
-            "explanation": {
-                "reason": "This recommended item is 91.18% similar to 3 items in your basket.",
-                "similar_items": [
-                    {
-                        "name": "BEKANT",
-                        "category": "Tables & desks",
-                        "price": 620.0
-                    },
-                    {
-                        "name": "EKEDALEN / EKEDALEN",
-                        "category": "Tables & desks",
-                        "price": 2345.0
-                    },
-                    {
-                        "name": "VADHOLMA",
-                        "category": "Trolleys",
-                        "price": 2295.0
-                    }
-                ]
-            },
-            "additional_info": {
-                "average_price_in_cluster": 1692.35,
-                "designer_average_price": 2402.09
-            }
-        },
-        {
-            "recommended_item": {
-                "item_id": 99304795,
-                "name": "LANEBERG / SVENBERTIL",
-                "category": "Tables & desks",
-                "price": 1475.0,
-                "designer": "K Hagberg/M Hagberg/Mia Lagerman",
-                "rooms": "Living room, Office, Kitchen, Dining room"
-            },
-            "explanation": {
-                "reason": "This recommended item is 91.16% similar to 3 items in your basket.",
-                "similar_items": [
-                    {
-                        "name": "BEKANT",
-                        "category": "Tables & desks",
-                        "price": 620.0
-                    },
-                    {
-                        "name": "EKEDALEN / EKEDALEN",
-                        "category": "Tables & desks",
-                        "price": 2345.0
-                    },
-                    {
-                        "name": "VADHOLMA",
-                        "category": "Trolleys",
-                        "price": 2295.0
-                    }
-                ]
-            },
-            "additional_info": {
-                "average_price_in_cluster": 1692.35,
-                "designer_average_price": 1541.67
-            }
-        },
-        {
-            "recommended_item": {
-                "item_id": 60278306,
-                "name": "BEKANT",
-                "category": "Tables & desks",
-                "price": 2275.0,
-                "designer": "K Malmvall/E Lilja L\u00f6wenhielm",
-                "rooms": "Living room, Office, Kitchen, Dining room"
-            },
-            "explanation": {
-                "reason": "This recommended item is 91.09% similar to 3 items in your basket.",
-                "similar_items": [
-                    {
-                        "name": "BEKANT",
-                        "category": "Tables & desks",
-                        "price": 620.0
-                    },
-                    {
-                        "name": "EKEDALEN / EKEDALEN",
-                        "category": "Tables & desks",
-                        "price": 2345.0
-                    },
-                    {
-                        "name": "VADHOLMA",
-                        "category": "Trolleys",
-                        "price": 2295.0
-                    }
-                ]
-            },
-            "additional_info": {
-                "average_price_in_cluster": 1692.35,
-                "designer_average_price": 2402.09
-            }
-        },
-        {
-            "recommended_item": {
-                "item_id": 89221475,
-                "name": "IKEA PS 2012 / TEODORES",
-                "category": "Tables & desks",
-                "price": 1085.0,
-                "designer": "Jon Karlsson/David Wahl",
-                "rooms": "Living room, Office, Kitchen, Dining room"
-            },
-            "explanation": {
-                "reason": "This recommended item is 90.33% similar to 3 items in your basket.",
-                "similar_items": [
-                    {
-                        "name": "BEKANT",
-                        "category": "Tables & desks",
-                        "price": 620.0
-                    },
-                    {
-                        "name": "EKEDALEN / EKEDALEN",
-                        "category": "Tables & desks",
-                        "price": 2345.0
-                    },
-                    {
-                        "name": "VADHOLMA",
-                        "category": "Trolleys",
-                        "price": 2295.0
-                    }
-                ]
-            },
-            "additional_info": {
-                "average_price_in_cluster": 1692.35,
-                "designer_average_price": 1085.0
-            }
-        },
-        {
-            "recommended_item": {
-                "item_id": 49284610,
-                "name": "BEKANT",
-                "category": "Tables & desks",
-                "price": 1240.0,
-                "designer": "K Malmvall/E Lilja L\u00f6wenhielm",
-                "rooms": "Living room, Office, Kitchen, Dining room"
-            },
-            "explanation": {
-                "reason": "This recommended item is 89.21% similar to 3 items in your basket.",
-                "similar_items": [
-                    {
-                        "name": "BEKANT",
-                        "category": "Tables & desks",
-                        "price": 620.0
-                    },
-                    {
-                        "name": "EKEDALEN / EKEDALEN",
-                        "category": "Tables & desks",
-                        "price": 2345.0
-                    },
-                    {
-                        "name": "VADHOLMA",
-                        "category": "Trolleys",
-                        "price": 2295.0
-                    }
-                ]
-            },
-            "additional_info": {
-                "average_price_in_cluster": 1692.35,
-                "designer_average_price": 2402.09
-            }
-        },
-        {
-            "recommended_item": {
-                "item_id": 89241614,
+                "item_id": 89239748,
                 "name": "NORSBORG",
                 "category": "Sofas & armchairs",
-                "price": 340.0,
+                "price": 6780.0,
                 "designer": "Ehl\u00e9n Johansson",
                 "rooms": "Living room, Bedroom"
             },
             "explanation": {
-                "reason": "This recommended item is 89.03% similar to 3 items in your basket.",
+                "reason": "This recommended item is 87.84% similar to 4 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "HEMNES",
-                        "category": "TV & media furniture",
-                        "price": 995.0
+                        "name": "EKEDALEN / HENRIKSDAL",
+                        "category": "Tables & desks",
+                        "price": 4565.0
                     },
                     {
-                        "name": "VALLENTUNA",
-                        "category": "Sofas & armchairs",
-                        "price": 300.0
+                        "name": "HAVSTA",
+                        "category": "Cabinets & cupboards",
+                        "price": 4580.0
                     },
                     {
-                        "name": "VIMLE",
+                        "name": "LIDHULT",
                         "category": "Sofas & armchairs",
-                        "price": 495.0
+                        "price": 5428.0
+                    },
+                    {
+                        "name": "LIDHULT",
+                        "category": "Sofas & armchairs",
+                        "price": 7748.0
+                    }
+                ]
+            },
+            "additional_info": {
+                "average_price_in_cluster": 1262.61,
+                "designer_average_price": 1722.66
+            }
+        },
+        {
+            "recommended_item": {
+                "item_id": 80403154,
+                "name": "VEDBO",
+                "category": "Chairs",
+                "price": 695.0,
+                "designer": "Francis Cayouette",
+                "rooms": "Living room, Office, Kitchen, Dining room"
+            },
+            "explanation": {
+                "reason": "This recommended item is 98.81% similar to 3 items in your basket.",
+                "similar_items": [
+                    {
+                        "name": "EKEDALEN / EKEDALEN",
+                        "category": "Tables & desks",
+                        "price": 1245.0
+                    },
+                    {
+                        "name": "NORDKISA",
+                        "category": "Tables & desks",
+                        "price": 476.0
+                    },
+                    {
+                        "name": "SYVDE",
+                        "category": "Tables & desks",
+                        "price": 595.0
                     }
                 ]
             },
             "additional_info": {
                 "average_price_in_cluster": 1026.95,
-                "designer_average_price": 1722.66
+                "designer_average_price": 1124.69
+            }
+        },
+        {
+            "recommended_item": {
+                "item_id": 40339004,
+                "name": "NORR\u00c5KER",
+                "category": "Tables & desks",
+                "price": 595.0,
+                "designer": "J Karlsson/N Karlsson",
+                "rooms": "Living room, Office, Kitchen, Dining room"
+            },
+            "explanation": {
+                "reason": "This recommended item is 98.77% similar to 3 items in your basket.",
+                "similar_items": [
+                    {
+                        "name": "EKEDALEN / EKEDALEN",
+                        "category": "Tables & desks",
+                        "price": 1245.0
+                    },
+                    {
+                        "name": "NORDKISA",
+                        "category": "Tables & desks",
+                        "price": 476.0
+                    },
+                    {
+                        "name": "SYVDE",
+                        "category": "Tables & desks",
+                        "price": 595.0
+                    }
+                ]
+            },
+            "additional_info": {
+                "average_price_in_cluster": 1026.95,
+                "designer_average_price": 616.44
+            }
+        },
+        {
+            "recommended_item": {
+                "item_id": 59047147,
+                "name": "HILVER / GERTON",
+                "category": "Tables & desks",
+                "price": 665.0,
+                "designer": "IKEA of Sweden/Chenyi Ke",
+                "rooms": "Living room, Office, Kitchen, Dining room"
+            },
+            "explanation": {
+                "reason": "This recommended item is 98.75% similar to 3 items in your basket.",
+                "similar_items": [
+                    {
+                        "name": "EKEDALEN / EKEDALEN",
+                        "category": "Tables & desks",
+                        "price": 1245.0
+                    },
+                    {
+                        "name": "NORDKISA",
+                        "category": "Tables & desks",
+                        "price": 476.0
+                    },
+                    {
+                        "name": "SYVDE",
+                        "category": "Tables & desks",
+                        "price": 595.0
+                    }
+                ]
+            },
+            "additional_info": {
+                "average_price_in_cluster": 1026.95,
+                "designer_average_price": 555.0
+            }
+        },
+        {
+            "recommended_item": {
+                "item_id": 30396655,
+                "name": "HEMNES",
+                "category": "Chairs",
+                "price": 495.0,
+                "designer": "T Christensen/K Legaard",
+                "rooms": "Living room, Office, Kitchen, Dining room"
+            },
+            "explanation": {
+                "reason": "This recommended item is 98.62% similar to 3 items in your basket.",
+                "similar_items": [
+                    {
+                        "name": "EKEDALEN / EKEDALEN",
+                        "category": "Tables & desks",
+                        "price": 1245.0
+                    },
+                    {
+                        "name": "NORDKISA",
+                        "category": "Tables & desks",
+                        "price": 476.0
+                    },
+                    {
+                        "name": "SYVDE",
+                        "category": "Tables & desks",
+                        "price": 595.0
+                    }
+                ]
+            },
+            "additional_info": {
+                "average_price_in_cluster": 1026.95,
+                "designer_average_price": 440.0
+            }
+        },
+        {
+            "recommended_item": {
+                "item_id": 59306268,
+                "name": "LERHAMN",
+                "category": "Tables & desks",
+                "price": 589.0,
+                "designer": "Nike Karlsson",
+                "rooms": "Living room, Office, Kitchen, Dining room"
+            },
+            "explanation": {
+                "reason": "This recommended item is 98.57% similar to 3 items in your basket.",
+                "similar_items": [
+                    {
+                        "name": "EKEDALEN / EKEDALEN",
+                        "category": "Tables & desks",
+                        "price": 1245.0
+                    },
+                    {
+                        "name": "NORDKISA",
+                        "category": "Tables & desks",
+                        "price": 476.0
+                    },
+                    {
+                        "name": "SYVDE",
+                        "category": "Tables & desks",
+                        "price": 595.0
+                    }
+                ]
+            },
+            "additional_info": {
+                "average_price_in_cluster": 1026.95,
+                "designer_average_price": 625.36
+            }
+        },
+        {
+            "recommended_item": {
+                "item_id": 40247207,
+                "name": "DALSHULT",
+                "category": "Tables & desks",
+                "price": 575.0,
+                "designer": "Wiebke Braasch",
+                "rooms": "Living room, Office, Kitchen, Dining room"
+            },
+            "explanation": {
+                "reason": "This recommended item is 98.55% similar to 3 items in your basket.",
+                "similar_items": [
+                    {
+                        "name": "EKEDALEN / EKEDALEN",
+                        "category": "Tables & desks",
+                        "price": 1245.0
+                    },
+                    {
+                        "name": "NORDKISA",
+                        "category": "Tables & desks",
+                        "price": 476.0
+                    },
+                    {
+                        "name": "SYVDE",
+                        "category": "Tables & desks",
+                        "price": 595.0
+                    }
+                ]
+            },
+            "additional_info": {
+                "average_price_in_cluster": 1026.95,
+                "designer_average_price": 410.0
             }
         }
     ]
