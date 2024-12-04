@@ -3,6 +3,28 @@ import pandas as pd
 from src.models import FurnitureItem
 from src.recommender import RecommendationModel
 
+def find_image_path(name, picture_path):
+    """
+    Finds the image path based on the first word of the furniture name.
+    If no image is found, returns the path to a dummy image.
+    
+    Args:
+        name (str): Name of the furniture item.
+    
+    Returns:
+        str: Full URL to the image or the dummy image.
+    """
+    first_word = name.split(" ")[0]
+    pictures = os.listdir(picture_path)
+    
+    for picture in pictures:
+        if picture.startswith(first_word):
+            return f"http://127.0.0.1:5000/data/ikea_images/{picture}"
+    
+    # Return the dummy image if no match is found
+    return f"http://127.0.0.1:5000/data/Image-not-found.png"
+
+
 def process_furniture_data(csv_path, pictures_path):
     """
     Processes the CSV file and assigns pictures to generate 20 random instances of FurnitureItem.

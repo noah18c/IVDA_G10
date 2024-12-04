@@ -4,7 +4,7 @@ import os
 import json
 from flask import send_from_directory, session, jsonify, request
 from src.models import FurnitureItem
-from src.utils import process_furniture_data, knn_recommendations
+from src.utils import process_furniture_data, knn_recommendations, find_image_path
 import shutil
 
 
@@ -23,14 +23,9 @@ def get_data():
 def serve_picture(filename):
     return send_from_directory(PICTURES_PATH, filename)
 
-    # first_word = filename.split(" ")[0] 
-    # pictures = os.listdir(PICTURES_PATH)
-
-    # for picture in pictures:
-    #     if picture.startswith(first_word):
-    #         return send_from_directory(PICTURES_PATH, picture)
-
-    # return send_from_directory(PICTURES_PATH, "Image-not-found.png")
+@app.route('/data/ikea_images/<filename>')
+def serve_picture_recommendation(filename):
+    return send_from_directory(PICTURES_PATH, filename)
 
 @app.route('/api/test_items', methods=['GET'])
 def get_test_items():
@@ -100,6 +95,8 @@ def calculate_recommendations():
         # Call the KNN function to calculate recommendations
         recommendations, price_comparison, size_comparison, explainable_texts, scatter_plot_data, designer_count_data = knn_recommendations(liked_items)
 
+        for item in recommendations:
+            item.image_path = find_image_path(item.name, os.path.join(os.path.dirname(__file__), PICTURES_PATH))
 
         # Convert FurnitureItem instances to dictionaries for JSON response
         response_data = [item.__dict__ for item in recommendations]
