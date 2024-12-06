@@ -41,6 +41,22 @@ def get_test_items():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+@app.route('/api/filter', methods=['GET'])
+def filter():
+    try:
+        filter_data = {key: value for key, value in request.args.items()}
+
+        filter = FilterItem(**filter_data)
+        csv_path = os.path.join(os.path.dirname(__file__), '../data/IKEA_data_processed.csv')
+        pictures_path = os.path.join(os.path.dirname(__file__), PICTURES_PATH)
+        
+        furniture_items = process_furniture_data(csv_path, pictures_path, filter)
+
+        response_data = [item.__dict__ for item in furniture_items]
+
+        return jsonify({"items": response_data}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 @app.route('/api/liked_items', methods=['POST'])
 def save_liked_items():
