@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-from src.models import FurnitureItem
+from src.models import FurnitureItem, FilterItem
 from src.recommender import RecommendationModel
 
 def find_image_path(name, picture_path):
@@ -93,7 +93,7 @@ def process_furniture_data(csv_path, pictures_path):
     return furniture_items
 
 
-def knn_recommendations(liked_items, disliked_items=None, rec_num=10):
+def knn_recommendations(liked_items, disliked_items=None, rec_num=10, filter=None):
     """
     Generate k-NN recommendations based on liked items.
 
@@ -107,6 +107,9 @@ def knn_recommendations(liked_items, disliked_items=None, rec_num=10):
         list: A list of recommended FurnitureItem objects.
 
     """
+    if filter is None:
+        filter = FilterItem()
+
 
     csv_path = os.path.join(os.path.dirname(__file__), '../data/IKEA_data_processed.csv')
 

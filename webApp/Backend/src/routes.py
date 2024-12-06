@@ -3,7 +3,7 @@ from src import app
 import os
 import json
 from flask import send_from_directory, session, jsonify, request
-from src.models import FurnitureItem
+from src.models import FurnitureItem, FilterItem
 from src.utils import process_furniture_data, knn_recommendations, find_image_path
 import shutil
 
@@ -82,6 +82,10 @@ def calculate_recommendations():
 
     try:
 
+        request_data = request.get_json() or {}  # Default to empty dict if no JSON is provided
+        filter_data = request_data.get("filters", {})  # Extract filters, default to empty dict
+        filter = FilterItem(**filter_data)
+
         # Check if liked_items.json exists
         if not os.path.exists(liked_items_path):
             print("Recommendations error: No liked items found")
@@ -93,7 +97,7 @@ def calculate_recommendations():
 
 
         # Call the KNN function to calculate recommendations
-        recommendations, price_comparison, size_comparison, explainable_texts, scatter_plot_data, designer_count_data = knn_recommendations(liked_items)
+        recommendations, price_comparison, size_comparison, explainable_texts, scatter_plot_data, designer_count_data = knn_recommendations(liked_items, filter=filter)
 
         for item in recommendations:
             item.image_path = find_image_path(item.name, os.path.join(os.path.dirname(__file__), PICTURES_PATH))
