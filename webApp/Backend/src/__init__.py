@@ -10,3 +10,5 @@ CORS(app)  # Enable CORS for all routes
 fetch_ikea_images(csv_path = "./data/IKEA_SA_Furniture_Web_Scrapings_sss.csv", folder_path="./data/ikea_images")
 
 from src import routes
+from src import utils
+utils.reset_temp()

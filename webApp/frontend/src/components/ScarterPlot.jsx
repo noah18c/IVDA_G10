@@ -1,5 +1,6 @@
 import React from 'react';
-import Plot from 'react-plotly.js'; // Import Plotly.js component
+import Plot from 'react-plotly.js';
+import { Box, Typography } from '@mui/material';
 
 const ScatterPlot = ({ scatterData }) => {
     const { liked_items, recommended_items } = scatterData;
@@ -11,7 +12,9 @@ const ScatterPlot = ({ scatterData }) => {
     const recommended_y = recommended_items.map(item => item.space); 
 
     return (
-        <div>
+        <Box
+            
+        >
             <Plot
                 data={[
                     {
@@ -20,7 +23,7 @@ const ScatterPlot = ({ scatterData }) => {
                         mode: 'markers',
                         type: 'scatter',
                         name: 'Liked Items',
-                        marker: { color: 'blue', symbol: 'circle', size: 10 },
+                        marker: { color: '#0058a3', symbol: 'circle', size: 10 },
                     },
                     {
                         x: recommended_x,
@@ -28,7 +31,7 @@ const ScatterPlot = ({ scatterData }) => {
                         mode: 'markers',
                         type: 'scatter',
                         name: 'Recommended Items',
-                        marker: { color: 'red', symbol: 'diamond', size: 10 },
+                        marker: { color: '#ffe53a', symbol: 'diamond', size: 10 },
                     },
                 ]}
                 layout={{
@@ -37,7 +40,7 @@ const ScatterPlot = ({ scatterData }) => {
                     yaxis: { title: 'Space (cm³)' },
                 }}
             />
-        </div>
+        </Box>
     );
 };
 

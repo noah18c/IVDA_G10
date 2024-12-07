@@ -2,6 +2,7 @@ import os
 import pandas as pd
 from src.models import FurnitureItem, FilterItem
 from src.recommender import RecommendationModel
+import shutil
 
 def find_image_path(name, picture_path):
     """
@@ -25,7 +26,7 @@ def find_image_path(name, picture_path):
     return f"http://127.0.0.1:5000/data/Image-not-found.png"
 
 
-def process_furniture_data(csv_path, pictures_path):
+def process_furniture_data(csv_path, pictures_path, filter=None):
     """
     Processes the CSV file and assigns pictures to generate 20 random instances of FurnitureItem.
 
@@ -39,11 +40,48 @@ def process_furniture_data(csv_path, pictures_path):
     # Read the CSV file
     data = pd.read_csv(csv_path)
 
+    if filter is not None:
+        filter_mapping = {
+            'price_min': 'price', 'price_max': 'price',
+            'height_min': 'height', 'height_max': 'height',
+            'width_min': 'width', 'width_max': 'width',
+            'depth_min': 'depth', 'depth_max': 'depth',
+            'living_room': 'Living room', 'bedroom': 'Bedroom',
+            'office': 'Office', 'kitchen': 'Kitchen', 
+            'dining': 'Dining room', 'entrance': 'Entrance',
+            'playroom': 'Playroom', 'nursery': 'Nursery', 
+            'outdoor': 'Outdoor'
+        }
+
+        for filter_attr, column_name in filter_mapping.items():
+            filter_value = getattr(filter, filter_attr)
+            
+            if filter_value is not None:
+                # Ensure the filter_value is numeric when comparing with numeric columns
+                if isinstance(filter_value, str):
+                    try:
+                        filter_value = float(filter_value)  # Try converting to float if it's a string
+                    except ValueError:
+                        pass  # If it's not convertible, keep the original value
+
+                # Apply min/max filters for numerical values (e.g., price_min, price_max)
+                if filter_attr.endswith('_min'):
+                    data = data[data[column_name] >= filter_value]
+                elif filter_attr.endswith('_max'):
+                    data = data[data[column_name] <= filter_value]
+                else:
+                    # Apply binary filters (e.g., living_room, bedroom)
+                    if filter_value:
+                        data = data[data[column_name] == 1] 
+
     # Extract the first word from the 'name' column
     data['name'] = data['name'].str.split(' ').str[0]
 
     # Select 20 random rows
-    sample_data = data.sample(n=20)
+    if len(data) < 20:
+        sample_data = data  # If there are fewer than 20 rows, use all available rows
+    else:
+        sample_data = data.sample(n=20) 
 
     # Get all picture file names
     pictures = os.listdir(pictures_path)
@@ -140,3 +178,14 @@ def knn_recommendations(liked_items, disliked_items=None, rec_num=10, filter=Non
     return recommendations, price_comparison, size_comparison, explainable_texts,scatter_plot_data,designer_count_data
 
 
+def reset_temp():
+    try:
+        # Path to the temp folder
+        temp_folder_path = os.path.join(os.path.dirname(__file__), '../data/temp')
+
+        # Delete all files in the temp folder
+        if os.path.exists(temp_folder_path):
+            shutil.rmtree(temp_folder_path)  # Remove the folder and its contents
+            os.makedirs(temp_folder_path)   # Recreate the empty folder
+    except Exception as e:
+        print()

@@ -1,77 +1,52 @@
 import React from 'react'
 import { Box, Typography } from '@mui/material'
 import BarChart from '../components/BarChart'
-import RecommendedItemDetails from './RecommendedItemDetails' // Import the new component
+import RecommendedItemDetails from './RecommendedItemDetails'
 
 const RecommendationInfo = ({
 	selectedItemInfoPrice,
 	selectedItemInfoSize,
 	selectedItemInfoExplanation,
 }) => {
+	// Ensure valid data structures for Price and Size
+	const basketItemsPrice = selectedItemInfoPrice?.basket_items || []
+	const basketItemsSize = selectedItemInfoSize?.basket_items || []
+
 	// Price data
-	const recommendedItemNamePrice =
-		selectedItemInfoPrice?.recommended_item?.name
-	const recommendedItemPrice = selectedItemInfoPrice?.recommended_item?.price
-
-	const basketItemsPrice = selectedItemInfoPrice?.basket_items?.map(
-		(item, index) => ({
-			name: `${item.name} (${index + 1})`,
-			price: item.price,
-		})
-	)
-
 	const itemNamesPrice = [
-		recommendedItemNamePrice,
-		...basketItemsPrice.map((item) => item.name),
+		selectedItemInfoPrice?.recommended_item?.name || 'Recommended Item',
+		...basketItemsPrice.map((item, index) => `${item.name} (${index + 1})`),
 	]
 	const itemPrices = [
-		recommendedItemPrice,
-		...basketItemsPrice.map((item) => item.price),
+		selectedItemInfoPrice?.recommended_item?.price || 0,
+		...basketItemsPrice.map((item) => item.price || 0),
 	]
 	const itemColorsPrice = [
 		'rgb(255, 99, 71)',
-		...Array(basketItemsPrice.length).fill('rgb(135, 206, 250)'),
+		...basketItemsPrice.map(() => 'rgb(135, 206, 250)'),
 	]
 
 	// Size data
-	const recommendedItemNameSize = selectedItemInfoSize?.recommended_item?.name
-	const recommendedItemSize = selectedItemInfoSize?.recommended_item?.size
-
-	const basketItemsSize = selectedItemInfoSize?.basket_items?.map(
-		(item, index) => ({
-			name: `${item.name} (${index + 1})`,
-			size: item.size,
-		})
-	)
-
 	const itemNamesSize = [
-		recommendedItemNameSize,
-		...basketItemsSize.map((item) => item.name),
+		selectedItemInfoSize?.recommended_item?.name || 'Recommended Item',
+		...basketItemsSize.map((item, index) => `${item.name} (${index + 1})`),
 	]
 	const itemSizes = [
-		recommendedItemSize,
-		...basketItemsSize.map((item) => item.size),
+		selectedItemInfoSize?.recommended_item?.size || 0,
+		...basketItemsSize.map((item) => item.size || 0),
 	]
 	const itemColorsSize = [
 		'rgb(255, 99, 71)',
-		...Array(basketItemsSize.length).fill('rgb(135, 206, 250)'),
+		...basketItemsSize.map(() => 'rgb(135, 206, 250)'),
 	]
 
 	// Explanation data
-	const recommendedItem = selectedItemInfoExplanation?.recommended_item
-	const explanation = selectedItemInfoExplanation?.explanation
-	const additionalInfo = selectedItemInfoExplanation?.additional_info
+	const recommendedItem = selectedItemInfoExplanation?.recommended_item || {}
+	const explanation = selectedItemInfoExplanation?.explanation || {}
+	const additionalInfo = selectedItemInfoExplanation?.additional_info || {}
 
 	return (
-		<Box
-			sx={{
-				backgroundColor: '#f9f9f9',
-				borderRadius: '12px',
-				boxShadow: '0 6px 12px rgba(0, 0, 0, 0.1)',
-				padding: '24px',
-				width: '100%',
-			}}
-		>
+		<Box>
 			<Typography
 				variant='h5'
 				sx={{
@@ -94,7 +69,7 @@ const RecommendationInfo = ({
 			>
 				<Box sx={{ flex: 1, marginRight: '16px' }}>
 					<BarChart
-						title='Price Comparison'
+						title="Price Comparison"
 						xData={itemNamesPrice}
 						yData={itemPrices}
 						colors={itemColorsPrice}
