@@ -48,7 +48,8 @@ const CardsChoice = () => {
 			const response = await axios.get('/api/test_items');
 			if (response.data.items && Array.isArray(response.data.items)) {
 				setItems(response.data.items);
-				setCurrentIndex(0);
+				setCurrentIndex(0);			
+				setError(''); // Clear any existing errors
 			} else {
 				setError('Invalid response format');
 			}
@@ -61,8 +62,11 @@ const CardsChoice = () => {
 	};
 
 	useEffect(() => {
-		fetchData();
+		fetchData();	
 	}, []);
+
+	console.log(items);
+	
 
 	const handleChoice = async (isLiked) => {
 		const currentItem = items[currentIndex];

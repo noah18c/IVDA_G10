@@ -66,8 +66,7 @@ const RecommendedItemDetails = ({ recommendedItem, explanation, additionalInfo }
               />
             </Typography>
             <Typography sx={{ fontSize: '16px', marginBottom: '8px', color: '#333' }}>
-              <strong>Rooms:</strong>{' '}
-              {Array.isArray(recommendedItem?.rooms) ? recommendedItem.rooms.join(', ') : 'N/A'}
+              <strong>Rooms:</strong> {recommendedItem?.rooms || 'N/A'}
             </Typography>
           </Box>
         </Box>

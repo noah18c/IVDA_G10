@@ -49,6 +49,24 @@ const Cards = ({ item, onChoice }) => {
 					Category: {item.category}
 				</Typography>
 				<Typography
+					variant="body2"
+					sx={{ color: '#555', marginBottom: 1 }}
+				>
+					Width: {Math.round(item.width)}
+				</Typography>
+				<Typography
+					variant="body2"
+					sx={{ color: '#555', marginBottom: 1 }}
+				>
+					Height: {Math.round(item.height)}
+				</Typography>
+				<Typography
+					variant="body2"
+					sx={{ color: '#555', marginBottom: 1 }}
+				>
+					Depth: {Math.round(item.depth)}
+				</Typography>
+				<Typography
 					variant="body1"
 					sx={{ fontWeight: 500, color: '#0058A3' }}
 				>
