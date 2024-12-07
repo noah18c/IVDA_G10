@@ -72,7 +72,14 @@ def process_furniture_data(csv_path, pictures_path, filter=None):
                 else:
                     # Apply binary filters (e.g., living_room, bedroom)
                     if filter_value:
-                        data = data[data[column_name] == 1] 
+                        # Create a list of room column names that are part of the filter_mapping
+                        room_columns = [
+                            'Living room', 'Bedroom', 'Office', 'Kitchen', 
+                            'Dining room', 'Entrance', 'Playroom', 'Nursery', 'Outdoor'
+                        ]
+                        
+                        # Check if any of the room columns in the row have a '1'
+                        data = data[data[room_columns].eq(1).any(axis=1)]
 
     # Extract the first word from the 'name' column
     data['name'] = data['name'].str.split(' ').str[0]
