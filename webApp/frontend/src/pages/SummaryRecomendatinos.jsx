@@ -67,11 +67,11 @@ const SummaryRecommendations = () => {
 
   return (
     <Box
-      sx={{
-        padding: '20px',
-        backgroundColor: '#f9f9f9',
-        minHeight: '100vh',
-      }}
+      // sx={{
+      //   padding: '20px',
+      //   backgroundColor: '#f9f9f9',
+      //   minHeight: '100vh',
+      // }}
     >
       <Typography variant="h4" gutterBottom sx={{ textAlign: 'center' }}>
         Summary Recommendations
@@ -94,14 +94,12 @@ const SummaryRecommendations = () => {
         </Paper>
 
         <Paper elevation={3} sx={{ padding: '16px', width: '100%', maxWidth: '800px' }}>
-          <Typography variant="h6" gutterBottom>
-            Designer Counts
-          </Typography>
           <BarChart
             title="Designer Counts"
             xData={designerCountData?.designers}
             yData={designerCountData?.counts}
             colors={colors}
+            showLegend={false}
           />
         </Paper>
       </Box>

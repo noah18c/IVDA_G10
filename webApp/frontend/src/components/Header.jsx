@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <AppBar position="static" sx={{ backgroundColor: "#333" }}>
+    <AppBar position="static" sx={{ backgroundColor: "#0058a3" }}>
       <Toolbar
         sx={{
           display: "flex",
@@ -18,22 +18,48 @@ const Header = () => {
           to="/"
           sx={{
             textDecoration: "none",
-            color: "white",
+            color: "#ffe53a",
+            fontWeight: "bold",
+            "&:hover": { color: "#ffffff" },
           }}
         >
           IKEA Recommender System
         </Typography>
 
         <Box sx={{ display: "flex", gap: 2 }}>
-          <Button component={Link} to="/" sx={{ color: "white" }}>
+          <Button
+            component={Link}
+            to="/"
+            sx={{
+              color: "#ffe53a",
+              fontWeight: "bold",
+              "&:hover": { color: "#ffffff" }, 
+            }}
+          >
             Choices
           </Button>
-          <Button component={Link} to="/recommendations" sx={{ color: "white" }}>
+          <Button
+            component={Link}
+            to="/recommendations"
+            sx={{
+              color: "#ffe53a",
+              fontWeight: "bold",
+              "&:hover": { color: "#ffffff" }, 
+            }}
+          >
             Recommendations
           </Button>
-          <Button component={Link} to="/summary" sx={{ color: "white" }}>
+          {/* <Button
+            component={Link}
+            to="/summary"
+            sx={{
+              color: "#ffe53a",
+              fontWeight: "bold", 
+              "&:hover": { color: "#ffffff" },
+            }}
+          >
             Summary
-          </Button>
+          </Button> */}
         </Box>
       </Toolbar>
     </AppBar>
