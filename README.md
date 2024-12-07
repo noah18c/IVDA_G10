@@ -1,7 +1,7 @@
 # IVDA G10 - IKEAlytics: An Explainable IKEA Recommender System
 
 ## 1. Introduction
-IKEAlytics is a personalized recommendation system aimed at **Non-expert IKEA shoppers**. THe tool provides **personalized recommendations** with visual and textual explanations to improve user trust and satisfaction. Users can input certain perferences and like items in order to build a preferences profile, based upon which recommendations get generated.
+IKEAlytics is a personalized recommendation system aimed at **non-expert IKEA shoppers**. THe tool provides **personalized recommendations** with visual and textual explanations to improve user trust and satisfaction. Users can input certain perferences and like items in order to build a preferences profile, based upon which recommendations get generated.
 
 **Key Objectives:**
 - Help users explore new IKEA products matchin their preferences
