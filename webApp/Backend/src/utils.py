@@ -2,6 +2,7 @@ import os
 import pandas as pd
 from src.models import FurnitureItem, FilterItem
 from src.recommender import RecommendationModel
+import shutil
 
 def find_image_path(name, picture_path):
     """
@@ -175,3 +176,14 @@ def knn_recommendations(liked_items, disliked_items=None, rec_num=10, filter=Non
     return recommendations, price_comparison, size_comparison, explainable_texts,scatter_plot_data,designer_count_data
 
 
+def reset_temp():
+    try:
+        # Path to the temp folder
+        temp_folder_path = os.path.join(os.path.dirname(__file__), '../data/temp')
+
+        # Delete all files in the temp folder
+        if os.path.exists(temp_folder_path):
+            shutil.rmtree(temp_folder_path)  # Remove the folder and its contents
+            os.makedirs(temp_folder_path)   # Recreate the empty folder
+    except Exception as e:
+        print()

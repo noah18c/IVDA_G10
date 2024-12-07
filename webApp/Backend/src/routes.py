@@ -44,12 +44,18 @@ def get_test_items():
 @app.route('/api/filter', methods=['GET'])
 def filter():
     try:
+        csv_path = os.path.join(os.path.dirname(__file__), '../data/IKEA_data_processed.csv')
+        pictures_path = os.path.join(os.path.dirname(__file__), PICTURES_PATH)
+        filter_path = os.path.join(os.path.dirname(__file__), '../data/temp//filter.json')
+
         filter_data = {key: value for key, value in request.args.items()}
 
         filter = FilterItem(**filter_data)
-        csv_path = os.path.join(os.path.dirname(__file__), '../data/IKEA_data_processed.csv')
-        pictures_path = os.path.join(os.path.dirname(__file__), PICTURES_PATH)
-        
+
+        filter_dict = filter.__dict__   
+        with open(filter_path, 'w') as f:
+            json.dump(filter_dict, f, indent=4)
+
         furniture_items = process_furniture_data(csv_path, pictures_path, filter)
 
         response_data = [item.__dict__ for item in furniture_items]
@@ -95,12 +101,17 @@ def calculate_recommendations():
     recommended_items_path = os.path.join(temp_folder_path, 'recommended_items.json')
     recommended_stats_path = os.path.join(temp_folder_path, 'recommended_stats.json')
     summary_statistics_path = os.path.join(temp_folder_path, 'summary_statistics.json')
+    filter_path = os.path.join(temp_folder_path, 'filter.json')
+
 
     try:
 
-        request_data = request.get_json() or {}  # Default to empty dict if no JSON is provided
-        filter_data = request_data.get("filters", {})  # Extract filters, default to empty dict
-        filter = FilterItem(**filter_data)
+        if os.path.exists(filter_path):
+            with open(filter_path, 'r') as f:
+                filter_data = json.load(f)
+                filter = FilterItem(**filter_data)
+        else:
+            filter = None
 
         # Check if liked_items.json exists
         if not os.path.exists(liked_items_path):
