@@ -35,4 +35,29 @@ class FurnitureItem:
 
     def __repr__(self):
         return f"<FurnitureItem {self.name} ({self.item_id})>"
+    
+class FilterItem:
+
+    def __init__(self, price_min=None, price_max=None, height_min=None, height_max=None, 
+                 width_min=None, width_max=None, depth_min=None, depth_max=None, 
+                 living_room=0, bedroom=0, office=0, kitchen=0, dining=0, 
+                 entrance=0, playroom=0, nursery=0, outdoor=0):
+        
+        self.price_min = price_min
+        self.price_max = price_max
+        self.height_min = height_min
+        self.height_max = height_max
+        self.width_min = width_min
+        self.width_max = width_max
+        self.depth_min = depth_min
+        self.depth_max = depth_max
+        self.living_room = living_room
+        self.bedroom = bedroom
+        self.office = office
+        self.kitchen = kitchen
+        self.dining = dining
+        self.entrance = entrance
+        self.playroom = playroom
+        self.nursery = nursery
+        self.outdoor = outdoor
 

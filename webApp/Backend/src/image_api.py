@@ -67,7 +67,7 @@ def fetch_images_selenium(names, folder_path):
             driver.get(f"https://www.ikea.com/ch/de/search/?q={name}")
             try:
                 #wait until site is loaded, max 4secs
-                img_tag = WebDriverWait(driver, 4).until(
+                img_tag = WebDriverWait(driver, 2).until(
                     EC.presence_of_element_located((By.CSS_SELECTOR, "img.image.plp-product__image.plp-product__image--alt"))
                 )
                 img_url = img_tag.get_attribute("src")
