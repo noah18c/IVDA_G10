@@ -38,10 +38,10 @@ class FurnitureItem:
     
 class FilterItem:
 
-    def __init__(self, price_min=None, price_max=None, height_min=None, height_max=None, 
-                 width_min=None, width_max=None, depth_min=None, depth_max=None, 
-                 living_room=0, bedroom=0, office=0, kitchen=0, dining=0, 
-                 entrance=0, playroom=0, nursery=0, outdoor=0):
+    def __init__(self, price_min=1, price_max=9585, height_min=1, height_max=321, 
+                 width_min=1, width_max=420, depth_min=1, depth_max=257, 
+                 living_room=1, bedroom=1, office=1, kitchen=1, dining=1, 
+                 entrance=1, playroom=1, nursery=1, outdoor=1):
         
         self.price_min = price_min
         self.price_max = price_max

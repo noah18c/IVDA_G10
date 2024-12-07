@@ -2,231 +2,175 @@
     "price_comparison": [
         {
             "recommended_item": {
-                "item_id": 40136681,
-                "name": "VEJMON",
-                "price": 345.0
+                "item_id": 10308787,
+                "name": "TRYSIL",
+                "price": 895.0
             },
             "basket_items": [
                 {
-                    "name": "EKEDALEN",
-                    "price": 345.0
+                    "name": "KLEPPSTAD",
+                    "price": 349.0
                 },
                 {
-                    "name": "FJ\u00c4LLBERGET",
-                    "price": 995.0
+                    "name": "PLATSA",
+                    "price": 2600.5
                 },
                 {
-                    "name": "IKEA PS L\u00d6MSK",
-                    "price": 345.0
-                },
-                {
-                    "name": "NISSE",
-                    "price": 99.0
+                    "name": "SL\u00c4KT",
+                    "price": 1260.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 59933179,
-                "name": "LINNMON / ODDVALD",
-                "price": 325.0
+                "item_id": 89326463,
+                "name": "PLATSA",
+                "price": 2111.0
             },
             "basket_items": [
                 {
-                    "name": "EKEDALEN",
-                    "price": 345.0
+                    "name": "PLATSA",
+                    "price": 2600.5
                 },
                 {
-                    "name": "FJ\u00c4LLBERGET",
-                    "price": 995.0
-                },
-                {
-                    "name": "IKEA PS L\u00d6MSK",
-                    "price": 345.0
-                },
-                {
-                    "name": "NISSE",
-                    "price": 99.0
+                    "name": "SL\u00c4KT",
+                    "price": 1260.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 50205179,
-                "name": "\u00c4PPLAR\u00d6",
-                "price": 425.0
+                "item_id": 99302975,
+                "name": "PLATSA",
+                "price": 2163.5
             },
             "basket_items": [
                 {
-                    "name": "ASKHOLMEN",
-                    "price": 771.0
+                    "name": "PLATSA",
+                    "price": 2600.5
                 },
                 {
-                    "name": "FR\u00d6S\u00d6N",
-                    "price": 14.4
-                },
-                {
-                    "name": "FR\u00d6S\u00d6N",
-                    "price": 35.0
-                },
-                {
-                    "name": "\u00c4PPLAR\u00d6",
-                    "price": 841.0
+                    "name": "SL\u00c4KT",
+                    "price": 1260.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 19183815,
-                "name": "SALTHOLMEN",
-                "price": 445.0
+                "item_id": 19302917,
+                "name": "PLATSA",
+                "price": 2210.0
             },
             "basket_items": [
                 {
-                    "name": "ASKHOLMEN",
-                    "price": 771.0
+                    "name": "PLATSA",
+                    "price": 2600.5
                 },
                 {
-                    "name": "FR\u00d6S\u00d6N",
-                    "price": 14.4
-                },
-                {
-                    "name": "FR\u00d6S\u00d6N",
-                    "price": 35.0
-                },
-                {
-                    "name": "\u00c4PPLAR\u00d6",
-                    "price": 841.0
+                    "name": "SL\u00c4KT",
+                    "price": 1260.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 410747,
-                "name": "HUSAR\u00d6",
-                "price": 495.0
+                "item_id": 89302914,
+                "name": "PLATSA",
+                "price": 2307.0
             },
             "basket_items": [
                 {
-                    "name": "ASKHOLMEN",
-                    "price": 771.0
+                    "name": "PLATSA",
+                    "price": 2600.5
                 },
                 {
-                    "name": "FR\u00d6S\u00d6N",
-                    "price": 14.4
-                },
-                {
-                    "name": "FR\u00d6S\u00d6N",
-                    "price": 35.0
-                },
-                {
-                    "name": "\u00c4PPLAR\u00d6",
-                    "price": 841.0
+                    "name": "SL\u00c4KT",
+                    "price": 1260.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 19304006,
-                "name": "NILSOVE / NORNA",
-                "price": 424.0
+                "item_id": 19302922,
+                "name": "VITVAL",
+                "price": 1590.0
             },
             "basket_items": [
                 {
-                    "name": "EKEDALEN",
-                    "price": 345.0
+                    "name": "PLATSA",
+                    "price": 2600.5
                 },
                 {
-                    "name": "FJ\u00c4LLBERGET",
-                    "price": 995.0
-                },
-                {
-                    "name": "NISSE",
-                    "price": 99.0
+                    "name": "SL\u00c4KT",
+                    "price": 1260.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 60444301,
-                "name": "LERHAMN",
-                "price": 399.0
+                "item_id": 59302915,
+                "name": "PLATSA",
+                "price": 2905.0
             },
             "basket_items": [
                 {
-                    "name": "EKEDALEN",
-                    "price": 345.0
+                    "name": "PLATSA",
+                    "price": 2600.5
                 },
                 {
-                    "name": "FJ\u00c4LLBERGET",
-                    "price": 995.0
-                },
-                {
-                    "name": "NISSE",
-                    "price": 99.0
+                    "name": "SL\u00c4KT",
+                    "price": 1260.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 50434312,
-                "name": "NILSOVE",
-                "price": 395.0
+                "item_id": 80411272,
+                "name": "VITVAL",
+                "price": 1295.0
             },
             "basket_items": [
                 {
-                    "name": "EKEDALEN",
-                    "price": 345.0
+                    "name": "PLATSA",
+                    "price": 2600.5
                 },
                 {
-                    "name": "FJ\u00c4LLBERGET",
-                    "price": 995.0
-                },
-                {
-                    "name": "NISSE",
-                    "price": 99.0
+                    "name": "SL\u00c4KT",
+                    "price": 1260.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 9222252,
-                "name": "LINNMON / ALVARET",
-                "price": 439.0
+                "item_id": 19175957,
+                "name": "MALM",
+                "price": 920.0
             },
             "basket_items": [
                 {
-                    "name": "EKEDALEN",
-                    "price": 345.0
+                    "name": "PLATSA",
+                    "price": 2600.5
                 },
                 {
-                    "name": "FJ\u00c4LLBERGET",
-                    "price": 995.0
-                },
-                {
-                    "name": "NISSE",
-                    "price": 99.0
+                    "name": "SL\u00c4KT",
+                    "price": 1260.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 10400540,
-                "name": "EKEDALEN",
-                "price": 345.0
+                "item_id": 89227731,
+                "name": "SL\u00c4KT",
+                "price": 995.0
             },
             "basket_items": [
                 {
-                    "name": "EKEDALEN",
-                    "price": 345.0
+                    "name": "PLATSA",
+                    "price": 2600.5
                 },
                 {
-                    "name": "FJ\u00c4LLBERGET",
-                    "price": 995.0
-                },
-                {
-                    "name": "NISSE",
-                    "price": 99.0
+                    "name": "SL\u00c4KT",
+                    "price": 1260.0
                 }
             ]
         }
@@ -234,231 +178,175 @@
     "size_comparison": [
         {
             "recommended_item": {
-                "item_id": 40136681,
-                "name": "VEJMON",
-                "size": 277012.92018632806
+                "item_id": 10308787,
+                "name": "TRYSIL",
+                "size": 973438.0
             },
             "basket_items": [
                 {
-                    "name": "EKEDALEN",
-                    "size": 250002.0
+                    "name": "KLEPPSTAD",
+                    "size": 764720.0
                 },
                 {
-                    "name": "FJ\u00c4LLBERGET",
-                    "size": 460116.9161263109
+                    "name": "PLATSA",
+                    "size": 245960.0
                 },
                 {
-                    "name": "IKEA PS L\u00d6MSK",
-                    "size": 274350.0
-                },
-                {
-                    "name": "NISSE",
-                    "size": 160740.0
+                    "name": "SL\u00c4KT",
+                    "size": 178080.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 59933179,
-                "name": "LINNMON / ODDVALD",
-                "size": 266648.1194727166
+                "item_id": 89326463,
+                "name": "PLATSA",
+                "size": 240800.0
             },
             "basket_items": [
                 {
-                    "name": "EKEDALEN",
-                    "size": 250002.0
+                    "name": "PLATSA",
+                    "size": 245960.0
                 },
                 {
-                    "name": "FJ\u00c4LLBERGET",
-                    "size": 460116.9161263109
-                },
-                {
-                    "name": "IKEA PS L\u00d6MSK",
-                    "size": 274350.0
-                },
-                {
-                    "name": "NISSE",
-                    "size": 160740.0
+                    "name": "SL\u00c4KT",
+                    "size": 178080.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 50205179,
-                "name": "\u00c4PPLAR\u00d6",
-                "size": 467200.0
+                "item_id": 99302975,
+                "name": "PLATSA",
+                "size": 242520.0
             },
             "basket_items": [
                 {
-                    "name": "ASKHOLMEN",
-                    "size": 640446.8186990785
+                    "name": "PLATSA",
+                    "size": 245960.0
                 },
                 {
-                    "name": "FR\u00d6S\u00d6N",
-                    "size": 437229.7228618869
-                },
-                {
-                    "name": "FR\u00d6S\u00d6N",
-                    "size": 212177.3457130037
-                },
-                {
-                    "name": "\u00c4PPLAR\u00d6",
-                    "size": 661383.9203733974
+                    "name": "SL\u00c4KT",
+                    "size": 178080.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 19183815,
-                "name": "SALTHOLMEN",
-                "size": 547776.4764973455
+                "item_id": 19302917,
+                "name": "PLATSA",
+                "size": 240800.0
             },
             "basket_items": [
                 {
-                    "name": "ASKHOLMEN",
-                    "size": 640446.8186990785
+                    "name": "PLATSA",
+                    "size": 245960.0
                 },
                 {
-                    "name": "FR\u00d6S\u00d6N",
-                    "size": 437229.7228618869
-                },
-                {
-                    "name": "FR\u00d6S\u00d6N",
-                    "size": 212177.3457130037
-                },
-                {
-                    "name": "\u00c4PPLAR\u00d6",
-                    "size": 661383.9203733974
+                    "name": "SL\u00c4KT",
+                    "size": 178080.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 410747,
-                "name": "HUSAR\u00d6",
-                "size": 522240.0
+                "item_id": 89302914,
+                "name": "PLATSA",
+                "size": 240800.0
             },
             "basket_items": [
                 {
-                    "name": "ASKHOLMEN",
-                    "size": 640446.8186990785
+                    "name": "PLATSA",
+                    "size": 245960.0
                 },
                 {
-                    "name": "FR\u00d6S\u00d6N",
-                    "size": 437229.7228618869
-                },
-                {
-                    "name": "FR\u00d6S\u00d6N",
-                    "size": 212177.3457130037
-                },
-                {
-                    "name": "\u00c4PPLAR\u00d6",
-                    "size": 661383.9203733974
+                    "name": "SL\u00c4KT",
+                    "size": 178080.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 19304006,
-                "name": "NILSOVE / NORNA",
-                "size": 266418.0
+                "item_id": 19302922,
+                "name": "VITVAL",
+                "size": 886035.8121472372
             },
             "basket_items": [
                 {
-                    "name": "EKEDALEN",
-                    "size": 250002.0
+                    "name": "PLATSA",
+                    "size": 245960.0
                 },
                 {
-                    "name": "FJ\u00c4LLBERGET",
-                    "size": 460116.9161263109
-                },
-                {
-                    "name": "NISSE",
-                    "size": 160740.0
+                    "name": "SL\u00c4KT",
+                    "size": 178080.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 60444301,
-                "name": "LERHAMN",
-                "size": 275546.7929836864
+                "item_id": 59302915,
+                "name": "PLATSA",
+                "size": 242520.0
             },
             "basket_items": [
                 {
-                    "name": "EKEDALEN",
-                    "size": 250002.0
+                    "name": "PLATSA",
+                    "size": 245960.0
                 },
                 {
-                    "name": "FJ\u00c4LLBERGET",
-                    "size": 460116.9161263109
-                },
-                {
-                    "name": "NISSE",
-                    "size": 160740.0
+                    "name": "SL\u00c4KT",
+                    "size": 178080.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 50434312,
-                "name": "NILSOVE",
-                "size": 266418.0
+                "item_id": 80411272,
+                "name": "VITVAL",
+                "size": 811053.6309900137
             },
             "basket_items": [
                 {
-                    "name": "EKEDALEN",
-                    "size": 250002.0
+                    "name": "PLATSA",
+                    "size": 245960.0
                 },
                 {
-                    "name": "FJ\u00c4LLBERGET",
-                    "size": 460116.9161263109
-                },
-                {
-                    "name": "NISSE",
-                    "size": 160740.0
+                    "name": "SL\u00c4KT",
+                    "size": 178080.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 9222252,
-                "name": "LINNMON / ALVARET",
-                "size": 225395.41019686987
+                "item_id": 19175957,
+                "name": "MALM",
+                "size": 173460.0
             },
             "basket_items": [
                 {
-                    "name": "EKEDALEN",
-                    "size": 250002.0
+                    "name": "PLATSA",
+                    "size": 245960.0
                 },
                 {
-                    "name": "FJ\u00c4LLBERGET",
-                    "size": 460116.9161263109
-                },
-                {
-                    "name": "NISSE",
-                    "size": 160740.0
+                    "name": "SL\u00c4KT",
+                    "size": 178080.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 10400540,
-                "name": "EKEDALEN",
-                "size": 254904.0
+                "item_id": 89227731,
+                "name": "SL\u00c4KT",
+                "size": 588864.1292798064
             },
             "basket_items": [
                 {
-                    "name": "EKEDALEN",
-                    "size": 250002.0
+                    "name": "PLATSA",
+                    "size": 245960.0
                 },
                 {
-                    "name": "FJ\u00c4LLBERGET",
-                    "size": 460116.9161263109
-                },
-                {
-                    "name": "NISSE",
-                    "size": 160740.0
+                    "name": "SL\u00c4KT",
+                    "size": 178080.0
                 }
             ]
         }
@@ -466,367 +354,297 @@
     "explainable_texts": [
         {
             "recommended_item": {
-                "item_id": 40136681,
-                "name": "VEJMON",
-                "category": "Tables & desks",
-                "price": 345.0,
-                "designer": "Ehl\u00e9n Johansson",
-                "rooms": "Living room, Office, Kitchen, Dining room"
-            },
-            "explanation": {
-                "reason": "This recommended item is 94.54% similar to 4 items in your basket.",
-                "similar_items": [
-                    {
-                        "name": "EKEDALEN",
-                        "category": "Chairs",
-                        "price": 345.0
-                    },
-                    {
-                        "name": "FJ\u00c4LLBERGET",
-                        "category": "Chairs",
-                        "price": 995.0
-                    },
-                    {
-                        "name": "IKEA PS L\u00d6MSK",
-                        "category": "Children's furniture",
-                        "price": 345.0
-                    },
-                    {
-                        "name": "NISSE",
-                        "category": "Chairs",
-                        "price": 99.0
-                    }
-                ]
-            },
-            "additional_info": {
-                "average_price_in_cluster": 1026.95,
-                "designer_average_price": 1722.66
-            }
-        },
-        {
-            "recommended_item": {
-                "item_id": 59933179,
-                "name": "LINNMON / ODDVALD",
-                "category": "Tables & desks",
-                "price": 325.0,
-                "designer": "IKEA of Sweden",
-                "rooms": "Living room, Office, Kitchen, Dining room"
-            },
-            "explanation": {
-                "reason": "This recommended item is 94.52% similar to 4 items in your basket.",
-                "similar_items": [
-                    {
-                        "name": "EKEDALEN",
-                        "category": "Chairs",
-                        "price": 345.0
-                    },
-                    {
-                        "name": "FJ\u00c4LLBERGET",
-                        "category": "Chairs",
-                        "price": 995.0
-                    },
-                    {
-                        "name": "IKEA PS L\u00d6MSK",
-                        "category": "Children's furniture",
-                        "price": 345.0
-                    },
-                    {
-                        "name": "NISSE",
-                        "category": "Chairs",
-                        "price": 99.0
-                    }
-                ]
-            },
-            "additional_info": {
-                "average_price_in_cluster": 1026.95,
-                "designer_average_price": 583.52
-            }
-        },
-        {
-            "recommended_item": {
-                "item_id": 50205179,
-                "name": "\u00c4PPLAR\u00d6",
-                "category": "Outdoor furniture",
-                "price": 425.0,
+                "item_id": 10308787,
+                "name": "TRYSIL",
+                "category": "Wardrobes",
+                "price": 895.0,
                 "designer": "K Hagberg/M Hagberg",
-                "rooms": "Outdoor"
+                "rooms": "Bedroom, Entrance"
             },
             "explanation": {
-                "reason": "This recommended item is 86.85% similar to 4 items in your basket.",
+                "reason": "This recommended item is 66.99% similar to 3 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "ASKHOLMEN",
-                        "category": "Outdoor furniture",
-                        "price": 771.0
+                        "name": "KLEPPSTAD",
+                        "category": "Wardrobes",
+                        "price": 349.0
                     },
                     {
-                        "name": "FR\u00d6S\u00d6N",
-                        "category": "Outdoor furniture",
-                        "price": 14.4
+                        "name": "PLATSA",
+                        "category": "Beds",
+                        "price": 2600.5
                     },
                     {
-                        "name": "FR\u00d6S\u00d6N",
-                        "category": "Outdoor furniture",
-                        "price": 35.0
-                    },
-                    {
-                        "name": "\u00c4PPLAR\u00d6",
-                        "category": "Outdoor furniture",
-                        "price": 841.0
+                        "name": "SL\u00c4KT",
+                        "category": "Beds",
+                        "price": 1260.0
                     }
                 ]
             },
             "additional_info": {
-                "average_price_in_cluster": 925.53,
-                "designer_average_price": 578.44
+                "average_price_in_cluster": 1196.78,
+                "designer_average_price": 647.59
             }
         },
         {
             "recommended_item": {
-                "item_id": 19183815,
-                "name": "SALTHOLMEN",
-                "category": "Outdoor furniture",
-                "price": 445.0,
-                "designer": "Jon Karlsson",
-                "rooms": "Outdoor"
+                "item_id": 89326463,
+                "name": "PLATSA",
+                "category": "Beds",
+                "price": 2111.0,
+                "designer": "Ola Wihlborg/IKEA of Sweden",
+                "rooms": "Bedroom"
             },
             "explanation": {
-                "reason": "This recommended item is 86.68% similar to 4 items in your basket.",
+                "reason": "This recommended item is 95.98% similar to 2 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "ASKHOLMEN",
-                        "category": "Outdoor furniture",
-                        "price": 771.0
+                        "name": "PLATSA",
+                        "category": "Beds",
+                        "price": 2600.5
                     },
                     {
-                        "name": "FR\u00d6S\u00d6N",
-                        "category": "Outdoor furniture",
-                        "price": 14.4
-                    },
-                    {
-                        "name": "FR\u00d6S\u00d6N",
-                        "category": "Outdoor furniture",
-                        "price": 35.0
-                    },
-                    {
-                        "name": "\u00c4PPLAR\u00d6",
-                        "category": "Outdoor furniture",
-                        "price": 841.0
+                        "name": "SL\u00c4KT",
+                        "category": "Beds",
+                        "price": 1260.0
                     }
                 ]
             },
             "additional_info": {
-                "average_price_in_cluster": 925.53,
-                "designer_average_price": 654.28
+                "average_price_in_cluster": 1196.78,
+                "designer_average_price": 1602.12
             }
         },
         {
             "recommended_item": {
-                "item_id": 410747,
-                "name": "HUSAR\u00d6",
-                "category": "Outdoor furniture",
-                "price": 495.0,
-                "designer": "Ola Wihlborg",
-                "rooms": "Outdoor"
+                "item_id": 99302975,
+                "name": "PLATSA",
+                "category": "Beds",
+                "price": 2163.5,
+                "designer": "IKEA of Sweden",
+                "rooms": "Bedroom"
             },
             "explanation": {
-                "reason": "This recommended item is 86.64% similar to 4 items in your basket.",
+                "reason": "This recommended item is 95.79% similar to 2 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "ASKHOLMEN",
-                        "category": "Outdoor furniture",
-                        "price": 771.0
+                        "name": "PLATSA",
+                        "category": "Beds",
+                        "price": 2600.5
                     },
                     {
-                        "name": "FR\u00d6S\u00d6N",
-                        "category": "Outdoor furniture",
-                        "price": 14.4
-                    },
-                    {
-                        "name": "FR\u00d6S\u00d6N",
-                        "category": "Outdoor furniture",
-                        "price": 35.0
-                    },
-                    {
-                        "name": "\u00c4PPLAR\u00d6",
-                        "category": "Outdoor furniture",
-                        "price": 841.0
+                        "name": "SL\u00c4KT",
+                        "category": "Beds",
+                        "price": 1260.0
                     }
                 ]
             },
             "additional_info": {
-                "average_price_in_cluster": 925.53,
-                "designer_average_price": 1521.98
+                "average_price_in_cluster": 1196.78,
+                "designer_average_price": 630.05
             }
         },
         {
             "recommended_item": {
-                "item_id": 19304006,
-                "name": "NILSOVE / NORNA",
-                "category": "Chairs",
-                "price": 424.0,
-                "designer": "A Fredriksson/J Hultqvist/W Chong",
-                "rooms": "Living room, Office, Kitchen, Dining room"
+                "item_id": 19302917,
+                "name": "PLATSA",
+                "category": "Beds",
+                "price": 2210.0,
+                "designer": "IKEA of Sweden",
+                "rooms": "Bedroom"
             },
             "explanation": {
-                "reason": "This recommended item is 99.23% similar to 3 items in your basket.",
+                "reason": "This recommended item is 95.58% similar to 2 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "EKEDALEN",
-                        "category": "Chairs",
-                        "price": 345.0
+                        "name": "PLATSA",
+                        "category": "Beds",
+                        "price": 2600.5
                     },
                     {
-                        "name": "FJ\u00c4LLBERGET",
-                        "category": "Chairs",
-                        "price": 995.0
-                    },
-                    {
-                        "name": "NISSE",
-                        "category": "Chairs",
-                        "price": 99.0
+                        "name": "SL\u00c4KT",
+                        "category": "Beds",
+                        "price": 1260.0
                     }
                 ]
             },
             "additional_info": {
-                "average_price_in_cluster": 1026.95,
-                "designer_average_price": 406.5
+                "average_price_in_cluster": 1196.78,
+                "designer_average_price": 630.05
             }
         },
         {
             "recommended_item": {
-                "item_id": 60444301,
-                "name": "LERHAMN",
-                "category": "Tables & desks",
-                "price": 399.0,
-                "designer": "Nike Karlsson",
-                "rooms": "Living room, Office, Kitchen, Dining room"
+                "item_id": 89302914,
+                "name": "PLATSA",
+                "category": "Beds",
+                "price": 2307.0,
+                "designer": "IKEA of Sweden",
+                "rooms": "Bedroom"
             },
             "explanation": {
-                "reason": "This recommended item is 99.21% similar to 3 items in your basket.",
+                "reason": "This recommended item is 95.07% similar to 2 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "EKEDALEN",
-                        "category": "Chairs",
-                        "price": 345.0
+                        "name": "PLATSA",
+                        "category": "Beds",
+                        "price": 2600.5
                     },
                     {
-                        "name": "FJ\u00c4LLBERGET",
-                        "category": "Chairs",
-                        "price": 995.0
-                    },
-                    {
-                        "name": "NISSE",
-                        "category": "Chairs",
-                        "price": 99.0
+                        "name": "SL\u00c4KT",
+                        "category": "Beds",
+                        "price": 1260.0
                     }
                 ]
             },
             "additional_info": {
-                "average_price_in_cluster": 1026.95,
-                "designer_average_price": 625.36
+                "average_price_in_cluster": 1196.78,
+                "designer_average_price": 630.05
             }
         },
         {
             "recommended_item": {
-                "item_id": 50434312,
-                "name": "NILSOVE",
-                "category": "Chairs",
-                "price": 395.0,
-                "designer": "A Fredriksson/J Hultqvist/W Chong",
-                "rooms": "Living room, Office, Kitchen, Dining room"
+                "item_id": 19302922,
+                "name": "VITVAL",
+                "category": "Beds",
+                "price": 1590.0,
+                "designer": "IKEA of Sweden/Tord Bj\u00f6rklund",
+                "rooms": "Bedroom"
             },
             "explanation": {
-                "reason": "This recommended item is 99.21% similar to 3 items in your basket.",
+                "reason": "This recommended item is 90.5% similar to 2 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "EKEDALEN",
-                        "category": "Chairs",
-                        "price": 345.0
+                        "name": "PLATSA",
+                        "category": "Beds",
+                        "price": 2600.5
                     },
                     {
-                        "name": "FJ\u00c4LLBERGET",
-                        "category": "Chairs",
-                        "price": 995.0
-                    },
-                    {
-                        "name": "NISSE",
-                        "category": "Chairs",
-                        "price": 99.0
+                        "name": "SL\u00c4KT",
+                        "category": "Beds",
+                        "price": 1260.0
                     }
                 ]
             },
             "additional_info": {
-                "average_price_in_cluster": 1026.95,
-                "designer_average_price": 406.5
+                "average_price_in_cluster": 1196.78,
+                "designer_average_price": 1590.0
             }
         },
         {
             "recommended_item": {
-                "item_id": 9222252,
-                "name": "LINNMON / ALVARET",
-                "category": "Tables & desks",
-                "price": 439.0,
-                "designer": "Jomi Evers/IKEA of Sweden",
-                "rooms": "Living room, Office, Kitchen, Dining room"
+                "item_id": 59302915,
+                "name": "PLATSA",
+                "category": "Beds",
+                "price": 2905.0,
+                "designer": "IKEA of Sweden",
+                "rooms": "Bedroom"
             },
             "explanation": {
-                "reason": "This recommended item is 99.21% similar to 3 items in your basket.",
+                "reason": "This recommended item is 89.88% similar to 2 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "EKEDALEN",
-                        "category": "Chairs",
-                        "price": 345.0
+                        "name": "PLATSA",
+                        "category": "Beds",
+                        "price": 2600.5
                     },
                     {
-                        "name": "FJ\u00c4LLBERGET",
-                        "category": "Chairs",
-                        "price": 995.0
-                    },
-                    {
-                        "name": "NISSE",
-                        "category": "Chairs",
-                        "price": 99.0
+                        "name": "SL\u00c4KT",
+                        "category": "Beds",
+                        "price": 1260.0
                     }
                 ]
             },
             "additional_info": {
-                "average_price_in_cluster": 1026.95,
-                "designer_average_price": 493.5
+                "average_price_in_cluster": 1196.78,
+                "designer_average_price": 630.05
             }
         },
         {
             "recommended_item": {
-                "item_id": 10400540,
-                "name": "EKEDALEN",
-                "category": "Chairs",
-                "price": 345.0,
-                "designer": "Ehl\u00e9n Johansson",
-                "rooms": "Living room, Office, Kitchen, Dining room"
+                "item_id": 80411272,
+                "name": "VITVAL",
+                "category": "Beds",
+                "price": 1295.0,
+                "designer": "IKEA of Sweden",
+                "rooms": "Bedroom"
             },
             "explanation": {
-                "reason": "This recommended item is 99.15% similar to 3 items in your basket.",
+                "reason": "This recommended item is 89.08% similar to 2 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "EKEDALEN",
-                        "category": "Chairs",
-                        "price": 345.0
+                        "name": "PLATSA",
+                        "category": "Beds",
+                        "price": 2600.5
                     },
                     {
-                        "name": "FJ\u00c4LLBERGET",
-                        "category": "Chairs",
-                        "price": 995.0
-                    },
-                    {
-                        "name": "NISSE",
-                        "category": "Chairs",
-                        "price": 99.0
+                        "name": "SL\u00c4KT",
+                        "category": "Beds",
+                        "price": 1260.0
                     }
                 ]
             },
             "additional_info": {
-                "average_price_in_cluster": 1026.95,
-                "designer_average_price": 1722.66
+                "average_price_in_cluster": 1196.78,
+                "designer_average_price": 630.05
+            }
+        },
+        {
+            "recommended_item": {
+                "item_id": 19175957,
+                "name": "MALM",
+                "category": "Beds",
+                "price": 920.0,
+                "designer": "IKEA of Sweden/Eva Lilja L\u00f6wenhielm",
+                "rooms": "Bedroom"
+            },
+            "explanation": {
+                "reason": "This recommended item is 88.32% similar to 2 items in your basket.",
+                "similar_items": [
+                    {
+                        "name": "PLATSA",
+                        "category": "Beds",
+                        "price": 2600.5
+                    },
+                    {
+                        "name": "SL\u00c4KT",
+                        "category": "Beds",
+                        "price": 1260.0
+                    }
+                ]
+            },
+            "additional_info": {
+                "average_price_in_cluster": 1196.78,
+                "designer_average_price": 461.34
+            }
+        },
+        {
+            "recommended_item": {
+                "item_id": 89227731,
+                "name": "SL\u00c4KT",
+                "category": "Beds",
+                "price": 995.0,
+                "designer": "Ebba Strandmark/IKEA of Sweden",
+                "rooms": "Bedroom"
+            },
+            "explanation": {
+                "reason": "This recommended item is 87.46% similar to 2 items in your basket.",
+                "similar_items": [
+                    {
+                        "name": "PLATSA",
+                        "category": "Beds",
+                        "price": 2600.5
+                    },
+                    {
+                        "name": "SL\u00c4KT",
+                        "category": "Beds",
+                        "price": 1260.0
+                    }
+                ]
+            },
+            "additional_info": {
+                "average_price_in_cluster": 1196.78,
+                "designer_average_price": 1189.09
             }
         }
     ]

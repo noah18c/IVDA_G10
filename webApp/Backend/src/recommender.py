@@ -27,14 +27,42 @@ class RecommendationModel:
     def load(self):
         self.df_model = pd.read_csv(self.csv_path)
 
-    def filter_data(self, filter=None):
-        print(self.df_model.columns)
-        
+    def filter_data(self, filter:FilterItem):
+        #print(self.df_model.columns)
 
+        filter.living_room = 0
 
+        self.df_model = self.df_model[(self.df_model['price'] >= filter.price_min) & (self.df_model['price'] <= filter.price_max)]
 
-        self.filter = filter
+        # filter dimensions
+        self.df_model = self.df_model[(self.df_model['height'] >= filter.height_min) & (self.df_model['height'] <= filter.height_max)]
+        self.df_model = self.df_model[(self.df_model['width'] >= filter.width_min) & (self.df_model['width'] <= filter.width_max)]
+        self.df_model = self.df_model[(self.df_model['depth'] >= filter.depth_min) & (self.df_model['depth'] <= filter.depth_max)]
+
+        # filter location
+        room_mapping = {
+            'Living room': filter.living_room,
+            'Bedroom': filter.bedroom,
+            'Office': filter.office,
+            'Kitchen': filter.kitchen,
+            'Dining room': filter.dining,
+            'Entrance': filter.entrance,
+            'Playroom': filter.playroom,
+            'Nursery': filter.nursery,
+            'Outdoor': filter.outdoor,
+        }
     
+        print('size of df',len(self.df_model))
+        for column, filter_value in room_mapping.items():
+            if filter_value == 0:  # If the filter indicates the column should not be included
+                print(f"Dropping rows where {column} == 1")
+                self.df_model = self.df_model[self.df_model[column] != 1]  # Drop rows where column has value 1
+                print(f"Size of df after filtering {column}: {len(self.df_model)}")
+        self.df_model.reset_index(drop=True, inplace=True)
+
+        if self.df_model.empty:
+            print("Warning: No items match the filters applied.")    
+        
     def preprocess(self):
         scaler = StandardScaler()
         self.df_model[['price_std', 'space_std']] = scaler.fit_transform(self.df_model[['price', 'space']])
@@ -147,6 +175,8 @@ class RecommendationModel:
                 rooms=row['rooms']
             )
             furniture_items.append(item)
+
+        print(furniture_items)
 
         return furniture_items
     

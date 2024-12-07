@@ -3,3 +3,7 @@ __pycache__/
 .ipynb_checkpoints/
 .DS_Store
 *.jpg
+webApp/Backend/data/temp/liked_items.json
+webApp/Backend/data/temp/recommended_items.json
+webApp/Backend/data/temp/recommended_stats.json
+webApp/Backend/data/temp/summary_statistics.json
