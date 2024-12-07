@@ -73,6 +73,8 @@ const RecommendationInfo = ({
 						xData={itemNamesPrice}
 						yData={itemPrices}
 						colors={itemColorsPrice}
+						xAxisLabel={'Item Name'}
+						yAxisLabel={'Price (CHF)'}
 						legendLabels={['Recommended Item', 'Liked Items']}
 					/>
 				</Box>
@@ -83,6 +85,8 @@ const RecommendationInfo = ({
 						xData={itemNamesSize}
 						yData={itemSizes}
 						colors={itemColorsSize}
+						xAxisLabel={'Item Name'}
+						yAxisLabel={'Size (cm3)'}
 						legendLabels={['Recommended Item', 'Liked Items']}
 					/>
 				</Box>

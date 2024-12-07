@@ -99,6 +99,8 @@ const SummaryRecommendations = () => {
             xData={designerCountData?.designers}
             yData={designerCountData?.counts}
             colors={colors}
+            xAxisLabel={'Item Name'}
+						yAxisLabel={'Designer Counts'}
             showLegend={false}
           />
         </Paper>
