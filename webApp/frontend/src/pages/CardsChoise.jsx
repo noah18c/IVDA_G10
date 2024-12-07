@@ -38,32 +38,9 @@ const CardsChoice = () => {
         height: [1, 321],
         width: [1, 420],
         price: [1, 9585],
-        roomTypes: [...roomTypes], // Select all room types by default
+        roomTypes: [...roomTypes], 
     });
     const navigate = useNavigate();
-
-    const fetchData = async () => {
-        try {
-            setLoading(true);
-            const response = await axios.get('/api/filter');
-            if (response.data.items && Array.isArray(response.data.items)) {
-                setItems(response.data.items);
-                setCurrentIndex(0);
-                setError(''); // Clear any existing errors
-            } else {
-                setError('Invalid response format');
-            }
-        } catch (error) {
-            console.error('Error fetching items:', error);
-            setError('Failed to fetch items. Please try again.');
-        } finally {
-            setLoading(false);
-        }
-    };
-
-    useEffect(() => {
-        fetchData();
-    }, []);
 
     const buildQueryParams = () => {
         const params = new URLSearchParams();
@@ -84,7 +61,7 @@ const CardsChoice = () => {
             Bedroom: 'bedroom',
             Office: 'office',
             Kitchen: 'kitchen',
-            'Dining room': 'dining', // Corrected to match backend
+            'Dining room': 'dining',
             Entrance: 'entrance',
             Playroom: 'playroom',
             Nursery: 'nursery',
@@ -102,9 +79,32 @@ const CardsChoice = () => {
         return params.toString();
     };
 
+    const fetchData = async () => {
+        try {
+            setLoading(true);
+            const queryParams = buildQueryParams(); 
+            const response = await axios.get(`/api/filter?${queryParams}`);
+            if (response.data.items && Array.isArray(response.data.items)) {
+                setItems(response.data.items);
+                setCurrentIndex(0);
+                setError('');
+            } else {
+                setError('Invalid response format');
+            }
+        } catch (error) {
+            console.error('Error fetching items:', error);
+            setError('Failed to fetch items. Please try again.');
+        } finally {
+            setLoading(false);
+        }
+    };
+
     useEffect(() => {
-        const queryParams = buildQueryParams();
-        console.log('Query Params:', queryParams);
+        fetchData(); 
+    }, []); 
+
+    useEffect(() => {
+        fetchData(); 
     }, [filters]);
 
     const handleChoice = async (isLiked) => {
@@ -190,7 +190,7 @@ const CardsChoice = () => {
                             control={
                                 <Checkbox
                                     value={room}
-                                    checked={filters.roomTypes.includes(room)} // Pre-select all checkboxes
+                                    checked={filters.roomTypes.includes(room)}
                                     onChange={handleCheckboxChange}
                                 />
                             }
