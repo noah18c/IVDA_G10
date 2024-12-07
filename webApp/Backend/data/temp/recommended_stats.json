@@ -2,215 +2,231 @@
     "price_comparison": [
         {
             "recommended_item": {
-                "item_id": 10438166,
-                "name": "NYHAMN",
+                "item_id": 40136681,
+                "name": "VEJMON",
                 "price": 345.0
             },
             "basket_items": [
                 {
-                    "name": "BRIMNES",
-                    "price": 870.0
+                    "name": "EKEDALEN",
+                    "price": 345.0
                 },
                 {
-                    "name": "NYHAMN",
-                    "price": 450.0
+                    "name": "FJ\u00c4LLBERGET",
+                    "price": 995.0
                 },
                 {
-                    "name": "NYHAMN",
-                    "price": 600.0
+                    "name": "IKEA PS L\u00d6MSK",
+                    "price": 345.0
                 },
                 {
-                    "name": "SL\u00c4KT",
-                    "price": 375.0
+                    "name": "NISSE",
+                    "price": 99.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 9251777,
-                "name": "KLIPPAN",
-                "price": 995.0
-            },
-            "basket_items": [
-                {
-                    "name": "BRIMNES",
-                    "price": 870.0
-                },
-                {
-                    "name": "NYHAMN",
-                    "price": 450.0
-                },
-                {
-                    "name": "NYHAMN",
-                    "price": 600.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 19278210,
-                "name": "BRIMNES",
-                "price": 990.0
-            },
-            "basket_items": [
-                {
-                    "name": "BRIMNES",
-                    "price": 870.0
-                },
-                {
-                    "name": "NYHAMN",
-                    "price": 450.0
-                },
-                {
-                    "name": "NYHAMN",
-                    "price": 600.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 90354327,
-                "name": "HAMMARN",
-                "price": 399.0
-            },
-            "basket_items": [
-                {
-                    "name": "BRIMNES",
-                    "price": 870.0
-                },
-                {
-                    "name": "NYHAMN",
-                    "price": 450.0
-                },
-                {
-                    "name": "NYHAMN",
-                    "price": 600.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 59184337,
-                "name": "BRIMNES",
-                "price": 820.0
-            },
-            "basket_items": [
-                {
-                    "name": "BRIMNES",
-                    "price": 870.0
-                },
-                {
-                    "name": "NYHAMN",
-                    "price": 450.0
-                },
-                {
-                    "name": "NYHAMN",
-                    "price": 600.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 79151312,
-                "name": "S\u00d6DERHAMN",
-                "price": 890.0
-            },
-            "basket_items": [
-                {
-                    "name": "BRIMNES",
-                    "price": 870.0
-                },
-                {
-                    "name": "NYHAMN",
-                    "price": 450.0
-                },
-                {
-                    "name": "NYHAMN",
-                    "price": 600.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 30442662,
-                "name": "EKOLSUND",
-                "price": 250.0
-            },
-            "basket_items": [
-                {
-                    "name": "BRIMNES",
-                    "price": 870.0
-                },
-                {
-                    "name": "NYHAMN",
-                    "price": 450.0
-                },
-                {
-                    "name": "NYHAMN",
-                    "price": 600.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 69217790,
-                "name": "SANDBACKEN",
-                "price": 1176.0
-            },
-            "basket_items": [
-                {
-                    "name": "BRIMNES",
-                    "price": 870.0
-                },
-                {
-                    "name": "NYHAMN",
-                    "price": 450.0
-                },
-                {
-                    "name": "NYHAMN",
-                    "price": 600.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 20293592,
-                "name": "NANNARP",
-                "price": 40.0
-            },
-            "basket_items": [
-                {
-                    "name": "BRIMNES",
-                    "price": 870.0
-                },
-                {
-                    "name": "NYHAMN",
-                    "price": 450.0
-                },
-                {
-                    "name": "NYHAMN",
-                    "price": 600.0
-                }
-            ]
-        },
-        {
-            "recommended_item": {
-                "item_id": 89291312,
-                "name": "H\u00c4LLAN",
+                "item_id": 59933179,
+                "name": "LINNMON / ODDVALD",
                 "price": 325.0
             },
             "basket_items": [
                 {
-                    "name": "BEKANT",
-                    "price": 944.0
+                    "name": "EKEDALEN",
+                    "price": 345.0
                 },
                 {
-                    "name": "BEST\u00c5",
-                    "price": 480.0
+                    "name": "FJ\u00c4LLBERGET",
+                    "price": 995.0
                 },
                 {
-                    "name": "STUVA / FRITIDS",
-                    "price": 375.0
+                    "name": "IKEA PS L\u00d6MSK",
+                    "price": 345.0
+                },
+                {
+                    "name": "NISSE",
+                    "price": 99.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 50205179,
+                "name": "\u00c4PPLAR\u00d6",
+                "price": 425.0
+            },
+            "basket_items": [
+                {
+                    "name": "ASKHOLMEN",
+                    "price": 771.0
+                },
+                {
+                    "name": "FR\u00d6S\u00d6N",
+                    "price": 14.4
+                },
+                {
+                    "name": "FR\u00d6S\u00d6N",
+                    "price": 35.0
+                },
+                {
+                    "name": "\u00c4PPLAR\u00d6",
+                    "price": 841.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 19183815,
+                "name": "SALTHOLMEN",
+                "price": 445.0
+            },
+            "basket_items": [
+                {
+                    "name": "ASKHOLMEN",
+                    "price": 771.0
+                },
+                {
+                    "name": "FR\u00d6S\u00d6N",
+                    "price": 14.4
+                },
+                {
+                    "name": "FR\u00d6S\u00d6N",
+                    "price": 35.0
+                },
+                {
+                    "name": "\u00c4PPLAR\u00d6",
+                    "price": 841.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 410747,
+                "name": "HUSAR\u00d6",
+                "price": 495.0
+            },
+            "basket_items": [
+                {
+                    "name": "ASKHOLMEN",
+                    "price": 771.0
+                },
+                {
+                    "name": "FR\u00d6S\u00d6N",
+                    "price": 14.4
+                },
+                {
+                    "name": "FR\u00d6S\u00d6N",
+                    "price": 35.0
+                },
+                {
+                    "name": "\u00c4PPLAR\u00d6",
+                    "price": 841.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 19304006,
+                "name": "NILSOVE / NORNA",
+                "price": 424.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKEDALEN",
+                    "price": 345.0
+                },
+                {
+                    "name": "FJ\u00c4LLBERGET",
+                    "price": 995.0
+                },
+                {
+                    "name": "NISSE",
+                    "price": 99.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 60444301,
+                "name": "LERHAMN",
+                "price": 399.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKEDALEN",
+                    "price": 345.0
+                },
+                {
+                    "name": "FJ\u00c4LLBERGET",
+                    "price": 995.0
+                },
+                {
+                    "name": "NISSE",
+                    "price": 99.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 50434312,
+                "name": "NILSOVE",
+                "price": 395.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKEDALEN",
+                    "price": 345.0
+                },
+                {
+                    "name": "FJ\u00c4LLBERGET",
+                    "price": 995.0
+                },
+                {
+                    "name": "NISSE",
+                    "price": 99.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 9222252,
+                "name": "LINNMON / ALVARET",
+                "price": 439.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKEDALEN",
+                    "price": 345.0
+                },
+                {
+                    "name": "FJ\u00c4LLBERGET",
+                    "price": 995.0
+                },
+                {
+                    "name": "NISSE",
+                    "price": 99.0
+                }
+            ]
+        },
+        {
+            "recommended_item": {
+                "item_id": 10400540,
+                "name": "EKEDALEN",
+                "price": 345.0
+            },
+            "basket_items": [
+                {
+                    "name": "EKEDALEN",
+                    "price": 345.0
+                },
+                {
+                    "name": "FJ\u00c4LLBERGET",
+                    "price": 995.0
+                },
+                {
+                    "name": "NISSE",
+                    "price": 99.0
                 }
             ]
         }
@@ -218,215 +234,231 @@
     "size_comparison": [
         {
             "recommended_item": {
-                "item_id": 10438166,
-                "name": "NYHAMN",
-                "size": 520918.7072546824
+                "item_id": 40136681,
+                "name": "VEJMON",
+                "size": 277012.92018632806
             },
             "basket_items": [
                 {
-                    "name": "BRIMNES",
-                    "size": 1402200.0
+                    "name": "EKEDALEN",
+                    "size": 250002.0
                 },
                 {
-                    "name": "NYHAMN",
-                    "size": 877486.5036086742
+                    "name": "FJ\u00c4LLBERGET",
+                    "size": 460116.9161263109
                 },
                 {
-                    "name": "NYHAMN",
-                    "size": 896477.8846745638
+                    "name": "IKEA PS L\u00d6MSK",
+                    "size": 274350.0
                 },
                 {
-                    "name": "SL\u00c4KT",
-                    "size": 512836.3335218982
+                    "name": "NISSE",
+                    "size": 160740.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 9251777,
-                "name": "KLIPPAN",
-                "size": 1045440.0
+                "item_id": 59933179,
+                "name": "LINNMON / ODDVALD",
+                "size": 266648.1194727166
             },
             "basket_items": [
                 {
-                    "name": "BRIMNES",
-                    "size": 1402200.0
+                    "name": "EKEDALEN",
+                    "size": 250002.0
                 },
                 {
-                    "name": "NYHAMN",
-                    "size": 877486.5036086742
+                    "name": "FJ\u00c4LLBERGET",
+                    "size": 460116.9161263109
                 },
                 {
-                    "name": "NYHAMN",
-                    "size": 896477.8846745638
+                    "name": "IKEA PS L\u00d6MSK",
+                    "size": 274350.0
+                },
+                {
+                    "name": "NISSE",
+                    "size": 160740.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 19278210,
-                "name": "BRIMNES",
-                "size": 1004910.0
+                "item_id": 50205179,
+                "name": "\u00c4PPLAR\u00d6",
+                "size": 467200.0
             },
             "basket_items": [
                 {
-                    "name": "BRIMNES",
-                    "size": 1402200.0
+                    "name": "ASKHOLMEN",
+                    "size": 640446.8186990785
                 },
                 {
-                    "name": "NYHAMN",
-                    "size": 877486.5036086742
+                    "name": "FR\u00d6S\u00d6N",
+                    "size": 437229.7228618869
                 },
                 {
-                    "name": "NYHAMN",
-                    "size": 896477.8846745638
+                    "name": "FR\u00d6S\u00d6N",
+                    "size": 212177.3457130037
+                },
+                {
+                    "name": "\u00c4PPLAR\u00d6",
+                    "size": 661383.9203733974
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 90354327,
-                "name": "HAMMARN",
-                "size": 848640.0
+                "item_id": 19183815,
+                "name": "SALTHOLMEN",
+                "size": 547776.4764973455
             },
             "basket_items": [
                 {
-                    "name": "BRIMNES",
-                    "size": 1402200.0
+                    "name": "ASKHOLMEN",
+                    "size": 640446.8186990785
                 },
                 {
-                    "name": "NYHAMN",
-                    "size": 877486.5036086742
+                    "name": "FR\u00d6S\u00d6N",
+                    "size": 437229.7228618869
                 },
                 {
-                    "name": "NYHAMN",
-                    "size": 896477.8846745638
+                    "name": "FR\u00d6S\u00d6N",
+                    "size": 212177.3457130037
+                },
+                {
+                    "name": "\u00c4PPLAR\u00d6",
+                    "size": 661383.9203733974
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 59184337,
-                "name": "BRIMNES",
-                "size": 779000.0
+                "item_id": 410747,
+                "name": "HUSAR\u00d6",
+                "size": 522240.0
             },
             "basket_items": [
                 {
-                    "name": "BRIMNES",
-                    "size": 1402200.0
+                    "name": "ASKHOLMEN",
+                    "size": 640446.8186990785
                 },
                 {
-                    "name": "NYHAMN",
-                    "size": 877486.5036086742
+                    "name": "FR\u00d6S\u00d6N",
+                    "size": 437229.7228618869
                 },
                 {
-                    "name": "NYHAMN",
-                    "size": 896477.8846745638
+                    "name": "FR\u00d6S\u00d6N",
+                    "size": 212177.3457130037
+                },
+                {
+                    "name": "\u00c4PPLAR\u00d6",
+                    "size": 661383.9203733974
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 79151312,
-                "name": "S\u00d6DERHAMN",
-                "size": 764181.0
+                "item_id": 19304006,
+                "name": "NILSOVE / NORNA",
+                "size": 266418.0
             },
             "basket_items": [
                 {
-                    "name": "BRIMNES",
-                    "size": 1402200.0
+                    "name": "EKEDALEN",
+                    "size": 250002.0
                 },
                 {
-                    "name": "NYHAMN",
-                    "size": 877486.5036086742
+                    "name": "FJ\u00c4LLBERGET",
+                    "size": 460116.9161263109
                 },
                 {
-                    "name": "NYHAMN",
-                    "size": 896477.8846745638
+                    "name": "NISSE",
+                    "size": 160740.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 30442662,
-                "name": "EKOLSUND",
-                "size": 775030.0
+                "item_id": 60444301,
+                "name": "LERHAMN",
+                "size": 275546.7929836864
             },
             "basket_items": [
                 {
-                    "name": "BRIMNES",
-                    "size": 1402200.0
+                    "name": "EKEDALEN",
+                    "size": 250002.0
                 },
                 {
-                    "name": "NYHAMN",
-                    "size": 877486.5036086742
+                    "name": "FJ\u00c4LLBERGET",
+                    "size": 460116.9161263109
                 },
                 {
-                    "name": "NYHAMN",
-                    "size": 896477.8846745638
+                    "name": "NISSE",
+                    "size": 160740.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 69217790,
-                "name": "SANDBACKEN",
-                "size": 1140984.0
+                "item_id": 50434312,
+                "name": "NILSOVE",
+                "size": 266418.0
             },
             "basket_items": [
                 {
-                    "name": "BRIMNES",
-                    "size": 1402200.0
+                    "name": "EKEDALEN",
+                    "size": 250002.0
                 },
                 {
-                    "name": "NYHAMN",
-                    "size": 877486.5036086742
+                    "name": "FJ\u00c4LLBERGET",
+                    "size": 460116.9161263109
                 },
                 {
-                    "name": "NYHAMN",
-                    "size": 896477.8846745638
+                    "name": "NISSE",
+                    "size": 160740.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 20293592,
-                "name": "NANNARP",
-                "size": 1000000.0
+                "item_id": 9222252,
+                "name": "LINNMON / ALVARET",
+                "size": 225395.41019686987
             },
             "basket_items": [
                 {
-                    "name": "BRIMNES",
-                    "size": 1402200.0
+                    "name": "EKEDALEN",
+                    "size": 250002.0
                 },
                 {
-                    "name": "NYHAMN",
-                    "size": 877486.5036086742
+                    "name": "FJ\u00c4LLBERGET",
+                    "size": 460116.9161263109
                 },
                 {
-                    "name": "NYHAMN",
-                    "size": 896477.8846745638
+                    "name": "NISSE",
+                    "size": 160740.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 89291312,
-                "name": "H\u00c4LLAN",
-                "size": 141705.0
+                "item_id": 10400540,
+                "name": "EKEDALEN",
+                "size": 254904.0
             },
             "basket_items": [
                 {
-                    "name": "BEKANT",
-                    "size": 186345.0
+                    "name": "EKEDALEN",
+                    "size": 250002.0
                 },
                 {
-                    "name": "BEST\u00c5",
-                    "size": 168960.0
+                    "name": "FJ\u00c4LLBERGET",
+                    "size": 460116.9161263109
                 },
                 {
-                    "name": "STUVA / FRITIDS",
-                    "size": 192000.0
+                    "name": "NISSE",
+                    "size": 160740.0
                 }
             ]
         }
@@ -434,103 +466,113 @@
     "explainable_texts": [
         {
             "recommended_item": {
-                "item_id": 10438166,
-                "name": "NYHAMN",
-                "category": "Sofas & armchairs",
+                "item_id": 40136681,
+                "name": "VEJMON",
+                "category": "Tables & desks",
                 "price": 345.0,
-                "designer": "Lisa Hilland",
-                "rooms": "Living room, Bedroom"
+                "designer": "Ehl\u00e9n Johansson",
+                "rooms": "Living room, Office, Kitchen, Dining room"
             },
             "explanation": {
-                "reason": "This recommended item is 91.82% similar to 4 items in your basket.",
+                "reason": "This recommended item is 94.54% similar to 4 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "BRIMNES",
-                        "category": "TV & media furniture",
-                        "price": 870.0
+                        "name": "EKEDALEN",
+                        "category": "Chairs",
+                        "price": 345.0
                     },
                     {
-                        "name": "NYHAMN",
-                        "category": "Sofas & armchairs",
-                        "price": 450.0
+                        "name": "FJ\u00c4LLBERGET",
+                        "category": "Chairs",
+                        "price": 995.0
                     },
                     {
-                        "name": "NYHAMN",
-                        "category": "Sofas & armchairs",
-                        "price": 600.0
+                        "name": "IKEA PS L\u00d6MSK",
+                        "category": "Children's furniture",
+                        "price": 345.0
                     },
                     {
-                        "name": "SL\u00c4KT",
-                        "category": "Beds",
-                        "price": 375.0
+                        "name": "NISSE",
+                        "category": "Chairs",
+                        "price": 99.0
                     }
                 ]
             },
             "additional_info": {
-                "average_price_in_cluster": 925.53,
-                "designer_average_price": 400.0
+                "average_price_in_cluster": 1026.95,
+                "designer_average_price": 1722.66
             }
         },
         {
             "recommended_item": {
-                "item_id": 9251777,
-                "name": "KLIPPAN",
-                "category": "Sofas & armchairs",
-                "price": 995.0,
+                "item_id": 59933179,
+                "name": "LINNMON / ODDVALD",
+                "category": "Tables & desks",
+                "price": 325.0,
                 "designer": "IKEA of Sweden",
-                "rooms": "Living room, Bedroom"
+                "rooms": "Living room, Office, Kitchen, Dining room"
             },
             "explanation": {
-                "reason": "This recommended item is 97.94% similar to 3 items in your basket.",
+                "reason": "This recommended item is 94.52% similar to 4 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "BRIMNES",
-                        "category": "TV & media furniture",
-                        "price": 870.0
+                        "name": "EKEDALEN",
+                        "category": "Chairs",
+                        "price": 345.0
                     },
                     {
-                        "name": "NYHAMN",
-                        "category": "Sofas & armchairs",
-                        "price": 450.0
+                        "name": "FJ\u00c4LLBERGET",
+                        "category": "Chairs",
+                        "price": 995.0
                     },
                     {
-                        "name": "NYHAMN",
-                        "category": "Sofas & armchairs",
-                        "price": 600.0
+                        "name": "IKEA PS L\u00d6MSK",
+                        "category": "Children's furniture",
+                        "price": 345.0
+                    },
+                    {
+                        "name": "NISSE",
+                        "category": "Chairs",
+                        "price": 99.0
                     }
                 ]
             },
             "additional_info": {
-                "average_price_in_cluster": 925.53,
+                "average_price_in_cluster": 1026.95,
                 "designer_average_price": 583.52
             }
         },
         {
             "recommended_item": {
-                "item_id": 19278210,
-                "name": "BRIMNES",
-                "category": "TV & media furniture",
-                "price": 990.0,
+                "item_id": 50205179,
+                "name": "\u00c4PPLAR\u00d6",
+                "category": "Outdoor furniture",
+                "price": 425.0,
                 "designer": "K Hagberg/M Hagberg",
-                "rooms": "Living room, Bedroom"
+                "rooms": "Outdoor"
             },
             "explanation": {
-                "reason": "This recommended item is 97.94% similar to 3 items in your basket.",
+                "reason": "This recommended item is 86.85% similar to 4 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "BRIMNES",
-                        "category": "TV & media furniture",
-                        "price": 870.0
+                        "name": "ASKHOLMEN",
+                        "category": "Outdoor furniture",
+                        "price": 771.0
                     },
                     {
-                        "name": "NYHAMN",
-                        "category": "Sofas & armchairs",
-                        "price": 450.0
+                        "name": "FR\u00d6S\u00d6N",
+                        "category": "Outdoor furniture",
+                        "price": 14.4
                     },
                     {
-                        "name": "NYHAMN",
-                        "category": "Sofas & armchairs",
-                        "price": 600.0
+                        "name": "FR\u00d6S\u00d6N",
+                        "category": "Outdoor furniture",
+                        "price": 35.0
+                    },
+                    {
+                        "name": "\u00c4PPLAR\u00d6",
+                        "category": "Outdoor furniture",
+                        "price": 841.0
                     }
                 ]
             },
@@ -541,98 +583,74 @@
         },
         {
             "recommended_item": {
-                "item_id": 90354327,
-                "name": "HAMMARN",
-                "category": "Sofas & armchairs",
-                "price": 399.0,
-                "designer": "Jonas Hultqvist",
-                "rooms": "Living room, Bedroom"
+                "item_id": 19183815,
+                "name": "SALTHOLMEN",
+                "category": "Outdoor furniture",
+                "price": 445.0,
+                "designer": "Jon Karlsson",
+                "rooms": "Outdoor"
             },
             "explanation": {
-                "reason": "This recommended item is 97.91% similar to 3 items in your basket.",
+                "reason": "This recommended item is 86.68% similar to 4 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "BRIMNES",
-                        "category": "TV & media furniture",
-                        "price": 870.0
+                        "name": "ASKHOLMEN",
+                        "category": "Outdoor furniture",
+                        "price": 771.0
                     },
                     {
-                        "name": "NYHAMN",
-                        "category": "Sofas & armchairs",
-                        "price": 450.0
+                        "name": "FR\u00d6S\u00d6N",
+                        "category": "Outdoor furniture",
+                        "price": 14.4
                     },
                     {
-                        "name": "NYHAMN",
-                        "category": "Sofas & armchairs",
-                        "price": 600.0
+                        "name": "FR\u00d6S\u00d6N",
+                        "category": "Outdoor furniture",
+                        "price": 35.0
+                    },
+                    {
+                        "name": "\u00c4PPLAR\u00d6",
+                        "category": "Outdoor furniture",
+                        "price": 841.0
                     }
                 ]
             },
             "additional_info": {
                 "average_price_in_cluster": 925.53,
-                "designer_average_price": 512.44
+                "designer_average_price": 654.28
             }
         },
         {
             "recommended_item": {
-                "item_id": 59184337,
-                "name": "BRIMNES",
-                "category": "TV & media furniture",
-                "price": 820.0,
-                "designer": "K Hagberg/M Hagberg",
-                "rooms": "Living room, Bedroom"
-            },
-            "explanation": {
-                "reason": "This recommended item is 97.58% similar to 3 items in your basket.",
-                "similar_items": [
-                    {
-                        "name": "BRIMNES",
-                        "category": "TV & media furniture",
-                        "price": 870.0
-                    },
-                    {
-                        "name": "NYHAMN",
-                        "category": "Sofas & armchairs",
-                        "price": 450.0
-                    },
-                    {
-                        "name": "NYHAMN",
-                        "category": "Sofas & armchairs",
-                        "price": 600.0
-                    }
-                ]
-            },
-            "additional_info": {
-                "average_price_in_cluster": 925.53,
-                "designer_average_price": 578.44
-            }
-        },
-        {
-            "recommended_item": {
-                "item_id": 79151312,
-                "name": "S\u00d6DERHAMN",
-                "category": "Sofas & armchairs",
-                "price": 890.0,
+                "item_id": 410747,
+                "name": "HUSAR\u00d6",
+                "category": "Outdoor furniture",
+                "price": 495.0,
                 "designer": "Ola Wihlborg",
-                "rooms": "Living room, Bedroom"
+                "rooms": "Outdoor"
             },
             "explanation": {
-                "reason": "This recommended item is 97.22% similar to 3 items in your basket.",
+                "reason": "This recommended item is 86.64% similar to 4 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "BRIMNES",
-                        "category": "TV & media furniture",
-                        "price": 870.0
+                        "name": "ASKHOLMEN",
+                        "category": "Outdoor furniture",
+                        "price": 771.0
                     },
                     {
-                        "name": "NYHAMN",
-                        "category": "Sofas & armchairs",
-                        "price": 450.0
+                        "name": "FR\u00d6S\u00d6N",
+                        "category": "Outdoor furniture",
+                        "price": 14.4
                     },
                     {
-                        "name": "NYHAMN",
-                        "category": "Sofas & armchairs",
-                        "price": 600.0
+                        "name": "FR\u00d6S\u00d6N",
+                        "category": "Outdoor furniture",
+                        "price": 35.0
+                    },
+                    {
+                        "name": "\u00c4PPLAR\u00d6",
+                        "category": "Outdoor furniture",
+                        "price": 841.0
                     }
                 ]
             },
@@ -643,138 +661,172 @@
         },
         {
             "recommended_item": {
-                "item_id": 30442662,
-                "name": "EKOLSUND",
-                "category": "Sofas & armchairs",
-                "price": 250.0,
-                "designer": "Anna Palleschitz",
-                "rooms": "Living room, Bedroom"
+                "item_id": 19304006,
+                "name": "NILSOVE / NORNA",
+                "category": "Chairs",
+                "price": 424.0,
+                "designer": "A Fredriksson/J Hultqvist/W Chong",
+                "rooms": "Living room, Office, Kitchen, Dining room"
             },
             "explanation": {
-                "reason": "This recommended item is 96.77% similar to 3 items in your basket.",
+                "reason": "This recommended item is 99.23% similar to 3 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "BRIMNES",
-                        "category": "TV & media furniture",
-                        "price": 870.0
+                        "name": "EKEDALEN",
+                        "category": "Chairs",
+                        "price": 345.0
                     },
                     {
-                        "name": "NYHAMN",
-                        "category": "Sofas & armchairs",
-                        "price": 450.0
+                        "name": "FJ\u00c4LLBERGET",
+                        "category": "Chairs",
+                        "price": 995.0
                     },
                     {
-                        "name": "NYHAMN",
-                        "category": "Sofas & armchairs",
-                        "price": 600.0
+                        "name": "NISSE",
+                        "category": "Chairs",
+                        "price": 99.0
                     }
                 ]
             },
             "additional_info": {
-                "average_price_in_cluster": 925.53,
-                "designer_average_price": 822.5
+                "average_price_in_cluster": 1026.95,
+                "designer_average_price": 406.5
             }
         },
         {
             "recommended_item": {
-                "item_id": 69217790,
-                "name": "SANDBACKEN",
-                "category": "Sofas & armchairs",
-                "price": 1176.0,
-                "designer": "Lisa Hilland/IKEA of Sweden/David Wahl",
-                "rooms": "Living room, Bedroom"
+                "item_id": 60444301,
+                "name": "LERHAMN",
+                "category": "Tables & desks",
+                "price": 399.0,
+                "designer": "Nike Karlsson",
+                "rooms": "Living room, Office, Kitchen, Dining room"
             },
             "explanation": {
-                "reason": "This recommended item is 96.55% similar to 3 items in your basket.",
+                "reason": "This recommended item is 99.21% similar to 3 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "BRIMNES",
-                        "category": "TV & media furniture",
-                        "price": 870.0
+                        "name": "EKEDALEN",
+                        "category": "Chairs",
+                        "price": 345.0
                     },
                     {
-                        "name": "NYHAMN",
-                        "category": "Sofas & armchairs",
-                        "price": 450.0
+                        "name": "FJ\u00c4LLBERGET",
+                        "category": "Chairs",
+                        "price": 995.0
                     },
                     {
-                        "name": "NYHAMN",
-                        "category": "Sofas & armchairs",
-                        "price": 600.0
+                        "name": "NISSE",
+                        "category": "Chairs",
+                        "price": 99.0
                     }
                 ]
             },
             "additional_info": {
-                "average_price_in_cluster": 925.53,
-                "designer_average_price": 1176.0
+                "average_price_in_cluster": 1026.95,
+                "designer_average_price": 625.36
             }
         },
         {
             "recommended_item": {
-                "item_id": 20293592,
-                "name": "NANNARP",
-                "category": "Cabinets & cupboards, TV & media furniture",
-                "price": 40.0,
-                "designer": "Carl \u00d6jerstam",
-                "rooms": "Living room, Bedroom"
+                "item_id": 50434312,
+                "name": "NILSOVE",
+                "category": "Chairs",
+                "price": 395.0,
+                "designer": "A Fredriksson/J Hultqvist/W Chong",
+                "rooms": "Living room, Office, Kitchen, Dining room"
             },
             "explanation": {
-                "reason": "This recommended item is 96.51% similar to 3 items in your basket.",
+                "reason": "This recommended item is 99.21% similar to 3 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "BRIMNES",
-                        "category": "TV & media furniture",
-                        "price": 870.0
+                        "name": "EKEDALEN",
+                        "category": "Chairs",
+                        "price": 345.0
                     },
                     {
-                        "name": "NYHAMN",
-                        "category": "Sofas & armchairs",
-                        "price": 450.0
+                        "name": "FJ\u00c4LLBERGET",
+                        "category": "Chairs",
+                        "price": 995.0
                     },
                     {
-                        "name": "NYHAMN",
-                        "category": "Sofas & armchairs",
-                        "price": 600.0
+                        "name": "NISSE",
+                        "category": "Chairs",
+                        "price": 99.0
                     }
                 ]
             },
             "additional_info": {
-                "average_price_in_cluster": 925.53,
-                "designer_average_price": 347.83
+                "average_price_in_cluster": 1026.95,
+                "designer_average_price": 406.5
             }
         },
         {
             "recommended_item": {
-                "item_id": 89291312,
-                "name": "H\u00c4LLAN",
-                "category": "Cabinets & cupboards",
-                "price": 325.0,
-                "designer": "Jon Karlsson",
-                "rooms": "Living room, Bedroom, Kitchen, Entrance"
+                "item_id": 9222252,
+                "name": "LINNMON / ALVARET",
+                "category": "Tables & desks",
+                "price": 439.0,
+                "designer": "Jomi Evers/IKEA of Sweden",
+                "rooms": "Living room, Office, Kitchen, Dining room"
             },
             "explanation": {
-                "reason": "This recommended item is 96.36% similar to 3 items in your basket.",
+                "reason": "This recommended item is 99.21% similar to 3 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "BEKANT",
-                        "category": "Cabinets & cupboards",
-                        "price": 944.0
+                        "name": "EKEDALEN",
+                        "category": "Chairs",
+                        "price": 345.0
                     },
                     {
-                        "name": "BEST\u00c5",
-                        "category": "TV & media furniture, Bookcases & shelving units",
-                        "price": 480.0
+                        "name": "FJ\u00c4LLBERGET",
+                        "category": "Chairs",
+                        "price": 995.0
                     },
                     {
-                        "name": "STUVA / FRITIDS",
-                        "category": "Chests of drawers & drawer units, Nursery furniture",
-                        "price": 375.0
+                        "name": "NISSE",
+                        "category": "Chairs",
+                        "price": 99.0
                     }
                 ]
             },
             "additional_info": {
-                "average_price_in_cluster": 925.53,
-                "designer_average_price": 654.28
+                "average_price_in_cluster": 1026.95,
+                "designer_average_price": 493.5
+            }
+        },
+        {
+            "recommended_item": {
+                "item_id": 10400540,
+                "name": "EKEDALEN",
+                "category": "Chairs",
+                "price": 345.0,
+                "designer": "Ehl\u00e9n Johansson",
+                "rooms": "Living room, Office, Kitchen, Dining room"
+            },
+            "explanation": {
+                "reason": "This recommended item is 99.15% similar to 3 items in your basket.",
+                "similar_items": [
+                    {
+                        "name": "EKEDALEN",
+                        "category": "Chairs",
+                        "price": 345.0
+                    },
+                    {
+                        "name": "FJ\u00c4LLBERGET",
+                        "category": "Chairs",
+                        "price": 995.0
+                    },
+                    {
+                        "name": "NISSE",
+                        "category": "Chairs",
+                        "price": 99.0
+                    }
+                ]
+            },
+            "additional_info": {
+                "average_price_in_cluster": 1026.95,
+                "designer_average_price": 1722.66
             }
         }
     ]

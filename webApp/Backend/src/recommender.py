@@ -4,6 +4,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import NearestNeighbors
 from src.models import FurnitureItem
 import math
+from src.models import FilterItem
 
 class RecommendationModel:
     def __init__(self, csv_path):
@@ -21,10 +22,20 @@ class RecommendationModel:
         self.idx_counts = {}
         self.basket = None
         self.topn_recommended_items = None
-    
-    def load_and_preprocess(self):
-        # Load data
+        self.filter = None
+
+    def load(self):
         self.df_model = pd.read_csv(self.csv_path)
+
+    def filter_data(self, filter=None):
+        print(self.df_model.columns)
+        
+
+
+
+        self.filter = filter
+    
+    def preprocess(self):
         scaler = StandardScaler()
         self.df_model[['price_std', 'space_std']] = scaler.fit_transform(self.df_model[['price', 'space']])
         self.X_train = self.df_model.copy()
@@ -47,7 +58,9 @@ class RecommendationModel:
                                                     'size_category',
                                                     'rooms'],errors='ignore')
         self.X_train = pd.get_dummies(self.X_train, columns=['cluster'])
-    
+
+
+
     # TODO what type is disliked_items?
     def train_model(self):
         # TODO remove disliked items from the X_train

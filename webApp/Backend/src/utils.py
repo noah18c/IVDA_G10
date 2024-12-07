@@ -107,15 +107,17 @@ def knn_recommendations(liked_items, disliked_items=None, rec_num=10, filter=Non
         list: A list of recommended FurnitureItem objects.
 
     """
+
     if filter is None:
         filter = FilterItem()
-
 
     csv_path = os.path.join(os.path.dirname(__file__), '../data/IKEA_data_processed.csv')
 
     # Initialize the RecommendationModel
     model = RecommendationModel(csv_path)
-    model.load_and_preprocess()
+    model.load()
+    model.filter_data(filter)
+    model.preprocess()
     model.train_model()
 
     liked_item_ids = [item['item_id'] for item in liked_items]
