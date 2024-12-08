@@ -52,8 +52,12 @@ const RecommendedItemDetails = ({ recommendedItem, explanation, additionalInfo }
             <Typography sx={{ fontSize: '16px', marginBottom: '8px', color: '#333' }}>
               <strong>Price:</strong>{' '}
               <Chip
-                label={`SR ${recommendedItem?.price || 'N/A'}`}
-                
+                label={`${recommendedItem?.price || 'N/A'}`}
+                avatar={
+                  <Avatar sx={{ backgroundColor: '#FFD700'}}>
+                    <Box sx={{ color: '#FFFFFF' }}>SR</Box>
+                  </Avatar>
+                }
                 sx={{
                   backgroundColor: '#F0F4F8',
                   fontSize: '14px',
@@ -147,7 +151,7 @@ const RecommendedItemDetails = ({ recommendedItem, explanation, additionalInfo }
         <Typography sx={{ fontSize: '16px', color: '#333' }}>
           <strong>Average Price in Cluster:</strong>{' '}
           <Chip
-            label={`$${additionalInfo?.average_price_in_cluster || 'N/A'}`}
+            label={`SR ${additionalInfo?.average_price_in_cluster || 'N/A'}`}
             sx={{
               backgroundColor: '#F8F9FA',
               fontSize: '14px',
@@ -161,7 +165,7 @@ const RecommendedItemDetails = ({ recommendedItem, explanation, additionalInfo }
         <Typography sx={{ fontSize: '16px', color: '#333' }}>
           <strong>Designer Average Price:</strong>{' '}
           <Chip
-            label={`$${additionalInfo?.designer_average_price || 'N/A'}`}
+            label={`SR ${additionalInfo?.designer_average_price || 'N/A'}`}
             sx={{
               backgroundColor: '#E8F5FE',
               fontSize: '14px',
