@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import axios from 'axios';
 import Cards from '../components/Cards';
 import { useNavigate } from 'react-router-dom';
@@ -27,6 +27,14 @@ const roomTypes = [
     'Outdoor',
 ];
 
+const debounce = (func, delay) => {
+    let timer;
+    return (...args) => {
+        clearTimeout(timer);
+        timer = setTimeout(() => func(...args), delay);
+    };
+};
+
 const CardsChoice = () => {
     const [items, setItems] = useState([]);
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -40,22 +48,22 @@ const CardsChoice = () => {
         price: [1, 9585],
         roomTypes: [...roomTypes],
     });
+    const [debouncedFilters, setDebouncedFilters] = useState(filters);
     const navigate = useNavigate();
+    const debounceTimeoutRef = useRef();
 
     const buildQueryParams = () => {
         const params = new URLSearchParams();
 
-        // Add numeric filters
-        params.append('depth_min', filters.depth[0]);
-        params.append('depth_max', filters.depth[1]);
-        params.append('height_min', filters.height[0]);
-        params.append('height_max', filters.height[1]);
-        params.append('width_min', filters.width[0]);
-        params.append('width_max', filters.width[1]);
-        params.append('price_min', filters.price[0]);
-        params.append('price_max', filters.price[1]);
+        params.append('depth_min', debouncedFilters.depth[0]);
+        params.append('depth_max', debouncedFilters.depth[1]);
+        params.append('height_min', debouncedFilters.height[0]);
+        params.append('height_max', debouncedFilters.height[1]);
+        params.append('width_min', debouncedFilters.width[0]);
+        params.append('width_max', debouncedFilters.width[1]);
+        params.append('price_min', debouncedFilters.price[0]);
+        params.append('price_max', debouncedFilters.price[1]);
 
-        // Map room type filters to match backend parameter names
         const roomTypeMapping = {
             'Living room': 'living_room',
             Bedroom: 'bedroom',
@@ -72,75 +80,38 @@ const CardsChoice = () => {
             const backendParam = roomTypeMapping[room];
             params.append(
                 backendParam,
-                filters.roomTypes.includes(room) ? 1 : 0
+                debouncedFilters.roomTypes.includes(room) ? 1 : 0
             );
         });
 
         return params.toString();
     };
 
-    // const fetchData = async () => {
-    //     try {
-    //         setLoading(true);
-    //         const queryParams = buildQueryParams();
-
-    //         // Log query parameters
-    //         console.log('Fetching data with query params:', queryParams);
-
-    //         const response = await axios.get(`/api/filter?${queryParams}`);
-
-    //         // Log the API response
-    //         console.log('API Response:', response.data);
-
-    //         if (response.data.items && Array.isArray(response.data.items)) {
-    //             setItems(response.data.items);
-    //             setCurrentIndex(0);
-    //             setError('');
-    //         } else {
-    //             setError('Invalid response format');
-    //         }
-    //     } catch (error) {
-    //         console.error('Error fetching items:', error);
-    //         setError('Failed to fetch items. Please try again.');
-    //     } finally {
-    //         setLoading(false);
-    //     }
-    // };
-
     const fetchData = async () => {
         try {
             setLoading(true);
             const queryParams = buildQueryParams();
-    
-            // Log query parameters
+
             console.log('Fetching data with query params:', queryParams);
-    
+
             const response = await axios.get(`/api/filter?${queryParams}`);
-    
-            // Log the raw API response
             console.log('API Response:', response.data);
-    
+
             if (response.data.items) {
                 let items = response.data.items;
-    
-                // Handle different formats (array or row-like format)
                 if (!Array.isArray(items)) {
-                    // Convert row-like format to an array if needed
                     items = Object.values(items);
                 }
-    
-                // Validate and sanitize the items
-                const sanitizedItems = items.map((item) => {
-                    return {
-                        ...item,
-                        cluster: isNaN(item.cluster) ? 0 : item.cluster, // Replace NaN with default value
-                        depth: isNaN(item.depth) ? 0 : item.depth,
-                        height: isNaN(item.height) ? 0 : item.height,
-                        width: isNaN(item.width) ? 0 : item.width,
-                        price: isNaN(item.price) ? 0 : item.price,
-                    };
-                });
-    
+
+                const sanitizedItems = items.map((item) => ({
+                    ...item,
+                    cluster: isNaN(item.cluster) ? 0 : item.cluster,
+                    depth: isNaN(item.depth) ? 0 : item.depth,
+                    height: isNaN(item.height) ? 0 : item.height,
+                    width: isNaN(item.width) ? 0 : item.width,
+                    price: isNaN(item.price) ? 0 : item.price,
+                }));
+
                 if (sanitizedItems.length === 0) {
                     setError('No valid items returned from the API.');
                 } else {
@@ -158,16 +129,18 @@ const CardsChoice = () => {
             setLoading(false);
         }
     };
-    
-    
 
     useEffect(() => {
-        fetchData();
-    }, []);
-
-    useEffect(() => {
-        fetchData();
+        // Debounce filter updates
+        clearTimeout(debounceTimeoutRef.current);
+        debounceTimeoutRef.current = setTimeout(() => {
+            setDebouncedFilters(filters);
+        }, 500); 
     }, [filters]);
+
+    useEffect(() => {
+        fetchData();
+    }, [debouncedFilters]);
 
     const handleChoice = async (isLiked) => {
         const currentItem = items[currentIndex];
@@ -230,7 +203,6 @@ const CardsChoice = () => {
                     Filter Options
                 </Typography>
                 <Divider sx={{ marginBottom: 3 }} />
-                {/* Numeric Filters */}
                 {['Depth', 'Height', 'Width', 'Price'].map((label, index) => (
                     <Box key={index} sx={{ marginBottom: 3 }}>
                         <Typography sx={{ fontWeight: 500, marginBottom: 1 }}>{label}</Typography>
@@ -243,7 +215,6 @@ const CardsChoice = () => {
                         />
                     </Box>
                 ))}
-                {/* Room Type Filters */}
                 <Typography sx={{ fontWeight: 500, marginBottom: 1 }}>Room Type</Typography>
                 <FormGroup>
                     {roomTypes.map((room) => (
