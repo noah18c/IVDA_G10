@@ -38,7 +38,7 @@ const CardsChoice = () => {
         height: [1, 321],
         width: [1, 420],
         price: [1, 9585],
-        roomTypes: [...roomTypes], 
+        roomTypes: [...roomTypes],
     });
     const navigate = useNavigate();
 
@@ -79,17 +79,77 @@ const CardsChoice = () => {
         return params.toString();
     };
 
+    // const fetchData = async () => {
+    //     try {
+    //         setLoading(true);
+    //         const queryParams = buildQueryParams();
+
+    //         // Log query parameters
+    //         console.log('Fetching data with query params:', queryParams);
+
+    //         const response = await axios.get(`/api/filter?${queryParams}`);
+
+    //         // Log the API response
+    //         console.log('API Response:', response.data);
+
+    //         if (response.data.items && Array.isArray(response.data.items)) {
+    //             setItems(response.data.items);
+    //             setCurrentIndex(0);
+    //             setError('');
+    //         } else {
+    //             setError('Invalid response format');
+    //         }
+    //     } catch (error) {
+    //         console.error('Error fetching items:', error);
+    //         setError('Failed to fetch items. Please try again.');
+    //     } finally {
+    //         setLoading(false);
+    //     }
+    // };
+
     const fetchData = async () => {
         try {
             setLoading(true);
-            const queryParams = buildQueryParams(); 
+            const queryParams = buildQueryParams();
+    
+            // Log query parameters
+            console.log('Fetching data with query params:', queryParams);
+    
             const response = await axios.get(`/api/filter?${queryParams}`);
-            if (response.data.items && Array.isArray(response.data.items)) {
-                setItems(response.data.items);
-                setCurrentIndex(0);
-                setError('');
+    
+            // Log the raw API response
+            console.log('API Response:', response.data);
+    
+            if (response.data.items) {
+                let items = response.data.items;
+    
+                // Handle different formats (array or row-like format)
+                if (!Array.isArray(items)) {
+                    // Convert row-like format to an array if needed
+                    items = Object.values(items);
+                }
+    
+                // Validate and sanitize the items
+                const sanitizedItems = items.map((item) => {
+                    return {
+                        ...item,
+                        cluster: isNaN(item.cluster) ? 0 : item.cluster, // Replace NaN with default value
+                        depth: isNaN(item.depth) ? 0 : item.depth,
+                        height: isNaN(item.height) ? 0 : item.height,
+                        width: isNaN(item.width) ? 0 : item.width,
+                        price: isNaN(item.price) ? 0 : item.price,
+                    };
+                });
+    
+                if (sanitizedItems.length === 0) {
+                    setError('No valid items returned from the API.');
+                } else {
+                    setItems(sanitizedItems);
+                    setCurrentIndex(0);
+                    setError('');
+                }
             } else {
-                setError('Invalid response format');
+                setError('Invalid response format: No items field found.');
             }
         } catch (error) {
             console.error('Error fetching items:', error);
@@ -98,13 +158,15 @@ const CardsChoice = () => {
             setLoading(false);
         }
     };
+    
+    
 
     useEffect(() => {
-        fetchData(); 
-    }, []); 
+        fetchData();
+    }, []);
 
     useEffect(() => {
-        fetchData(); 
+        fetchData();
     }, [filters]);
 
     const handleChoice = async (isLiked) => {
