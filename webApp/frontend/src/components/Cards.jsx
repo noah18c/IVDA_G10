@@ -70,7 +70,7 @@ const Cards = ({ item, onChoice }) => {
 					variant="body1"
 					sx={{ fontWeight: 500, color: '#0058A3' }}
 				>
-					Price: ${item.price}
+					Price: SR {item.price}
 				</Typography>
 			</CardContent>
 			<CardActions

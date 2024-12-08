@@ -52,12 +52,8 @@ const RecommendedItemDetails = ({ recommendedItem, explanation, additionalInfo }
             <Typography sx={{ fontSize: '16px', marginBottom: '8px', color: '#333' }}>
               <strong>Price:</strong>{' '}
               <Chip
-                label={`$${recommendedItem?.price || 'N/A'}`}
-                avatar={
-                  <Avatar sx={{ backgroundColor: '#FFD700' }}>
-                    <AttachMoney sx={{ color: '#FFFFFF' }} />
-                  </Avatar>
-                }
+                label={`SR ${recommendedItem?.price || 'N/A'}`}
+                
                 sx={{
                   backgroundColor: '#F0F4F8',
                   fontSize: '14px',
@@ -121,7 +117,7 @@ const RecommendedItemDetails = ({ recommendedItem, explanation, additionalInfo }
                   style: { color: '#666', fontSize: '14px' },
                 }}
                 primary={`${item.name || 'N/A'} (${item.category || 'N/A'})`}
-                secondary={`Price: $${item.price || 'N/A'}`}
+                secondary={`Price: SR ${item.price || 'N/A'}`}
               />
             </ListItem>
           ))}

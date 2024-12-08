@@ -176,7 +176,7 @@ const Slider = ({ cards, onCardSelect }) => {
 									color: '#666666',
 								}}
 							>
-								Price: ${card.price}
+								Price: SR {card.price}
 							</Typography>
 
 							{/* Optional Fields */}

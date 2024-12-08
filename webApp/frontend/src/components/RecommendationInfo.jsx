@@ -74,7 +74,7 @@ const RecommendationInfo = ({
 						yData={itemPrices}
 						colors={itemColorsPrice}
 						xAxisLabel={'Item Name'}
-						yAxisLabel={'Price (CHF)'}
+						yAxisLabel={'Price (SR)'}
 						legendLabels={['Recommended Item', 'Liked Items']}
 					/>
 				</Box>
