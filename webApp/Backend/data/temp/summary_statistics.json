@@ -2,90 +2,161 @@
     "scatter_plot_data": {
         "liked_items": [
             {
-                "price": 349.0,
-                "space": 764720.0,
-                "label": "KLEPPSTAD"
+                "price": 2710.0,
+                "space": 2208000.0,
+                "label": "BEST\u00c5"
             },
             {
-                "price": 2600.5,
-                "space": 245960.0,
-                "label": "PLATSA"
+                "price": 3395.0,
+                "space": 1570172.551029953,
+                "label": "EKTORP"
             },
             {
-                "price": 1260.0,
-                "space": 178080.0,
-                "label": "SL\u00c4KT"
+                "price": 2892.0,
+                "space": 2248180.2515825354,
+                "label": "ELVARLI"
+            },
+            {
+                "price": 3760.0,
+                "space": 2395120.0,
+                "label": "GR\u00d6NLID"
+            },
+            {
+                "price": 4800.0,
+                "space": 2395120.0,
+                "label": "GR\u00d6NLID"
+            },
+            {
+                "price": 5600.0,
+                "space": 2395120.0,
+                "label": "GR\u00d6NLID"
+            },
+            {
+                "price": 2980.0,
+                "space": 2022692.0,
+                "label": "HAVSTA"
+            },
+            {
+                "price": 3986.0,
+                "space": 1968030.0,
+                "label": "HEMNES"
+            },
+            {
+                "price": 4580.0,
+                "space": 2131800.0,
+                "label": "NORSBORG"
+            },
+            {
+                "price": 3206.0,
+                "space": 2825856.0,
+                "label": "SOLLER\u00d6N"
             },
             {
                 "price": 4345.0,
                 "space": 1976856.0,
                 "label": "SOLLER\u00d6N"
+            },
+            {
+                "price": 5144.0,
+                "space": 3595536.0,
+                "label": "SOLLER\u00d6N"
+            },
+            {
+                "price": 5436.0,
+                "space": 1838592.0,
+                "label": "STOCKHOLM 2017"
+            },
+            {
+                "price": 3388.0,
+                "space": 2132676.0,
+                "label": "VALLENTUNA"
+            },
+            {
+                "price": 4172.0,
+                "space": 2343558.740346277,
+                "label": "VALLENTUNA"
+            },
+            {
+                "price": 5300.0,
+                "space": 2077992.0,
+                "label": "VALLENTUNA"
+            },
+            {
+                "price": 4740.0,
+                "space": 2025366.0,
+                "label": "VIMLE"
             }
         ],
         "recommended_items": [
             {
-                "price": 895.0,
-                "space": 973438.0,
-                "label": "TRYSIL"
+                "price": 3875.0,
+                "space": 2000964.0,
+                "label": "VIMLE"
             },
             {
-                "price": 2111.0,
-                "space": 240800.0,
-                "label": "PLATSA"
+                "price": 3795.0,
+                "space": 1891048.7826803052,
+                "label": "LANDSKRONA"
             },
             {
-                "price": 2163.5,
-                "space": 242520.0,
-                "label": "PLATSA"
+                "price": 3900.0,
+                "space": 1353744.0,
+                "label": "DELAKTIG"
             },
             {
-                "price": 2210.0,
-                "space": 240800.0,
-                "label": "PLATSA"
+                "price": 4116.0,
+                "space": 2380653.426422495,
+                "label": "VALLENTUNA"
             },
             {
-                "price": 2307.0,
-                "space": 240800.0,
-                "label": "PLATSA"
+                "price": 4010.0,
+                "space": 1911490.0,
+                "label": "VIMLE"
             },
             {
-                "price": 1590.0,
-                "space": 886035.8121472372,
-                "label": "VITVAL"
+                "price": 3495.0,
+                "space": 1416168.0,
+                "label": "LANDSKRONA"
             },
             {
-                "price": 2905.0,
-                "space": 242520.0,
-                "label": "PLATSA"
+                "price": 3800.0,
+                "space": 1789895.0,
+                "label": "KIVIK"
             },
             {
-                "price": 1295.0,
-                "space": 811053.6309900137,
-                "label": "VITVAL"
+                "price": 4604.0,
+                "space": 2077992.0,
+                "label": "VALLENTUNA"
             },
             {
-                "price": 920.0,
-                "space": 173460.0,
-                "label": "MALM"
+                "price": 4448.0,
+                "space": 2443310.2114935545,
+                "label": "VALLENTUNA"
             },
             {
-                "price": 995.0,
-                "space": 588864.1292798064,
-                "label": "SL\u00c4KT"
+                "price": 4545.0,
+                "space": 2568384.0,
+                "label": "GR\u00d6NLID"
             }
         ]
     },
     "designer_count_data": {
         "designers": [
-            "IKEA of Sweden",
-            "K Hagberg/M Hagberg",
-            "Ola Wihlborg/IKEA of Sweden",
+            "Fredriksson/L L\u00f6wenhielm/Hilland",
+            "IKEA of Sweden/Ehl\u00e9n Johansson",
             "IKEA of Sweden/Tord Bj\u00f6rklund",
-            "IKEA of Sweden/Eva Lilja L\u00f6wenhielm",
-            "Ebba Strandmark/IKEA of Sweden"
+            "Tom Dixon",
+            "Ehl\u00e9n Johansson",
+            "Tord Bj\u00f6rklund/IKEA of Sweden",
+            "Ola Wihlborg",
+            "IKEA of Sweden/Fredriksson/L L\u00f6wenhielm/Hilland/Ehl\u00e9n Johansson",
+            "Ehl\u00e9n Johansson/Francis Cayouette"
         ],
         "counts": [
-            5,
+            2,
+            1,
+            1,
+            1,
             1,
             1,
             1,
