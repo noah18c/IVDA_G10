@@ -162,6 +162,9 @@ def knn_recommendations(liked_items, disliked_items=None, rec_num=10, filter=Non
         list: A list of recommended FurnitureItem objects.
 
     """
+    if not liked_items:
+        raise ValueError("Liked items cannot be empty.")
+
 
     if filter is None:
         filter = FilterItem()

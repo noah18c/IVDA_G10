@@ -7,3 +7,4 @@ webApp/Backend/data/temp/liked_items.json
 webApp/Backend/data/temp/recommended_items.json
 webApp/Backend/data/temp/recommended_stats.json
 webApp/Backend/data/temp/summary_statistics.json
+webApp/Backend/data/temp/filter.json

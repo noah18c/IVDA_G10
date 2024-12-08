@@ -237,20 +237,29 @@ def get_summary_info():
 #     except Exception as e:
 #         return jsonify({"error": str(e)}), 500 
 
-@app.route('/api/reset', methods=['POST'])
-def reset_session_and_temp():
-    try:
-        # Path to the temp folder
-        temp_folder_path = os.path.join(os.path.dirname(__file__), '../data/temp')
+@app.route('/api/histogram_data', methods=['GET'])
+def get_histogram_data():
+    import numpy as np
+    try:    
+        # Path to your CSV file
+        csv_path = os.path.join(os.path.dirname(__file__), '../data/IKEA_data_processed.csv')
+        df = pd.read_csv(csv_path)
 
-        # Delete all files in the temp folder
-        if os.path.exists(temp_folder_path):
-            shutil.rmtree(temp_folder_path)  # Remove the folder and its contents
-            os.makedirs(temp_folder_path)   # Recreate the empty folder
+        # Initialize a dictionary for histogram data
+        histograms = {}
+        numeric_columns = ['price', 'depth', 'height', 'width']
 
-        # Clear the session
-        session.clear()
+        # Compute histograms for numeric columns
+        for column in numeric_columns:
+            df[column] = pd.to_numeric(df[column], errors='coerce').dropna()  # Ensure valid numeric data
+            hist, bin_edges = np.histogram(df[column], bins=20)  # Create histogram with 10 bins
+            histograms[column] = {
+                "bins": [float(edge) for edge in bin_edges],  # Convert bin edges to a list
+                "counts": [int(count) for count in hist]      # Convert counts to integers
+            }
 
-        return jsonify({"message": "Session and temp folder reset successfully."}), 200
+        return jsonify({"histograms": histograms}), 200
     except Exception as e:
+        # Return error message for debugging
         return jsonify({"error": str(e)}), 500
+

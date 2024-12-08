@@ -2,160 +2,153 @@
     "scatter_plot_data": {
         "liked_items": [
             {
-                "price": 2710.0,
-                "space": 2208000.0,
-                "label": "BEST\u00c5"
+                "price": 1575.0,
+                "space": 903897.4432570213,
+                "label": "EKEDALEN / LEIFARNE"
             },
             {
-                "price": 3395.0,
-                "space": 1570172.551029953,
-                "label": "EKTORP"
+                "price": 1095.0,
+                "space": 1274307.0580092345,
+                "label": "FREDDE"
             },
             {
-                "price": 2892.0,
-                "space": 2248180.2515825354,
-                "label": "ELVARLI"
+                "price": 2725.0,
+                "space": 560756.6595096726,
+                "label": "INGATORP / INGOLF"
             },
             {
-                "price": 3760.0,
-                "space": 2395120.0,
-                "label": "GR\u00d6NLID"
+                "price": 2585.0,
+                "space": 466791.79326654907,
+                "label": "KLIMPEN"
             },
             {
-                "price": 4800.0,
-                "space": 2395120.0,
-                "label": "GR\u00d6NLID"
+                "price": 1875.0,
+                "space": 424620.28467613313,
+                "label": "LISABO / ODGER"
             },
             {
-                "price": 5600.0,
-                "space": 2395120.0,
-                "label": "GR\u00d6NLID"
+                "price": 1675.0,
+                "space": 405947.6490413006,
+                "label": "LISABO / SVENBERTIL"
             },
             {
-                "price": 2980.0,
-                "space": 2022692.0,
-                "label": "HAVSTA"
+                "price": 2115.0,
+                "space": 1110291.0580425116,
+                "label": "MASTHOLMEN"
             },
             {
-                "price": 3986.0,
-                "space": 1968030.0,
-                "label": "HEMNES"
+                "price": 3665.0,
+                "space": 754781.676019104,
+                "label": "M\u00d6RBYL\u00c5NGA / LEIFARNE"
             },
             {
-                "price": 4580.0,
-                "space": 2131800.0,
-                "label": "NORSBORG"
+                "price": 3475.0,
+                "space": 624470.4050030527,
+                "label": "M\u00d6RBYL\u00c5NGA / ODGER"
             },
             {
-                "price": 3206.0,
-                "space": 2825856.0,
+                "price": 1780.0,
+                "space": 979374.2819590018,
+                "label": "SJ\u00c4LLAND"
+            },
+            {
+                "price": 2832.0,
+                "space": 2697408.0,
                 "label": "SOLLER\u00d6N"
             },
             {
-                "price": 4345.0,
-                "space": 1976856.0,
+                "price": 3564.0,
+                "space": 1039104.0,
                 "label": "SOLLER\u00d6N"
             },
             {
-                "price": 5144.0,
-                "space": 3595536.0,
+                "price": 3746.0,
+                "space": 1623600.0,
                 "label": "SOLLER\u00d6N"
             },
             {
-                "price": 5436.0,
-                "space": 1838592.0,
-                "label": "STOCKHOLM 2017"
+                "price": 1100.0,
+                "space": 1165569.0,
+                "label": "S\u00d6DERHAMN"
             },
             {
-                "price": 3388.0,
-                "space": 2132676.0,
-                "label": "VALLENTUNA"
+                "price": 1588.0,
+                "space": 934400.0,
+                "label": "\u00c4PPLAR\u00d6"
             },
             {
-                "price": 4172.0,
-                "space": 2343558.740346277,
-                "label": "VALLENTUNA"
-            },
-            {
-                "price": 5300.0,
-                "space": 2077992.0,
-                "label": "VALLENTUNA"
-            },
-            {
-                "price": 4740.0,
-                "space": 2025366.0,
-                "label": "VIMLE"
+                "price": 2000.0,
+                "space": 1064275.932431066,
+                "label": "\u00c4PPLAR\u00d6"
             }
         ],
         "recommended_items": [
             {
-                "price": 3875.0,
-                "space": 2000964.0,
-                "label": "VIMLE"
+                "price": 1850.0,
+                "space": 734091.6275251282,
+                "label": "BEKANT"
             },
             {
-                "price": 3795.0,
-                "space": 1891048.7826803052,
-                "label": "LANDSKRONA"
-            },
-            {
-                "price": 3900.0,
-                "space": 1353744.0,
-                "label": "DELAKTIG"
-            },
-            {
-                "price": 4116.0,
-                "space": 2380653.426422495,
+                "price": 1948.0,
+                "space": 882756.0,
                 "label": "VALLENTUNA"
             },
             {
-                "price": 4010.0,
-                "space": 1911490.0,
-                "label": "VIMLE"
+                "price": 2165.0,
+                "space": 1130651.8138219076,
+                "label": "TINGBY / LEIFARNE"
             },
             {
-                "price": 3495.0,
-                "space": 1416168.0,
-                "label": "LANDSKRONA"
+                "price": 1220.0,
+                "space": 829080.0,
+                "label": "HAVSTEN"
             },
             {
-                "price": 3800.0,
-                "space": 1789895.0,
-                "label": "KIVIK"
+                "price": 1075.0,
+                "space": 702180.0,
+                "label": "HAVSTEN"
             },
             {
-                "price": 4604.0,
-                "space": 2077992.0,
-                "label": "VALLENTUNA"
+                "price": 1995.0,
+                "space": 588488.4280976092,
+                "label": "NORDVIKEN"
             },
             {
-                "price": 4448.0,
-                "space": 2443310.2114935545,
-                "label": "VALLENTUNA"
+                "price": 1595.0,
+                "space": 398478.5947873676,
+                "label": "LISABO / JANINGE"
             },
             {
-                "price": 4545.0,
-                "space": 2568384.0,
-                "label": "GR\u00d6NLID"
+                "price": 1325.0,
+                "space": 854452.2819735438,
+                "label": "BEKANT"
+            },
+            {
+                "price": 1675.0,
+                "space": 436225.5532962299,
+                "label": "TORSBY / LEIFARNE"
+            },
+            {
+                "price": 1395.0,
+                "space": 384132.76650953904,
+                "label": "RYDEB\u00c4CK/BACKARYD / JANINGE"
             }
         ]
     },
     "designer_count_data": {
         "designers": [
-            "Fredriksson/L L\u00f6wenhielm/Hilland",
-            "IKEA of Sweden/Ehl\u00e9n Johansson",
-            "IKEA of Sweden/Tord Bj\u00f6rklund",
-            "Tom Dixon",
-            "Ehl\u00e9n Johansson",
-            "Tord Bj\u00f6rklund/IKEA of Sweden",
-            "Ola Wihlborg",
-            "IKEA of Sweden/Fredriksson/L L\u00f6wenhielm/Hilland/Ehl\u00e9n Johansson",
-            "Ehl\u00e9n Johansson/Francis Cayouette"
+            "K Malmvall/E Lilja L\u00f6wenhielm",
+            "Andreas Fredriksson",
+            "IKEA of Sweden/Fredriksson/L L\u00f6wenhielm/Hilland",
+            "Mikael Warnhammar/Mia Lagerman",
+            "Francis Cayouette",
+            "K Hagberg/M Hagberg/John/Jonas/Petrus/Paul/Caroline",
+            "IKEA of Sweden/Carl \u00d6jerstam/Mia Lagerman",
+            "David Wahl/IKEA of Sweden/John/Jonas/Petrus/Paul/Caroline"
         ],
         "counts": [
             2,
-            1,
-            1,
+            2,
             1,
             1,
             1,
