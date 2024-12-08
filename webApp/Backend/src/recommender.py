@@ -30,39 +30,51 @@ class RecommendationModel:
     def filter_data(self, filter:FilterItem):
         #print(self.df_model.columns)
 
-        filter.living_room = 0
+        try:
+            if filter is not None:
+                filter_mapping = {
+                    'price_min': 'price', 'price_max': 'price',
+                    'height_min': 'height', 'height_max': 'height',
+                    'width_min': 'width', 'width_max': 'width',
+                    'depth_min': 'depth', 'depth_max': 'depth',
+                    'living_room': 'Living room', 'bedroom': 'Bedroom',
+                    'office': 'Office', 'kitchen': 'Kitchen', 
+                    'dining': 'Dining room', 'entrance': 'Entrance',
+                    'playroom': 'Playroom', 'nursery': 'Nursery', 
+                    'outdoor': 'Outdoor'
+                }
 
-        self.df_model = self.df_model[(self.df_model['price'] >= filter.price_min) & (self.df_model['price'] <= filter.price_max)]
+                for filter_attr, column_name in filter_mapping.items():
+                    filter_value = getattr(filter, filter_attr)
+                    
+                    if filter_value is not None:
+                        # Ensure the filter_value is numeric when comparing with numeric columns
+                        if isinstance(filter_value, str):
+                            try:    
+                                filter_value = float(filter_value)  # Try converting to float if it's a string
+                            except ValueError:
+                                pass  # If it's not convertible, keep the original value
 
-        # filter dimensions
-        self.df_model = self.df_model[(self.df_model['height'] >= filter.height_min) & (self.df_model['height'] <= filter.height_max)]
-        self.df_model = self.df_model[(self.df_model['width'] >= filter.width_min) & (self.df_model['width'] <= filter.width_max)]
-        self.df_model = self.df_model[(self.df_model['depth'] >= filter.depth_min) & (self.df_model['depth'] <= filter.depth_max)]
-
-        # filter location
-        room_mapping = {
-            'Living room': filter.living_room,
-            'Bedroom': filter.bedroom,
-            'Office': filter.office,
-            'Kitchen': filter.kitchen,
-            'Dining room': filter.dining,
-            'Entrance': filter.entrance,
-            'Playroom': filter.playroom,
-            'Nursery': filter.nursery,
-            'Outdoor': filter.outdoor,
-        }
-    
-        print('size of df',len(self.df_model))
-        for column, filter_value in room_mapping.items():
-            if filter_value == 0:  # If the filter indicates the column should not be included
-                print(f"Dropping rows where {column} == 1")
-                self.df_model = self.df_model[self.df_model[column] != 1]  # Drop rows where column has value 1
-                print(f"Size of df after filtering {column}: {len(self.df_model)}")
-        self.df_model.reset_index(drop=True, inplace=True)
-
-        if self.df_model.empty:
-            print("Warning: No items match the filters applied.")    
-        
+                        # Apply min/max filters for numerical values (e.g., price_min, price_max)
+                        if filter_attr.endswith('_min'):
+                            self.df_model = self.df_model[self.df_model[column_name] >= filter_value]
+                        elif filter_attr.endswith('_max'):
+                            self.df_model = self.df_model[self.df_model[column_name] <= filter_value]
+                        else:
+                            # Apply binary filters (e.g., living_room, bedroom)
+                            if filter_value:
+                                # Create a list of room column names that are part of the filter_mapping
+                                room_columns = [
+                                    'Living room', 'Bedroom', 'Office', 'Kitchen', 
+                                    'Dining room', 'Entrance', 'Playroom', 'Nursery', 'Outdoor'
+                                ]
+                                
+                                # Check if any of the room columns in the row have a '1'
+                                self.df_model = self.df_model[self.df_model[room_columns].eq(1).any(axis=1)]
+                self.df_model = self.df_model.reset_index(drop=True)
+        except Exception as e:
+            print(e)
+            
     def preprocess(self):
         scaler = StandardScaler()
         self.df_model[['price_std', 'space_std']] = scaler.fit_transform(self.df_model[['price', 'space']])
@@ -141,42 +153,47 @@ class RecommendationModel:
 
 
     def get_topn_recommendations(self, rec_num:int=10):
-        self.rec_num = rec_num
-        self.topn_recommended_items = self.recommended_items.iloc[:rec_num]
-        furniture_items = []
-        for _, row in self.topn_recommended_items.iterrows():
-            item = FurnitureItem(
-                item_id=row['item_id'],
-                name=row['name'],
-                category=row['category'],
-                price=row['price'],
-                old_price=row['old_price'] if not pd.isnull(row['old_price']) else None,
-                sellable_online=row['sellable_online'],
-                link=row['link'],
-                other_colors=row['other_colors'],
-                short_description=row['short_description'],
-                designer=row['designer'],
-                depth=row['depth'] if not pd.isnull(row['depth']) else None,
-                height=row['height'] if not pd.isnull(row['height']) else None,
-                width=row['width'] if not pd.isnull(row['width']) else None,
-                living_room=row['Living room'],
-                bedroom=row['Bedroom'],
-                office=row['Office'],
-                kitchen=row['Kitchen'],
-                dining_room=row['Dining room'],
-                entrance=row['Entrance'],
-                playroom=row['Playroom'],
-                nursery=row['Nursery'],
-                outdoor=row['Outdoor'],
-                space=row['space'],
-                size_cluster=row['size_cluster'],
-                size_category=row['size_category'],
-                cluster=row['cluster'],
-                rooms=row['rooms']
-            )
-            furniture_items.append(item)
+        try:
+            self.rec_num = rec_num
+            self.topn_recommended_items = self.recommended_items.iloc[:rec_num]
+            furniture_items = []
+            for _, row in self.topn_recommended_items.iterrows():
+                item = FurnitureItem(
+                    item_id=row['item_id'],
+                    name=row['name'],
+                    category=row['category'],
+                    price=row['price'],
+                    old_price=row['old_price'] if not pd.isnull(row['old_price']) else None,
+                    sellable_online=row['sellable_online'],
+                    link=row['link'],
+                    other_colors=row['other_colors'],
+                    short_description=row['short_description'],
+                    designer=row['designer'],
+                    depth=row['depth'] if not pd.isnull(row['depth']) else None,
+                    height=row['height'] if not pd.isnull(row['height']) else None,
+                    width=row['width'] if not pd.isnull(row['width']) else None,
+                    living_room=row['Living room'],
+                    bedroom=row['Bedroom'],
+                    office=row['Office'],
+                    kitchen=row['Kitchen'],
+                    dining_room=row['Dining room'],
+                    entrance=row['Entrance'],
+                    playroom=row['Playroom'],
+                    nursery=row['Nursery'],
+                    outdoor=row['Outdoor'],
+                    space=row['space'],
+                    size_cluster=row['size_cluster'],
+                    size_category=row['size_category'],
+                    cluster=row['cluster'],
+                    rooms=row['rooms']
+                )
+                furniture_items.append(item)
 
-        print(furniture_items)
+            print(furniture_items)
+        except Exception as e:
+            print(e)
+            furniture_items = None
+
 
         return furniture_items
     

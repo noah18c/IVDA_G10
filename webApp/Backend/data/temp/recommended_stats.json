@@ -2,175 +2,691 @@
     "price_comparison": [
         {
             "recommended_item": {
-                "item_id": 10308787,
-                "name": "TRYSIL",
-                "price": 895.0
+                "item_id": 29292442,
+                "name": "VIMLE",
+                "price": 3875.0
             },
             "basket_items": [
                 {
-                    "name": "KLEPPSTAD",
-                    "price": 349.0
+                    "name": "BEST\u00c5",
+                    "price": 2710.0
                 },
                 {
-                    "name": "PLATSA",
-                    "price": 2600.5
+                    "name": "EKTORP",
+                    "price": 3395.0
                 },
                 {
-                    "name": "SL\u00c4KT",
-                    "price": 1260.0
+                    "name": "ELVARLI",
+                    "price": 2892.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 3760.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 4800.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 5600.0
+                },
+                {
+                    "name": "HAVSTA",
+                    "price": 2980.0
+                },
+                {
+                    "name": "HEMNES",
+                    "price": 3986.0
+                },
+                {
+                    "name": "NORSBORG",
+                    "price": 4580.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "price": 3206.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "price": 4345.0
+                },
+                {
+                    "name": "STOCKHOLM 2017",
+                    "price": 5436.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "price": 3388.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "price": 4172.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "price": 5300.0
+                },
+                {
+                    "name": "VIMLE",
+                    "price": 4740.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 89326463,
-                "name": "PLATSA",
-                "price": 2111.0
+                "item_id": 89272667,
+                "name": "LANDSKRONA",
+                "price": 3795.0
             },
             "basket_items": [
                 {
-                    "name": "PLATSA",
-                    "price": 2600.5
+                    "name": "BEST\u00c5",
+                    "price": 2710.0
                 },
                 {
-                    "name": "SL\u00c4KT",
-                    "price": 1260.0
+                    "name": "EKTORP",
+                    "price": 3395.0
+                },
+                {
+                    "name": "ELVARLI",
+                    "price": 2892.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 3760.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 4800.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 5600.0
+                },
+                {
+                    "name": "HAVSTA",
+                    "price": 2980.0
+                },
+                {
+                    "name": "HEMNES",
+                    "price": 3986.0
+                },
+                {
+                    "name": "NORSBORG",
+                    "price": 4580.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "price": 3206.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "price": 4345.0
+                },
+                {
+                    "name": "STOCKHOLM 2017",
+                    "price": 5436.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "price": 3388.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "price": 4172.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "price": 5300.0
+                },
+                {
+                    "name": "VIMLE",
+                    "price": 4740.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 99302975,
-                "name": "PLATSA",
-                "price": 2163.5
+                "item_id": 59259691,
+                "name": "DELAKTIG",
+                "price": 3900.0
             },
             "basket_items": [
                 {
-                    "name": "PLATSA",
-                    "price": 2600.5
+                    "name": "BEST\u00c5",
+                    "price": 2710.0
                 },
                 {
-                    "name": "SL\u00c4KT",
-                    "price": 1260.0
+                    "name": "EKTORP",
+                    "price": 3395.0
+                },
+                {
+                    "name": "ELVARLI",
+                    "price": 2892.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 3760.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 4800.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 5600.0
+                },
+                {
+                    "name": "HAVSTA",
+                    "price": 2980.0
+                },
+                {
+                    "name": "HEMNES",
+                    "price": 3986.0
+                },
+                {
+                    "name": "NORSBORG",
+                    "price": 4580.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "price": 3206.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "price": 4345.0
+                },
+                {
+                    "name": "STOCKHOLM 2017",
+                    "price": 5436.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "price": 3388.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "price": 4172.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "price": 5300.0
+                },
+                {
+                    "name": "VIMLE",
+                    "price": 4740.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 19302917,
-                "name": "PLATSA",
-                "price": 2210.0
+                "item_id": 29276965,
+                "name": "VALLENTUNA",
+                "price": 4116.0
             },
             "basket_items": [
                 {
-                    "name": "PLATSA",
-                    "price": 2600.5
+                    "name": "BEST\u00c5",
+                    "price": 2710.0
                 },
                 {
-                    "name": "SL\u00c4KT",
-                    "price": 1260.0
+                    "name": "EKTORP",
+                    "price": 3395.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 3760.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 4800.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 5600.0
+                },
+                {
+                    "name": "HAVSTA",
+                    "price": 2980.0
+                },
+                {
+                    "name": "HEMNES",
+                    "price": 3986.0
+                },
+                {
+                    "name": "NORSBORG",
+                    "price": 4580.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "price": 3206.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "price": 4345.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "price": 5144.0
+                },
+                {
+                    "name": "STOCKHOLM 2017",
+                    "price": 5436.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "price": 3388.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "price": 4172.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "price": 5300.0
+                },
+                {
+                    "name": "VIMLE",
+                    "price": 4740.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 89302914,
-                "name": "PLATSA",
-                "price": 2307.0
+                "item_id": 19284796,
+                "name": "VIMLE",
+                "price": 4010.0
             },
             "basket_items": [
                 {
-                    "name": "PLATSA",
-                    "price": 2600.5
+                    "name": "BEST\u00c5",
+                    "price": 2710.0
                 },
                 {
-                    "name": "SL\u00c4KT",
-                    "price": 1260.0
+                    "name": "EKTORP",
+                    "price": 3395.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 3760.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 4800.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 5600.0
+                },
+                {
+                    "name": "HAVSTA",
+                    "price": 2980.0
+                },
+                {
+                    "name": "HEMNES",
+                    "price": 3986.0
+                },
+                {
+                    "name": "NORSBORG",
+                    "price": 4580.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "price": 3206.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "price": 4345.0
+                },
+                {
+                    "name": "STOCKHOLM 2017",
+                    "price": 5436.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "price": 3388.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "price": 4172.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "price": 5300.0
+                },
+                {
+                    "name": "VIMLE",
+                    "price": 4740.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 19302922,
-                "name": "VITVAL",
-                "price": 1590.0
+                "item_id": 9270295,
+                "name": "LANDSKRONA",
+                "price": 3495.0
             },
             "basket_items": [
                 {
-                    "name": "PLATSA",
-                    "price": 2600.5
+                    "name": "BEST\u00c5",
+                    "price": 2710.0
                 },
                 {
-                    "name": "SL\u00c4KT",
-                    "price": 1260.0
+                    "name": "EKTORP",
+                    "price": 3395.0
+                },
+                {
+                    "name": "ELVARLI",
+                    "price": 2892.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 3760.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 4800.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 5600.0
+                },
+                {
+                    "name": "HAVSTA",
+                    "price": 2980.0
+                },
+                {
+                    "name": "HEMNES",
+                    "price": 3986.0
+                },
+                {
+                    "name": "NORSBORG",
+                    "price": 4580.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "price": 3206.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "price": 4345.0
+                },
+                {
+                    "name": "STOCKHOLM 2017",
+                    "price": 5436.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "price": 3388.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "price": 4172.0
+                },
+                {
+                    "name": "VIMLE",
+                    "price": 4740.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 59302915,
-                "name": "PLATSA",
-                "price": 2905.0
+                "item_id": 198591,
+                "name": "KIVIK",
+                "price": 3800.0
             },
             "basket_items": [
                 {
-                    "name": "PLATSA",
-                    "price": 2600.5
+                    "name": "BEST\u00c5",
+                    "price": 2710.0
                 },
                 {
-                    "name": "SL\u00c4KT",
-                    "price": 1260.0
+                    "name": "EKTORP",
+                    "price": 3395.0
+                },
+                {
+                    "name": "ELVARLI",
+                    "price": 2892.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 3760.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 4800.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 5600.0
+                },
+                {
+                    "name": "HAVSTA",
+                    "price": 2980.0
+                },
+                {
+                    "name": "HEMNES",
+                    "price": 3986.0
+                },
+                {
+                    "name": "NORSBORG",
+                    "price": 4580.0
+                },
+                {
+                    "name": "STOCKHOLM 2017",
+                    "price": 5436.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "price": 3388.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "price": 4172.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "price": 5300.0
+                },
+                {
+                    "name": "VIMLE",
+                    "price": 4740.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 80411272,
-                "name": "VITVAL",
-                "price": 1295.0
+                "item_id": 29277960,
+                "name": "VALLENTUNA",
+                "price": 4604.0
             },
             "basket_items": [
                 {
-                    "name": "PLATSA",
-                    "price": 2600.5
+                    "name": "EKTORP",
+                    "price": 3395.0
                 },
                 {
-                    "name": "SL\u00c4KT",
-                    "price": 1260.0
+                    "name": "ELVARLI",
+                    "price": 2892.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 3760.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 4800.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 5600.0
+                },
+                {
+                    "name": "HEMNES",
+                    "price": 3986.0
+                },
+                {
+                    "name": "NORSBORG",
+                    "price": 4580.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "price": 4345.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "price": 5144.0
+                },
+                {
+                    "name": "STOCKHOLM 2017",
+                    "price": 5436.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "price": 3388.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "price": 4172.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "price": 5300.0
+                },
+                {
+                    "name": "VIMLE",
+                    "price": 4740.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 19175957,
-                "name": "MALM",
-                "price": 920.0
+                "item_id": 9277782,
+                "name": "VALLENTUNA",
+                "price": 4448.0
             },
             "basket_items": [
                 {
-                    "name": "PLATSA",
-                    "price": 2600.5
+                    "name": "EKTORP",
+                    "price": 3395.0
                 },
                 {
-                    "name": "SL\u00c4KT",
-                    "price": 1260.0
+                    "name": "ELVARLI",
+                    "price": 2892.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 3760.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 4800.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 5600.0
+                },
+                {
+                    "name": "HEMNES",
+                    "price": 3986.0
+                },
+                {
+                    "name": "NORSBORG",
+                    "price": 4580.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "price": 4345.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "price": 5144.0
+                },
+                {
+                    "name": "STOCKHOLM 2017",
+                    "price": 5436.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "price": 3388.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "price": 4172.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "price": 5300.0
+                },
+                {
+                    "name": "VIMLE",
+                    "price": 4740.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 89227731,
-                "name": "SL\u00c4KT",
-                "price": 995.0
+                "item_id": 59256414,
+                "name": "GR\u00d6NLID",
+                "price": 4545.0
             },
             "basket_items": [
                 {
-                    "name": "PLATSA",
-                    "price": 2600.5
+                    "name": "EKTORP",
+                    "price": 3395.0
                 },
                 {
-                    "name": "SL\u00c4KT",
-                    "price": 1260.0
+                    "name": "ELVARLI",
+                    "price": 2892.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 3760.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 4800.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "price": 5600.0
+                },
+                {
+                    "name": "HEMNES",
+                    "price": 3986.0
+                },
+                {
+                    "name": "NORSBORG",
+                    "price": 4580.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "price": 4345.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "price": 5144.0
+                },
+                {
+                    "name": "STOCKHOLM 2017",
+                    "price": 5436.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "price": 3388.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "price": 4172.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "price": 5300.0
+                },
+                {
+                    "name": "VIMLE",
+                    "price": 4740.0
                 }
             ]
         }
@@ -178,175 +694,691 @@
     "size_comparison": [
         {
             "recommended_item": {
-                "item_id": 10308787,
-                "name": "TRYSIL",
-                "size": 973438.0
+                "item_id": 29292442,
+                "name": "VIMLE",
+                "size": 2000964.0
             },
             "basket_items": [
                 {
-                    "name": "KLEPPSTAD",
-                    "size": 764720.0
+                    "name": "BEST\u00c5",
+                    "size": 2208000.0
                 },
                 {
-                    "name": "PLATSA",
-                    "size": 245960.0
+                    "name": "EKTORP",
+                    "size": 1570172.551029953
                 },
                 {
-                    "name": "SL\u00c4KT",
-                    "size": 178080.0
+                    "name": "ELVARLI",
+                    "size": 2248180.2515825354
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 2395120.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 2395120.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 2395120.0
+                },
+                {
+                    "name": "HAVSTA",
+                    "size": 2022692.0
+                },
+                {
+                    "name": "HEMNES",
+                    "size": 1968030.0
+                },
+                {
+                    "name": "NORSBORG",
+                    "size": 2131800.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "size": 2825856.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "size": 1976856.0
+                },
+                {
+                    "name": "STOCKHOLM 2017",
+                    "size": 1838592.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "size": 2132676.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "size": 2343558.740346277
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "size": 2077992.0
+                },
+                {
+                    "name": "VIMLE",
+                    "size": 2025366.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 89326463,
-                "name": "PLATSA",
-                "size": 240800.0
+                "item_id": 89272667,
+                "name": "LANDSKRONA",
+                "size": 1891048.7826803052
             },
             "basket_items": [
                 {
-                    "name": "PLATSA",
-                    "size": 245960.0
+                    "name": "BEST\u00c5",
+                    "size": 2208000.0
                 },
                 {
-                    "name": "SL\u00c4KT",
-                    "size": 178080.0
+                    "name": "EKTORP",
+                    "size": 1570172.551029953
+                },
+                {
+                    "name": "ELVARLI",
+                    "size": 2248180.2515825354
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 2395120.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 2395120.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 2395120.0
+                },
+                {
+                    "name": "HAVSTA",
+                    "size": 2022692.0
+                },
+                {
+                    "name": "HEMNES",
+                    "size": 1968030.0
+                },
+                {
+                    "name": "NORSBORG",
+                    "size": 2131800.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "size": 2825856.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "size": 1976856.0
+                },
+                {
+                    "name": "STOCKHOLM 2017",
+                    "size": 1838592.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "size": 2132676.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "size": 2343558.740346277
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "size": 2077992.0
+                },
+                {
+                    "name": "VIMLE",
+                    "size": 2025366.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 99302975,
-                "name": "PLATSA",
-                "size": 242520.0
+                "item_id": 59259691,
+                "name": "DELAKTIG",
+                "size": 1353744.0
             },
             "basket_items": [
                 {
-                    "name": "PLATSA",
-                    "size": 245960.0
+                    "name": "BEST\u00c5",
+                    "size": 2208000.0
                 },
                 {
-                    "name": "SL\u00c4KT",
-                    "size": 178080.0
+                    "name": "EKTORP",
+                    "size": 1570172.551029953
+                },
+                {
+                    "name": "ELVARLI",
+                    "size": 2248180.2515825354
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 2395120.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 2395120.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 2395120.0
+                },
+                {
+                    "name": "HAVSTA",
+                    "size": 2022692.0
+                },
+                {
+                    "name": "HEMNES",
+                    "size": 1968030.0
+                },
+                {
+                    "name": "NORSBORG",
+                    "size": 2131800.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "size": 2825856.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "size": 1976856.0
+                },
+                {
+                    "name": "STOCKHOLM 2017",
+                    "size": 1838592.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "size": 2132676.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "size": 2343558.740346277
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "size": 2077992.0
+                },
+                {
+                    "name": "VIMLE",
+                    "size": 2025366.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 19302917,
-                "name": "PLATSA",
-                "size": 240800.0
+                "item_id": 29276965,
+                "name": "VALLENTUNA",
+                "size": 2380653.426422495
             },
             "basket_items": [
                 {
-                    "name": "PLATSA",
-                    "size": 245960.0
+                    "name": "BEST\u00c5",
+                    "size": 2208000.0
                 },
                 {
-                    "name": "SL\u00c4KT",
-                    "size": 178080.0
+                    "name": "EKTORP",
+                    "size": 1570172.551029953
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 2395120.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 2395120.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 2395120.0
+                },
+                {
+                    "name": "HAVSTA",
+                    "size": 2022692.0
+                },
+                {
+                    "name": "HEMNES",
+                    "size": 1968030.0
+                },
+                {
+                    "name": "NORSBORG",
+                    "size": 2131800.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "size": 2825856.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "size": 1976856.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "size": 3595536.0
+                },
+                {
+                    "name": "STOCKHOLM 2017",
+                    "size": 1838592.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "size": 2132676.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "size": 2343558.740346277
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "size": 2077992.0
+                },
+                {
+                    "name": "VIMLE",
+                    "size": 2025366.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 89302914,
-                "name": "PLATSA",
-                "size": 240800.0
+                "item_id": 19284796,
+                "name": "VIMLE",
+                "size": 1911490.0
             },
             "basket_items": [
                 {
-                    "name": "PLATSA",
-                    "size": 245960.0
+                    "name": "BEST\u00c5",
+                    "size": 2208000.0
                 },
                 {
-                    "name": "SL\u00c4KT",
-                    "size": 178080.0
+                    "name": "EKTORP",
+                    "size": 1570172.551029953
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 2395120.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 2395120.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 2395120.0
+                },
+                {
+                    "name": "HAVSTA",
+                    "size": 2022692.0
+                },
+                {
+                    "name": "HEMNES",
+                    "size": 1968030.0
+                },
+                {
+                    "name": "NORSBORG",
+                    "size": 2131800.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "size": 2825856.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "size": 1976856.0
+                },
+                {
+                    "name": "STOCKHOLM 2017",
+                    "size": 1838592.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "size": 2132676.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "size": 2343558.740346277
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "size": 2077992.0
+                },
+                {
+                    "name": "VIMLE",
+                    "size": 2025366.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 19302922,
-                "name": "VITVAL",
-                "size": 886035.8121472372
+                "item_id": 9270295,
+                "name": "LANDSKRONA",
+                "size": 1416168.0
             },
             "basket_items": [
                 {
-                    "name": "PLATSA",
-                    "size": 245960.0
+                    "name": "BEST\u00c5",
+                    "size": 2208000.0
                 },
                 {
-                    "name": "SL\u00c4KT",
-                    "size": 178080.0
+                    "name": "EKTORP",
+                    "size": 1570172.551029953
+                },
+                {
+                    "name": "ELVARLI",
+                    "size": 2248180.2515825354
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 2395120.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 2395120.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 2395120.0
+                },
+                {
+                    "name": "HAVSTA",
+                    "size": 2022692.0
+                },
+                {
+                    "name": "HEMNES",
+                    "size": 1968030.0
+                },
+                {
+                    "name": "NORSBORG",
+                    "size": 2131800.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "size": 2825856.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "size": 1976856.0
+                },
+                {
+                    "name": "STOCKHOLM 2017",
+                    "size": 1838592.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "size": 2132676.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "size": 2343558.740346277
+                },
+                {
+                    "name": "VIMLE",
+                    "size": 2025366.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 59302915,
-                "name": "PLATSA",
-                "size": 242520.0
+                "item_id": 198591,
+                "name": "KIVIK",
+                "size": 1789895.0
             },
             "basket_items": [
                 {
-                    "name": "PLATSA",
-                    "size": 245960.0
+                    "name": "BEST\u00c5",
+                    "size": 2208000.0
                 },
                 {
-                    "name": "SL\u00c4KT",
-                    "size": 178080.0
+                    "name": "EKTORP",
+                    "size": 1570172.551029953
+                },
+                {
+                    "name": "ELVARLI",
+                    "size": 2248180.2515825354
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 2395120.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 2395120.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 2395120.0
+                },
+                {
+                    "name": "HAVSTA",
+                    "size": 2022692.0
+                },
+                {
+                    "name": "HEMNES",
+                    "size": 1968030.0
+                },
+                {
+                    "name": "NORSBORG",
+                    "size": 2131800.0
+                },
+                {
+                    "name": "STOCKHOLM 2017",
+                    "size": 1838592.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "size": 2132676.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "size": 2343558.740346277
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "size": 2077992.0
+                },
+                {
+                    "name": "VIMLE",
+                    "size": 2025366.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 80411272,
-                "name": "VITVAL",
-                "size": 811053.6309900137
+                "item_id": 29277960,
+                "name": "VALLENTUNA",
+                "size": 2077992.0
             },
             "basket_items": [
                 {
-                    "name": "PLATSA",
-                    "size": 245960.0
+                    "name": "EKTORP",
+                    "size": 1570172.551029953
                 },
                 {
-                    "name": "SL\u00c4KT",
-                    "size": 178080.0
+                    "name": "ELVARLI",
+                    "size": 2248180.2515825354
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 2395120.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 2395120.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 2395120.0
+                },
+                {
+                    "name": "HEMNES",
+                    "size": 1968030.0
+                },
+                {
+                    "name": "NORSBORG",
+                    "size": 2131800.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "size": 1976856.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "size": 3595536.0
+                },
+                {
+                    "name": "STOCKHOLM 2017",
+                    "size": 1838592.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "size": 2132676.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "size": 2343558.740346277
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "size": 2077992.0
+                },
+                {
+                    "name": "VIMLE",
+                    "size": 2025366.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 19175957,
-                "name": "MALM",
-                "size": 173460.0
+                "item_id": 9277782,
+                "name": "VALLENTUNA",
+                "size": 2443310.2114935545
             },
             "basket_items": [
                 {
-                    "name": "PLATSA",
-                    "size": 245960.0
+                    "name": "EKTORP",
+                    "size": 1570172.551029953
                 },
                 {
-                    "name": "SL\u00c4KT",
-                    "size": 178080.0
+                    "name": "ELVARLI",
+                    "size": 2248180.2515825354
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 2395120.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 2395120.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 2395120.0
+                },
+                {
+                    "name": "HEMNES",
+                    "size": 1968030.0
+                },
+                {
+                    "name": "NORSBORG",
+                    "size": 2131800.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "size": 1976856.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "size": 3595536.0
+                },
+                {
+                    "name": "STOCKHOLM 2017",
+                    "size": 1838592.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "size": 2132676.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "size": 2343558.740346277
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "size": 2077992.0
+                },
+                {
+                    "name": "VIMLE",
+                    "size": 2025366.0
                 }
             ]
         },
         {
             "recommended_item": {
-                "item_id": 89227731,
-                "name": "SL\u00c4KT",
-                "size": 588864.1292798064
+                "item_id": 59256414,
+                "name": "GR\u00d6NLID",
+                "size": 2568384.0
             },
             "basket_items": [
                 {
-                    "name": "PLATSA",
-                    "size": 245960.0
+                    "name": "EKTORP",
+                    "size": 1570172.551029953
                 },
                 {
-                    "name": "SL\u00c4KT",
-                    "size": 178080.0
+                    "name": "ELVARLI",
+                    "size": 2248180.2515825354
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 2395120.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 2395120.0
+                },
+                {
+                    "name": "GR\u00d6NLID",
+                    "size": 2395120.0
+                },
+                {
+                    "name": "HEMNES",
+                    "size": 1968030.0
+                },
+                {
+                    "name": "NORSBORG",
+                    "size": 2131800.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "size": 1976856.0
+                },
+                {
+                    "name": "SOLLER\u00d6N",
+                    "size": 3595536.0
+                },
+                {
+                    "name": "STOCKHOLM 2017",
+                    "size": 1838592.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "size": 2132676.0
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "size": 2343558.740346277
+                },
+                {
+                    "name": "VALLENTUNA",
+                    "size": 2077992.0
+                },
+                {
+                    "name": "VIMLE",
+                    "size": 2025366.0
                 }
             ]
         }
@@ -354,297 +1386,942 @@
     "explainable_texts": [
         {
             "recommended_item": {
-                "item_id": 10308787,
-                "name": "TRYSIL",
-                "category": "Wardrobes",
-                "price": 895.0,
-                "designer": "K Hagberg/M Hagberg",
-                "rooms": "Bedroom, Entrance"
+                "item_id": 29292442,
+                "name": "VIMLE",
+                "category": "Sofas & armchairs",
+                "price": 3875.0,
+                "designer": "IKEA of Sweden/Ehl\u00e9n Johansson",
+                "rooms": "Living room, Bedroom"
             },
             "explanation": {
-                "reason": "This recommended item is 66.99% similar to 3 items in your basket.",
+                "reason": "This recommended item is 53.9% similar to 16 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "KLEPPSTAD",
+                        "name": "BEST\u00c5",
+                        "category": "Cabinets & cupboards",
+                        "price": 2710.0
+                    },
+                    {
+                        "name": "EKTORP",
+                        "category": "Sofas & armchairs",
+                        "price": 3395.0
+                    },
+                    {
+                        "name": "ELVARLI",
                         "category": "Wardrobes",
-                        "price": 349.0
+                        "price": 2892.0
                     },
                     {
-                        "name": "PLATSA",
-                        "category": "Beds",
-                        "price": 2600.5
+                        "name": "GR\u00d6NLID",
+                        "category": "Sofas & armchairs",
+                        "price": 3760.0
                     },
                     {
-                        "name": "SL\u00c4KT",
-                        "category": "Beds",
-                        "price": 1260.0
+                        "name": "GR\u00d6NLID",
+                        "category": "Sofas & armchairs",
+                        "price": 4800.0
+                    },
+                    {
+                        "name": "GR\u00d6NLID",
+                        "category": "Sofas & armchairs",
+                        "price": 5600.0
+                    },
+                    {
+                        "name": "HAVSTA",
+                        "category": "Cabinets & cupboards, Bookcases & shelving units",
+                        "price": 2980.0
+                    },
+                    {
+                        "name": "HEMNES",
+                        "category": "Bookcases & shelving units",
+                        "price": 3986.0
+                    },
+                    {
+                        "name": "NORSBORG",
+                        "category": "Sofas & armchairs",
+                        "price": 4580.0
+                    },
+                    {
+                        "name": "SOLLER\u00d6N",
+                        "category": "Outdoor furniture",
+                        "price": 3206.0
+                    },
+                    {
+                        "name": "SOLLER\u00d6N",
+                        "category": "Outdoor furniture",
+                        "price": 4345.0
+                    },
+                    {
+                        "name": "STOCKHOLM 2017",
+                        "category": "Sofas & armchairs",
+                        "price": 5436.0
+                    },
+                    {
+                        "name": "VALLENTUNA",
+                        "category": "Sofas & armchairs",
+                        "price": 3388.0
+                    },
+                    {
+                        "name": "VALLENTUNA",
+                        "category": "Sofas & armchairs",
+                        "price": 4172.0
+                    },
+                    {
+                        "name": "VALLENTUNA",
+                        "category": "Sofas & armchairs",
+                        "price": 5300.0
+                    },
+                    {
+                        "name": "VIMLE",
+                        "category": "Sofas & armchairs",
+                        "price": 4740.0
                     }
                 ]
             },
             "additional_info": {
-                "average_price_in_cluster": 1196.78,
-                "designer_average_price": 647.59
+                "average_price_in_cluster": 4073.25,
+                "designer_average_price": 4238.33
             }
         },
         {
             "recommended_item": {
-                "item_id": 89326463,
-                "name": "PLATSA",
-                "category": "Beds",
-                "price": 2111.0,
-                "designer": "Ola Wihlborg/IKEA of Sweden",
-                "rooms": "Bedroom"
-            },
-            "explanation": {
-                "reason": "This recommended item is 95.98% similar to 2 items in your basket.",
-                "similar_items": [
-                    {
-                        "name": "PLATSA",
-                        "category": "Beds",
-                        "price": 2600.5
-                    },
-                    {
-                        "name": "SL\u00c4KT",
-                        "category": "Beds",
-                        "price": 1260.0
-                    }
-                ]
-            },
-            "additional_info": {
-                "average_price_in_cluster": 1196.78,
-                "designer_average_price": 1602.12
-            }
-        },
-        {
-            "recommended_item": {
-                "item_id": 99302975,
-                "name": "PLATSA",
-                "category": "Beds",
-                "price": 2163.5,
-                "designer": "IKEA of Sweden",
-                "rooms": "Bedroom"
-            },
-            "explanation": {
-                "reason": "This recommended item is 95.79% similar to 2 items in your basket.",
-                "similar_items": [
-                    {
-                        "name": "PLATSA",
-                        "category": "Beds",
-                        "price": 2600.5
-                    },
-                    {
-                        "name": "SL\u00c4KT",
-                        "category": "Beds",
-                        "price": 1260.0
-                    }
-                ]
-            },
-            "additional_info": {
-                "average_price_in_cluster": 1196.78,
-                "designer_average_price": 630.05
-            }
-        },
-        {
-            "recommended_item": {
-                "item_id": 19302917,
-                "name": "PLATSA",
-                "category": "Beds",
-                "price": 2210.0,
-                "designer": "IKEA of Sweden",
-                "rooms": "Bedroom"
-            },
-            "explanation": {
-                "reason": "This recommended item is 95.58% similar to 2 items in your basket.",
-                "similar_items": [
-                    {
-                        "name": "PLATSA",
-                        "category": "Beds",
-                        "price": 2600.5
-                    },
-                    {
-                        "name": "SL\u00c4KT",
-                        "category": "Beds",
-                        "price": 1260.0
-                    }
-                ]
-            },
-            "additional_info": {
-                "average_price_in_cluster": 1196.78,
-                "designer_average_price": 630.05
-            }
-        },
-        {
-            "recommended_item": {
-                "item_id": 89302914,
-                "name": "PLATSA",
-                "category": "Beds",
-                "price": 2307.0,
-                "designer": "IKEA of Sweden",
-                "rooms": "Bedroom"
-            },
-            "explanation": {
-                "reason": "This recommended item is 95.07% similar to 2 items in your basket.",
-                "similar_items": [
-                    {
-                        "name": "PLATSA",
-                        "category": "Beds",
-                        "price": 2600.5
-                    },
-                    {
-                        "name": "SL\u00c4KT",
-                        "category": "Beds",
-                        "price": 1260.0
-                    }
-                ]
-            },
-            "additional_info": {
-                "average_price_in_cluster": 1196.78,
-                "designer_average_price": 630.05
-            }
-        },
-        {
-            "recommended_item": {
-                "item_id": 19302922,
-                "name": "VITVAL",
-                "category": "Beds",
-                "price": 1590.0,
+                "item_id": 89272667,
+                "name": "LANDSKRONA",
+                "category": "Sofas & armchairs",
+                "price": 3795.0,
                 "designer": "IKEA of Sweden/Tord Bj\u00f6rklund",
-                "rooms": "Bedroom"
+                "rooms": "Living room, Bedroom"
             },
             "explanation": {
-                "reason": "This recommended item is 90.5% similar to 2 items in your basket.",
+                "reason": "This recommended item is 53.52% similar to 16 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "PLATSA",
-                        "category": "Beds",
-                        "price": 2600.5
+                        "name": "BEST\u00c5",
+                        "category": "Cabinets & cupboards",
+                        "price": 2710.0
                     },
                     {
-                        "name": "SL\u00c4KT",
-                        "category": "Beds",
-                        "price": 1260.0
+                        "name": "EKTORP",
+                        "category": "Sofas & armchairs",
+                        "price": 3395.0
+                    },
+                    {
+                        "name": "ELVARLI",
+                        "category": "Wardrobes",
+                        "price": 2892.0
+                    },
+                    {
+                        "name": "GR\u00d6NLID",
+                        "category": "Sofas & armchairs",
+                        "price": 3760.0
+                    },
+                    {
+                        "name": "GR\u00d6NLID",
+                        "category": "Sofas & armchairs",
+                        "price": 4800.0
+                    },
+                    {
+                        "name": "GR\u00d6NLID",
+                        "category": "Sofas & armchairs",
+                        "price": 5600.0
+                    },
+                    {
+                        "name": "HAVSTA",
+                        "category": "Cabinets & cupboards, Bookcases & shelving units",
+                        "price": 2980.0
+                    },
+                    {
+                        "name": "HEMNES",
+                        "category": "Bookcases & shelving units",
+                        "price": 3986.0
+                    },
+                    {
+                        "name": "NORSBORG",
+                        "category": "Sofas & armchairs",
+                        "price": 4580.0
+                    },
+                    {
+                        "name": "SOLLER\u00d6N",
+                        "category": "Outdoor furniture",
+                        "price": 3206.0
+                    },
+                    {
+                        "name": "SOLLER\u00d6N",
+                        "category": "Outdoor furniture",
+                        "price": 4345.0
+                    },
+                    {
+                        "name": "STOCKHOLM 2017",
+                        "category": "Sofas & armchairs",
+                        "price": 5436.0
+                    },
+                    {
+                        "name": "VALLENTUNA",
+                        "category": "Sofas & armchairs",
+                        "price": 3388.0
+                    },
+                    {
+                        "name": "VALLENTUNA",
+                        "category": "Sofas & armchairs",
+                        "price": 4172.0
+                    },
+                    {
+                        "name": "VALLENTUNA",
+                        "category": "Sofas & armchairs",
+                        "price": 5300.0
+                    },
+                    {
+                        "name": "VIMLE",
+                        "category": "Sofas & armchairs",
+                        "price": 4740.0
                     }
                 ]
             },
             "additional_info": {
-                "average_price_in_cluster": 1196.78,
-                "designer_average_price": 1590.0
+                "average_price_in_cluster": 4073.25,
+                "designer_average_price": 3795.0
             }
         },
         {
             "recommended_item": {
-                "item_id": 59302915,
-                "name": "PLATSA",
-                "category": "Beds",
-                "price": 2905.0,
-                "designer": "IKEA of Sweden",
-                "rooms": "Bedroom"
+                "item_id": 59259691,
+                "name": "DELAKTIG",
+                "category": "Sofas & armchairs",
+                "price": 3900.0,
+                "designer": "Tom Dixon",
+                "rooms": "Living room, Bedroom"
             },
             "explanation": {
-                "reason": "This recommended item is 89.88% similar to 2 items in your basket.",
+                "reason": "This recommended item is 53.46% similar to 16 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "PLATSA",
-                        "category": "Beds",
-                        "price": 2600.5
+                        "name": "BEST\u00c5",
+                        "category": "Cabinets & cupboards",
+                        "price": 2710.0
                     },
                     {
-                        "name": "SL\u00c4KT",
-                        "category": "Beds",
-                        "price": 1260.0
+                        "name": "EKTORP",
+                        "category": "Sofas & armchairs",
+                        "price": 3395.0
+                    },
+                    {
+                        "name": "ELVARLI",
+                        "category": "Wardrobes",
+                        "price": 2892.0
+                    },
+                    {
+                        "name": "GR\u00d6NLID",
+                        "category": "Sofas & armchairs",
+                        "price": 3760.0
+                    },
+                    {
+                        "name": "GR\u00d6NLID",
+                        "category": "Sofas & armchairs",
+                        "price": 4800.0
+                    },
+                    {
+                        "name": "GR\u00d6NLID",
+                        "category": "Sofas & armchairs",
+                        "price": 5600.0
+                    },
+                    {
+                        "name": "HAVSTA",
+                        "category": "Cabinets & cupboards, Bookcases & shelving units",
+                        "price": 2980.0
+                    },
+                    {
+                        "name": "HEMNES",
+                        "category": "Bookcases & shelving units",
+                        "price": 3986.0
+                    },
+                    {
+                        "name": "NORSBORG",
+                        "category": "Sofas & armchairs",
+                        "price": 4580.0
+                    },
+                    {
+                        "name": "SOLLER\u00d6N",
+                        "category": "Outdoor furniture",
+                        "price": 3206.0
+                    },
+                    {
+                        "name": "SOLLER\u00d6N",
+                        "category": "Outdoor furniture",
+                        "price": 4345.0
+                    },
+                    {
+                        "name": "STOCKHOLM 2017",
+                        "category": "Sofas & armchairs",
+                        "price": 5436.0
+                    },
+                    {
+                        "name": "VALLENTUNA",
+                        "category": "Sofas & armchairs",
+                        "price": 3388.0
+                    },
+                    {
+                        "name": "VALLENTUNA",
+                        "category": "Sofas & armchairs",
+                        "price": 4172.0
+                    },
+                    {
+                        "name": "VALLENTUNA",
+                        "category": "Sofas & armchairs",
+                        "price": 5300.0
+                    },
+                    {
+                        "name": "VIMLE",
+                        "category": "Sofas & armchairs",
+                        "price": 4740.0
                     }
                 ]
             },
             "additional_info": {
-                "average_price_in_cluster": 1196.78,
-                "designer_average_price": 630.05
+                "average_price_in_cluster": 4073.25,
+                "designer_average_price": 3237.5
             }
         },
         {
             "recommended_item": {
-                "item_id": 80411272,
-                "name": "VITVAL",
-                "category": "Beds",
-                "price": 1295.0,
-                "designer": "IKEA of Sweden",
-                "rooms": "Bedroom"
+                "item_id": 29276965,
+                "name": "VALLENTUNA",
+                "category": "Sofas & armchairs",
+                "price": 4116.0,
+                "designer": "Fredriksson/L L\u00f6wenhielm/Hilland",
+                "rooms": "Living room, Bedroom"
             },
             "explanation": {
-                "reason": "This recommended item is 89.08% similar to 2 items in your basket.",
+                "reason": "This recommended item is 52.39% similar to 16 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "PLATSA",
-                        "category": "Beds",
-                        "price": 2600.5
+                        "name": "BEST\u00c5",
+                        "category": "Cabinets & cupboards",
+                        "price": 2710.0
                     },
                     {
-                        "name": "SL\u00c4KT",
-                        "category": "Beds",
-                        "price": 1260.0
+                        "name": "EKTORP",
+                        "category": "Sofas & armchairs",
+                        "price": 3395.0
+                    },
+                    {
+                        "name": "GR\u00d6NLID",
+                        "category": "Sofas & armchairs",
+                        "price": 3760.0
+                    },
+                    {
+                        "name": "GR\u00d6NLID",
+                        "category": "Sofas & armchairs",
+                        "price": 4800.0
+                    },
+                    {
+                        "name": "GR\u00d6NLID",
+                        "category": "Sofas & armchairs",
+                        "price": 5600.0
+                    },
+                    {
+                        "name": "HAVSTA",
+                        "category": "Cabinets & cupboards, Bookcases & shelving units",
+                        "price": 2980.0
+                    },
+                    {
+                        "name": "HEMNES",
+                        "category": "Bookcases & shelving units",
+                        "price": 3986.0
+                    },
+                    {
+                        "name": "NORSBORG",
+                        "category": "Sofas & armchairs",
+                        "price": 4580.0
+                    },
+                    {
+                        "name": "SOLLER\u00d6N",
+                        "category": "Outdoor furniture",
+                        "price": 3206.0
+                    },
+                    {
+                        "name": "SOLLER\u00d6N",
+                        "category": "Outdoor furniture",
+                        "price": 4345.0
+                    },
+                    {
+                        "name": "SOLLER\u00d6N",
+                        "category": "Outdoor furniture",
+                        "price": 5144.0
+                    },
+                    {
+                        "name": "STOCKHOLM 2017",
+                        "category": "Sofas & armchairs",
+                        "price": 5436.0
+                    },
+                    {
+                        "name": "VALLENTUNA",
+                        "category": "Sofas & armchairs",
+                        "price": 3388.0
+                    },
+                    {
+                        "name": "VALLENTUNA",
+                        "category": "Sofas & armchairs",
+                        "price": 4172.0
+                    },
+                    {
+                        "name": "VALLENTUNA",
+                        "category": "Sofas & armchairs",
+                        "price": 5300.0
+                    },
+                    {
+                        "name": "VIMLE",
+                        "category": "Sofas & armchairs",
+                        "price": 4740.0
                     }
                 ]
             },
             "additional_info": {
-                "average_price_in_cluster": 1196.78,
-                "designer_average_price": 630.05
+                "average_price_in_cluster": 4073.25,
+                "designer_average_price": 4402.67
             }
         },
         {
             "recommended_item": {
-                "item_id": 19175957,
-                "name": "MALM",
-                "category": "Beds",
-                "price": 920.0,
-                "designer": "IKEA of Sweden/Eva Lilja L\u00f6wenhielm",
-                "rooms": "Bedroom"
+                "item_id": 19284796,
+                "name": "VIMLE",
+                "category": "Sofas & armchairs",
+                "price": 4010.0,
+                "designer": "Ehl\u00e9n Johansson",
+                "rooms": "Living room, Bedroom"
             },
             "explanation": {
-                "reason": "This recommended item is 88.32% similar to 2 items in your basket.",
+                "reason": "This recommended item is 56.32% similar to 15 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "PLATSA",
-                        "category": "Beds",
-                        "price": 2600.5
+                        "name": "BEST\u00c5",
+                        "category": "Cabinets & cupboards",
+                        "price": 2710.0
                     },
                     {
-                        "name": "SL\u00c4KT",
-                        "category": "Beds",
-                        "price": 1260.0
+                        "name": "EKTORP",
+                        "category": "Sofas & armchairs",
+                        "price": 3395.0
+                    },
+                    {
+                        "name": "GR\u00d6NLID",
+                        "category": "Sofas & armchairs",
+                        "price": 3760.0
+                    },
+                    {
+                        "name": "GR\u00d6NLID",
+                        "category": "Sofas & armchairs",
+                        "price": 4800.0
+                    },
+                    {
+                        "name": "GR\u00d6NLID",
+                        "category": "Sofas & armchairs",
+                        "price": 5600.0
+                    },
+                    {
+                        "name": "HAVSTA",
+                        "category": "Cabinets & cupboards, Bookcases & shelving units",
+                        "price": 2980.0
+                    },
+                    {
+                        "name": "HEMNES",
+                        "category": "Bookcases & shelving units",
+                        "price": 3986.0
+                    },
+                    {
+                        "name": "NORSBORG",
+                        "category": "Sofas & armchairs",
+                        "price": 4580.0
+                    },
+                    {
+                        "name": "SOLLER\u00d6N",
+                        "category": "Outdoor furniture",
+                        "price": 3206.0
+                    },
+                    {
+                        "name": "SOLLER\u00d6N",
+                        "category": "Outdoor furniture",
+                        "price": 4345.0
+                    },
+                    {
+                        "name": "STOCKHOLM 2017",
+                        "category": "Sofas & armchairs",
+                        "price": 5436.0
+                    },
+                    {
+                        "name": "VALLENTUNA",
+                        "category": "Sofas & armchairs",
+                        "price": 3388.0
+                    },
+                    {
+                        "name": "VALLENTUNA",
+                        "category": "Sofas & armchairs",
+                        "price": 4172.0
+                    },
+                    {
+                        "name": "VALLENTUNA",
+                        "category": "Sofas & armchairs",
+                        "price": 5300.0
+                    },
+                    {
+                        "name": "VIMLE",
+                        "category": "Sofas & armchairs",
+                        "price": 4740.0
                     }
                 ]
             },
             "additional_info": {
-                "average_price_in_cluster": 1196.78,
-                "designer_average_price": 461.34
+                "average_price_in_cluster": 4073.25,
+                "designer_average_price": 3898.29
             }
         },
         {
             "recommended_item": {
-                "item_id": 89227731,
-                "name": "SL\u00c4KT",
-                "category": "Beds",
-                "price": 995.0,
-                "designer": "Ebba Strandmark/IKEA of Sweden",
-                "rooms": "Bedroom"
+                "item_id": 9270295,
+                "name": "LANDSKRONA",
+                "category": "Sofas & armchairs",
+                "price": 3495.0,
+                "designer": "Tord Bj\u00f6rklund/IKEA of Sweden",
+                "rooms": "Living room, Bedroom"
             },
             "explanation": {
-                "reason": "This recommended item is 87.46% similar to 2 items in your basket.",
+                "reason": "This recommended item is 51.54% similar to 15 items in your basket.",
                 "similar_items": [
                     {
-                        "name": "PLATSA",
-                        "category": "Beds",
-                        "price": 2600.5
+                        "name": "BEST\u00c5",
+                        "category": "Cabinets & cupboards",
+                        "price": 2710.0
                     },
                     {
-                        "name": "SL\u00c4KT",
-                        "category": "Beds",
-                        "price": 1260.0
+                        "name": "EKTORP",
+                        "category": "Sofas & armchairs",
+                        "price": 3395.0
+                    },
+                    {
+                        "name": "ELVARLI",
+                        "category": "Wardrobes",
+                        "price": 2892.0
+                    },
+                    {
+                        "name": "GR\u00d6NLID",
+                        "category": "Sofas & armchairs",
+                        "price": 3760.0
+                    },
+                    {
+                        "name": "GR\u00d6NLID",
+                        "category": "Sofas & armchairs",
+                        "price": 4800.0
+                    },
+                    {
+                        "name": "GR\u00d6NLID",
+                        "category": "Sofas & armchairs",
+                        "price": 5600.0
+                    },
+                    {
+                        "name": "HAVSTA",
+                        "category": "Cabinets & cupboards, Bookcases & shelving units",
+                        "price": 2980.0
+                    },
+                    {
+                        "name": "HEMNES",
+                        "category": "Bookcases & shelving units",
+                        "price": 3986.0
+                    },
+                    {
+                        "name": "NORSBORG",
+                        "category": "Sofas & armchairs",
+                        "price": 4580.0
+                    },
+                    {
+                        "name": "SOLLER\u00d6N",
+                        "category": "Outdoor furniture",
+                        "price": 3206.0
+                    },
+                    {
+                        "name": "SOLLER\u00d6N",
+                        "category": "Outdoor furniture",
+                        "price": 4345.0
+                    },
+                    {
+                        "name": "STOCKHOLM 2017",
+                        "category": "Sofas & armchairs",
+                        "price": 5436.0
+                    },
+                    {
+                        "name": "VALLENTUNA",
+                        "category": "Sofas & armchairs",
+                        "price": 3388.0
+                    },
+                    {
+                        "name": "VALLENTUNA",
+                        "category": "Sofas & armchairs",
+                        "price": 4172.0
+                    },
+                    {
+                        "name": "VIMLE",
+                        "category": "Sofas & armchairs",
+                        "price": 4740.0
                     }
                 ]
             },
             "additional_info": {
-                "average_price_in_cluster": 1196.78,
-                "designer_average_price": 1189.09
+                "average_price_in_cluster": 4073.25,
+                "designer_average_price": 4428.33
+            }
+        },
+        {
+            "recommended_item": {
+                "item_id": 198591,
+                "name": "KIVIK",
+                "category": "Sofas & armchairs",
+                "price": 3800.0,
+                "designer": "Ola Wihlborg",
+                "rooms": "Living room, Bedroom"
+            },
+            "explanation": {
+                "reason": "This recommended item is 61.47% similar to 14 items in your basket.",
+                "similar_items": [
+                    {
+                        "name": "BEST\u00c5",
+                        "category": "Cabinets & cupboards",
+                        "price": 2710.0
+                    },
+                    {
+                        "name": "EKTORP",
+                        "category": "Sofas & armchairs",
+                        "price": 3395.0
+                    },
+                    {
+                        "name": "ELVARLI",
+                        "category": "Wardrobes",
+                        "price": 2892.0
+                    },
+                    {
+                        "name": "GR\u00d6NLID",
+                        "category": "Sofas & armchairs",
+                        "price": 3760.0
+                    },
+                    {
+                        "name": "GR\u00d6NLID",
+                        "category": "Sofas & armchairs",
+                        "price": 4800.0
+                    },
+                    {
+                        "name": "GR\u00d6NLID",
+                        "category": "Sofas & armchairs",
+                        "price": 5600.0
+                    },
+                    {
+                        "name": "HAVSTA",
+                        "category": "Cabinets & cupboards, Bookcases & shelving units",
+                        "price": 2980.0
+                    },
+                    {
+                        "name": "HEMNES",
+                        "category": "Bookcases & shelving units",
+                        "price": 3986.0
+                    },
+                    {
+                        "name": "NORSBORG",
+                        "category": "Sofas & armchairs",
+                        "price": 4580.0
+                    },
+                    {
+                        "name": "STOCKHOLM 2017",
+                        "category": "Sofas & armchairs",
+                        "price": 5436.0
+                    },
+                    {
+                        "name": "VALLENTUNA",
+                        "category": "Sofas & armchairs",
+                        "price": 3388.0
+                    },
+                    {
+                        "name": "VALLENTUNA",
+                        "category": "Sofas & armchairs",
+                        "price": 4172.0
+                    },
+                    {
+                        "name": "VALLENTUNA",
+                        "category": "Sofas & armchairs",
+                        "price": 5300.0
+                    },
+                    {
+                        "name": "VIMLE",
+                        "category": "Sofas & armchairs",
+                        "price": 4740.0
+                    }
+                ]
+            },
+            "additional_info": {
+                "average_price_in_cluster": 4221.79,
+                "designer_average_price": 3930.2
+            }
+        },
+        {
+            "recommended_item": {
+                "item_id": 29277960,
+                "name": "VALLENTUNA",
+                "category": "Sofas & armchairs",
+                "price": 4604.0,
+                "designer": "Fredriksson/L L\u00f6wenhielm/Hilland",
+                "rooms": "Living room, Bedroom"
+            },
+            "explanation": {
+                "reason": "This recommended item is 61.47% similar to 14 items in your basket.",
+                "similar_items": [
+                    {
+                        "name": "EKTORP",
+                        "category": "Sofas & armchairs",
+                        "price": 3395.0
+                    },
+                    {
+                        "name": "ELVARLI",
+                        "category": "Wardrobes",
+                        "price": 2892.0
+                    },
+                    {
+                        "name": "GR\u00d6NLID",
+                        "category": "Sofas & armchairs",
+                        "price": 3760.0
+                    },
+                    {
+                        "name": "GR\u00d6NLID",
+                        "category": "Sofas & armchairs",
+                        "price": 4800.0
+                    },
+                    {
+                        "name": "GR\u00d6NLID",
+                        "category": "Sofas & armchairs",
+                        "price": 5600.0
+                    },
+                    {
+                        "name": "HEMNES",
+                        "category": "Bookcases & shelving units",
+                        "price": 3986.0
+                    },
+                    {
+                        "name": "NORSBORG",
+                        "category": "Sofas & armchairs",
+                        "price": 4580.0
+                    },
+                    {
+                        "name": "SOLLER\u00d6N",
+                        "category": "Outdoor furniture",
+                        "price": 4345.0
+                    },
+                    {
+                        "name": "SOLLER\u00d6N",
+                        "category": "Outdoor furniture",
+                        "price": 5144.0
+                    },
+                    {
+                        "name": "STOCKHOLM 2017",
+                        "category": "Sofas & armchairs",
+                        "price": 5436.0
+                    },
+                    {
+                        "name": "VALLENTUNA",
+                        "category": "Sofas & armchairs",
+                        "price": 3388.0
+                    },
+                    {
+                        "name": "VALLENTUNA",
+                        "category": "Sofas & armchairs",
+                        "price": 4172.0
+                    },
+                    {
+                        "name": "VALLENTUNA",
+                        "category": "Sofas & armchairs",
+                        "price": 5300.0
+                    },
+                    {
+                        "name": "VIMLE",
+                        "category": "Sofas & armchairs",
+                        "price": 4740.0
+                    }
+                ]
+            },
+            "additional_info": {
+                "average_price_in_cluster": 4221.79,
+                "designer_average_price": 4402.67
+            }
+        },
+        {
+            "recommended_item": {
+                "item_id": 9277782,
+                "name": "VALLENTUNA",
+                "category": "Sofas & armchairs",
+                "price": 4448.0,
+                "designer": "IKEA of Sweden/Fredriksson/L L\u00f6wenhielm/Hilland/Ehl\u00e9n Johansson",
+                "rooms": "Living room, Bedroom"
+            },
+            "explanation": {
+                "reason": "This recommended item is 60.4% similar to 14 items in your basket.",
+                "similar_items": [
+                    {
+                        "name": "EKTORP",
+                        "category": "Sofas & armchairs",
+                        "price": 3395.0
+                    },
+                    {
+                        "name": "ELVARLI",
+                        "category": "Wardrobes",
+                        "price": 2892.0
+                    },
+                    {
+                        "name": "GR\u00d6NLID",
+                        "category": "Sofas & armchairs",
+                        "price": 3760.0
+                    },
+                    {
+                        "name": "GR\u00d6NLID",
+                        "category": "Sofas & armchairs",
+                        "price": 4800.0
+                    },
+                    {
+                        "name": "GR\u00d6NLID",
+                        "category": "Sofas & armchairs",
+                        "price": 5600.0
+                    },
+                    {
+                        "name": "HEMNES",
+                        "category": "Bookcases & shelving units",
+                        "price": 3986.0
+                    },
+                    {
+                        "name": "NORSBORG",
+                        "category": "Sofas & armchairs",
+                        "price": 4580.0
+                    },
+                    {
+                        "name": "SOLLER\u00d6N",
+                        "category": "Outdoor furniture",
+                        "price": 4345.0
+                    },
+                    {
+                        "name": "SOLLER\u00d6N",
+                        "category": "Outdoor furniture",
+                        "price": 5144.0
+                    },
+                    {
+                        "name": "STOCKHOLM 2017",
+                        "category": "Sofas & armchairs",
+                        "price": 5436.0
+                    },
+                    {
+                        "name": "VALLENTUNA",
+                        "category": "Sofas & armchairs",
+                        "price": 3388.0
+                    },
+                    {
+                        "name": "VALLENTUNA",
+                        "category": "Sofas & armchairs",
+                        "price": 4172.0
+                    },
+                    {
+                        "name": "VALLENTUNA",
+                        "category": "Sofas & armchairs",
+                        "price": 5300.0
+                    },
+                    {
+                        "name": "VIMLE",
+                        "category": "Sofas & armchairs",
+                        "price": 4740.0
+                    }
+                ]
+            },
+            "additional_info": {
+                "average_price_in_cluster": 4221.79,
+                "designer_average_price": 4448.0
+            }
+        },
+        {
+            "recommended_item": {
+                "item_id": 59256414,
+                "name": "GR\u00d6NLID",
+                "category": "Sofas & armchairs",
+                "price": 4545.0,
+                "designer": "Ehl\u00e9n Johansson/Francis Cayouette",
+                "rooms": "Living room, Bedroom"
+            },
+            "explanation": {
+                "reason": "This recommended item is 59.98% similar to 14 items in your basket.",
+                "similar_items": [
+                    {
+                        "name": "EKTORP",
+                        "category": "Sofas & armchairs",
+                        "price": 3395.0
+                    },
+                    {
+                        "name": "ELVARLI",
+                        "category": "Wardrobes",
+                        "price": 2892.0
+                    },
+                    {
+                        "name": "GR\u00d6NLID",
+                        "category": "Sofas & armchairs",
+                        "price": 3760.0
+                    },
+                    {
+                        "name": "GR\u00d6NLID",
+                        "category": "Sofas & armchairs",
+                        "price": 4800.0
+                    },
+                    {
+                        "name": "GR\u00d6NLID",
+                        "category": "Sofas & armchairs",
+                        "price": 5600.0
+                    },
+                    {
+                        "name": "HEMNES",
+                        "category": "Bookcases & shelving units",
+                        "price": 3986.0
+                    },
+                    {
+                        "name": "NORSBORG",
+                        "category": "Sofas & armchairs",
+                        "price": 4580.0
+                    },
+                    {
+                        "name": "SOLLER\u00d6N",
+                        "category": "Outdoor furniture",
+                        "price": 4345.0
+                    },
+                    {
+                        "name": "SOLLER\u00d6N",
+                        "category": "Outdoor furniture",
+                        "price": 5144.0
+                    },
+                    {
+                        "name": "STOCKHOLM 2017",
+                        "category": "Sofas & armchairs",
+                        "price": 5436.0
+                    },
+                    {
+                        "name": "VALLENTUNA",
+                        "category": "Sofas & armchairs",
+                        "price": 3388.0
+                    },
+                    {
+                        "name": "VALLENTUNA",
+                        "category": "Sofas & armchairs",
+                        "price": 4172.0
+                    },
+                    {
+                        "name": "VALLENTUNA",
+                        "category": "Sofas & armchairs",
+                        "price": 5300.0
+                    },
+                    {
+                        "name": "VIMLE",
+                        "category": "Sofas & armchairs",
+                        "price": 4740.0
+                    }
+                ]
+            },
+            "additional_info": {
+                "average_price_in_cluster": 4221.79,
+                "designer_average_price": 4545.0
             }
         }
     ]

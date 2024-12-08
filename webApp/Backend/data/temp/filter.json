@@ -1,0 +1,19 @@
+{
+    "price_min": "2575",
+    "price_max": "5840",
+    "height_min": "1",
+    "height_max": "321",
+    "width_min": "201",
+    "width_max": "290",
+    "depth_min": "1",
+    "depth_max": "257",
+    "living_room": "1",
+    "bedroom": "1",
+    "office": "1",
+    "kitchen": "1",
+    "dining": "1",
+    "entrance": "1",
+    "playroom": "1",
+    "nursery": "1",
+    "outdoor": "1"
+}
