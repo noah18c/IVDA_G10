@@ -43,7 +43,7 @@ flask run
 ```
 5. **Start Frontend**
 ```
-npm run serve
+npm run dev
 ```
 
 ----
