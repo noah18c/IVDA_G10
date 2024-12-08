@@ -3,6 +3,7 @@ import pandas as pd
 from src.models import FurnitureItem, FilterItem
 from src.recommender import RecommendationModel
 import shutil
+import numpy as np
 
 def find_image_path(name, picture_path):
     """
@@ -40,6 +41,7 @@ def process_furniture_data(csv_path, pictures_path, filter=None):
     # Read the CSV file
     data = pd.read_csv(csv_path)
 
+    room_filters = []
     if filter is not None:
         filter_mapping = {
             'price_min': 'price', 'price_max': 'price',
@@ -52,9 +54,10 @@ def process_furniture_data(csv_path, pictures_path, filter=None):
             'playroom': 'Playroom', 'nursery': 'Nursery', 
             'outdoor': 'Outdoor'
         }
-
+        print('size before filter:',len(data))
         for filter_attr, column_name in filter_mapping.items():
             filter_value = getattr(filter, filter_attr)
+            #print(filter_value)
             
             if filter_value is not None:
                 # Ensure the filter_value is numeric when comparing with numeric columns
@@ -70,16 +73,23 @@ def process_furniture_data(csv_path, pictures_path, filter=None):
                 elif filter_attr.endswith('_max'):
                     data = data[data[column_name] <= filter_value]
                 else:
-                    # Apply binary filters (e.g., living_room, bedroom)
-                    if filter_value:
-                        # Create a list of room column names that are part of the filter_mapping
-                        room_columns = [
-                            'Living room', 'Bedroom', 'Office', 'Kitchen', 
-                            'Dining room', 'Entrance', 'Playroom', 'Nursery', 'Outdoor'
-                        ]
-                        
-                        # Check if any of the room columns in the row have a '1'
-                        data = data[data[room_columns].eq(1).any(axis=1)]
+                    room_filters.append(filter_value)
+                    
+        room_columns = [
+                        'Living room', 'Bedroom', 'Office', 'Kitchen', 
+                        'Dining room', 'Entrance', 'Playroom', 'Nursery', 'Outdoor'
+                    ]
+
+        keep_indices = []
+        room_filters = np.array(room_filters, dtype=int)
+        for idx, row in data.iterrows():
+            if any((row[room_columns].values & room_filters) == 1):
+                keep_indices.append(idx)
+
+        data = data.loc[keep_indices]
+        print('size after filter:',len(data))
+
+        
 
     # Extract the first word from the 'name' column
     data['name'] = data['name'].str.split(' ').str[0]

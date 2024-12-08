@@ -31,6 +31,7 @@ class RecommendationModel:
         #print(self.df_model.columns)
 
         try:
+            room_filters = []
             if filter is not None:
                 filter_mapping = {
                     'price_min': 'price', 'price_max': 'price',
@@ -62,15 +63,21 @@ class RecommendationModel:
                             self.df_model = self.df_model[self.df_model[column_name] <= filter_value]
                         else:
                             # Apply binary filters (e.g., living_room, bedroom)
-                            if filter_value:
-                                # Create a list of room column names that are part of the filter_mapping
-                                room_columns = [
-                                    'Living room', 'Bedroom', 'Office', 'Kitchen', 
-                                    'Dining room', 'Entrance', 'Playroom', 'Nursery', 'Outdoor'
-                                ]
-                                
-                                # Check if any of the room columns in the row have a '1'
-                                self.df_model = self.df_model[self.df_model[room_columns].eq(1).any(axis=1)]
+                            room_filters.append(filter_value)
+
+                room_columns = [
+                        'Living room', 'Bedroom', 'Office', 'Kitchen', 
+                        'Dining room', 'Entrance', 'Playroom', 'Nursery', 'Outdoor'
+                    ]
+
+                keep_indices = []
+                room_filters = np.array(room_filters, dtype=int)
+                for idx, row in self.df_model.iterrows():
+                    if any((row[room_columns].values & room_filters) == 1):
+                        keep_indices.append(idx)
+
+                self.df_model = self.df_model.loc[keep_indices]
+
                 self.df_model = self.df_model.reset_index(drop=True)
         except Exception as e:
             print(e)
